@@ -1,5 +1,5 @@
 from fastapi import FastAPI
-from pydantic import BaseModel
+from pydantic import BaseMode
 from datetime import datetime
 
 app = FastAPI(title="TradingView Gmail Bridge API")
