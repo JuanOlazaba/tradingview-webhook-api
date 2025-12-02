@@ -2,34 +2,37 @@ from fastapi import FastAPI
 from pydantic import BaseModel
 from datetime import datetime
 
-app = FastAPI(title="TradingView Gmail Bridge API")
+app = FastAPI(title="TradingView Webhook API")
 
-# Aquí guardaremos la última alerta recibida
-latest_alert = {}
+# Aquí guardamos la última alerta recibida
+last_alert = {}
 
 class GmailAlert(BaseModel):
-    alert: str
-    message: str
+    alert: str      # Ej: "KOS"
+    message: str    # Texto completo del email
 
 @app.post("/alert")
-async def receive_alert(data: GmailAlert):
+async def receive_alert(info: GmailAlert):
     """
-    Endpoint al que llama Google Apps Script.
+    Endpoint que llama Apps Script desde Gmail.
     """
-    global latest_alert
-    latest_alert = {
-        "alert": data.alert,
-        "message": data.message,
-        "received_at": datetime.utcnow().isoformat() + "Z",
+    global last_alert
+    last_alert = {
+        "alert": info.alert,
+        "message": info.message,
+        "received_at": datetime.utcnow().isoformat() + "Z"
     }
-    print("ALERTA RECIBIDA ---->", latest_alert)
+    return last_alert
+
+@app.get("/")
+async def root():
     return {"status": "ok"}
 
-@app.get("/latest")
-async def get_latest():
+@app.get("/last_alert")
+async def get_last_alert():
     """
-    Endpoint que luego podrá leer tu GPT para ver la última alerta.
+    Endpoint de solo lectura para que el GPT consulte la última alerta.
     """
-    if not latest_alert:
-        return {"status": "empty"}
-    return latest_alert
+    if not last_alert:
+        return {"has_alert": False}
+    return {"has_alert": True, **last_alert}
