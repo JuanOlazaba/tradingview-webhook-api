@@ -1,8 +1,8 @@
-name: Finroots · reuniones de mejora (24/7)
+name: Finroots · reuniones de mejora (3 por semana)
 
 on:
   schedule:
-    - cron: "23 1,5,9,13,17,21 * * *"   # cada 4 horas, día y noche; un tema distinto en cada una
+    - cron: "23 9 * * 1,3,5"   # lunes, miércoles y viernes 10:23 Madrid (invierno); un tema distinto cada vez
   workflow_dispatch:
     inputs:
       tema:

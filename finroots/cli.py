@@ -3,6 +3,7 @@
   python -m finroots.cli board                                # consejo semanal
   python -m finroots.cli improve [tema]                       # reunión de mejora (contenido, crecimiento,
                                                               #   monetizacion, tecnologia, finanzas, riesgos)
+  python -m finroots.cli catchup                              # recupera el episodio de hoy si no salió
   python -m finroots.cli sync                                 # lee las respuestas del dueño
   python -m finroots.cli panel                                # regenera PANEL.md
   python -m finroots.cli render N                             # renderiza el episodio N ya escrito
@@ -25,6 +26,8 @@ def main(argv):
     cmd, rest = argv[0], argv[1:]
     if cmd == "daily":
         r = pipeline.daily(publish="--no-publish" not in rest, render="--no-render" not in rest)
+    elif cmd == "catchup":
+        r = pipeline.catch_up() or {"ok": True, "nothing_to_do": True}
     elif cmd == "board":
         r = pipeline.board()
     elif cmd == "improve":

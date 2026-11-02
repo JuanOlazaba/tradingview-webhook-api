@@ -11,7 +11,7 @@
  {
   "id": 2,
   "title": "Activar la empresa: fusionar la rama en main y añadir ANTHROPIC_API_KEY",
-  "body": "GitHub solo ejecuta las tareas programadas (comité diario, reuniones cada 4 h, consejo semanal) desde la rama principal. Recomendado: fusionar `claude/finroots-automation-chatbots-2el5ro` en `main` y añadir el secreto ANTHROPIC_API_KEY. Coste estimado de IA: unos 5–10 $/día con reuniones cada 4 horas (se puede bajar espaciándolas o usando un modelo más barato). Si dices que no, nada se ejecuta.",
+  "body": "GitHub solo ejecuta las tareas programadas (comité diario, 3 reuniones de mejora a la semana, consejo semanal) desde la rama principal. Recomendado: fusionar `claude/finroots-automation-chatbots-2el5ro` en `main` y añadir el secreto ANTHROPIC_API_KEY. Coste estimado de IA: unos 2–3 $/día (60–90 $/mes). Si dices que no, nada se ejecuta.",
   "by": "CEO",
   "status": "pending",
   "apply_on_yes": {},

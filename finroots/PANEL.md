@@ -1,5 +1,5 @@
 # Panel de Finroots
-_Actualizado: 2026-11-02 04:02 UTC · se regenera en cada reunión_
+_Actualizado: 2026-11-02 04:03 UTC · se regenera en cada reunión_
 
 ## Necesita tu sí
 - **Conectar la cuenta de TikTok @finroots** — ver state/owner_requests.json · pedido por IT el 2026-11-02 03:59 UTC
@@ -20,6 +20,7 @@ _Actualizado: 2026-11-02 04:02 UTC · se regenera en cada reunión_
 ## Últimas reuniones
 
 ## Actividad reciente
+- `2026-11-02 04:03 UTC` **decisión** — Por indicación del dueño: reuniones de mejora reducidas a 3 por semana (lunes, miércoles y viernes) para no agotar límites. Comité diario y consejo del domingo se mantienen.
 - `2026-11-02 03:59 UTC` **episodio** — Ep. 2 escrito (Lucía y Marta, interés compuesto) y en colchón; se renderiza con voz en la primera ejecución.
 - `2026-11-02 03:59 UTC` **arranque** — Empresa montada: 9 agentes, comité diario, reuniones de mejora cada 4 h, consejo semanal, panel y registro.
 

@@ -1,4 +1,4 @@
-La empresa trabaja de forma continua. Solo se para y pide al dueño lo que no puede resolver sola.
+La empresa publica un reel cada día y se reúne para mejorar 3 veces por semana (más el consejo del domingo). Solo se para y pide al dueño lo que no puede resolver sola.
 
 Podéis hacer SIN pedir permiso:
 - Escribir, revisar y renderizar episodios; mantener un colchón de 3 episodios listos.

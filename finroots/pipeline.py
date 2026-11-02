@@ -259,7 +259,7 @@ def _board() -> dict:
     return {"ok": True, "date": date.isoformat()}
 
 
-# ---------------------------------------------------------------- mejora continua (día y noche)
+# ---------------------------------------------------------------- reuniones de mejora (3 por semana)
 
 TOPICS = {
     "contenido": ("Contenido y colchón de episodios", ["ideas", "studio", "marketing"],
@@ -408,7 +408,15 @@ def fill_buffer(cfg: dict, max_new: int = 1) -> list[int]:
     return made
 
 
-DAILY_UTC = (15, 37)  # hora del comité diario (coincide con finroots-daily.yml)
+DAILY_UTC = (15, 37)
+
+
+def next_topic(advance: bool = True) -> str:
+    rot = STATE / "rotation.json"
+    i = json.loads(rot.read_text()).get("next", 0) if rot.exists() else 0
+    if advance:
+        rot.write_text(json.dumps({"next": (i + 1) % len(ORDER)}))
+    return ORDER[i % len(ORDER)]  # hora del comité diario (coincide con finroots-daily.yml)
 
 
 def catch_up() -> dict | None:
@@ -432,7 +440,7 @@ def improve(topic: str | None = None) -> dict:
     p = limits.paused()
     if p:
         ledger.log("pausa", f"Reunión aplazada: {p['reason']} (hasta {p['until'][:16]} UTC).")
-        limits.defer_topic(topic or ORDER[(dt.datetime.utcnow().hour // 4) % len(ORDER)])
+        limits.defer_topic(topic or next_topic())
         ledger.write_panel()
         return {"ok": True, "paused": True}
     caught = catch_up()
@@ -443,7 +451,7 @@ def improve(topic: str | None = None) -> dict:
         return {"ok": True, "board": board()}
     if not topic:
         pending = limits.agenda()
-        topic = pending[0] if pending else ORDER[(dt.datetime.utcnow().hour // 4) % len(ORDER)]
+        topic = pending[0] if pending else next_topic()
     title, roles, focus = TOPICS[topic]
     stamp = dt.datetime.utcnow().strftime("%Y-%m-%d-%H%M")
     m = Meeting(f"Reunión de mejora · {title} · {stamp} UTC", cfg)
@@ -465,7 +473,7 @@ Solo acciones con valor real (0–5). No pidas al dueño lo que ya está pendien
         m.note("operations", "Acciones ejecutadas:\n" + ("\n".join(f"- {d}" for d in done) or "- ninguna"))
         ledger.log("reunión", f"{title}: {res.get('summary', '')[:200]}", topic=topic)
         limits.done_topic(topic)
-        made = fill_buffer(cfg, max_new=1) if topic in ("contenido", "crecimiento", "tecnologia") else []
+        made = fill_buffer(cfg, max_new=1)
         out = {"ok": True, "topic": topic, "actions": done, "buffer_new": made}
     except limits.LimitReached as e:
         limits.defer_topic(topic)

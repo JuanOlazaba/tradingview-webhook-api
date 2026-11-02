@@ -38,9 +38,9 @@ el historial de episodios, las métricas y el backlog.
    sincronizados palabra a palabra, MP4 1080×1920 a 30 fps.
 6. **Publicación en TikTok** y acta en `minutes/`. El vídeo también queda como artefacto en GitHub.
 
-## Día y noche (`finroots-meetings.yml`)
-Cada 4 horas hay una reunión de mejora con un tema distinto: contenido, crecimiento, monetización,
-tecnología, finanzas y riesgos (los 6 temas cada día). El CEO cierra cada reunión con acciones que se
+## Reuniones de mejora (`finroots-meetings.yml`)
+Lunes, miércoles y viernes hay una reunión de mejora, cada vez con un tema distinto: contenido,
+crecimiento, monetización, tecnología, finanzas y riesgos (los 6 temas cada dos semanas). El CEO cierra cada reunión con acciones que se
 ejecutan solas (decisiones, backlog, biblia, ajustes técnicos) y el Estudio va escribiendo episodios
 por adelantado hasta tener un colchón de 3. Qué pueden hacer solos y qué necesita tu sí está en
 [`governance.md`](governance.md).
@@ -56,7 +56,7 @@ Si se agota algo, la empresa se pausa sola, deja apuntado dónde se quedó y lo 
 el límite (`limits.py`). Pasa con la cuota de peticiones de Claude, con el saldo, con el tope de gasto
 mensual, con el presupuesto diario (`budget.daily_usd`) y con los minutos de GitHub.
 - Las reuniones aplazadas quedan en `state/agenda.json` y son las primeras al reanudar.
-- Si el episodio del día no salió, la siguiente reunión lo recupera antes de nada.
+- Si el episodio del día no salió, se reintenta a las 22:41 (Madrid) y, si no, en la siguiente ejecución.
 - Los episodios del colchón ya están aprobados y con su copy, así que se pueden publicar aunque la IA esté en pausa.
 - Solo te avisamos si hace falta tu acción, por ejemplo para recargar saldo. El panel muestra si hay una pausa y hasta cuándo.
 
@@ -94,12 +94,12 @@ Operaciones, Marketing, Producto, IT y al CEO, vota y fija directivas. Te deja u
   publicar en privado (`SELF_ONLY`). Cuando la aprueben, cambia a `direct`.
 
 ## Costes aproximados
-- Claude: unos 5–10 $/día con el comité diario y las reuniones cada 4 horas (150–300 $/mes). Para
-  bajarlo, espacia las reuniones (cron de `finroots-meetings.yml`) o baja el `effort` en `config.yaml`.
+- Claude: unos 2–3 $/día con el comité diario, 3 reuniones a la semana y el consejo del domingo
+  (60–90 $/mes). Se puede ajustar con el cron de `finroots-meetings.yml` o el `effort` en `config.yaml`.
   Puedes bajar el `effort` de los roles en `config.yaml` para abaratarlo.
 - Voz: gratis con edge-tts; ElevenLabs ~5–22 $/mes si quieres más calidad.
-- GitHub Actions: gratis en repos públicos. En privados se usan unos 60–90 min/día y el plan gratuito
-  (2.000 min/mes) no llega: hacen falta minutos de pago (unos 0,008 $/min) o hacer el repo público.
+- GitHub Actions: gratis en repos públicos. En privados se usan unos 25–35 min/día, cerca del plan gratuito
+  (2.000 min/mes); el exceso cuesta unos 0,008 $/min.
 
 ## Comandos locales
 ```bash
