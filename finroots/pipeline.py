@@ -79,6 +79,35 @@ Comprueba también las cifras de los params. Devuelve JSON:
     return ep
 
 
+def review_and_fix(m: Meeting, ep: dict, number: int, label: str) -> dict:
+    """Compliance revisa; si pide cambios, el Estudio los aplica y se vuelve a revisar."""
+    rounds = m.cfg["pipeline"].get("max_revisions", 2)
+    for rnd in range(rounds + 1):
+        review = m.say("compliance", f"""{label} del episodio {number}:
+{script_text(ep)}
+Comprueba también las cifras y notas de los params:
+{json.dumps([s.get('params', {}) for s in ep['scenes']], ensure_ascii=False)[:6000]}
+Devuelve JSON {{"approved":true|false,"issues":[{{"escena":"","problema":"","cambio":""}}]}}""", want_json=True)
+        if review.get("approved"):
+            return ep
+        if rnd == rounds:
+            raise RuntimeError("Compliance no aprueba el episodio tras las revisiones: "
+                               + json.dumps(review.get("issues", []), ensure_ascii=False)[:1500])
+        fixed = m.say("studio", "Aplica TODOS los cambios de Compliance al episodio y devuélvelo completo en el mismo "
+                                f"formato JSON. Episodio actual:\n{json.dumps(ep, ensure_ascii=False)}", want_json=True)
+        fixed["number"] = number
+        errs = validate(fixed)
+        if errs:
+            m.note("it", "Validación tras la corrección: " + "; ".join(errs))
+            fixed = m.say("studio", "Corrige estos errores de validación y devuelve el episodio completo: " + "; ".join(errs),
+                          want_json=True)
+            fixed["number"] = number
+            if validate(fixed):
+                raise RuntimeError("La corrección del Estudio no pasa la validación técnica")
+        ep = fixed
+    return ep
+
+
 def daily(publish: bool = True, render: bool = True) -> dict:
     from . import ledger, limits, llm, owner
     llm.PRIORITY = True
@@ -104,10 +133,8 @@ def daily(publish: bool = True, render: bool = True) -> dict:
             if ready_entry.get("compliance_ok"):
                 m.note("compliance", "Episodio ya aprobado por Compliance cuando se escribió para el colchón.")
             elif os.environ.get("ANTHROPIC_API_KEY") or os.environ.get("ANTHROPIC_AUTH_TOKEN"):
-                review = m.say("compliance", f"Revisión final antes de publicar:\n{script_text(ep)}\n"
-                               'Devuelve JSON {"approved":true|false,"issues":[...]}', want_json=True)
-                if not review.get("approved"):
-                    raise RuntimeError("Compliance bloquea el episodio: " + json.dumps(review.get("issues"), ensure_ascii=False))
+                ep = review_and_fix(m, ep, number, "Revisión final antes de publicar")
+                (d / "episode.json").write_text(json.dumps(ep, ensure_ascii=False, indent=1), encoding="utf-8")
         else:
             ep = write_episode(m, number, prev)
             (d / "episode.json").write_text(json.dumps(ep, ensure_ascii=False, indent=1), encoding="utf-8")

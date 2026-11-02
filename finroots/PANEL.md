@@ -1,10 +1,8 @@
 # Panel de Finroots
-_Actualizado: 2026-11-02 11:43 UTC · se regenera en cada reunión_
+_Actualizado: 2026-11-02 12:15 UTC · se regenera en cada reunión_
 
 ## Necesita tu sí
 - **Conectar la cuenta de TikTok @finroots** — [responder aquí](https://github.com/JuanOlazaba/tradingview-webhook-api/issues/4) · pedido por IT el 2026-11-02 03:59 UTC
-- **Activar la empresa: fusionar la rama en main y añadir ANTHROPIC_API_KEY** — [responder aquí](https://github.com/JuanOlazaba/tradingview-webhook-api/issues/5) · pedido por CEO el 2026-11-02 03:59 UTC
-- **Incidencia en el episodio 2** — [responder aquí](https://github.com/JuanOlazaba/tradingview-webhook-api/issues/6) · pedido por Operaciones el 2026-11-02 11:43 UTC
 
 ## Estado
 - Episodios: 2 · en colchón (listos): 1 (2)
@@ -21,6 +19,8 @@ _Actualizado: 2026-11-02 11:43 UTC · se regenera en cada reunión_
 - [2026-11-02-ep002](minutes/2026-11-02-ep002.md)
 
 ## Actividad reciente
+- `2026-11-02 12:15 UTC` **decisión** — Ep. 2 corregido según Compliance (6 % hipotético, sin garantías, colchón de emergencia). Nuevo: si Compliance bloquea, el Estudio corrige y se re-revisa solo.
+- `2026-11-02 12:15 UTC` **dueño** — Empresa activada: rama en main y clave de Claude funcionando (primer comité: 0,04 $).
 - `2026-11-02 11:43 UTC` **incidencia** — Ep. 2: Compliance bloquea el episodio: [{"escena": "03 · la historia", "texto": "A los 65, con un 6 por ciento anual... Lucía tiene unos 298.000 euros. Marta, unos 150.000.", "problema": "Las cifras son correctas. Recalculado con 150 €/mes, 6 % nominal anual capitalizado mensualmente: 40 años dan unos 298.
 - `2026-11-02 11:20 UTC` **decisión** — Repositorio: pasar a privado (gratis, ~800 min/mes de 2.000) para que actas, costes y peticiones no sean públicas. Se eliminaron del repositorio las menciones al trabajo del dueño.
 - `2026-11-02 11:20 UTC` **decisión** — Presupuesto de IA fijado por el dueño: 20 $/mes. Haiku 5.5 para casi todo y Sonnet 5.5 para guion y Compliance; tope diario 1 $ para reuniones.

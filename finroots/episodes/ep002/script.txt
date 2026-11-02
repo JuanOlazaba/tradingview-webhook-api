@@ -1,14 +1,14 @@
 [01]   Dos amigas ahorran lo mismo cada mes... y una acaba con el doble.
-[02] // 01 · el problema  ¿Te acuerdas de Lucía? Ya se paga primero: 150 euros al mes. Pero... ¿qué hace con ellos?
+[02] // 01 · el problema  ¿Te acuerdas de Lucía? Ya aparta 150 euros al mes. Pero... ¿qué hace con ellos?
 [03] // 01 · el problema  Si los deja en el cajón, ya sabes: la inflación se los come poco a poco.
-[04] // 02 · la idea  La alternativa se llama interés compuesto. Tu dinero gana algo... y lo que gana, también gana.
-[05] // 02 · la idea  Como una bola de nieve: al principio es pequeña. Pero cuanto más rueda, más rápido crece.
+[04] // 02 · la idea  La alternativa se llama interés compuesto. Si tu dinero genera rentabilidad... esa rentabilidad también puede generar más.
+[05] // 02 · la idea  Como una bola de nieve: cuanto más rueda, más rápido crece.
 [06] // 03 · la historia  Lucía tiene 25 años y empieza hoy. Su amiga Marta ahorra lo mismo... pero dice: ya empezaré a los 35.
 [07] // 03 · la historia  Pasan los años. Las dos aportan cada mes, sin fallar.
-[08] // 03 · la historia  A los 65, con un 6 por ciento anual... Lucía tiene unos 298.000 euros. Marta, unos 150.000.
+[08] // 03 · la historia  Imaginemos un 6 por ciento anual, solo como ejemplo y sin garantías. A los 65, Lucía tendría unos 298.000 euros. Marta, unos 150.000.
 [09] // 03 · la historia  Spoiler: Lucía solo puso 18.000 euros más de su bolsillo. El resto... lo hizo el tiempo.
-[10] // 04 · la solución  Para alcanzarla, Marta tendría que aportar casi el doble cada mes: unos 300 euros.
-[11] // 04 · la solución  La regla: empezar antes importa más que aportar mucho.
-[12] // 04 · la solución  El truco: empieza con poco, automatízalo... y no lo toques. El tiempo hace el trabajo pesado.
+[10] // 04 · la solución  Con ese mismo supuesto, Marta tendría que aportar casi el doble cada mes: unos 300 euros.
+[11] // 04 · la solución  La idea: en este ejemplo, empezar antes pesa más que aportar mucho.
+[12] // 04 · la solución  Una idea: empieza con poco y automatízalo... siempre que ya tengas tu colchón de emergencia.
 [13] // 05 · tu turno  ¿Cuándo empezaste a ahorrar? A, antes de los 25. B, entre 25 y 35. C, todavía no. Comenta tu letra.
 [14]   Esto ha sido Finroots. El dinero, desde la raíz.
