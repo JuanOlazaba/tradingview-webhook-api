@@ -59,7 +59,7 @@ def validate(ep: dict) -> list[str]:
             errs.append(f"escena {i+1}: falta 'voice'")
         if s.get("sfx", "") not in SFX:
             errs.append(f"escena {i+1}: sfx '{s.get('sfx')}' no válido")
-        if t == prev and t not in ("display",):
+        if t == prev and t not in ("display",) and not s.get("allow_repeat"):
             errs.append(f"escena {i+1}: repite el mismo objeto '{t}' que la anterior")
         if not isinstance(s.get("params", {}), dict):
             errs.append(f"escena {i+1}: params debe ser un objeto")

@@ -10,3 +10,4 @@
 {"t": "2026-11-02 14:32 UTC", "kind": "incidencia", "summary": "Ep. 2: No se pudo renovar el token de TikTok: {'error': 'invalid_grant', 'error_description': 'Refresh token is invalid or expired.', 'log_id': '20261102143207A806556075C7C313C8CA'}"}
 {"t": "2026-11-02 15:28 UTC", "kind": "incidencia", "summary": "Ep. 2: Subida fallida (trozo 1/1): HTTP 500 null"}
 {"t": "2026-11-02 15:53 UTC", "kind": "publicación", "summary": "Ep. 2: Lucía y Marta: misma cuota, casi el doble de dinero · estado: sent_to_inbox"}
+{"t": "2026-11-02 15:58 UTC", "kind": "decisión", "summary": "Por indicación del dueño: el ep. 1 se convierte en vídeo (mismo guion y escenas) y se envía antes que el 2. Orden de publicación: 1, 2, 3..."}

@@ -9,19 +9,18 @@
       "Lucía"
     ],
     "objects": [
-      "drawer",
       "bill_shrink",
-      "receipt",
       "cards",
       "display",
-      "phone",
+      "drawer",
       "levers",
+      "logo",
       "options",
-      "logo"
+      "phone",
+      "receipt"
     ],
     "question": "A fin de mes: A) me sobra, B) me falta, C) voy justo",
-    "status": "published_manually",
-    "reference": "https://claude.ai/artifact/5BYRfD1PVtSMAr7N6D58j5"
+    "status": "ready"
   },
   {
     "number": 2,

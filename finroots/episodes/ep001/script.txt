@@ -1,0 +1,13 @@
+[01] // 01 · el problema  Tienes 100 euros en un cajón.
+[02] // 01 · el problema  Dentro de 10 años valdrán como 74... sin haberlos tocado.
+[03] // 01 · el problema  Es la inflación: los precios suben un poco cada año, y tu billete compra menos.
+[04] // 01 · el problema  Con tu dinero puedes gastar, ahorrar o invertir. Pero antes, una pregunta.
+[05] // 02 · el margen  ¿Cuánto te sobra a fin de mes? Eso es tu margen.
+[06] // 02 · el margen  Mira a Lucía. Cobra 1.500. Alquiler, 600. Supermercado, 300. Transporte, 100.
+[07] // 02 · el margen  Y luego, los pagos pequeños: una suscripción, una cena, un pedido... 450 en total. Le quedan 50.
+[08] // 02 · el margen  Lucía no gana poco. Es que su dinero se va solo.
+[09] // 03 · la solución  Para crear margen hay dos palancas: que entre más, o que salga menos. La segunda la controlas hoy.
+[10] // 03 · la solución  El truco: apártalo el día que cobras. Una transferencia automática, y listo. Págate a ti primero.
+[11] // 03 · la solución  Con margen, ahora sí, puedes decidir.
+[12] // 04 · tu turno  Pregunta rápida: a fin de mes, ¿te sobra, te falta o vas justo? Comenta A, B o C.
+[13]   Esto ha sido Finroots. El dinero, desde la raíz.
