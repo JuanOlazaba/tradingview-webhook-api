@@ -1,15 +1,25 @@
+import asyncio
+from contextlib import asynccontextmanager
 from pathlib import Path
 
-from fastapi import FastAPI
-from fastapi import HTTPException
-from fastapi.responses import RedirectResponse, Response
+from fastapi import FastAPI, Header, HTTPException
+from fastapi.responses import FileResponse, RedirectResponse, Response
 from fastapi.staticfiles import StaticFiles
 from pydantic import BaseModel
 from datetime import datetime
 
+import jarvis_briefing
 from jarvis_icons import get_icon
 
-app = FastAPI(title="TradingView Webhook API")
+
+@asynccontextmanager
+async def lifespan(app):
+    task = asyncio.create_task(jarvis_briefing.warm_up())
+    yield
+    task.cancel()
+
+
+app = FastAPI(title="TradingView Webhook API", lifespan=lifespan)
 
 # Aquí guardamos la última alerta recibida
 last_alert = {}
@@ -51,6 +61,32 @@ JARVIS_DIR = Path(__file__).parent / "jarvis"
 @app.get("/jarvis", include_in_schema=False)
 async def jarvis_redirect():
     return RedirectResponse("/jarvis/")
+
+def _require_pin(pin):
+    if not jarvis_briefing.configured():
+        raise HTTPException(status_code=503, detail="Faltan JARVIS_KEY y JARVIS_PIN en Render")
+    if not jarvis_briefing.check_pin(pin):
+        raise HTTPException(status_code=401, detail="Código de acceso incorrecto")
+
+@app.get("/briefing", include_in_schema=False)
+async def get_briefing(key: str = "", x_jarvis_key: str = Header(default="")):
+    """Último morning meeting (protegido con el código de acceso)."""
+    _require_pin(x_jarvis_key or key)
+    briefing = await jarvis_briefing.get_briefing()
+    if not briefing:
+        return {"has_briefing": False}
+    return {"has_briefing": True, **briefing}
+
+@app.get("/jarvis/briefing.mp3", include_in_schema=False)
+async def get_briefing_audio(key: str = ""):
+    _require_pin(key)
+    briefing = await jarvis_briefing.get_briefing()
+    if not briefing:
+        raise HTTPException(status_code=404, detail="Todavía no hay informe")
+    path = await jarvis_briefing.get_audio(briefing)
+    if not path:
+        raise HTTPException(status_code=503, detail="El audio no está disponible")
+    return FileResponse(path, media_type="audio/mpeg", headers={"Cache-Control": "private, max-age=3600"})
 
 @app.get("/jarvis/{name}.png", include_in_schema=False)
 async def jarvis_icon(name: str):
