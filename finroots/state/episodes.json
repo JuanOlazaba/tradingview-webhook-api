@@ -1,0 +1,53 @@
+[
+  {
+    "number": 1,
+    "slug": "tus-100-euros-en-el-cajon",
+    "title": "Tus 100 € en el cajón",
+    "topic": "margen (introducido por la inflación: qué pasa si no inviertes)",
+    "core_idea": "Antes de gastar, ahorrar o invertir, necesitas margen: lo que entra menos lo que sale. Apártalo el día que cobras.",
+    "characters": [
+      "Lucía"
+    ],
+    "objects": [
+      "drawer",
+      "bill_shrink",
+      "receipt",
+      "cards",
+      "display",
+      "phone",
+      "levers",
+      "options",
+      "logo"
+    ],
+    "question": "A fin de mes: A) me sobra, B) me falta, C) voy justo",
+    "status": "published_manually",
+    "reference": "https://claude.ai/artifact/5BYRfD1PVtSMAr7N6D58j5"
+  },
+  {
+    "number": 2,
+    "slug": "interes-compuesto-lucia-y-marta",
+    "title": "Lucía y Marta: mismo ahorro, el doble de dinero",
+    "topic": "interés compuesto",
+    "core_idea": "El dinero que ganas también genera dinero; por eso empezar antes importa más que aportar mucho.",
+    "characters": [
+      "Lucía",
+      "Marta"
+    ],
+    "objects": [
+      "calendar",
+      "chart",
+      "coins",
+      "counter",
+      "display",
+      "drawer",
+      "levers",
+      "logo",
+      "options",
+      "phone",
+      "piggies",
+      "snowball"
+    ],
+    "question": "Antes de los 25 / Entre 25 y 35 / Todavía no",
+    "status": "ready"
+  }
+]

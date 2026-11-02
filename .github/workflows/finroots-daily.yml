@@ -55,6 +55,8 @@ jobs:
           path: |
             finroots/episodes/*/video.mp4
             finroots/episodes/*/cover.jpg
+            finroots/episodes/*/reel.html
+            finroots/episodes/*/audio.mp3
             finroots/episodes/*/caption.txt
             finroots/episodes/*/script.txt
           if-no-files-found: ignore
