@@ -37,6 +37,9 @@ def company_context(cfg: dict) -> str:
     hist = "\n".join(f"- Ep. {e['number']} · {e['title']} · tema: {e['topic']} · idea: {e['core_idea']} · "
                      f"objetos: {', '.join(e.get('objects', []))} · estado: {e.get('status')}" for e in eps)
     kpis = json.loads((STATE / "kpis.json").read_text()).get("history", [])[-1:] or ["(todavía sin métricas)"]
+    from . import owner
+    dec = STATE / "ceo_decisions.md"
+    decisions = "\n".join(dec.read_text(encoding="utf-8").strip().splitlines()[-25:]) if dec.exists() else "(ninguna)"
     return f"""Eres parte del equipo de agentes que dirige Finroots de forma autónoma para su dueño.
 Todo lo que producís se publica de verdad: sed rigurosos, concretos y honestos. No inventéis métricas.
 
@@ -56,6 +59,15 @@ Todo lo que producís se publica de verdad: sed rigurosos, concretos y honestos.
 
 # BACKLOG
 {(STATE / 'backlog.md').read_text(encoding='utf-8')}
+
+# GOBIERNO: QUÉ PODÉIS HACER SOLOS Y QUÉ NECESITA AL DUEÑO
+{(ROOT / 'governance.md').read_text(encoding='utf-8')}
+
+# CANAL CON EL DUEÑO
+{owner.context_text()}
+
+# DECISIONES RECIENTES DE DIRECCIÓN
+{decisions}
 
 # MOTOR DE VÍDEO
 {catalog_text()}
@@ -94,7 +106,7 @@ class Meeting:
         last_err = None
         for _ in range(retries + 1):
             text = llm.ask(system, user if last_err is None else user + f"\n\n(Tu respuesta anterior no era JSON válido: {last_err}. Repite solo el JSON.)",
-                           model=model, effort=effort)
+                           model=model, effort=effort, role=role)
             if not want_json:
                 if record:
                     self.log.append((role, text))

@@ -1,0 +1,29 @@
+[
+ {
+  "id": 1,
+  "title": "Conectar la cuenta de TikTok @finroots",
+  "body": "Para publicar solos necesitamos tu permiso oficial en TikTok. Sigue `finroots/CONECTAR_TIKTOK.md` (unos 15 minutos): creas la app de desarrollador, abres el enlace de permiso, verificas que es la cuenta Finroots y pulsas Autorizar.",
+  "by": "IT",
+  "status": "pending",
+  "apply_on_yes": {},
+  "created": "2026-11-02 03:59 UTC"
+ },
+ {
+  "id": 2,
+  "title": "Activar la empresa: fusionar la rama en main y añadir ANTHROPIC_API_KEY",
+  "body": "GitHub solo ejecuta las tareas programadas (comité diario, reuniones cada 4 h, consejo semanal) desde la rama principal. Recomendado: fusionar `claude/finroots-automation-chatbots-2el5ro` en `main` y añadir el secreto ANTHROPIC_API_KEY. Coste estimado de IA: unos 5–10 $/día con reuniones cada 4 horas (se puede bajar espaciándolas o usando un modelo más barato). Si dices que no, nada se ejecuta.",
+  "by": "CEO",
+  "status": "pending",
+  "apply_on_yes": {},
+  "created": "2026-11-02 03:59 UTC"
+ },
+ {
+  "id": 3,
+  "title": "Visto bueno por escrito del compliance de tu banco",
+  "body": "Antes de publicar con regularidad, confirma con compliance de tu empleador que la actividad externa está permitida y guarda la respuesta. Mientras tanto seguimos preparando episodios sin publicarlos en abierto.",
+  "by": "Compliance",
+  "status": "pending",
+  "apply_on_yes": {},
+  "created": "2026-11-02 03:59 UTC"
+ }
+]

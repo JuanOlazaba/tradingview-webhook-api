@@ -1,6 +1,10 @@
 """Uso:
   python -m finroots.cli daily [--no-publish] [--no-render]   # comité diario: 1 reel
   python -m finroots.cli board                                # consejo semanal
+  python -m finroots.cli improve [tema]                       # reunión de mejora (contenido, crecimiento,
+                                                              #   monetizacion, tecnologia, finanzas, riesgos)
+  python -m finroots.cli sync                                 # lee las respuestas del dueño
+  python -m finroots.cli panel                                # regenera PANEL.md
   python -m finroots.cli render N                             # renderiza el episodio N ya escrito
   python -m finroots.cli validate N                           # valida el JSON del episodio N
   python -m finroots.cli auth-url REDIRECT_URI                # URL para conectar la cuenta de TikTok
@@ -23,6 +27,17 @@ def main(argv):
         r = pipeline.daily(publish="--no-publish" not in rest, render="--no-render" not in rest)
     elif cmd == "board":
         r = pipeline.board()
+    elif cmd == "improve":
+        r = pipeline.improve(rest[0] if rest else None)
+    elif cmd == "sync":
+        pipeline.handle_owner_decisions()
+        from .ledger import write_panel
+        write_panel()
+        r = {"ok": True}
+    elif cmd == "panel":
+        from .ledger import write_panel
+        write_panel()
+        r = {"ok": True}
     elif cmd in ("render", "validate"):
         n = int(rest[0])
         ep = json.loads((pipeline._ep_dir(n) / "episode.json").read_text(encoding="utf-8"))

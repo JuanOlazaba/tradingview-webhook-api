@@ -17,7 +17,7 @@ def client() -> anthropic.Anthropic:
     return _client
 
 
-def ask(system_blocks: list[dict], user: str, model: str, effort: str = "medium", max_tokens: int = 16000) -> str:
+def ask(system_blocks: list[dict], user: str, model: str, effort: str = "medium", max_tokens: int = 16000, role: str = "?") -> str:
     """Una llamada a Claude. `system_blocks` lleva primero el contexto estable (cacheado)."""
     kwargs = dict(
         model=model,
@@ -30,6 +30,11 @@ def ask(system_blocks: list[dict], user: str, model: str, effort: str = "medium"
         kwargs.update(betas=["server-side-fallback-2026-07-01"], fallbacks="default")
     with client().beta.messages.stream(**kwargs) as stream:
         msg = stream.get_final_message()
+    try:
+        from .ledger import add_usage
+        add_usage(model, role, msg.usage)
+    except Exception as e:  # noqa: BLE001
+        print(f"[llm] no se pudo registrar el coste: {e}")
     if msg.stop_reason == "refusal":
         cat = getattr(msg.stop_details, "category", None) if msg.stop_details else None
         raise RuntimeError(f"El modelo rechazó la petición (categoría: {cat})")

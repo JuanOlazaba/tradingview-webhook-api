@@ -1,5 +1,8 @@
 # Finroots · empresa automatizada
 
+**Empieza aquí: [PANEL.md](PANEL.md)**, el panel de control que se actualiza solo: lo que necesita tu sí,
+estado, episodios, reuniones, actividad, costes y directivas.
+
 Un reel diario de educación financiera en TikTok (@finroots), hecho por un equipo de agentes de IA
 que se reúnen, discuten, deciden, producen, revisan y publican sin intervención del dueño.
 
@@ -35,6 +38,25 @@ el historial de episodios, las métricas y el backlog.
    sincronizados palabra a palabra, MP4 1080×1920 a 30 fps.
 6. **Publicación en TikTok** y acta en `minutes/`. El vídeo también queda como artefacto en GitHub.
 
+## Día y noche (`finroots-meetings.yml`)
+Cada 4 horas hay una reunión de mejora con un tema distinto: contenido, crecimiento, monetización,
+tecnología, finanzas y riesgos (los 6 temas cada día). El CEO cierra cada reunión con acciones que se
+ejecutan solas (decisiones, backlog, biblia, ajustes técnicos) y el Estudio va escribiendo episodios
+por adelantado hasta tener un colchón de 3. Qué pueden hacer solos y qué necesita tu sí está en
+[`governance.md`](governance.md).
+
+## Tu sí (Issues de GitHub)
+Cuando los agentes necesitan algo que no pueden decidir solos (dinero, accesos, cambios de riesgo),
+abren un Issue con la etiqueta `decision-dueño`. GitHub te avisa por email y en la app.
+Respondes en el Issue **sí** o **no**, o escribes instrucciones. `finroots-owner.yml` lo lee al instante,
+lo aplica, cierra el Issue y lo registra. Mientras esperan, siguen trabajando en todo lo demás.
+
+## Registro
+Nada se borra: actas de cada reunión en `minutes/`, informes en `reports/`, actividad en
+`state/activity.jsonl`, costes de IA por día y por rol en `state/costs.json`, peticiones y tus
+respuestas en `state/owner_requests.json`, decisiones de dirección en `state/ceo_decisions.md`.
+Además, cada cambio queda como commit en GitHub.
+
 Cada domingo (`finroots-board.yml`) el **consejo** lee las métricas reales de TikTok, escucha a
 Operaciones, Marketing, Producto, IT y al CEO, vota y fija directivas. Te deja un informe en `reports/`.
 
@@ -43,7 +65,7 @@ Operaciones, Marketing, Producto, IT y al CEO, vota y fija directivas. Te deja u
 1. **Compliance de tu banco.** Antes de publicar, consulta la norma de actividades externas y guarda
    la respuesta por escrito (el plan original ya lo marca como paso 1).
 2. **Clave de Claude.** GitHub → Settings → Secrets and variables → Actions → `ANTHROPIC_API_KEY`.
-3. **App de TikTok** en <https://developers.tiktok.com>:
+3. **App de TikTok**: guía paso a paso en [`CONECTAR_TIKTOK.md`](CONECTAR_TIKTOK.md). Resumen:
    - Crea una app, añade los productos *Login Kit* y *Content Posting API* (activa *Direct Post*).
    - Pide los permisos `user.info.basic`, `user.info.stats`, `video.upload`, `video.publish`, `video.list`.
    - URLs de términos y privacidad: `https://<tu-servicio>.onrender.com/terms` y `/privacy`.
@@ -63,11 +85,12 @@ Operaciones, Marketing, Producto, IT y al CEO, vota y fija directivas. Te deja u
   publicar en privado (`SELF_ONLY`). Cuando la aprueben, cambia a `direct`.
 
 ## Costes aproximados
-- Claude (todos los agentes, ~12 llamadas/día con caché): unos 1–3 $/día con Opus (30–90 $/mes).
+- Claude: unos 5–10 $/día con el comité diario y las reuniones cada 4 horas (150–300 $/mes). Para
+  bajarlo, espacia las reuniones (cron de `finroots-meetings.yml`) o baja el `effort` en `config.yaml`.
   Puedes bajar el `effort` de los roles en `config.yaml` para abaratarlo.
 - Voz: gratis con edge-tts; ElevenLabs ~5–22 $/mes si quieres más calidad.
-- GitHub Actions: gratis en repos públicos; en privados, ~25 min/día entra en el plan gratuito (2.000 min/mes)
-  justo; si te quedas corto, baja `render.fps` a 24.
+- GitHub Actions: gratis en repos públicos. En privados se usan unos 60–90 min/día y el plan gratuito
+  (2.000 min/mes) no llega: hacen falta minutos de pago (unos 0,008 $/min) o hacer el repo público.
 
 ## Comandos locales
 ```bash

@@ -7,6 +7,7 @@ on:
 
 permissions:
   contents: write
+  issues: write
 
 concurrency:
   group: finroots
@@ -32,6 +33,7 @@ jobs:
           TIKTOK_CLIENT_KEY: ${{ secrets.TIKTOK_CLIENT_KEY }}
           TIKTOK_CLIENT_SECRET: ${{ secrets.TIKTOK_CLIENT_SECRET }}
           TIKTOK_REFRESH_TOKEN: ${{ secrets.TIKTOK_REFRESH_TOKEN }}
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
           FINROOTS_NEW_REFRESH_TOKEN_FILE: ${{ runner.temp }}/rt
         run: python -m finroots.cli board
       - name: Rotar el token de TikTok si ha cambiado
@@ -48,6 +50,6 @@ jobs:
         run: |
           git config user.name "finroots-bot"
           git config user.email "finroots-bot@users.noreply.github.com"
-          git add finroots/state finroots/minutes finroots/episodes finroots/reports 2>/dev/null || true
+          git add finroots/state finroots/minutes finroots/episodes finroots/reports finroots/PANEL.md finroots/bible.md finroots/config.yaml 2>/dev/null || true
           git diff --cached --quiet || git commit -m "Finroots: consejo semanal $(date -u +%F)"
-          git push
+          for i in 1 2 3 4; do git pull --rebase -q && git push -q && break; sleep $((i*5)); done
