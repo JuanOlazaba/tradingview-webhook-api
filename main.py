@@ -118,8 +118,22 @@ def _redirect_uri(request: Request) -> str:
     return os.environ.get("TIKTOK_REDIRECT_URI") or str(request.url_for("tiktok_callback")).replace("http://", "https://")
 
 
+def _tiktok_missing() -> list[str]:
+    return [k for k in ("TIKTOK_CLIENT_KEY", "TIKTOK_CLIENT_SECRET") if not os.environ.get(k, "").strip()]
+
+
+def _tiktok_error(msg: str, status: int = 400) -> HTMLResponse:
+    return HTMLResponse("<!doctype html><meta name=viewport content='width=device-width,initial-scale=1'>"
+                        "<body style='font-family:system-ui;max-width:640px;margin:40px auto;padding:0 16px'>"
+                        f"<h1>Finroots · no se pudo conectar TikTok</h1><p>{msg}</p></body>", status_code=status)
+
+
 @app.get("/tiktok/connect")
 async def tiktok_connect(request: Request):
+    missing = _tiktok_missing()
+    if missing:
+        return _tiktok_error("Faltan estas variables en Render → Environment: <b>" + ", ".join(missing) +
+                             "</b>. Añádelas, pulsa Save Changes, espera a que ponga Deployed y vuelve a abrir este enlace.", 503)
     q = {"client_key": os.environ["TIKTOK_CLIENT_KEY"], "scope": TIKTOK_SCOPES, "response_type": "code",
          "redirect_uri": _redirect_uri(request), "state": "finroots"}
     return RedirectResponse("https://www.tiktok.com/v2/auth/authorize/?" + urlencode(q))
@@ -128,14 +142,23 @@ async def tiktok_connect(request: Request):
 @app.get("/tiktok/callback", name="tiktok_callback", response_class=HTMLResponse)
 async def tiktok_callback(request: Request, code: str = "", error: str = ""):
     if error or not code:
-        return HTMLResponse(f"<h1>TikTok no ha autorizado la app</h1><p>{error}</p>", status_code=400)
+        return _tiktok_error(f"TikTok no ha autorizado la app ({error or 'sin código'}). Vuelve a intentarlo desde /tiktok/connect.")
+    missing = _tiktok_missing()
+    if missing:
+        return _tiktok_error("Faltan estas variables en Render: <b>" + ", ".join(missing) + "</b>.", 503)
     r = requests.post("https://open.tiktokapis.com/v2/oauth/token/", timeout=30, data={
         "client_key": os.environ["TIKTOK_CLIENT_KEY"], "client_secret": os.environ["TIKTOK_CLIENT_SECRET"],
         "code": code, "grant_type": "authorization_code", "redirect_uri": _redirect_uri(request)})
-    data = r.json()
+    try:
+        data = r.json()
+    except ValueError:
+        data = {"error": f"HTTP {r.status_code}"}
     rt = data.get("refresh_token")
     if not rt:
-        return HTMLResponse(f"<h1>Error al obtener el token</h1><pre>{data}</pre>", status_code=400)
+        return _tiktok_error("TikTok no devolvió el código. Respuesta: <code>" +
+                             str(data.get("error_description") or data.get("error") or data)[:300] +
+                             "</code>. Comprueba que el Client key y el Client secret son los del Sandbox y que el "
+                             "Redirect URI es exactamente https://tradingview-webhook-api.onrender.com/tiktok/callback")
     return HTMLResponse(
         "<!doctype html><meta name=viewport content='width=device-width,initial-scale=1'>"
         "<body style='font-family:system-ui;max-width:640px;margin:40px auto;padding:0 16px'>"
