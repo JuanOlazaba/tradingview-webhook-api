@@ -1,0 +1,152 @@
+<!doctype html>
+<html lang="es">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+  <title>Jarvis</title>
+  <meta name="theme-color" content="#0b0f17">
+  <link rel="manifest" href="manifest.webmanifest">
+  <link rel="icon" href="icon-192.png">
+  <link rel="apple-touch-icon" href="icon-180.png">
+  <meta name="apple-mobile-web-app-capable" content="yes">
+  <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
+  <meta name="apple-mobile-web-app-title" content="Jarvis">
+  <style>
+    :root {
+      --bg: #0b0f17; --panel: #121826; --line: #1f2937;
+      --text: #e0f2fe; --muted: #8aa0b8; --accent: #38bdf8; --ok: #34d399;
+    }
+    * { box-sizing: border-box; }
+    body {
+      margin: 0; min-height: 100vh; background: var(--bg); color: var(--text);
+      font: 16px/1.5 -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
+      padding: max(16px, env(safe-area-inset-top)) 16px max(24px, env(safe-area-inset-bottom));
+    }
+    main { max-width: 520px; margin: 0 auto; display: grid; gap: 16px; }
+    header { display: flex; align-items: center; gap: 12px; }
+    header img { width: 44px; height: 44px; border-radius: 12px; }
+    h1 { margin: 0; font-size: 22px; letter-spacing: .5px; }
+    .status { font-size: 13px; color: var(--muted); display: flex; align-items: center; gap: 6px; }
+    .dot { width: 8px; height: 8px; border-radius: 50%; background: var(--muted); }
+    .dot.on { background: var(--ok); box-shadow: 0 0 8px var(--ok); }
+    .card { background: var(--panel); border: 1px solid var(--line); border-radius: 16px; padding: 16px; }
+    .label { font-size: 12px; text-transform: uppercase; letter-spacing: 1px; color: var(--muted); }
+    .ticker { font-size: 34px; font-weight: 700; color: var(--accent); margin: 4px 0; word-break: break-word; }
+    .msg { white-space: pre-wrap; word-break: break-word; }
+    .time { font-size: 13px; color: var(--muted); margin-top: 8px; }
+    button {
+      width: 100%; padding: 14px; border-radius: 12px; border: 0; font-size: 16px; font-weight: 600;
+      background: var(--accent); color: #04121c; cursor: pointer;
+    }
+    button.ghost { background: transparent; color: var(--accent); border: 1px solid var(--accent); }
+    .hint { font-size: 14px; color: var(--muted); }
+    .hint b { color: var(--text); }
+    [hidden] { display: none !important; }
+  </style>
+</head>
+<body>
+<main>
+  <header>
+    <img src="icon-192.png" alt="">
+    <div>
+      <h1>Jarvis</h1>
+      <div class="status"><span class="dot" id="dot"></span><span id="status">Conectando…</span></div>
+    </div>
+  </header>
+
+  <section class="card" id="alertCard">
+    <div class="label">Última alerta</div>
+    <div class="ticker" id="ticker">—</div>
+    <div class="msg" id="message">Todavía no hay alertas.</div>
+    <div class="time" id="time"></div>
+  </section>
+
+  <button class="ghost" id="refresh">Actualizar</button>
+  <button id="notify" hidden>Activar notificaciones</button>
+
+  <section class="card" id="install">
+    <div class="label">Instalar en el teléfono</div>
+    <button id="installBtn" hidden>Descargar Jarvis</button>
+    <p class="hint" id="iosHint" hidden>
+      En iPhone: toca <b>Compartir</b> (el cuadro con la flecha) y luego
+      <b>Añadir a pantalla de inicio</b>.
+    </p>
+    <p class="hint" id="androidHint">
+      En Android (Chrome): abre el menú <b>⋮</b> y toca <b>Instalar app</b>
+      o <b>Añadir a pantalla de inicio</b>.
+    </p>
+  </section>
+</main>
+
+<script>
+  const API = "/last_alert";
+  const POLL_MS = 15000;
+  const $ = (id) => document.getElementById(id);
+  let lastSeen = null;
+  try { lastSeen = localStorage.getItem("jarvis:lastSeen"); } catch (e) {}
+
+  function setOnline(ok) {
+    $("dot").classList.toggle("on", ok);
+    $("status").textContent = ok ? "En línea · revisa cada 15 s" : "Sin conexión con el servidor";
+  }
+
+  async function check() {
+    try {
+      const res = await fetch(API, { cache: "no-store" });
+      if (!res.ok) throw new Error(res.status);
+      const data = await res.json();
+      setOnline(true);
+      if (!data.has_alert) return;
+      $("ticker").textContent = data.alert;
+      $("message").textContent = data.message;
+      $("time").textContent = "Recibida: " + new Date(data.received_at).toLocaleString();
+      if (lastSeen && data.received_at !== lastSeen) notify(data);
+      lastSeen = data.received_at;
+      try { localStorage.setItem("jarvis:lastSeen", lastSeen); } catch (e) {}
+    } catch (e) {
+      setOnline(false);
+    }
+  }
+
+  async function notify(data) {
+    if (!("Notification" in window) || Notification.permission !== "granted") return;
+    const reg = await navigator.serviceWorker?.getRegistration();
+    const opts = { body: data.message, icon: "icon-192.png", badge: "icon-192.png", tag: "jarvis-alert" };
+    if (reg) reg.showNotification("Jarvis · " + data.alert, opts);
+    else new Notification("Jarvis · " + data.alert, opts);
+  }
+
+  // Notificaciones
+  if ("Notification" in window && Notification.permission === "default") $("notify").hidden = false;
+  $("notify").onclick = async () => {
+    const p = await Notification.requestPermission();
+    $("notify").hidden = p !== "default";
+  };
+
+  // Instalación
+  const isIOS = /iphone|ipad|ipod/i.test(navigator.userAgent);
+  const standalone = matchMedia("(display-mode: standalone)").matches || navigator.standalone;
+  if (standalone) $("install").hidden = true;
+  if (isIOS) { $("iosHint").hidden = false; $("androidHint").hidden = true; }
+  let deferred = null;
+  addEventListener("beforeinstallprompt", (e) => {
+    e.preventDefault(); deferred = e;
+    $("installBtn").hidden = false; $("androidHint").hidden = true;
+  });
+  $("installBtn").onclick = async () => {
+    if (!deferred) return;
+    deferred.prompt();
+    await deferred.userChoice;
+    deferred = null; $("installBtn").hidden = true;
+  };
+  addEventListener("appinstalled", () => { $("install").hidden = true; });
+
+  if ("serviceWorker" in navigator) navigator.serviceWorker.register("sw.js", { scope: "./" });
+
+  $("refresh").onclick = check;
+  document.addEventListener("visibilitychange", () => { if (!document.hidden) check(); });
+  check();
+  setInterval(check, POLL_MS);
+</script>
+</body>
+</html>
