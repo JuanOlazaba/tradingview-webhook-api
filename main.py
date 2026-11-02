@@ -163,6 +163,12 @@ async def tiktok_domain_verification(filename: str):
     Variables en Render: TIKTOK_VERIFY_FILENAME (p. ej. tiktokAbC123.txt) y TIKTOK_VERIFY_CONTENT."""
     from fastapi import HTTPException
     from fastapi.responses import PlainTextResponse
+    import re
     if filename and filename == os.environ.get("TIKTOK_VERIFY_FILENAME"):
         return PlainTextResponse(os.environ.get("TIKTOK_VERIFY_CONTENT", ""))
+    # Sin variables: TikTok nombra el fichero tiktok<código>.txt y su contenido es
+    # tiktok-developers-site-verification=<código>, así que lo respondemos directamente.
+    m = re.fullmatch(r"tiktok([A-Za-z0-9]{16,64})\.txt", filename or "")
+    if m:
+        return PlainTextResponse(f"tiktok-developers-site-verification={m.group(1)}")
     raise HTTPException(status_code=404)
