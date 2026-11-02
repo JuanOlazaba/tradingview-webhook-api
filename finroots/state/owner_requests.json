@@ -1,0 +1,31 @@
+[
+ {
+  "id": 1,
+  "title": "Conectar la cuenta de TikTok @finroots",
+  "body": "Para publicar solos necesitamos tu permiso oficial en TikTok. Sigue `finroots/CONECTAR_TIKTOK.md` (unos 15 minutos): creas la app de desarrollador, abres el enlace de permiso, verificas que es la cuenta Finroots y pulsas Autorizar. Usuario confirmado por el dueño: finroots.",
+  "by": "IT",
+  "status": "pending",
+  "apply_on_yes": {},
+  "created": "2026-11-02 03:59 UTC"
+ },
+ {
+  "id": 2,
+  "title": "Activar la empresa: fusionar la rama en main y añadir ANTHROPIC_API_KEY",
+  "body": "GitHub solo ejecuta las tareas programadas (comité diario, 3 reuniones de mejora a la semana, consejo semanal) desde la rama principal. Recomendado: fusionar `claude/finroots-automation-chatbots-2el5ro` en `main` y añadir el secreto ANTHROPIC_API_KEY. Coste de IA: tope de 20 $/mes. Si dices que no, nada se ejecuta.",
+  "by": "CEO",
+  "status": "pending",
+  "apply_on_yes": {},
+  "created": "2026-11-02 03:59 UTC"
+ },
+ {
+  "id": 3,
+  "title": "Visto bueno de compliance",
+  "body": "Confirmar el visto bueno de compliance antes de publicar con regularidad.",
+  "by": "Compliance",
+  "status": "approved",
+  "apply_on_yes": {},
+  "created": "2026-11-02 03:59 UTC",
+  "answer": "sí (confirmado por el dueño en el chat)",
+  "answered": "2026-11-02"
+ }
+]

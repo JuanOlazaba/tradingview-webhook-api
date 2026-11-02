@@ -1,0 +1,97 @@
+name: Finroots · comité diario (1 reel)
+
+on:
+  schedule:
+    - cron: "37 15 * * *"   # 16:37 Madrid (invierno) — el vídeo llega a TikTok antes de las 18:00
+    - cron: "41 21 * * *"   # 22:41 Madrid — reintento solo si el episodio de hoy no salió (límites, fallos)
+  workflow_dispatch:
+    inputs:
+      publish:
+        description: "Enviar a TikTok"
+        type: boolean
+        default: true
+
+permissions:
+  contents: write
+  issues: write
+
+concurrency:
+  group: finroots
+  cancel-in-progress: false
+
+jobs:
+  daily:
+    runs-on: ubuntu-latest
+    timeout-minutes: 75
+    steps:
+      - uses: actions/checkout@v4
+      - name: ¿Hace falta? (el reintento nocturno no gasta minutos si el episodio de hoy ya salió)
+        id: need
+        run: |
+          today=$(TZ=Europe/Madrid date +%F)
+          if [ "${{ github.event.schedule }}" = "41 21 * * *" ] && grep -q "\"$today\"" finroots/state/last_daily.json 2>/dev/null; then
+            echo "run=false" >> "$GITHUB_OUTPUT"; echo "El episodio de hoy ya salió."
+          else
+            echo "run=true" >> "$GITHUB_OUTPUT"
+          fi
+      - uses: actions/setup-python@v5
+        if: steps.need.outputs.run == 'true'
+        with:
+          python-version: "3.12"
+          cache: pip
+          cache-dependency-path: finroots/requirements.txt
+      - name: Instalar dependencias
+        if: steps.need.outputs.run == 'true'
+        run: |
+          sudo apt-get update -qq && sudo apt-get install -y -qq ffmpeg
+          pip install -r finroots/requirements.txt
+          python -m playwright install --with-deps chromium
+      - name: Comité diario + render + publicación
+        if: steps.need.outputs.run == 'true'
+        env:
+          ANTHROPIC_API_KEY: ${{ secrets.ANTHROPIC_API_KEY }}
+          ELEVENLABS_API_KEY: ${{ secrets.ELEVENLABS_API_KEY }}
+          TIKTOK_CLIENT_KEY: ${{ secrets.TIKTOK_CLIENT_KEY }}
+          TIKTOK_CLIENT_SECRET: ${{ secrets.TIKTOK_CLIENT_SECRET }}
+          TIKTOK_REFRESH_TOKEN: ${{ secrets.TIKTOK_REFRESH_TOKEN }}
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          FINROOTS_NEW_REFRESH_TOKEN_FILE: ${{ runner.temp }}/rt
+        run: |
+          if [ "${{ github.event.schedule }}" = "41 21 * * *" ]; then
+            python -m finroots.cli catchup
+          elif [ "${{ github.event_name }}" = "workflow_dispatch" ] && [ "${{ inputs.publish }}" != "true" ]; then
+            python -m finroots.cli daily --no-publish
+          else
+            python -m finroots.cli daily
+          fi
+      - name: Guardar el vídeo como artefacto
+        if: always()
+        uses: actions/upload-artifact@v4
+        with:
+          name: finroots-${{ github.run_number }}
+          path: |
+            finroots/episodes/*/video.mp4
+            finroots/episodes/*/cover.jpg
+            finroots/episodes/*/reel.html
+            finroots/episodes/*/audio.mp3
+            finroots/episodes/*/caption.txt
+            finroots/episodes/*/script.txt
+          if-no-files-found: ignore
+          retention-days: 30
+      - name: Rotar el token de TikTok si ha cambiado
+        if: always()
+        env:
+          GH_TOKEN: ${{ secrets.GH_PAT }}
+        run: |
+          if [ -s "${{ runner.temp }}/rt" ] && [ -n "$GH_TOKEN" ]; then
+            gh secret set TIKTOK_REFRESH_TOKEN --repo "${{ github.repository }}" < "${{ runner.temp }}/rt"
+            echo "Token de TikTok actualizado"
+          fi
+      - name: Guardar estado, guiones y actas
+        if: always()
+        run: |
+          git config user.name "finroots-bot"
+          git config user.email "finroots-bot@users.noreply.github.com"
+          git add finroots/state finroots/minutes finroots/episodes finroots/reports finroots/PANEL.md finroots/bible.md finroots/config.yaml 2>/dev/null || true
+          git diff --cached --quiet || git commit -m "Finroots: comité diario $(date -u +%F)"
+          for i in 1 2 3 4; do git pull --rebase -q && git push -q && break; sleep $((i*5)); done

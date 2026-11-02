@@ -1,2 +1,9 @@
 __pycache__/
 *.pyc
+.tiktok_refresh_token
+finroots/episodes/*/_work/
+finroots/episodes/*/video.mp4
+finroots/episodes/*/audio.mp3
+finroots/episodes/*/reel.html
+finroots/episodes/*/timeline.json
+finroots/episodes/*/cover.jpg
