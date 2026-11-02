@@ -87,11 +87,18 @@ def _upload(upload_url: str, video: Path, chunk: int, count: int):
             end = size - 1 if i == count - 1 else start + chunk - 1
             f.seek(start)
             body = f.read(end - start + 1)
-            r = requests.put(upload_url, data=body, timeout=300, headers={
-                "Content-Type": "video/mp4", "Content-Length": str(len(body)),
-                "Content-Range": f"bytes {start}-{end}/{size}"})
-            if r.status_code not in (200, 201, 206):
-                raise TikTokError(f"Subida fallida (trozo {i+1}/{count}): HTTP {r.status_code} {r.text[:300]}")
+            last = None
+            for attempt in range(4):
+                r = requests.put(upload_url, data=body, timeout=300, headers={
+                    "Content-Type": "video/mp4", "Content-Range": f"bytes {start}-{end}/{size}"})
+                if r.status_code in (200, 201, 206):
+                    break
+                last = (f"HTTP {r.status_code} {r.text[:300]} "
+                        f"logid={r.headers.get('x-tt-logid') or r.headers.get('X-Tt-Logid')}")
+                print(f"[tiktok] trozo {i+1}/{count} intento {attempt+1}: {last}")
+                time.sleep(10 * (attempt + 1))
+            else:
+                raise TikTokError(f"Subida fallida (trozo {i+1}/{count}): {last}")
 
 
 def publish(video: Path, caption: str, cfg: dict) -> dict:
@@ -100,6 +107,18 @@ def publish(video: Path, caption: str, cfg: dict) -> dict:
     chunk, count = _chunks(size)
     source = {"source": "FILE_UPLOAD", "video_size": size, "chunk_size": chunk, "total_chunk_count": count}
     mode = cfg.get("mode", "draft")
+    last_err = None
+    for attempt in range(3):
+        try:
+            return _publish_once(tok, video, caption, cfg, mode, source, chunk, count)
+        except TikTokError as e:
+            last_err = e
+            print(f"[tiktok] intento de publicación {attempt+1} fallido: {e}")
+            time.sleep(20 * (attempt + 1))
+    raise last_err
+
+
+def _publish_once(tok, video: Path, caption: str, cfg: dict, mode: str, source: dict, chunk: int, count: int) -> dict:
     if mode == "direct":
         info = _post("/v2/post/publish/creator_info/query/", tok)
         opts = info.get("privacy_level_options", [])
