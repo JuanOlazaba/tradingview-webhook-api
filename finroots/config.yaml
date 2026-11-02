@@ -1,0 +1,43 @@
+# Configuración de Finroots (la puede tocar el dueño)
+brand:
+  name: Finroots
+  handle: "@finroots"
+  closing: "Esto ha sido Finroots. El dinero, desde la raíz."
+  disclaimer: "Contenido educativo. No es asesoramiento financiero ni recomendación de inversión. Invertir conlleva riesgos. Cifras ilustrativas. Vídeo creado con ayuda de IA."
+  timezone: Europe/Madrid
+
+models:
+  default: claude-opus-5-5     # cerebro de todos los agentes
+  effort:                      # cuánto piensa cada rol (low | medium | high)
+    ceo: high
+    board: high
+    ideas: medium
+    marketing: medium
+    product: medium
+    studio: high
+    compliance: high
+    it: low
+    operations: low
+
+voice:
+  provider: auto               # auto | elevenlabs | edge | none
+  edge_voice: es-ES-AlvaroNeural
+  edge_rate: "+6%"
+  elevenlabs_voice_id: ""      # pon aquí un voice_id para subir de calidad (requiere ELEVENLABS_API_KEY)
+
+render:
+  fps: 30
+  width: 1080
+  sfx: true
+
+publishing:
+  # draft  = el vídeo llega a la bandeja de TikTok y tú pulsas "publicar" (funciona sin auditoría de TikTok).
+  # direct = se publica solo. Requiere que TikTok apruebe (audite) tu app; antes, solo permite vídeos privados.
+  mode: draft
+  privacy_level: PUBLIC_TO_EVERYONE   # en direct, sin auditoría usa SELF_ONLY
+  ai_generated_label: true
+  dry_run_without_tokens: true        # si faltan credenciales de TikTok, genera el vídeo y no publica
+
+pipeline:
+  max_revisions: 2             # vueltas Estudio ↔ Compliance/IT antes de escalar al CEO
+  board_day: sunday
