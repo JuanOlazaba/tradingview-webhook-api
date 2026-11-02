@@ -101,7 +101,9 @@ def render_episode(ep: dict, outdir: Path, cfg: dict) -> dict:
     work.mkdir(exist_ok=True)
     rcfg = cfg.get("render", {})
     timeline, files = build_timeline(ep, work, cfg.get("voice", {}))
-    wav = audio.build_mix(timeline, ep["scenes"], files, work / "mix.wav", fx_on=rcfg.get("sfx", True))
+    wav = audio.build_mix(timeline, ep["scenes"], files, work / "mix.wav", fx_on=rcfg.get("sfx", True),
+                          music_volume=float(rcfg.get("music_volume", 0.22)), music_duck=float(rcfg.get("music_duck", 0.45)),
+                          music_variant=int(ep.get("number", 0)))
     has_voice = any(files)
     mp3 = outdir / "audio.mp3"
     subprocess.run(["ffmpeg", "-y", "-loglevel", "error", "-i", str(wav), "-b:a", "160k", str(mp3)], check=True)

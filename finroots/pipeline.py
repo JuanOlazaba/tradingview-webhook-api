@@ -52,7 +52,8 @@ def write_episode(m: Meeting, number: int, prev: dict | None) -> dict:
 {{"number":{number},"slug":"","title":"","topic":"","core_idea":"","series":"","characters":[],
 "keywords":["4-6 raíces de palabras clave para resaltar en azul en los subtítulos, en minúscula"],
 "scenes":[{{"type":"<objeto del catálogo>","chapter":"// 01 · el problema","sfx":"<efecto>","voice":"<frase hablada>","params":{{...}}}}]}}
-Reglas: 12–14 escenas, 150–200 palabras de voz en total, la primera escena es el gancho (chapter vacío),
+Reglas: 12–14 escenas, 150–200 palabras de voz en total, la primera escena es el gancho de 3–5 s (chapter vacío,
+UNA pregunta o afirmación contundente de 6–14 palabras),
 la penúltima es options, la última es logo con la frase de marca (params.next = teaser del siguiente).
 Haz bien las cuentas: lo que se dice y lo que se ve debe coincidir."""
     ep = m.say("studio", task, want_json=True)

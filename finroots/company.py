@@ -60,6 +60,9 @@ Todo lo que producís se publica de verdad: sed rigurosos, concretos y honestos.
 # BACKLOG
 {(STATE / 'backlog.md').read_text(encoding='utf-8')}
 
+# GUÍA DE ESTILO DEL DUEÑO (OBLIGATORIA)
+{(ROOT / 'company' / 'owner_style.md').read_text(encoding='utf-8')}
+
 # GOBIERNO: QUÉ PODÉIS HACER SOLOS Y QUÉ NECESITA AL DUEÑO
 {(ROOT / 'governance.md').read_text(encoding='utf-8')}
 

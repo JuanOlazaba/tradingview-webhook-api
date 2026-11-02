@@ -42,13 +42,40 @@ def _speakable(text: str) -> str:
     return text.replace("...", "…")
 
 
+def _pct(v: str) -> int:
+    return int(str(v).replace("%", "").replace("+", "") or 0)
+
+
+def _prosody(sentence: str, i: int, base_rate: int) -> tuple[str, str, float]:
+    """Entonación por frase para que la voz no suene plana: (rate, pitch, pausa_después)."""
+    words = len(sentence.split())
+    s = sentence.strip()
+    if s.endswith("...") or s.endswith("…"):
+        rate, pitch, pause = base_rate - 4, -4, 0.45
+    elif s.endswith("?"):
+        rate, pitch, pause = base_rate + 4, 14, 0.22
+    elif s.endswith("!") or words <= 4:
+        rate, pitch, pause = base_rate + 10, 8, 0.15
+    else:
+        rate, pitch, pause = base_rate + (3 if i % 2 else 0), (4 if i % 2 else 0), 0.12
+    return f"{rate:+d}%", f"{pitch:+d}Hz", pause
+
+
 def tts_edge(text: str, out: Path, voice: str, rate: str) -> tuple[float, list]:
+    """Voz neural gratuita, frase a frase con entonación variada (voz más dinámica)."""
+    import re
     import edge_tts
 
-    async def run():
-        com = edge_tts.Communicate(_speakable(text), voice, rate=rate, boundary="WordBoundary")
+    # Corta por frases (no rompe cifras como 1.500): puntuación final seguida de espacio
+    sentences = [x.strip() for x in re.split(r"(?<=[.?!…])\s+", text.strip()) if x.strip()] or [text]
+    base = _pct(rate)
+    tmpdir = out.parent / (out.stem + "_parts")
+    tmpdir.mkdir(exist_ok=True)
+
+    async def one(sentence: str, path: Path, r: str, p: str):
+        com = edge_tts.Communicate(_speakable(sentence), voice, rate=r, pitch=p, boundary="WordBoundary")
         bounds = []
-        with open(out, "wb") as f:
+        with open(path, "wb") as f:
             async for ch in com.stream():
                 if ch["type"] == "audio":
                     f.write(ch["data"])
@@ -56,9 +83,27 @@ def tts_edge(text: str, out: Path, voice: str, rate: str) -> tuple[float, list]:
                     bounds.append((ch["text"], ch["offset"] / 1e7))
         return bounds
 
-    bounds = asyncio.run(run())
-    dur = _duration(out)
-    return dur, _align(text, bounds, dur)
+    words, parts, t = [], [], 0.0
+    for i, sent in enumerate(sentences):
+        r, p, pause = _prosody(sent, i, base)
+        part = tmpdir / f"p{i:02d}.mp3"
+        bounds = asyncio.run(one(sent, part, r, p))
+        d = _duration(part)
+        words += [(w, t + wt) for w, wt in _align(sent, bounds, d)]
+        parts.append((part, pause))
+        t += d + pause
+    # Une las frases con sus pausas en un único audio
+    inputs, filt = [], []
+    for k, (part, pause) in enumerate(parts):
+        inputs += ["-i", str(part)]
+        filt.append(f"[{k}:a]aresample=44100,apad=pad_dur={pause}[a{k}]")
+    filt.append("".join(f"[a{k}]" for k in range(len(parts))) + f"concat=n={len(parts)}:v=0:a=1[out]")
+    subprocess.run(["ffmpeg", "-y", "-loglevel", "error", *inputs, "-filter_complex", ";".join(filt),
+                    "-map", "[out]", "-b:a", "160k", str(out)], check=True)
+    for part, _ in parts:
+        part.unlink(missing_ok=True)
+    tmpdir.rmdir()
+    return _duration(out), words
 
 
 def _align(text: str, bounds: list, dur: float) -> list[tuple[str, float]]:
@@ -184,7 +229,8 @@ FX = {
 }
 
 
-def build_mix(timeline: dict, scenes: list, voice_files: list, out_wav: Path, fx_on: bool = True, voice_gain: float = 1.0):
+def build_mix(timeline: dict, scenes: list, voice_files: list, out_wav: Path, fx_on: bool = True, voice_gain: float = 1.0,
+              music_volume: float = 0.0, music_duck: float = 0.45, music_variant: int = 0):
     total = timeline["total"]
     buf = np.zeros(int((total + 0.5) * SR), dtype=np.float64)
     tmp = out_wav.with_suffix(".voice.wav")
@@ -197,6 +243,11 @@ def build_mix(timeline: dict, scenes: list, voice_files: list, out_wav: Path, fx
         s0 = int((sc_tl["start"] + sc_tl["lead"]) * SR)
         n = min(len(data), len(buf) - s0)
         buf[s0:s0 + n] += data[:n] * voice_gain
+    if music_volume > 0:
+        from . import music
+        bed = music.generate(len(buf) / SR, music_variant)[: len(buf)]
+        bed = np.pad(bed, (0, len(buf) - len(bed)))
+        buf += music.duck(bed, buf, music_duck) * music_volume
     if fx_on:
         for sc_tl, s in zip(timeline["scenes"], scenes):
             fx = s.get("sfx")
