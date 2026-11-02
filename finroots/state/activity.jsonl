@@ -8,3 +8,4 @@
 {"t": "2026-11-02 12:15 UTC", "kind": "dueño", "summary": "Empresa activada: rama en main y clave de Claude funcionando (primer comité: 0,04 $)."}
 {"t": "2026-11-02 12:15 UTC", "kind": "decisión", "summary": "Ep. 2 corregido según Compliance (6 % hipotético, sin garantías, colchón de emergencia). Nuevo: si Compliance bloquea, el Estudio corrige y se re-revisa solo."}
 {"t": "2026-11-02 14:32 UTC", "kind": "incidencia", "summary": "Ep. 2: No se pudo renovar el token de TikTok: {'error': 'invalid_grant', 'error_description': 'Refresh token is invalid or expired.', 'log_id': '20261102143207A806556075C7C313C8CA'}"}
+{"t": "2026-11-02 15:28 UTC", "kind": "incidencia", "summary": "Ep. 2: Subida fallida (trozo 1/1): HTTP 500 null"}

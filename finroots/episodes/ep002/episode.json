@@ -1,7 +1,7 @@
 {
  "number": 2,
  "slug": "interes-compuesto-lucia-y-marta",
- "title": "Lucía y Marta: mismo ahorro, el doble de dinero",
+ "title": "Lucía y Marta: misma cuota, casi el doble de dinero",
  "topic": "interés compuesto",
  "core_idea": "El dinero que ganas también genera dinero; por eso empezar antes importa más que aportar mucho.",
  "series": "Finanzas en 1 minuto",
@@ -22,15 +22,15 @@
    "type": "display",
    "chapter": "",
    "sfx": "hit",
-   "voice": "Dos amigas ahorran lo mismo cada mes... y una acaba con el doble.",
+   "voice": "Dos amigas ahorran la misma cuota... y una acaba con casi el doble. Ejemplo ilustrativo.",
    "params": {
     "lines": [
      {
-      "text": "Mismo ahorro.",
+      "text": "Misma cuota.",
       "at": 0.1
      },
      {
-      "text": "El doble",
+      "text": "Casi el doble",
       "color": "co",
       "at": 1.6
      },
@@ -40,14 +40,15 @@
       "at": 1.9
      }
     ],
-    "size": "m"
+    "size": "m",
+    "note": "ilustrativo"
    }
   },
   {
    "type": "phone",
    "chapter": "// 01 · el problema",
    "sfx": "ding",
-   "voice": "¿Te acuerdas de Lucía? Ya aparta 150 euros al mes. Pero... ¿qué hace con ellos?",
+   "voice": "¿Te acuerdas de Lucía? Aparta 150 euros al mes. ¿Y luego?",
    "params": {
     "name": "Lucía",
     "label": "cuenta de ahorro",
@@ -71,17 +72,17 @@
     ],
     "notifications": [
      {
-      "title": "Transferencia automática ✓",
+      "title": "Transferencia automática",
       "body": "150 € a tu cuenta de ahorro",
       "at": 1
      },
      {
-      "title": "Transferencia automática ✓",
+      "title": "Transferencia automática",
       "body": "150 € · mes 2",
       "at": 3
      },
      {
-      "title": "Transferencia automática ✓",
+      "title": "Transferencia automática",
       "body": "150 € · mes 3",
       "at": 4.8
      }
@@ -98,7 +99,7 @@
    "type": "drawer",
    "chapter": "// 01 · el problema",
    "sfx": "thud",
-   "voice": "Si los deja en el cajón, ya sabes: la inflación se los come poco a poco.",
+   "voice": "En el cajón, la inflación se los come poco a poco.",
    "params": {
     "amount": 150,
     "note": "lo vimos en el episodio 1",
@@ -109,7 +110,7 @@
    "type": "display",
    "chapter": "// 02 · la idea",
    "sfx": "hit2",
-   "voice": "La alternativa se llama interés compuesto. Si tu dinero genera rentabilidad... esa rentabilidad también puede generar más.",
+   "voice": "La alternativa: el interés compuesto. La rentabilidad que genera tu dinero también puede generar más.",
    "params": {
     "lines": [
      {
@@ -144,7 +145,7 @@
    "type": "snowball",
    "chapter": "// 02 · la idea",
    "sfx": "whoosh",
-   "voice": "Como una bola de nieve: cuanto más rueda, más rápido crece.",
+   "voice": "Como una bola de nieve: cuanto más rueda, más crece.",
    "params": {
     "start_label": "año 1",
     "end_label": "año 40",
@@ -155,7 +156,7 @@
    "type": "piggies",
    "chapter": "// 03 · la historia",
    "sfx": "deal",
-   "voice": "Lucía tiene 25 años y empieza hoy. Su amiga Marta ahorra lo mismo... pero dice: ya empezaré a los 35.",
+   "voice": "Lucía tiene 25 años y empieza hoy. Marta ahorra lo mismo... pero dice: ya empezaré a los 35.",
    "params": {
     "pigs": [
      {
@@ -181,7 +182,7 @@
    "type": "calendar",
    "chapter": "// 03 · la historia",
    "sfx": "tick",
-   "voice": "Pasan los años. Las dos aportan cada mes, sin fallar.",
+   "voice": "Pasan los años. Las dos aportan cada mes.",
    "params": {
     "label": "edad",
     "from": 25,
@@ -194,7 +195,7 @@
    "type": "chart",
    "chapter": "// 03 · la historia",
    "sfx": "rise",
-   "voice": "Imaginemos un 6 por ciento anual, solo como ejemplo y sin garantías. A los 65, Lucía tendría unos 298.000 euros. Marta, unos 150.000.",
+   "voice": "Supongamos un 6 por ciento anual, sin garantías. A los 65, Lucía tendría unos 298.000 euros y Marta unos 150.000, antes de comisiones, impuestos e inflación. Cifras ilustrativas.",
    "params": {
     "series": [
      {
@@ -245,7 +246,7 @@
    "type": "coins",
    "chapter": "// 03 · la historia",
    "sfx": "coins",
-   "voice": "Spoiler: Lucía solo puso 18.000 euros más de su bolsillo. El resto... lo hizo el tiempo.",
+   "voice": "Spoiler: Lucía solo puso 18.000 euros más. El resto... lo hizo el tiempo.",
    "params": {
     "towers": [
      {
@@ -270,7 +271,7 @@
    "type": "counter",
    "chapter": "// 04 · la solución",
    "sfx": "hit",
-   "voice": "Con ese mismo supuesto, Marta tendría que aportar casi el doble cada mes: unos 300 euros.",
+   "voice": "Para igualar a Lucía, Marta tendría que aportar unos 297 euros al mes.",
    "params": {
     "label": "Marta necesitaría",
     "from": 150,
@@ -288,7 +289,7 @@
    "type": "display",
    "chapter": "// 04 · la solución",
    "sfx": "hit2",
-   "voice": "La idea: en este ejemplo, empezar antes pesa más que aportar mucho.",
+   "voice": "La idea: empezar antes pesa más que aportar mucho.",
    "params": {
     "lines": [
      {
@@ -313,27 +314,27 @@
    "type": "levers",
    "chapter": "// 04 · la solución",
    "sfx": "rise",
-   "voice": "Una idea: empieza con poco y automatízalo... siempre que ya tengas tu colchón de emergencia.",
+   "voice": "Mucha gente empieza con poco y lo automatiza, con su colchón de emergencia ya hecho. Cada caso es distinto.",
    "params": {
-    "title": "La idea",
+    "title": "Ideas generales",
     "levers": [
      {
-      "label": "Primero, tu colchón",
+      "label": "Primero, el colchón",
       "sub": "fondo de emergencia",
       "from": 8,
       "to": 40,
       "at": 0.8
      },
      {
-      "label": "Empieza con poco",
-      "sub": "aunque sean 20 €",
+      "label": "Se puede empezar con poco",
+      "sub": "la constancia cuenta",
       "from": 8,
       "to": 70,
       "at": 2.6
      },
      {
-      "label": "Automatízalo",
-      "sub": "el día que cobras",
+      "label": "Automatizar ayuda",
+      "sub": "menos decisiones, más hábito",
       "from": 8,
       "to": 92,
       "at": 4.4
@@ -345,13 +346,14 @@
    "type": "options",
    "chapter": "// 05 · tu turno",
    "sfx": "deal",
-   "voice": "¿Cuándo empezaste a ahorrar? A, antes de los 25. B, entre 25 y 35. C, todavía no. Comenta tu letra.",
+   "voice": "¿Cuándo empezaste a ahorrar? A, antes de los 25. B, entre 25 y 35. C, todavía no.",
    "params": {
     "options": [
      "Antes de los 25",
      "Entre 25 y 35",
      "Todavía no"
-    ]
+    ],
+    "disclaimer": "Contenido educativo · no es asesoramiento financiero · invertir conlleva riesgos · cifras ilustrativas · vídeo creado con IA"
    }
   },
   {

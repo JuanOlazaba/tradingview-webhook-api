@@ -26,7 +26,7 @@
   {
     "number": 2,
     "slug": "interes-compuesto-lucia-y-marta",
-    "title": "Lucía y Marta: mismo ahorro, el doble de dinero",
+    "title": "Lucía y Marta: misma cuota, casi el doble de dinero",
     "topic": "interés compuesto",
     "core_idea": "El dinero que ganas también genera dinero; por eso empezar antes importa más que aportar mucho.",
     "characters": [
@@ -49,6 +49,6 @@
     ],
     "question": "Antes de los 25 / Entre 25 y 35 / Todavía no",
     "status": "rendered",
-    "duration": 107.248
+    "duration": 105.16
   }
 ]

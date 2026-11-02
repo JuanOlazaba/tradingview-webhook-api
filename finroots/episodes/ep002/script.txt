@@ -1,14 +1,14 @@
-[01]   Dos amigas ahorran lo mismo cada mes... y una acaba con el doble.
-[02] // 01 · el problema  ¿Te acuerdas de Lucía? Ya aparta 150 euros al mes. Pero... ¿qué hace con ellos?
-[03] // 01 · el problema  Si los deja en el cajón, ya sabes: la inflación se los come poco a poco.
-[04] // 02 · la idea  La alternativa se llama interés compuesto. Si tu dinero genera rentabilidad... esa rentabilidad también puede generar más.
-[05] // 02 · la idea  Como una bola de nieve: cuanto más rueda, más rápido crece.
-[06] // 03 · la historia  Lucía tiene 25 años y empieza hoy. Su amiga Marta ahorra lo mismo... pero dice: ya empezaré a los 35.
-[07] // 03 · la historia  Pasan los años. Las dos aportan cada mes, sin fallar.
-[08] // 03 · la historia  Imaginemos un 6 por ciento anual, solo como ejemplo y sin garantías. A los 65, Lucía tendría unos 298.000 euros. Marta, unos 150.000.
-[09] // 03 · la historia  Spoiler: Lucía solo puso 18.000 euros más de su bolsillo. El resto... lo hizo el tiempo.
-[10] // 04 · la solución  Con ese mismo supuesto, Marta tendría que aportar casi el doble cada mes: unos 300 euros.
-[11] // 04 · la solución  La idea: en este ejemplo, empezar antes pesa más que aportar mucho.
-[12] // 04 · la solución  Una idea: empieza con poco y automatízalo... siempre que ya tengas tu colchón de emergencia.
-[13] // 05 · tu turno  ¿Cuándo empezaste a ahorrar? A, antes de los 25. B, entre 25 y 35. C, todavía no. Comenta tu letra.
+[01]   Dos amigas ahorran la misma cuota... y una acaba con casi el doble. Ejemplo ilustrativo.
+[02] // 01 · el problema  ¿Te acuerdas de Lucía? Aparta 150 euros al mes. ¿Y luego?
+[03] // 01 · el problema  En el cajón, la inflación se los come poco a poco.
+[04] // 02 · la idea  La alternativa: el interés compuesto. La rentabilidad que genera tu dinero también puede generar más.
+[05] // 02 · la idea  Como una bola de nieve: cuanto más rueda, más crece.
+[06] // 03 · la historia  Lucía tiene 25 años y empieza hoy. Marta ahorra lo mismo... pero dice: ya empezaré a los 35.
+[07] // 03 · la historia  Pasan los años. Las dos aportan cada mes.
+[08] // 03 · la historia  Supongamos un 6 por ciento anual, sin garantías. A los 65, Lucía tendría unos 298.000 euros y Marta unos 150.000, antes de comisiones, impuestos e inflación. Cifras ilustrativas.
+[09] // 03 · la historia  Spoiler: Lucía solo puso 18.000 euros más. El resto... lo hizo el tiempo.
+[10] // 04 · la solución  Para igualar a Lucía, Marta tendría que aportar unos 297 euros al mes.
+[11] // 04 · la solución  La idea: empezar antes pesa más que aportar mucho.
+[12] // 04 · la solución  Mucha gente empieza con poco y lo automatiza, con su colchón de emergencia ya hecho. Cada caso es distinto.
+[13] // 05 · tu turno  ¿Cuándo empezaste a ahorrar? A, antes de los 25. B, entre 25 y 35. C, todavía no.
 [14]   Esto ha sido Finroots. El dinero, desde la raíz.

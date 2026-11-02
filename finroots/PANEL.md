@@ -1,5 +1,5 @@
 # Panel de Finroots
-_Actualizado: 2026-11-02 14:32 UTC · se regenera en cada reunión_
+_Actualizado: 2026-11-02 15:28 UTC · se regenera en cada reunión_
 
 ## Necesita tu sí
 - **Conectar la cuenta de TikTok @finroots** — [responder aquí](https://github.com/JuanOlazaba/tradingview-webhook-api/issues/4) · pedido por IT el 2026-11-02 03:59 UTC
@@ -8,18 +8,19 @@ _Actualizado: 2026-11-02 14:32 UTC · se regenera en cada reunión_
 ## Estado
 - Episodios: 2 · en colchón (listos): 0
 - TikTok: — seguidores · — me gusta · — vídeos
-- Coste de IA: hoy 0.08 $ · este mes 0.08 $ de 20 $ · total 0.08 $
+- Coste de IA: hoy 0.27 $ · este mes 0.27 $ de 20 $ · total 0.27 $
 
 ## Episodios
 | # | Título | Estado |
 |---|---|---|
-| 2 | [Lucía y Marta: mismo ahorro, el doble de dinero](episodes/ep002/script.txt) | renderizado |
+| 2 | [Lucía y Marta: misma cuota, casi el doble de dinero](episodes/ep002/script.txt) | renderizado |
 | 1 | [Tus 100 € en el cajón](episodes/ep001/script.txt) | publicado a mano |
 
 ## Últimas reuniones
 - [2026-11-02-ep002](minutes/2026-11-02-ep002.md)
 
 ## Actividad reciente
+- `2026-11-02 15:28 UTC` **incidencia** — Ep. 2: Subida fallida (trozo 1/1): HTTP 500 null
 - `2026-11-02 14:32 UTC` **incidencia** — Ep. 2: No se pudo renovar el token de TikTok: {'error': 'invalid_grant', 'error_description': 'Refresh token is invalid or expired.', 'log_id': '20261102143207A806556075C7C313C8CA'}
 - `2026-11-02 12:15 UTC` **decisión** — Ep. 2 corregido según Compliance (6 % hipotético, sin garantías, colchón de emergencia). Nuevo: si Compliance bloquea, el Estudio corrige y se re-revisa solo.
 - `2026-11-02 12:15 UTC` **dueño** — Empresa activada: rama en main y clave de Claude funcionando (primer comité: 0,04 $).
