@@ -19,8 +19,16 @@
       "phone",
       "receipt"
     ],
-    "question": "A fin de mes: A) me sobra, B) me falta, C) voy justo",
-    "status": "ready"
+    "question": "Me sobra / Me falta / Voy justo",
+    "status": "sent_to_inbox",
+    "duration": 89.768,
+    "published_at": "2026-11-02T16:10:33.141038Z",
+    "tiktok": {
+      "publish_id": "v_inbox_file~v2.7703606972008122381",
+      "mode": "draft",
+      "status": "SEND_TO_USER_INBOX",
+      "post_ids": null
+    }
   },
   {
     "number": 2,
