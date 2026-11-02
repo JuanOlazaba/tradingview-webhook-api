@@ -1,0 +1,445 @@
+{
+ "number": 1,
+ "slug": "tus-100-euros-en-el-cajon",
+ "title": "Tus 100 € en el cajón",
+ "topic": "margen (introducido por la inflación: qué pasa si no inviertes)",
+ "core_idea": "Antes de gastar, ahorrar o invertir, necesitas margen: lo que entra menos lo que sale. Apártalo el día que cobras.",
+ "series": "Finanzas en 1 minuto",
+ "characters": [
+  "Lucía"
+ ],
+ "keywords": [
+  "inflaci",
+  "margen",
+  "primero",
+  "solo",
+  "palancas",
+  "finroots"
+ ],
+ "scenes": [
+  {
+   "type": "drawer",
+   "chapter": "// 01 · el problema",
+   "sfx": "thud",
+   "voice": "Tienes 100 euros en un cajón.",
+   "params": {
+    "amount": 100
+   },
+   "min_t": 3.2
+  },
+  {
+   "type": "bill_shrink",
+   "chapter": "// 01 · el problema",
+   "sfx": "deflate",
+   "voice": "Dentro de 10 años valdrán como 74... sin haberlos tocado.",
+   "params": {
+    "year_from": 2026,
+    "year_to": 2036,
+    "value_from": 100,
+    "value_to": 74,
+    "note": "ilustrativo · 3 % de inflación anual",
+    "note_at": 2.6
+   },
+   "min_t": 4.2
+  },
+  {
+   "type": "receipt",
+   "chapter": "// 01 · el problema",
+   "sfx": "print",
+   "voice": "Es la inflación: los precios suben un poco cada año, y tu billete compra menos.",
+   "params": {
+    "header": "TICKET",
+    "year_from": 2026,
+    "year_to": 2036,
+    "items": [
+     {
+      "label": "Pan",
+      "from": 1.2,
+      "to": 1.4
+     },
+     {
+      "label": "Leche",
+      "from": 0.95,
+      "to": 1.15
+     },
+     {
+      "label": "Café",
+      "from": 1.5,
+      "to": 1.8
+     }
+    ],
+    "total_from": 3.65,
+    "total_to": 4.35,
+    "note": "precios ilustrativos",
+    "note_at": 1.6
+   },
+   "min_t": 5
+  },
+  {
+   "type": "cards",
+   "chapter": "// 01 · el problema",
+   "sfx": "deal",
+   "voice": "Con tu dinero puedes gastar, ahorrar o invertir. Pero antes, una pregunta.",
+   "params": {
+    "cards": [
+     {
+      "label": "Gastar",
+      "icon": "bag"
+     },
+     {
+      "label": "Ahorrar",
+      "icon": "piggy"
+     },
+     {
+      "label": "Invertir",
+      "icon": "chart"
+     }
+    ],
+    "question": "Pero antes, una pregunta…",
+    "question_at": 3.2
+   },
+   "min_t": 5
+  },
+  {
+   "type": "display",
+   "chapter": "// 02 · el margen",
+   "sfx": "hit",
+   "voice": "¿Cuánto te sobra a fin de mes? Eso es tu margen.",
+   "params": {
+    "lines": [
+     {
+      "text": "Tu",
+      "at": 2.2
+     },
+     {
+      "text": "margen",
+      "color": "co",
+      "at": 2.5
+     }
+    ],
+    "size": "xl",
+    "pills": [
+     {
+      "text": "Lo que entra",
+      "at": 3
+     },
+     {
+      "text": "− lo que sale",
+      "at": 3.3
+     },
+     {
+      "text": "= margen",
+      "dark": true,
+      "at": 3.6
+     }
+    ]
+   },
+   "min_t": 4.6
+  },
+  {
+   "type": "phone",
+   "chapter": "// 02 · el margen",
+   "sfx": "",
+   "voice": "Mira a Lucía. Cobra 1.500. Alquiler, 600. Supermercado, 300. Transporte, 100.",
+   "params": {
+    "name": "Lucía",
+    "balance_steps": [
+     [
+      0,
+      1500
+     ],
+     [
+      2.6,
+      900
+     ],
+     [
+      4.1,
+      600
+     ],
+     [
+      5.6,
+      500
+     ]
+    ],
+    "rows": [
+     {
+      "label": "Nómina",
+      "amount": 1500,
+      "color": "#1f8a5b",
+      "at": 0.8
+     },
+     {
+      "label": "Alquiler",
+      "amount": -600,
+      "color": "#2c4fb5",
+      "at": 2.5
+     },
+     {
+      "label": "Supermercado",
+      "amount": -300,
+      "color": "#b06a2a",
+      "at": 4
+     },
+     {
+      "label": "Transporte",
+      "amount": -100,
+      "color": "#6b6254",
+      "at": 5.5
+     }
+    ],
+    "side": {
+     "label": "gastos fijos",
+     "value": "−1.000 €",
+     "tone": "",
+     "at": 6
+    },
+    "note": "cifras ilustrativas",
+    "note_at": 6.5
+   },
+   "min_t": 7.5
+  },
+  {
+   "type": "phone",
+   "allow_repeat": true,
+   "chapter": "// 02 · el margen",
+   "sfx": "",
+   "voice": "Y luego, los pagos pequeños: una suscripción, una cena, un pedido... 450 en total. Le quedan 50.",
+   "params": {
+    "name": "Lucía",
+    "low": 100,
+    "balance_steps": [
+     [
+      0,
+      500
+     ],
+     [
+      1.2,
+      487
+     ],
+     [
+      1.7,
+      439
+     ],
+     [
+      2.2,
+      413
+     ],
+     [
+      2.7,
+      404
+     ],
+     [
+      3.2,
+      344
+     ],
+     [
+      3.7,
+      340
+     ],
+     [
+      5,
+      50
+     ]
+    ],
+    "rows": [
+     {
+      "label": "Suscripción",
+      "amount": -13,
+      "color": "#8a4fd6",
+      "at": 1.1
+     },
+     {
+      "label": "Cena",
+      "amount": -48,
+      "color": "#e0522f",
+      "at": 1.6
+     },
+     {
+      "label": "Pedido a domicilio",
+      "amount": -26,
+      "color": "#d99a1c",
+      "at": 2.1
+     },
+     {
+      "label": "App",
+      "amount": -9,
+      "color": "#2c4fb5",
+      "at": 2.6
+     },
+     {
+      "label": "Ropa",
+      "amount": -60,
+      "color": "#1f8a5b",
+      "at": 3.1
+     },
+     {
+      "label": "Café",
+      "amount": -4,
+      "color": "#6b6254",
+      "at": 3.6
+     },
+     {
+      "label": "+12 pagos más",
+      "amount": -290,
+      "color": "#15120e",
+      "at": 4.4
+     }
+    ],
+    "side": {
+     "label": "pagos pequeños",
+     "value": "−450 €",
+     "tone": "co",
+     "at": 5.2
+    }
+   },
+   "min_t": 7.5
+  },
+  {
+   "type": "display",
+   "chapter": "// 02 · el margen",
+   "sfx": "hit2",
+   "voice": "Lucía no gana poco. Es que su dinero se va solo.",
+   "params": {
+    "lines": [
+     {
+      "text": "No gana poco.",
+      "at": 0.3
+     },
+     {
+      "text": "Su dinero",
+      "color": "co",
+      "at": 1.9
+     },
+     {
+      "text": "se va solo.",
+      "color": "co",
+      "at": 2.3
+     }
+    ],
+    "size": "m"
+   },
+   "min_t": 5
+  },
+  {
+   "type": "levers",
+   "chapter": "// 03 · la solución",
+   "sfx": "rise",
+   "voice": "Para crear margen hay dos palancas: que entre más, o que salga menos. La segunda la controlas hoy.",
+   "params": {
+    "title": "2 palancas",
+    "levers": [
+     {
+      "label": "Que entre más",
+      "sub": "a medio plazo",
+      "from": 12,
+      "to": 76,
+      "at": 0.6
+     },
+     {
+      "label": "Que salga menos",
+      "sub": "la controlas hoy",
+      "from": 88,
+      "to": 24,
+      "at": 2.4
+     }
+    ]
+   },
+   "min_t": 7
+  },
+  {
+   "type": "phone",
+   "chapter": "// 03 · la solución",
+   "sfx": "ding",
+   "voice": "El truco: apártalo el día que cobras. Una transferencia automática, y listo. Págate a ti primero.",
+   "params": {
+    "name": "Lucía",
+    "label": "para gastar este mes",
+    "balance_steps": [
+     [
+      0,
+      0
+     ],
+     [
+      1.2,
+      1500
+     ],
+     [
+      3.4,
+      1350
+     ]
+    ],
+    "notifications": [
+     {
+      "title": "Nómina recibida",
+      "body": "+1.500 € en tu cuenta",
+      "at": 1
+     },
+     {
+      "title": "Transferencia automática ✓",
+      "body": "150 € a tu cuenta de ahorro",
+      "at": 3.2
+     }
+    ],
+    "side": {
+     "label": "tu margen",
+     "value": "150 € apartados",
+     "tone": "am",
+     "at": 3.8
+    },
+    "note": "ilustrativo · apartar un 10 %",
+    "note_at": 4.4
+   },
+   "min_t": 7.5
+  },
+  {
+   "type": "cards",
+   "chapter": "// 03 · la solución",
+   "sfx": "deal",
+   "voice": "Con margen, ahora sí, puedes decidir.",
+   "params": {
+    "cards": [
+     {
+      "label": "Gastar",
+      "icon": "bag",
+      "lit": true
+     },
+     {
+      "label": "Ahorrar",
+      "icon": "piggy",
+      "lit": true
+     },
+     {
+      "label": "Invertir",
+      "icon": "chart",
+      "lit": true
+     }
+    ]
+   },
+   "min_t": 4
+  },
+  {
+   "type": "options",
+   "chapter": "// 04 · tu turno",
+   "sfx": "",
+   "voice": "Pregunta rápida: a fin de mes, ¿te sobra, te falta o vas justo? Comenta A, B o C.",
+   "params": {
+    "options": [
+     "Me sobra",
+     "Me falta",
+     "Voy justo"
+    ]
+   },
+   "min_t": 6
+  },
+  {
+   "type": "logo",
+   "chapter": "",
+   "sfx": "cling",
+   "voice": "Esto ha sido Finroots. El dinero, desde la raíz.",
+   "params": {
+    "next": "Próximo: ¿qué hace Lucía con sus 150 €?"
+   },
+   "min_t": 4.5
+  }
+ ]
+}
