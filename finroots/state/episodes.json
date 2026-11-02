@@ -48,6 +48,7 @@
       "snowball"
     ],
     "question": "Antes de los 25 / Entre 25 y 35 / Todavía no",
-    "status": "ready"
+    "status": "rendered",
+    "duration": 107.248
   }
 ]

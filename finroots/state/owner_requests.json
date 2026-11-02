@@ -44,5 +44,16 @@
   "issue": 6,
   "url": "https://github.com/JuanOlazaba/tradingview-webhook-api/issues/6",
   "answer": "resuelto: cambios de Compliance aplicados al ep. 2"
+ },
+ {
+  "id": 5,
+  "title": "Incidencia en el episodio 2",
+  "body": "El comité diario no pudo completar el episodio 2:\n\n> No se pudo renovar el token de TikTok: {'error': 'invalid_grant', 'error_description': 'Refresh token is invalid or expired.', 'log_id': '20261102143207A806556075C7C313C8CA'}\n\nIT lo reintentará en la próxima ejecución. Responde solo si quieres dar instrucciones.",
+  "by": "Operaciones",
+  "status": "pending",
+  "apply_on_yes": {},
+  "created": "2026-11-02 14:32 UTC",
+  "issue": 9,
+  "url": "https://github.com/JuanOlazaba/tradingview-webhook-api/issues/9"
  }
 ]
