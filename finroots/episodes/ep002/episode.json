@@ -22,7 +22,7 @@
    "type": "display",
    "chapter": "",
    "sfx": "hit",
-   "voice": "Dos amigas ahorran la misma cuota... y una acaba con casi el doble. Ejemplo ilustrativo.",
+   "voice": "Dos amigas ahorran lo mismo... y una acaba con casi el doble.",
    "params": {
     "lines": [
      {
@@ -41,14 +41,14 @@
      }
     ],
     "size": "m",
-    "note": "ilustrativo"
+    "note": "ejemplo ilustrativo"
    }
   },
   {
    "type": "phone",
    "chapter": "// 01 · el problema",
    "sfx": "ding",
-   "voice": "¿Te acuerdas de Lucía? Aparta 150 euros al mes. ¿Y luego?",
+   "voice": "¿Te acuerdas de Lucía? Ya aparta 150 euros al mes. ¿Y ahora qué?",
    "params": {
     "name": "Lucía",
     "label": "cuenta de ahorro",
@@ -99,7 +99,7 @@
    "type": "drawer",
    "chapter": "// 01 · el problema",
    "sfx": "thud",
-   "voice": "En el cajón, la inflación se los come poco a poco.",
+   "voice": "¿Dejarlos en el cajón? La inflación se los come... poco a poco.",
    "params": {
     "amount": 150,
     "note": "lo vimos en el episodio 1",
@@ -110,7 +110,7 @@
    "type": "display",
    "chapter": "// 02 · la idea",
    "sfx": "hit2",
-   "voice": "La alternativa: el interés compuesto. La rentabilidad que genera tu dinero también puede generar más.",
+   "voice": "La alternativa tiene nombre: interés compuesto. Tu dinero puede generar rentabilidad. Y esa rentabilidad... puede generar más.",
    "params": {
     "lines": [
      {
@@ -145,7 +145,7 @@
    "type": "snowball",
    "chapter": "// 02 · la idea",
    "sfx": "whoosh",
-   "voice": "Como una bola de nieve: cuanto más rueda, más crece.",
+   "voice": "Como una bola de nieve. Cuanto más rueda, más crece.",
    "params": {
     "start_label": "año 1",
     "end_label": "año 40",
@@ -156,7 +156,7 @@
    "type": "piggies",
    "chapter": "// 03 · la historia",
    "sfx": "deal",
-   "voice": "Lucía tiene 25 años y empieza hoy. Marta ahorra lo mismo... pero dice: ya empezaré a los 35.",
+   "voice": "Lucía tiene 25 años y empieza hoy. Marta ahorra lo mismo. Pero dice: ya empezaré a los 35.",
    "params": {
     "pigs": [
      {
@@ -182,7 +182,7 @@
    "type": "calendar",
    "chapter": "// 03 · la historia",
    "sfx": "tick",
-   "voice": "Pasan los años. Las dos aportan cada mes.",
+   "voice": "Pasan los años. Las dos aportan cada mes. Sin fallar.",
    "params": {
     "label": "edad",
     "from": 25,
@@ -195,7 +195,7 @@
    "type": "chart",
    "chapter": "// 03 · la historia",
    "sfx": "rise",
-   "voice": "Supongamos un 6 por ciento anual, sin garantías. A los 65, Lucía tendría unos 298.000 euros y Marta unos 150.000, antes de comisiones, impuestos e inflación. Cifras ilustrativas.",
+   "voice": "Supongamos un 6 por ciento anual. Sin garantías. ¿Resultado a los 65? Lucía, unos 298.000 euros. Marta, unos 150.000. Antes de comisiones, impuestos e inflación.",
    "params": {
     "series": [
      {
@@ -246,7 +246,7 @@
    "type": "coins",
    "chapter": "// 03 · la historia",
    "sfx": "coins",
-   "voice": "Spoiler: Lucía solo puso 18.000 euros más. El resto... lo hizo el tiempo.",
+   "voice": "Pero ojo: Lucía solo puso 18.000 euros más. ¿El resto? Lo hizo el tiempo.",
    "params": {
     "towers": [
      {
@@ -271,7 +271,7 @@
    "type": "counter",
    "chapter": "// 04 · la solución",
    "sfx": "hit",
-   "voice": "Para igualar a Lucía, Marta tendría que aportar unos 297 euros al mes.",
+   "voice": "¿Y Marta? Para igualarla, tendría que aportar unos 297 euros al mes.",
    "params": {
     "label": "Marta necesitaría",
     "from": 150,
@@ -289,7 +289,7 @@
    "type": "display",
    "chapter": "// 04 · la solución",
    "sfx": "hit2",
-   "voice": "La idea: empezar antes pesa más que aportar mucho.",
+   "voice": "En este ejemplo, empezar antes pesa más que aportar mucho.",
    "params": {
     "lines": [
      {
@@ -314,7 +314,7 @@
    "type": "levers",
    "chapter": "// 04 · la solución",
    "sfx": "rise",
-   "voice": "Mucha gente empieza con poco y lo automatiza, con su colchón de emergencia ya hecho. Cada caso es distinto.",
+   "voice": "Mucha gente empieza con poco y lo automatiza. Siempre con su colchón de emergencia hecho. Cada caso es distinto.",
    "params": {
     "title": "Ideas generales",
     "levers": [

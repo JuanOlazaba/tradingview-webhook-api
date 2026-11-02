@@ -1,19 +1,19 @@
 # Panel de Finroots
-_Actualizado: 2026-11-02 17:20 UTC · se regenera en cada reunión_
+_Actualizado: 2026-11-02 17:21 UTC · se regenera en cada reunión_
 
 ## Necesita tu sí
 - **Conectar la cuenta de TikTok @finroots** — [responder aquí](https://github.com/JuanOlazaba/tradingview-webhook-api/issues/4) · pedido por IT el 2026-11-02 03:59 UTC
 - **Incidencia en el episodio 2** — [responder aquí](https://github.com/JuanOlazaba/tradingview-webhook-api/issues/9) · pedido por Operaciones el 2026-11-02 14:32 UTC
 
 ## Estado
-- Episodios: 2 · en colchón (listos): 0
+- Episodios: 2 · en colchón (listos): 1 (2)
 - TikTok: — seguidores · — me gusta · — vídeos
 - Coste de IA: hoy 0.33 $ · este mes 0.33 $ de 20 $ · total 0.33 $
 
 ## Episodios
 | # | Título | Estado |
 |---|---|---|
-| 2 | [Lucía y Marta: misma cuota, casi el doble de dinero](episodes/ep002/script.txt) | en tus borradores de TikTok |
+| 2 | [Lucía y Marta: misma cuota, casi el doble de dinero](episodes/ep002/script.txt) | en colchón |
 | 1 | [Tus 100 € en el cajón](episodes/ep001/script.txt) | en tus borradores de TikTok |
 
 ## Últimas reuniones
@@ -21,6 +21,7 @@ _Actualizado: 2026-11-02 17:20 UTC · se regenera en cada reunión_
 - [2026-11-02-ep001](minutes/2026-11-02-ep001.md)
 
 ## Actividad reciente
+- `2026-11-02 17:21 UTC` **dueño** — Ep. 2 adaptado al nuevo estilo (gancho de 3–5 s, frases cortas, voz dinámica, música, subtítulos grandes) y reenviado. El borrador anterior no se publica.
 - `2026-11-02 17:20 UTC` **dueño** — Guía de estilo del dueño para todos los vídeos nuevos: info centrada, música de fondo audible, subtítulos grandes, gancho de 3–5 s (pregunta o afirmación), voz más dinámica.
 - `2026-11-02 16:10 UTC` **publicación** — Ep. 1: Tus 100 € en el cajón · estado: sent_to_inbox
 - `2026-11-02 15:58 UTC` **decisión** — Por indicación del dueño: el ep. 1 se convierte en vídeo (mismo guion y escenas) y se envía antes que el 2. Orden de publicación: 1, 2, 3...
