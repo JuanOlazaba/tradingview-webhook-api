@@ -1,0 +1,307 @@
+<!doctype html>
+<html lang="es">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+  <title>Jarvis</title>
+  <meta name="theme-color" content="#0b0f17">
+  <link rel="manifest" href="manifest.webmanifest">
+  <link rel="icon" href="icon-192.png">
+  <link rel="apple-touch-icon" href="icon-180.png">
+  <meta name="apple-mobile-web-app-capable" content="yes">
+  <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
+  <meta name="apple-mobile-web-app-title" content="Jarvis">
+  <style>
+    :root {
+      --bg: #0b0f17; --panel: #121826; --line: #1f2937;
+      --text: #e0f2fe; --muted: #8aa0b8; --accent: #38bdf8; --ok: #34d399;
+    }
+    * { box-sizing: border-box; }
+    body {
+      margin: 0; min-height: 100vh; background: var(--bg); color: var(--text);
+      font: 16px/1.5 -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
+      padding: max(16px, env(safe-area-inset-top)) 16px max(24px, env(safe-area-inset-bottom));
+    }
+    main { max-width: 520px; margin: 0 auto; display: grid; gap: 16px; }
+    header { display: flex; align-items: center; gap: 12px; }
+    header img { width: 44px; height: 44px; border-radius: 12px; }
+    h1 { margin: 0; font-size: 22px; letter-spacing: .5px; }
+    .status { font-size: 13px; color: var(--muted); display: flex; align-items: center; gap: 6px; }
+    .dot { width: 8px; height: 8px; border-radius: 50%; background: var(--muted); }
+    .dot.on { background: var(--ok); box-shadow: 0 0 8px var(--ok); }
+    .card { background: var(--panel); border: 1px solid var(--line); border-radius: 16px; padding: 16px; }
+    .label { font-size: 12px; text-transform: uppercase; letter-spacing: 1px; color: var(--muted); }
+    .ticker { font-size: 34px; font-weight: 700; color: var(--accent); margin: 4px 0; word-break: break-word; }
+    .msg { white-space: pre-wrap; word-break: break-word; }
+    .time { font-size: 13px; color: var(--muted); margin-top: 8px; }
+    button {
+      width: 100%; padding: 14px; border-radius: 12px; border: 0; font-size: 16px; font-weight: 600;
+      background: var(--accent); color: #04121c; cursor: pointer;
+    }
+    button.ghost { background: transparent; color: var(--accent); border: 1px solid var(--accent); }
+    .hint { font-size: 14px; color: var(--muted); }
+    .hint b { color: var(--text); }
+    [hidden] { display: none !important; }
+    .mm-title { font-size: 20px; font-weight: 700; margin: 4px 0 2px; }
+    .mm-play { margin-top: 12px; }
+    .mm-status { font-size: 13px; color: var(--muted); margin-top: 8px; min-height: 1em; }
+    .mm-summary { margin: 12px 0 0; padding-left: 20px; }
+    .mm-summary li { margin-bottom: 6px; }
+    details { border-top: 1px solid var(--line); padding: 10px 0; }
+    details:first-of-type { margin-top: 12px; }
+    summary { cursor: pointer; font-weight: 600; color: var(--accent); }
+    details p { white-space: pre-wrap; margin: 8px 0 0; }
+    input {
+      width: 100%; padding: 12px; border-radius: 12px; border: 1px solid var(--line);
+      background: var(--bg); color: var(--text); font-size: 18px; letter-spacing: 2px;
+      text-transform: uppercase; margin: 8px 0;
+    }
+    .error { color: #f87171; font-size: 14px; }
+  </style>
+</head>
+<body>
+<main>
+  <header>
+    <img src="icon-192.png" alt="">
+    <div>
+      <h1>Jarvis</h1>
+      <div class="status"><span class="dot" id="dot"></span><span id="status">Conectando…</span></div>
+    </div>
+  </header>
+
+  <section class="card" id="mm">
+    <div class="label">Morning meeting</div>
+    <div id="mmLogin" hidden>
+      <p class="hint">Escribe tu código de acceso (solo se pide una vez).</p>
+      <input id="pin" autocomplete="off" autocapitalize="characters" placeholder="Código">
+      <button id="pinSave">Entrar</button>
+      <p class="error" id="pinError" hidden>Código incorrecto. Inténtalo de nuevo.</p>
+    </div>
+    <p class="msg" id="mmEmpty" hidden></p>
+    <div id="mmBody" hidden>
+      <div class="mm-title" id="mmTitle"></div>
+      <div class="time" id="mmDate"></div>
+      <button class="mm-play" id="play">▶ Escuchar</button>
+      <div class="mm-status" id="playStatus"></div>
+      <ul class="mm-summary" id="mmSummary"></ul>
+      <div id="mmSections"></div>
+    </div>
+  </section>
+
+  <section class="card" id="alertCard">
+    <div class="label">Última alerta</div>
+    <div class="ticker" id="ticker">—</div>
+    <div class="msg" id="message">Todavía no hay alertas.</div>
+    <div class="time" id="time"></div>
+  </section>
+
+  <button class="ghost" id="refresh">Actualizar</button>
+  <button id="notify" hidden>Activar notificaciones</button>
+
+  <section class="card" id="install">
+    <div class="label">Instalar en el teléfono</div>
+    <button id="installBtn" hidden>Descargar Jarvis</button>
+    <p class="hint" id="iosHint" hidden>
+      En iPhone: toca <b>Compartir</b> (el cuadro con la flecha) y luego
+      <b>Añadir a pantalla de inicio</b>.
+    </p>
+    <p class="hint" id="androidHint">
+      En Android (Chrome): abre el menú <b>⋮</b> y toca <b>Instalar app</b>
+      o <b>Añadir a pantalla de inicio</b>.
+    </p>
+  </section>
+</main>
+
+<script>
+  const API = "/last_alert";
+  const POLL_MS = 15000;
+  const $ = (id) => document.getElementById(id);
+  let lastSeen = null;
+  try { lastSeen = localStorage.getItem("jarvis:lastSeen"); } catch (e) {}
+
+  function setOnline(ok) {
+    $("dot").classList.toggle("on", ok);
+    $("status").textContent = ok ? "En línea · revisa cada 15 s" : "Sin conexión con el servidor";
+  }
+
+  async function check() {
+    try {
+      const res = await fetch(API, { cache: "no-store" });
+      if (!res.ok) throw new Error(res.status);
+      const data = await res.json();
+      setOnline(true);
+      if (!data.has_alert) return;
+      $("ticker").textContent = data.alert;
+      $("message").textContent = data.message;
+      $("time").textContent = "Recibida: " + new Date(data.received_at).toLocaleString();
+      if (lastSeen && data.received_at !== lastSeen) notify(data);
+      lastSeen = data.received_at;
+      try { localStorage.setItem("jarvis:lastSeen", lastSeen); } catch (e) {}
+    } catch (e) {
+      setOnline(false);
+    }
+  }
+
+  async function notify(data) {
+    if (!("Notification" in window) || Notification.permission !== "granted") return;
+    const reg = await navigator.serviceWorker?.getRegistration();
+    const opts = { body: data.message, icon: "icon-192.png", badge: "icon-192.png", tag: "jarvis-alert" };
+    if (reg) reg.showNotification("Jarvis · " + data.alert, opts);
+    else new Notification("Jarvis · " + data.alert, opts);
+  }
+
+  // Notificaciones
+  if ("Notification" in window && Notification.permission === "default") $("notify").hidden = false;
+  $("notify").onclick = async () => {
+    const p = await Notification.requestPermission();
+    $("notify").hidden = p !== "default";
+  };
+
+  // Instalación
+  const isIOS = /iphone|ipad|ipod/i.test(navigator.userAgent);
+  const standalone = matchMedia("(display-mode: standalone)").matches || navigator.standalone;
+  if (standalone) $("install").hidden = true;
+  if (isIOS) { $("iosHint").hidden = false; $("androidHint").hidden = true; }
+  let deferred = null;
+  addEventListener("beforeinstallprompt", (e) => {
+    e.preventDefault(); deferred = e;
+    $("installBtn").hidden = false; $("androidHint").hidden = true;
+  });
+  $("installBtn").onclick = async () => {
+    if (!deferred) return;
+    deferred.prompt();
+    await deferred.userChoice;
+    deferred = null; $("installBtn").hidden = true;
+  };
+  addEventListener("appinstalled", () => { $("install").hidden = true; });
+
+  // ---------- Morning meeting ----------
+  let pin = null, briefing = null, speaking = false;
+  try { pin = localStorage.getItem("jarvis:pin"); } catch (e) {}
+  const audio = new Audio();
+  audio.preload = "none";
+
+  function show(id) {
+    for (const el of ["mmLogin", "mmEmpty", "mmBody"]) $(el).hidden = el !== id;
+  }
+
+  async function loadBriefing() {
+    if (!pin) { show("mmLogin"); return; }
+    try {
+      const res = await fetch("/briefing", { headers: { "X-Jarvis-Key": pin }, cache: "no-store" });
+      if (res.status === 401) {
+        pin = null;
+        try { localStorage.removeItem("jarvis:pin"); } catch (e) {}
+        $("pinError").hidden = false; show("mmLogin"); return;
+      }
+      if (res.status === 503) {
+        $("mmEmpty").textContent = "El servidor todavía no tiene configuradas las claves de Jarvis.";
+        show("mmEmpty"); return;
+      }
+      const data = await res.json();
+      if (!data.has_briefing) {
+        $("mmEmpty").textContent = "Todavía no hay informe. El próximo estará listo a las 8:00.";
+        show("mmEmpty"); return;
+      }
+      if (briefing && briefing.generated_at === data.generated_at) return;
+      briefing = data;
+      renderBriefing();
+    } catch (e) { /* sin red: se reintenta luego */ }
+  }
+
+  function renderBriefing() {
+    $("mmTitle").textContent = briefing.title || "Morning meeting";
+    $("mmDate").textContent = briefing.generated_at
+      ? "Preparado: " + new Date(briefing.generated_at).toLocaleString() : "";
+    const ul = $("mmSummary"); ul.textContent = "";
+    for (const item of briefing.summary || []) {
+      const li = document.createElement("li"); li.textContent = item; ul.appendChild(li);
+    }
+    const box = $("mmSections"); box.textContent = "";
+    for (const sec of briefing.sections || []) {
+      const d = document.createElement("details");
+      const s = document.createElement("summary"); s.textContent = sec.title;
+      const p = document.createElement("p"); p.textContent = sec.text;
+      d.append(s, p); box.appendChild(d);
+    }
+    audio.removeAttribute("src");
+    setPlaying(false);
+    show("mmBody");
+  }
+
+  function setPlaying(on, status) {
+    $("play").textContent = on ? "⏸ Pausar" : "▶ Escuchar";
+    $("playStatus").textContent = status || "";
+  }
+
+  function speechText() {
+    const parts = [briefing.title];
+    for (const s of briefing.sections || []) parts.push(s.title + ".", s.text);
+    if (briefing.closing) parts.push(briefing.closing);
+    return parts.filter(Boolean).join("\n\n");
+  }
+
+  // Voz del teléfono (si el audio del servidor no está disponible)
+  function speakWithPhone() {
+    if (!("speechSynthesis" in window)) { setPlaying(false, "El audio no está disponible ahora."); return; }
+    const voices = speechSynthesis.getVoices().filter((v) => v.lang.startsWith("es"));
+    const voice = voices.find((v) => /US|MX|419/.test(v.lang)) || voices[0];
+    const chunks = speechText().match(/[^.!?\n]+[.!?]*|\n+/g).map((c) => c.trim()).filter(Boolean);
+    speechSynthesis.cancel();
+    speaking = true;
+    chunks.forEach((text, i) => {
+      const u = new SpeechSynthesisUtterance(text);
+      u.lang = voice ? voice.lang : "es-US";
+      if (voice) u.voice = voice;
+      if (i === chunks.length - 1) u.onend = () => { speaking = false; setPlaying(false); };
+      speechSynthesis.speak(u);
+    });
+    setPlaying(true, "Leyendo con la voz del teléfono");
+  }
+
+  $("play").onclick = () => {
+    if (!briefing) return;
+    if (speaking) { speechSynthesis.cancel(); speaking = false; setPlaying(false); return; }
+    if (!audio.paused) { audio.pause(); return; }
+    if (!audio.src) {
+      audio.src = "briefing.mp3?key=" + encodeURIComponent(pin) + "&v=" + encodeURIComponent(briefing.generated_at || "");
+      setPlaying(true, "Preparando audio… (puede tardar un minuto)");
+    }
+    audio.play().catch(() => speakWithPhone());
+    if ("mediaSession" in navigator) {
+      navigator.mediaSession.metadata = new MediaMetadata({
+        title: briefing.title || "Morning meeting", artist: "Jarvis",
+        artwork: [{ src: "icon-512.png", sizes: "512x512", type: "image/png" }],
+      });
+    }
+  };
+  audio.addEventListener("playing", () => setPlaying(true, ""));
+  audio.addEventListener("pause", () => setPlaying(false, ""));
+  audio.addEventListener("ended", () => setPlaying(false, ""));
+  audio.addEventListener("error", () => {
+    if (!audio.getAttribute("src")) return;
+    audio.removeAttribute("src");
+    speakWithPhone();
+  });
+
+  $("pinSave").onclick = () => {
+    const v = $("pin").value.trim().toUpperCase();
+    if (!v) return;
+    pin = v; $("pinError").hidden = true;
+    try { localStorage.setItem("jarvis:pin", pin); } catch (e) {}
+    loadBriefing();
+  };
+
+  loadBriefing();
+  setInterval(loadBriefing, 5 * 60 * 1000);
+  document.addEventListener("visibilitychange", () => { if (!document.hidden) loadBriefing(); });
+
+  if ("serviceWorker" in navigator) navigator.serviceWorker.register("sw.js", { scope: "./" });
+
+  $("refresh").onclick = check;
+  document.addEventListener("visibilitychange", () => { if (!document.hidden) check(); });
+  check();
+  setInterval(check, POLL_MS);
+</script>
+</body>
+</html>
