@@ -51,13 +51,13 @@ def _prosody(sentence: str, i: int, base_rate: int) -> tuple[str, str, float]:
     words = len(sentence.split())
     s = sentence.strip()
     if s.endswith("...") or s.endswith("…"):
-        rate, pitch, pause = base_rate - 4, -4, 0.45
+        rate, pitch, pause = base_rate - 2, -4, 0.30
     elif s.endswith("?"):
-        rate, pitch, pause = base_rate + 4, 14, 0.22
+        rate, pitch, pause = base_rate + 4, 14, 0.12
     elif s.endswith("!") or words <= 4:
-        rate, pitch, pause = base_rate + 10, 8, 0.15
+        rate, pitch, pause = base_rate + 10, 8, 0.06
     else:
-        rate, pitch, pause = base_rate + (3 if i % 2 else 0), (4 if i % 2 else 0), 0.12
+        rate, pitch, pause = base_rate + (3 if i % 2 else 0), (4 if i % 2 else 0), 0.06
     return f"{rate:+d}%", f"{pitch:+d}Hz", pause
 
 
@@ -88,8 +88,16 @@ def tts_edge(text: str, out: Path, voice: str, rate: str) -> tuple[float, list]:
         r, p, pause = _prosody(sent, i, base)
         part = tmpdir / f"p{i:02d}.mp3"
         bounds = asyncio.run(one(sent, part, r, p))
+        # Quita el silencio que el servicio añade al principio y al final de cada frase
+        lead = max(0.0, (bounds[0][1] if bounds else 0.0) - 0.04)
+        trimmed = tmpdir / f"t{i:02d}.wav"
+        subprocess.run(["ffmpeg", "-y", "-loglevel", "error", "-ss", f"{lead:.3f}", "-i", str(part), "-af",
+                        "areverse,silenceremove=start_periods=1:start_threshold=-45dB:start_silence=0.05,areverse",
+                        "-ar", "44100", str(trimmed)], check=True)
+        part.unlink(missing_ok=True)
+        part = trimmed
         d = _duration(part)
-        words += [(w, t + wt) for w, wt in _align(sent, bounds, d)]
+        words += [(w, t + max(0.0, wt - lead)) for w, wt in _align(sent, bounds, d + lead)]
         parts.append((part, pause))
         t += d + pause
     # Une las frases con sus pausas en un único audio

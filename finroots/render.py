@@ -32,7 +32,7 @@ def _fonts_css() -> str:
 
 
 def build_timeline(ep: dict, workdir: Path, voice_cfg: dict) -> tuple[dict, list]:
-    lead, tail, min_dur = 0.25, 0.55, 2.6
+    lead, tail, min_dur = 0.15, 0.35, 2.4
     t = 0.0
     scenes, files = [], []
     for i, s in enumerate(ep["scenes"]):
