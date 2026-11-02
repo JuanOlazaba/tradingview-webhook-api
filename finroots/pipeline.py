@@ -273,7 +273,7 @@ TOPICS = {
     "finanzas": ("Finanzas y costes", ["operations", "product", "it"],
                  "Costes de IA y servicios frente a resultados; previsión de ingresos; dónde gastar o ahorrar."),
     "riesgos": ("Riesgos y cumplimiento", ["compliance", "operations", "marketing"],
-                "Revisión legal del contenido publicado, reputación, normas de TikTok, conflicto con el empleo del dueño."),
+                "Revisión legal del contenido publicado, reputación, normas de TikTok, privacidad del dueño."),
 }
 ORDER = list(TOPICS)
 CONFIG_WHITELIST = {"voice.edge_voice", "voice.edge_rate", "render.fps", "render.sfx"}

@@ -14,4 +14,5 @@ Estilo (no negociable, del prompt maestro):
 - Los números en la voz, escríbelos con cifras (150, 1.500) para que se resalten en coral.
 - Las cifras en pantalla deben coincidir con las de la voz y estar bien calculadas.
 - Última escena: type logo, voice exactamente "Esto ha sido Finroots. El dinero, desde la raíz."
-- Prohibido: emojis, mascota, recomendaciones personalizadas, productos concretos, promesas de rentabilidad.
+- Prohibido: emojis, mascota, recomendaciones personalizadas, productos concretos, promesas de rentabilidad,
+  y cualquier dato personal del dueño.

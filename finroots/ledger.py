@@ -88,7 +88,8 @@ def write_panel():
           f"{' (' + ', '.join(str(e['number']) for e in buffer) + ')' if buffer else ''}",
           f"- TikTok: {user.get('follower_count', '—')} seguidores · {user.get('likes_count', '—')} me gusta · "
           f"{user.get('video_count', '—')} vídeos",
-          f"- Coste de IA: hoy {costs['days'].get(dt.date.today().isoformat(), 0):.2f} $ · 7 días {last7:.2f} $ · total {total:.2f} $",
+          f"- Coste de IA: hoy {costs['days'].get(dt.date.today().isoformat(), 0):.2f} $ · este mes "
+          f"{sum(v for d, v in days if d.startswith(dt.date.today().strftime('%Y-%m'))):.2f} $ de 20 $ · total {total:.2f} $",
           "", "## Episodios", "| # | Título | Estado |", "|---|---|---|"]
     for e in reversed(eps[-15:]):
         L.append(f"| {e['number']} | [{e['title']}](episodes/ep{e['number']:03d}/script.txt) | {status_es.get(e.get('status'), e.get('status'))} |")

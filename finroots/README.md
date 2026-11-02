@@ -71,8 +71,7 @@ Operaciones, Marketing, Producto, IT y al CEO, vota y fija directivas. Te deja u
 
 ## Puesta en marcha (lo que solo puedes hacer tú)
 
-1. **Compliance de tu banco.** Antes de publicar, consulta la norma de actividades externas y guarda
-   la respuesta por escrito (el plan original ya lo marca como paso 1).
+1. **Compliance.** Visto bueno del dueño confirmado (2 nov 2026).
 2. **Clave de Claude.** GitHub → Settings → Secrets and variables → Actions → `ANTHROPIC_API_KEY`.
 3. **App de TikTok**: guía paso a paso en [`CONECTAR_TIKTOK.md`](CONECTAR_TIKTOK.md). Resumen:
    - Crea una app, añade los productos *Login Kit* y *Content Posting API* (activa *Direct Post*).
@@ -94,12 +93,13 @@ Operaciones, Marketing, Producto, IT y al CEO, vota y fija directivas. Te deja u
   publicar en privado (`SELF_ONLY`). Cuando la aprueben, cambia a `direct`.
 
 ## Costes aproximados
-- Claude: unos 2–3 $/día con el comité diario, 3 reuniones a la semana y el consejo del domingo
-  (60–90 $/mes). Se puede ajustar con el cron de `finroots-meetings.yml` o el `effort` en `config.yaml`.
+- Claude: tope de **20 $/mes** (`budget.monthly_usd`), con un gasto previsto de unos 10–15 $/mes.
+  Se usa Haiku 5.5 para casi todo y Sonnet 5.5 solo para el guion y Compliance. Al llegar al tope,
+  la IA se pausa hasta el día 1 y los episodios ya escritos se siguen publicando.
   Puedes bajar el `effort` de los roles en `config.yaml` para abaratarlo.
 - Voz: gratis con edge-tts; ElevenLabs ~5–22 $/mes si quieres más calidad.
-- GitHub Actions: gratis en repos públicos. En privados se usan unos 25–35 min/día, cerca del plan gratuito
-  (2.000 min/mes); el exceso cuesta unos 0,008 $/min.
+- GitHub Actions: 0 €. Se usan unos 800 min/mes, dentro de los 2.000 gratis de un repositorio privado
+  (en uno público no hay límite).
 
 ## Comandos locales
 ```bash

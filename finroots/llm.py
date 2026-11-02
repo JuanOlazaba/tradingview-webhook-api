@@ -30,7 +30,8 @@ def ask(system_blocks: list[dict], user: str, model: str, effort: str = "medium"
         messages=[{"role": "user", "content": user}],
         output_config={"effort": effort},
     )
-    if os.environ.get("FINROOTS_NO_FALLBACK") != "1":
+    # Respaldo del servidor si el modelo rechaza la petición (no existe para Haiku).
+    if os.environ.get("FINROOTS_NO_FALLBACK") != "1" and model.startswith(("claude-opus", "claude-sonnet-5-5", "claude-fable")):
         kwargs.update(betas=["server-side-fallback-2026-07-01"], fallbacks="default")
     try:
         with client().beta.messages.stream(**kwargs) as stream:

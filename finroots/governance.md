@@ -13,7 +13,7 @@ Necesita el SÍ del dueño (abrid una petición con owner_request y seguid con l
 - Crear cuentas nuevas o dar accesos (TikTok, Instagram, YouTube, newsletter, afiliados).
 - Cambiar el modo de publicación (draft → direct), el modelo de IA o la marca/estilo visual.
 - Cualquier acuerdo con terceros: afiliados, patrocinios, colaboraciones.
-- Cualquier tema en el que Compliance tenga dudas legales o que afecte al empleo del dueño.
+- Cualquier tema en el que Compliance tenga dudas legales o que afecte a la privacidad del dueño.
 - Productos de pago a la venta (precio, plataforma de cobro).
 
 Reglas para pedir: una petición por tema, concreta, con la opción recomendada, coste, riesgo y lo

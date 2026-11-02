@@ -83,11 +83,21 @@ def check_budget(cfg: dict, priority: bool):
     p = paused()
     if p:
         raise LimitReached(f"en pausa: {p['reason']} (hasta {p['until'][:16]} UTC)")
-    cap = (cfg.get("budget") or {}).get("daily_usd")
+    budget = cfg.get("budget") or {}
+    costs = STATE / "costs.json"
+    days = json.loads(costs.read_text())["days"] if costs.exists() else {}
+    month = dt.date.today().strftime("%Y-%m")
+    spent_month = sum(v for d, v in days.items() if d.startswith(month))
+    mcap = budget.get("monthly_usd")
+    if mcap and spent_month >= mcap:
+        now = _now()
+        nxt = (now.replace(day=1, hour=0, minute=5, second=0, microsecond=0) + dt.timedelta(days=32)).replace(day=1)
+        pause(f"Presupuesto mensual de IA alcanzado ({spent_month:.2f} $ de {mcap} $)", nxt)
+        raise LimitReached("presupuesto mensual")
+    cap = budget.get("daily_usd")
     if not cap or priority:
         return
-    costs = STATE / "costs.json"
-    spent = json.loads(costs.read_text())["days"].get(dt.date.today().isoformat(), 0) if costs.exists() else 0
+    spent = days.get(dt.date.today().isoformat(), 0)
     if spent >= cap:
         tomorrow = (_now() + dt.timedelta(days=1)).replace(hour=0, minute=5, second=0, microsecond=0)
         pause(f"Presupuesto diario de IA alcanzado ({spent:.2f} $ de {cap} $)", tomorrow)

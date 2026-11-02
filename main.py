@@ -95,3 +95,14 @@ async def privacy():
 async def terms():
     return ("<h1>Finroots · Términos</h1><p>Contenido educativo. No constituye asesoramiento financiero ni "
             "recomendación de inversión. La aplicación es de uso interno de Finroots.</p>")
+
+
+@app.get("/{filename}", include_in_schema=False)
+async def tiktok_domain_verification(filename: str):
+    """Fichero de verificación de dominio de TikTok (si el portal lo pide).
+    Variables en Render: TIKTOK_VERIFY_FILENAME (p. ej. tiktokAbC123.txt) y TIKTOK_VERIFY_CONTENT."""
+    from fastapi import HTTPException
+    from fastapi.responses import PlainTextResponse
+    if filename and filename == os.environ.get("TIKTOK_VERIFY_FILENAME"):
+        return PlainTextResponse(os.environ.get("TIKTOK_VERIFY_CONTENT", ""))
+    raise HTTPException(status_code=404)

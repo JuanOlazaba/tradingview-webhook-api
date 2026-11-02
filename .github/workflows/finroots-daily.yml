@@ -25,17 +25,29 @@ jobs:
     timeout-minutes: 75
     steps:
       - uses: actions/checkout@v4
+      - name: ¿Hace falta? (el reintento nocturno no gasta minutos si el episodio de hoy ya salió)
+        id: need
+        run: |
+          today=$(TZ=Europe/Madrid date +%F)
+          if [ "${{ github.event.schedule }}" = "41 21 * * *" ] && grep -q "\"$today\"" finroots/state/last_daily.json 2>/dev/null; then
+            echo "run=false" >> "$GITHUB_OUTPUT"; echo "El episodio de hoy ya salió."
+          else
+            echo "run=true" >> "$GITHUB_OUTPUT"
+          fi
       - uses: actions/setup-python@v5
+        if: steps.need.outputs.run == 'true'
         with:
           python-version: "3.12"
           cache: pip
           cache-dependency-path: finroots/requirements.txt
       - name: Instalar dependencias
+        if: steps.need.outputs.run == 'true'
         run: |
           sudo apt-get update -qq && sudo apt-get install -y -qq ffmpeg
           pip install -r finroots/requirements.txt
           python -m playwright install --with-deps chromium
       - name: Comité diario + render + publicación
+        if: steps.need.outputs.run == 'true'
         env:
           ANTHROPIC_API_KEY: ${{ secrets.ANTHROPIC_API_KEY }}
           ELEVENLABS_API_KEY: ${{ secrets.ELEVENLABS_API_KEY }}

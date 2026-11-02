@@ -7,15 +7,19 @@ brand:
   timezone: Europe/Madrid
 
 models:
-  default: claude-opus-5-5     # cerebro de todos los agentes
+  # Presupuesto del dueño: 20 $/mes. Modelo económico para casi todo y uno mejor solo
+  # donde más pesa la calidad (guion y revisión legal). Subir cuando haya ingresos.
+  default: claude-haiku-5-5
+  studio_model: claude-sonnet-5-5
+  compliance_model: claude-sonnet-5-5
   effort:                      # cuánto piensa cada rol (low | medium | high)
-    ceo: high
-    board: high
+    ceo: medium
+    board: medium
     ideas: medium
-    marketing: medium
-    product: medium
-    studio: high
-    compliance: high
+    marketing: low
+    product: low
+    studio: medium
+    compliance: medium
     it: low
     operations: low
 
@@ -39,8 +43,11 @@ publishing:
   dry_run_without_tokens: true        # si faltan credenciales de TikTok, genera el vídeo y no publica
 
 budget:
-  # Tope diario de gasto en IA. Al llegar, las reuniones paran hasta mañana (el episodio del día sigue).
-  daily_usd: 10
+  # Tope mensual fijado por el dueño. Al llegar, la IA se pausa hasta el día 1 (los episodios ya
+  # escritos en el colchón se siguen publicando). El tope diario reparte el mes: al llegar, las
+  # reuniones paran hasta mañana; el episodio del día sigue.
+  monthly_usd: 20
+  daily_usd: 1.0
 
 pipeline:
   max_revisions: 2             # vueltas Estudio ↔ Compliance/IT antes de escalar al CEO

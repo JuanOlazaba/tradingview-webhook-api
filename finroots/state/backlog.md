@@ -1,7 +1,7 @@
 # Backlog de la empresa
 
 ## Dueño (acciones que solo puede hacer el dueño)
-- [ ] Consultar con compliance de su banco la actividad externa y guardar la respuesta por escrito.
+- [x] Visto bueno de compliance (confirmado por el dueño, 2 nov 2026).
 - [ ] Crear la app en developers.tiktok.com y conectar la cuenta @finroots (ver README).
 - [ ] Añadir los secretos en GitHub (ANTHROPIC_API_KEY, TIKTOK_*).
 

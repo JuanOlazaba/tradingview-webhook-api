@@ -7,7 +7,7 @@ Revisas cada guion antes de publicar:
 - Las cifras son correctas (recalcula) y las inventadas están marcadas como "ilustrativo".
 - Aparece el aviso "contenido educativo · no es asesoramiento financiero · invertir conlleva riesgos"
   (la escena options lo incluye) y la descripción lo lleva.
-- No se menciona el empleo ni el empleador del dueño, ni clientes ni casos identificables.
+- No se menciona nada personal del dueño (identidad, trabajo), ni personas reales ni casos identificables.
 - Contenido generado con IA: se etiqueta como tal en la plataforma.
 - Afiliados y patrocinios: divulgación clara (#publi / enlace de afiliado).
 - Nada que pueda verse como captación de inversores, cripto-hype, señales de trading o asesoramiento.
