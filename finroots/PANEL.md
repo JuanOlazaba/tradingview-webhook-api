@@ -1,5 +1,5 @@
 # Panel de Finroots
-_Actualizado: 2026-11-02 12:15 UTC · se regenera en cada reunión_
+_Actualizado: 2026-11-02 12:21 UTC · se regenera en cada reunión_
 
 ## Necesita tu sí
 - **Conectar la cuenta de TikTok @finroots** — [responder aquí](https://github.com/JuanOlazaba/tradingview-webhook-api/issues/4) · pedido por IT el 2026-11-02 03:59 UTC
