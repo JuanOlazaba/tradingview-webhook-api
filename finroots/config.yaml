@@ -26,13 +26,15 @@ models:
 voice:
   provider: auto               # auto | elevenlabs | edge | none
   edge_voice: es-ES-AlvaroNeural
-  edge_rate: "+6%"
+  edge_rate: "+10%"   # base; cada frase varía ritmo y tono para sonar más dinámica
   elevenlabs_voice_id: ""      # pon aquí un voice_id para subir de calidad (requiere ELEVENLABS_API_KEY)
 
 render:
   fps: 30
   width: 1080
   sfx: true
+  music_volume: 0.22         # música de fondo (0 = sin música). El dueño la quiere audible.
+  music_duck: 0.45           # cuánto baja la música mientras habla la voz (0–1)
 
 publishing:
   # draft  = el vídeo llega a la bandeja de TikTok y tú pulsas "publicar" (funciona sin auditoría de TikTok).

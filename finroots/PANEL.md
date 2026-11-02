@@ -1,5 +1,5 @@
 # Panel de Finroots
-_Actualizado: 2026-11-02 16:10 UTC · se regenera en cada reunión_
+_Actualizado: 2026-11-02 17:20 UTC · se regenera en cada reunión_
 
 ## Necesita tu sí
 - **Conectar la cuenta de TikTok @finroots** — [responder aquí](https://github.com/JuanOlazaba/tradingview-webhook-api/issues/4) · pedido por IT el 2026-11-02 03:59 UTC
@@ -21,6 +21,7 @@ _Actualizado: 2026-11-02 16:10 UTC · se regenera en cada reunión_
 - [2026-11-02-ep001](minutes/2026-11-02-ep001.md)
 
 ## Actividad reciente
+- `2026-11-02 17:20 UTC` **dueño** — Guía de estilo del dueño para todos los vídeos nuevos: info centrada, música de fondo audible, subtítulos grandes, gancho de 3–5 s (pregunta o afirmación), voz más dinámica.
 - `2026-11-02 16:10 UTC` **publicación** — Ep. 1: Tus 100 € en el cajón · estado: sent_to_inbox
 - `2026-11-02 15:58 UTC` **decisión** — Por indicación del dueño: el ep. 1 se convierte en vídeo (mismo guion y escenas) y se envía antes que el 2. Orden de publicación: 1, 2, 3...
 - `2026-11-02 15:53 UTC` **publicación** — Ep. 2: Lucía y Marta: misma cuota, casi el doble de dinero · estado: sent_to_inbox

@@ -65,6 +65,12 @@ def validate(ep: dict) -> list[str]:
             errs.append(f"escena {i+1}: params debe ser un objeto")
         prev = t
         words += len(str(s.get("voice", "")).split())
+    hook = str(scenes[0].get("voice", "")).strip()
+    hw = len(hook.split())
+    if not (6 <= hw <= 14) or not hook.endswith(("?", ".", "!")):
+        errs.append(f"el gancho (escena 1) debe ser UNA pregunta o afirmación de 6–14 palabras (3–5 s); tiene {hw}")
+    elif sum(hook.count(c) for c in ".?!") - hook.count("...") * 3 > 1:
+        errs.append("el gancho (escena 1) debe ser una sola frase")
     if scenes and scenes[-1].get("type") != "logo":
         errs.append("la última escena debe ser 'logo'")
     if not any(s.get("type") == "options" for s in scenes):
