@@ -35,8 +35,24 @@ def write_episode(m: Meeting, number: int, prev: dict | None) -> dict:
     cfg = m.cfg
     m.note("operations", f"Hoy toca el episodio {number}. Último publicado: "
                          f"{(prev or {}).get('title', 'ninguno')}. Objetivo: 1 reel de 55–75 s listo para publicar.")
+    # Continuidad: adelantos que dejaron los episodios anteriores y temas recientes que no se deben repetir
+    teasers, recent = [], []
+    for k in range(max(1, number - 4), number):
+        f = _ep_dir(k) / "episode.json"
+        if f.exists():
+            e = json.loads(f.read_text(encoding="utf-8"))
+            recent.append(f"ep. {k}: {e.get('topic')} — {e.get('core_idea')}")
+            nxt = next((s.get("params", {}).get("next") for s in e.get("scenes", []) if s.get("type") == "logo"), None)
+            if nxt:
+                teasers.append(f"ep. {k} prometió: {nxt}")
+    cont = ("TEMAS YA CONTADOS (no los repitas como tema principal):\n- " + "\n- ".join(recent) +
+            "\nADELANTOS PENDIENTES (el más reciente que siga sin responderse es OBLIGATORIO como tema):\n- " +
+            ("\n- ".join(teasers) or "ninguno") +
+            "\nRespeta la situación actual de los personajes según la biblia y los episodios (p. ej. Lucía ya "
+            "aparta 150 €/mes y ya entiende inflación e interés compuesto).")
+    m.note("operations", cont)
     m.say("ideas", f"""Propón 3 fichas para el episodio {number} que continúen la trama de la biblia
-(siguiente paso lógico tras el episodio anterior). Formato JSON:
+(siguiente paso lógico tras el episodio anterior, respondiendo al adelanto pendiente). Formato JSON:
 {{"proposals":[{{"topic":"","core_idea":"una frase","character":"personaje y situación concreta",
 "figures":"cifras ilustrativas con el cálculo","objects":["3+ objetos del catálogo, al menos 1 no usado en el ep. anterior"],
 "hook":"primer fotograma","question":"pregunta con A/B/C","teaser_next":"pregunta que deja para el siguiente"}}]}}""",

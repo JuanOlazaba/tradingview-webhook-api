@@ -34,3 +34,11 @@ y deja una pregunta abierta para el siguiente.
 - Lucía ya aparta 150 €/mes desde el ep. 1. Las cifras de los personajes no se contradicen entre episodios.
 - Las cifras son ilustrativas y se marcan como tales.
 - Series con nombre: "Finanzas en 1 minuto" (bloques 1–3) y "Alternativos sin humo" (bloques 4–6).
+
+
+## Lo ocurrido hasta ahora (actualizar cada episodio)
+- Ep. 1: Lucía descubre la inflación y crea margen: aparta 150 €/mes el día que cobra.
+- Ep. 2: Lucía (25) y Marta (35): interés compuesto; empezar antes pesa más. Adelanto: "¿y dónde se invierte eso?".
+- Ep. 3: repaso de inflación con el colchón de Lucía (episodio puente; no volver a la inflación como tema principal).
+- Siguiente paso de la trama: responder "¿dónde se invierte?" empezando por ordenar el dinero por objetivos
+  (fondo de emergencia → ahorro a corto plazo → inversión a largo plazo), y después renta fija vs variable.
