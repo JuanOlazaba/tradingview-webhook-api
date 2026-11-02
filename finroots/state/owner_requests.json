@@ -6,7 +6,9 @@
   "by": "IT",
   "status": "pending",
   "apply_on_yes": {},
-  "created": "2026-11-02 03:59 UTC"
+  "created": "2026-11-02 03:59 UTC",
+  "issue": 4,
+  "url": "https://github.com/JuanOlazaba/tradingview-webhook-api/issues/4"
  },
  {
   "id": 2,
@@ -15,7 +17,9 @@
   "by": "CEO",
   "status": "pending",
   "apply_on_yes": {},
-  "created": "2026-11-02 03:59 UTC"
+  "created": "2026-11-02 03:59 UTC",
+  "issue": 5,
+  "url": "https://github.com/JuanOlazaba/tradingview-webhook-api/issues/5"
  },
  {
   "id": 3,
@@ -27,5 +31,16 @@
   "created": "2026-11-02 03:59 UTC",
   "answer": "sí (confirmado por el dueño en el chat)",
   "answered": "2026-11-02"
+ },
+ {
+  "id": 4,
+  "title": "Incidencia en el episodio 2",
+  "body": "El comité diario no pudo completar el episodio 2:\n\n> Compliance bloquea el episodio: [{\"escena\": \"03 · la historia\", \"texto\": \"A los 65, con un 6 por ciento anual... Lucía tiene unos 298.000 euros. Marta, unos 150.000.\", \"problema\": \"Las cifras son correctas. Recalculado con 150 €/mes, 6 % nominal anual capitalizado mensualmente: 40 años dan unos 298.700 € y 30 años unos 150.700 €. Pero el 6 % no se marca como hipótesis ilustrativa. Tampoco se dice que no está garantizado ni que no incluye comisiones, impuestos ni inflación. Así puede leerse como promesa de rentabilidad.\", \"cambio\": \"«Imaginemos, solo como ejemplo ilustrativo, un 6 % anual constante. No está garantizado, y no cuenta comisiones, impuestos ni inflación. Con eso, Lucía llegaría a unos 298.000 euros a los 65. Marta, a unos 150.000.»\", \"extra\": \"Si el objeto de pantalla (chart, c\n\nIT lo reintentará en la próxima ejecución. Responde solo si quieres dar instrucciones.",
+  "by": "Operaciones",
+  "status": "pending",
+  "apply_on_yes": {},
+  "created": "2026-11-02 11:43 UTC",
+  "issue": 6,
+  "url": "https://github.com/JuanOlazaba/tradingview-webhook-api/issues/6"
  }
 ]
