@@ -64,5 +64,37 @@
       "status": "SEND_TO_USER_INBOX",
       "post_ids": null
     }
+  },
+  {
+    "number": 3,
+    "slug": "inflacion-enemigo-silencioso",
+    "title": "Tu dinero quieto pierde valor en silencio",
+    "topic": "Inflación: el enemigo silencioso del ahorro parado",
+    "core_idea": "Si el dinero se queda quieto, la inflación se lo come cada año aunque la cifra del saldo no cambie.",
+    "characters": [
+      "Lucía"
+    ],
+    "objects": [
+      "bill_shrink",
+      "cards",
+      "counter",
+      "display",
+      "drawer",
+      "levers",
+      "logo",
+      "options",
+      "phone",
+      "receipt"
+    ],
+    "question": "Dejarlo quieto / Informarme sobre opciones que rindan algo / Gastarlo ya",
+    "status": "sent_to_inbox",
+    "duration": 67.783,
+    "published_at": "2026-11-02T19:31:11.664679Z",
+    "tiktok": {
+      "publish_id": "v_inbox_file~v2.7703658701752223758",
+      "mode": "draft",
+      "status": "SEND_TO_USER_INBOX",
+      "post_ids": null
+    }
   }
 ]

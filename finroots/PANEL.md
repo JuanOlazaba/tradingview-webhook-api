@@ -1,26 +1,29 @@
 # Panel de Finroots
-_Actualizado: 2026-11-02 18:16 UTC · se regenera en cada reunión_
+_Actualizado: 2026-11-02 19:31 UTC · se regenera en cada reunión_
 
 ## Necesita tu sí
 - **Conectar la cuenta de TikTok @finroots** — [responder aquí](https://github.com/JuanOlazaba/tradingview-webhook-api/issues/4) · pedido por IT el 2026-11-02 03:59 UTC
 - **Incidencia en el episodio 2** — [responder aquí](https://github.com/JuanOlazaba/tradingview-webhook-api/issues/9) · pedido por Operaciones el 2026-11-02 14:32 UTC
 
 ## Estado
-- Episodios: 2 · en colchón (listos): 0
+- Episodios: 3 · en colchón (listos): 0
 - TikTok: — seguidores · — me gusta · — vídeos
-- Coste de IA: hoy 0.44 $ · este mes 0.44 $ de 20 $ · total 0.44 $
+- Coste de IA: hoy 0.74 $ · este mes 0.74 $ de 20 $ · total 0.74 $
 
 ## Episodios
 | # | Título | Estado |
 |---|---|---|
+| 3 | [Tu dinero quieto pierde valor en silencio](episodes/ep003/script.txt) | en tus borradores de TikTok |
 | 2 | [Lucía y Marta: misma cuota, casi el doble de dinero](episodes/ep002/script.txt) | en tus borradores de TikTok |
 | 1 | [Tus 100 € en el cajón](episodes/ep001/script.txt) | publicado |
 
 ## Últimas reuniones
+- [2026-11-02-ep003](minutes/2026-11-02-ep003.md)
 - [2026-11-02-ep002](minutes/2026-11-02-ep002.md)
 - [2026-11-02-ep001](minutes/2026-11-02-ep001.md)
 
 ## Actividad reciente
+- `2026-11-02 19:31 UTC` **publicación** — Ep. 3: Tu dinero quieto pierde valor en silencio · estado: sent_to_inbox
 - `2026-11-02 18:16 UTC` **publicación** — Ep. 2: Lucía y Marta: misma cuota, casi el doble de dinero · estado: sent_to_inbox
 - `2026-11-02 18:04 UTC` **incidencia** — Ep. 2 salió de 2:03 por silencios entre frases de la voz dinámica. Corregido (recorte de silencios, pausas más cortas) y reenviado; el borrador de 2:03 no se publica.
 - `2026-11-02 18:04 UTC` **dueño** — Ep. 1 publicado en TikTok por el dueño.
@@ -40,7 +43,6 @@ _Actualizado: 2026-11-02 18:16 UTC · se regenera en cada reunión_
 - `2026-11-02 11:20 UTC` **dueño** — Compliance: aprobado. Usuario de TikTok confirmado: finroots. Episodio 2 aprobado.
 - `2026-11-02 04:03 UTC` **decisión** — Por indicación del dueño: reuniones de mejora reducidas a 3 por semana (lunes, miércoles y viernes) para no agotar límites. Comité diario y consejo del domingo se mantienen.
 - `2026-11-02 03:59 UTC` **episodio** — Ep. 2 escrito (Lucía y Marta, interés compuesto) y en colchón; se renderiza con voz en la primera ejecución.
-- `2026-11-02 03:59 UTC` **arranque** — Empresa montada: 9 agentes, comité diario, reuniones de mejora cada 4 h, consejo semanal, panel y registro.
 
 ## Directivas del consejo
 _(Las actualiza el consejo cada semana. Primera sesión pendiente.)_

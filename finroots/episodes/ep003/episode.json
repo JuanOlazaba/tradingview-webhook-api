@@ -1,0 +1,282 @@
+{
+ "number": 3,
+ "slug": "inflacion-enemigo-silencioso",
+ "title": "Tu dinero quieto pierde valor en silencio",
+ "topic": "Inflación: el enemigo silencioso del ahorro parado",
+ "core_idea": "Si el dinero se queda quieto, la inflación se lo come cada año aunque la cifra del saldo no cambie.",
+ "series": "Finanzas en 1 minuto",
+ "characters": [
+  "Lucía"
+ ],
+ "keywords": [
+  "inflaci",
+  "poder",
+  "compra",
+  "preci",
+  "ahorr",
+  "silencio"
+ ],
+ "scenes": [
+  {
+   "type": "display",
+   "chapter": "",
+   "sfx": "hit",
+   "voice": "Tu dinero quieto pierde valor cada año, en silencio.",
+   "params": {
+    "lines": [
+     {
+      "text": "TU DINERO",
+      "at": 0
+     },
+     {
+      "text": "PIERDE VALOR",
+      "color": "co",
+      "at": 1.2
+     },
+     {
+      "text": "EN SILENCIO",
+      "at": 2.4
+     }
+    ],
+    "size": "xl"
+   }
+  },
+  {
+   "type": "drawer",
+   "chapter": "// 01 · el problema",
+   "sfx": "thud",
+   "voice": "Lucía aparta 150 € al mes en su cajón. Buen hábito... ¿pero basta?",
+   "params": {
+    "amount": 150,
+    "currency": "€",
+    "note": "Lucía, personaje ficticio. Cifras ilustrativas"
+   }
+  },
+  {
+   "type": "bill_shrink",
+   "chapter": "// 01 · el problema",
+   "sfx": "deflate",
+   "voice": "Ejemplo ilustrativo: 1.000 € quietos durante 10 años, con una inflación del 3 % anual...",
+   "params": {
+    "year_from": 2026,
+    "year_to": 2036,
+    "value_from": 1000,
+    "value_to": 744,
+    "note": "Ilustrativo: inflación del 3 % anual. 1.000 / 1,03^10 ≈ 744 €. No es una previsión. Cifras ilustrativas"
+   }
+  },
+  {
+   "type": "counter",
+   "chapter": "// 01 · el problema",
+   "sfx": "tick",
+   "voice": "Valen como 744 € de hoy. Pierdes unos 256 € de poder de compra... y el saldo sigue igual.",
+   "params": {
+    "label": "Poder de compra perdido",
+    "from": 0,
+    "to": 256,
+    "suffix": " €",
+    "color": "co",
+    "sub": "1.000 € - 744 € = 256 €",
+    "note": "Ilustrativo: 10 años al 3 % anual. Cifras ilustrativas"
+   }
+  },
+  {
+   "type": "display",
+   "chapter": "// 02 · la idea",
+   "sfx": "hit2",
+   "voice": "Eso es la inflación: los precios suben, y tu dinero compra menos.",
+   "params": {
+    "lines": [
+     {
+      "text": "INFLACIÓN",
+      "color": "co",
+      "at": 0
+     },
+     {
+      "text": "PRECIOS ARRIBA",
+      "at": 1.5
+     },
+     {
+      "text": "COMPRAS MENOS",
+      "color": "bl",
+      "at": 3
+     }
+    ],
+    "size": "xl"
+   }
+  },
+  {
+   "type": "receipt",
+   "chapter": "// 03 · la historia de Lucía",
+   "sfx": "print",
+   "voice": "Mira el ticket de Lucía. Con un 3 % anual, una cesta de 100 € costaría unos 134 €.",
+   "params": {
+    "header": "CESTA DE LUCÍA",
+    "year_from": 2026,
+    "year_to": 2036,
+    "items": [
+     {
+      "label": "Compra semanal",
+      "from": 45,
+      "to": 60
+     },
+     {
+      "label": "Luz y gas",
+      "from": 35,
+      "to": 47
+     },
+     {
+      "label": "Transporte",
+      "from": 20,
+      "to": 27
+     }
+    ],
+    "total_from": 100,
+    "total_to": 134,
+    "note": "Ilustrativo e hipotético: 100 × 1,03^10 ≈ 134 € (desglose redondeado). No es una previsión. Cifras ilustrativas"
+   }
+  },
+  {
+   "type": "phone",
+   "chapter": "// 03 · la historia de Lucía",
+   "sfx": "ding",
+   "voice": "Pero ojo: en este ejemplo, su app sigue mostrando 1.000 €. Lo que compra, no.",
+   "params": {
+    "name": "Lucía",
+    "label": "Ejemplo: 1.000 € quietos",
+    "balance_steps": [
+     [
+      0,
+      1000
+     ],
+     [
+      4,
+      1000
+     ]
+    ],
+    "notifications": [
+     {
+      "title": "Saldo",
+      "body": "Sigue igual: 1.000 €",
+      "at": 1
+     }
+    ],
+    "side": {
+     "label": "Poder de compra",
+     "value": "744 €",
+     "tone": "co",
+     "at": 2.5
+    },
+    "note": "Ilustrativo: a 10 años con inflación del 3 %. Ejemplo aparte de los 150 € mensuales. Cifras ilustrativas"
+   }
+  },
+  {
+   "type": "cards",
+   "chapter": "// 04 · la solución",
+   "sfx": "deal",
+   "voice": "Spoiler: no todo tu dinero tiene el mismo objetivo. Unos euros dan seguridad; otros buscan crecer, con riesgo.",
+   "params": {
+    "cards": [
+     {
+      "label": "Colchón",
+      "icon": "shield",
+      "lit": true
+     },
+     {
+      "label": "Dinero quieto",
+      "icon": "clock"
+     },
+     {
+      "label": "Dinero con objetivo",
+      "icon": "chart"
+     }
+    ],
+    "question": "¿Cada euro, con su objetivo?",
+    "question_at": 2.5
+   }
+  },
+  {
+   "type": "levers",
+   "chapter": "// 04 · la solución",
+   "sfx": "whoosh",
+   "voice": "La clave: compara lo que rinde tu ahorro con la inflación. Sin garantías.",
+   "params": {
+    "title": "Rendimiento vs inflación",
+    "levers": [
+     {
+      "label": "Inflación",
+      "sub": "3 % anual",
+      "from": 30,
+      "to": 30
+     },
+     {
+      "label": "Rendimiento de tu ahorro",
+      "sub": "si no alcanza la inflación, pierdes poder de compra",
+      "from": 0,
+      "to": 30
+     }
+    ],
+    "note": "Ilustrativo. Ninguna rentabilidad está garantizada. Cifras ilustrativas"
+   }
+  },
+  {
+   "type": "drawer",
+   "chapter": "// 04 · la solución",
+   "sfx": "coins",
+   "voice": "Lucía sigue apartando 150 €. Y ahora también se fija en qué pasa con ellos.",
+   "params": {
+    "amount": 150,
+    "currency": "€",
+    "note": "Cifras ilustrativas"
+   }
+  },
+  {
+   "type": "display",
+   "chapter": "// 04 · la solución",
+   "sfx": "rise",
+   "voice": "Ahorrar es el principio. Entender la inflación, el siguiente paso.",
+   "params": {
+    "lines": [
+     {
+      "text": "AHORRAR",
+      "at": 0
+     },
+     {
+      "text": "ES EL PRINCIPIO",
+      "color": "co",
+      "at": 1.3
+     }
+    ],
+    "size": "xl",
+    "pills": [
+     {
+      "text": "Cifras ilustrativas"
+     }
+    ]
+   }
+  },
+  {
+   "type": "options",
+   "chapter": "// 05 · tu turno",
+   "sfx": "pop",
+   "voice": "Si la inflación fuera del 3 %, ¿qué harías con tu colchón? Cuéntalo en comentarios.",
+   "params": {
+    "options": [
+     "Dejarlo quieto",
+     "Informarme sobre opciones que rindan algo",
+     "Gastarlo ya"
+    ],
+    "disclaimer": "Contenido educativo. No es asesoramiento financiero ni recomendación de inversión. Invertir conlleva riesgos. Cifras ilustrativas. Vídeo creado con ayuda de IA."
+   }
+  },
+  {
+   "type": "logo",
+   "chapter": "",
+   "sfx": "cling",
+   "voice": "Esto ha sido Finroots. El dinero, desde la raíz.",
+   "params": {
+    "next": "¿Cuánto colchón necesita Lucía antes de pensar en invertir? El fondo de emergencia."
+   }
+  }
+ ]
+}

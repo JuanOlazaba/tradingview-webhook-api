@@ -1,0 +1,13 @@
+[01]   Tu dinero quieto pierde valor cada año, en silencio.
+[02] // 01 · el problema  Lucía aparta 150 € al mes en su cajón. Buen hábito... ¿pero basta?
+[03] // 01 · el problema  Ejemplo ilustrativo: 1.000 € quietos durante 10 años, con una inflación del 3 % anual...
+[04] // 01 · el problema  Valen como 744 € de hoy. Pierdes unos 256 € de poder de compra... y el saldo sigue igual.
+[05] // 02 · la idea  Eso es la inflación: los precios suben, y tu dinero compra menos.
+[06] // 03 · la historia de Lucía  Mira el ticket de Lucía. Con un 3 % anual, una cesta de 100 € costaría unos 134 €.
+[07] // 03 · la historia de Lucía  Pero ojo: en este ejemplo, su app sigue mostrando 1.000 €. Lo que compra, no.
+[08] // 04 · la solución  Spoiler: no todo tu dinero tiene el mismo objetivo. Unos euros dan seguridad; otros buscan crecer, con riesgo.
+[09] // 04 · la solución  La clave: compara lo que rinde tu ahorro con la inflación. Sin garantías.
+[10] // 04 · la solución  Lucía sigue apartando 150 €. Y ahora también se fija en qué pasa con ellos.
+[11] // 04 · la solución  Ahorrar es el principio. Entender la inflación, el siguiente paso.
+[12] // 05 · tu turno  Si la inflación fuera del 3 %, ¿qué harías con tu colchón? Cuéntalo en comentarios.
+[13]   Esto ha sido Finroots. El dinero, desde la raíz.

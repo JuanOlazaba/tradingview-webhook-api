@@ -1,10 +1,14 @@
 {
  "days": {
-  "2026-11-02": 0.4413
+  "2026-11-02": 0.743
  },
  "roles": {
-  "compliance": 0.3254,
-  "operations": 0.0079,
-  "studio": 0.108
+  "compliance": 0.4233,
+  "operations": 0.0106,
+  "studio": 0.3028,
+  "ideas": 0.0019,
+  "marketing": 0.0025,
+  "product": 0.0007,
+  "ceo": 0.0012
  }
 }
