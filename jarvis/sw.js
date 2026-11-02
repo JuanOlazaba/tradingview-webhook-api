@@ -1,6 +1,6 @@
 // Service worker de Jarvis: guarda la app en caché para que abra rápido
 // y funcione sin conexión. Las alertas siempre se piden a la red.
-const CACHE = "jarvis-v1";
+const CACHE = "jarvis-v2";
 const SHELL = ["./", "manifest.webmanifest", "icon-192.png", "icon-512.png", "icon-180.png"];
 
 self.addEventListener("install", (event) => {
@@ -20,6 +20,7 @@ self.addEventListener("activate", (event) => {
 self.addEventListener("fetch", (event) => {
   const url = new URL(event.request.url);
   if (event.request.method !== "GET" || !url.pathname.startsWith("/jarvis/")) return;
+  if (url.pathname.endsWith(".mp3")) return; // el audio no se guarda en caché
   event.respondWith(
     fetch(event.request)
       .then((res) => {
