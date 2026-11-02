@@ -1,14 +1,17 @@
 # Panel de Finroots
-_Actualizado: 2026-11-02 19:31 UTC · se regenera en cada reunión_
+_Actualizado: 2026-11-02 23:15 UTC · se regenera en cada reunión_
+
+> **En pausa:** Presupuesto diario de IA alcanzado (1.05 $ de 1.0 $). Se reanuda sola a partir de 2026-11-03 00:05 UTC y retoma lo pendiente.
 
 ## Necesita tu sí
 - **Conectar la cuenta de TikTok @finroots** — [responder aquí](https://github.com/JuanOlazaba/tradingview-webhook-api/issues/4) · pedido por IT el 2026-11-02 03:59 UTC
 - **Incidencia en el episodio 2** — [responder aquí](https://github.com/JuanOlazaba/tradingview-webhook-api/issues/9) · pedido por Operaciones el 2026-11-02 14:32 UTC
+- **Incidencia en el episodio 4** — [responder aquí](https://github.com/JuanOlazaba/tradingview-webhook-api/issues/15) · pedido por Operaciones el 2026-11-02 23:15 UTC
 
 ## Estado
 - Episodios: 3 · en colchón (listos): 0
 - TikTok: — seguidores · — me gusta · — vídeos
-- Coste de IA: hoy 0.74 $ · este mes 0.74 $ de 20 $ · total 0.74 $
+- Coste de IA: hoy 1.05 $ · este mes 1.05 $ de 20 $ · total 1.05 $
 
 ## Episodios
 | # | Título | Estado |
@@ -18,11 +21,14 @@ _Actualizado: 2026-11-02 19:31 UTC · se regenera en cada reunión_
 | 1 | [Tus 100 € en el cajón](episodes/ep001/script.txt) | publicado |
 
 ## Últimas reuniones
+- [2026-11-03-ep004](minutes/2026-11-03-ep004.md)
 - [2026-11-02-ep003](minutes/2026-11-02-ep003.md)
 - [2026-11-02-ep002](minutes/2026-11-02-ep002.md)
 - [2026-11-02-ep001](minutes/2026-11-02-ep001.md)
 
 ## Actividad reciente
+- `2026-11-02 23:15 UTC` **incidencia** — Ep. 4: Compliance no aprueba el episodio tras las revisiones: [{"scene": 2, "problem": "Incoherencia con el cálculo de la escena 4: el móvil muestra 'Tipo anual 20 %' y un cargo de -33 € en el primer mes, pero la voz dice 'Este mes no la toca... y los intereses llegan igual' sin explicar de dónde sale el 3
+- `2026-11-02 23:15 UTC` **pausa** — Presupuesto diario de IA alcanzado (1.05 $ de 1.0 $). Retomamos a partir de 2026-11-03 00:05 UTC.
 - `2026-11-02 19:31 UTC` **publicación** — Ep. 3: Tu dinero quieto pierde valor en silencio · estado: sent_to_inbox
 - `2026-11-02 18:16 UTC` **publicación** — Ep. 2: Lucía y Marta: misma cuota, casi el doble de dinero · estado: sent_to_inbox
 - `2026-11-02 18:04 UTC` **incidencia** — Ep. 2 salió de 2:03 por silencios entre frases de la voz dinámica. Corregido (recorte de silencios, pausas más cortas) y reenviado; el borrador de 2:03 no se publica.
@@ -41,8 +47,6 @@ _Actualizado: 2026-11-02 19:31 UTC · se regenera en cada reunión_
 - `2026-11-02 11:20 UTC` **decisión** — Repositorio: pasar a privado (gratis, ~800 min/mes de 2.000) para que actas, costes y peticiones no sean públicas. Se eliminaron del repositorio las menciones al trabajo del dueño.
 - `2026-11-02 11:20 UTC` **decisión** — Presupuesto de IA fijado por el dueño: 20 $/mes. Haiku 5.5 para casi todo y Sonnet 5.5 para guion y Compliance; tope diario 1 $ para reuniones.
 - `2026-11-02 11:20 UTC` **dueño** — Compliance: aprobado. Usuario de TikTok confirmado: finroots. Episodio 2 aprobado.
-- `2026-11-02 04:03 UTC` **decisión** — Por indicación del dueño: reuniones de mejora reducidas a 3 por semana (lunes, miércoles y viernes) para no agotar límites. Comité diario y consejo del domingo se mantienen.
-- `2026-11-02 03:59 UTC` **episodio** — Ep. 2 escrito (Lucía y Marta, interés compuesto) y en colchón; se renderiza con voz en la primera ejecución.
 
 ## Directivas del consejo
 _(Las actualiza el consejo cada semana. Primera sesión pendiente.)_
