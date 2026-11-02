@@ -71,7 +71,12 @@ def write_panel():
                  "published": "publicado", "published_manually": "publicado a mano",
                  "awaiting_manual_upload": "listo para subir a mano", "blocked": "bloqueado"}
 
+    from .limits import agenda, paused
+    pz = paused()
     L = [f"# Panel de Finroots", f"_Actualizado: {now()} · se regenera en cada reunión_", ""]
+    if pz:
+        L += [f"> **En pausa:** {pz['reason']}. Se reanuda sola a partir de {pz['until'][:16].replace('T', ' ')} UTC"
+              f" y retoma lo pendiente{(': ' + ', '.join(agenda())) if agenda() else ''}.", ""]
     L += ["## Necesita tu sí"]
     if pend:
         L += [f"- **{r['title']}** — {('[responder aquí](' + r['url'] + ')') if r.get('url') else 'ver state/owner_requests.json'}"

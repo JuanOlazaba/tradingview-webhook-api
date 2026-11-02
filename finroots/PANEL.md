@@ -1,5 +1,5 @@
 # Panel de Finroots
-_Actualizado: 2026-11-02 03:59 UTC · se regenera en cada reunión_
+_Actualizado: 2026-11-02 04:02 UTC · se regenera en cada reunión_
 
 ## Necesita tu sí
 - **Conectar la cuenta de TikTok @finroots** — ver state/owner_requests.json · pedido por IT el 2026-11-02 03:59 UTC

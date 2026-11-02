@@ -8,6 +8,7 @@ import re
 import anthropic
 
 _client: anthropic.Anthropic | None = None
+PRIORITY = False   # True durante el comité diario: el episodio del día no se para por presupuesto
 
 
 def client() -> anthropic.Anthropic:
@@ -19,6 +20,9 @@ def client() -> anthropic.Anthropic:
 
 def ask(system_blocks: list[dict], user: str, model: str, effort: str = "medium", max_tokens: int = 16000, role: str = "?") -> str:
     """Una llamada a Claude. `system_blocks` lleva primero el contexto estable (cacheado)."""
+    from . import limits
+    from .company import load_config
+    limits.check_budget(load_config(), PRIORITY)
     kwargs = dict(
         model=model,
         max_tokens=max_tokens,
@@ -28,8 +32,14 @@ def ask(system_blocks: list[dict], user: str, model: str, effort: str = "medium"
     )
     if os.environ.get("FINROOTS_NO_FALLBACK") != "1":
         kwargs.update(betas=["server-side-fallback-2026-07-01"], fallbacks="default")
-    with client().beta.messages.stream(**kwargs) as stream:
-        msg = stream.get_final_message()
+    try:
+        with client().beta.messages.stream(**kwargs) as stream:
+            msg = stream.get_final_message()
+    except anthropic.APIError as e:
+        lim = limits.from_api_error(e)
+        if lim:
+            raise lim from e
+        raise
     try:
         from .ledger import add_usage
         add_usage(model, role, msg.usage)

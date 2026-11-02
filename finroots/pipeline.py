@@ -80,7 +80,8 @@ Comprueba también las cifras de los params. Devuelve JSON:
 
 
 def daily(publish: bool = True, render: bool = True) -> dict:
-    from . import ledger, owner
+    from . import ledger, limits, llm, owner
+    llm.PRIORITY = True
     handle_owner_decisions()
     cfg = load_config()
     date = today(cfg)
@@ -99,7 +100,10 @@ def daily(publish: bool = True, render: bool = True) -> dict:
             errs = validate(ep)
             if errs:
                 raise RuntimeError("Episodio del colchón inválido: " + "; ".join(errs))
-            if os.environ.get("ANTHROPIC_API_KEY") or os.environ.get("ANTHROPIC_AUTH_TOKEN"):
+            ready_entry = next((e for e in eps if e["number"] == number), {})
+            if ready_entry.get("compliance_ok"):
+                m.note("compliance", "Episodio ya aprobado por Compliance cuando se escribió para el colchón.")
+            elif os.environ.get("ANTHROPIC_API_KEY") or os.environ.get("ANTHROPIC_AUTH_TOKEN"):
                 review = m.say("compliance", f"Revisión final antes de publicar:\n{script_text(ep)}\n"
                                'Devuelve JSON {"approved":true|false,"issues":[...]}', want_json=True)
                 if not review.get("approved"):
@@ -162,11 +166,17 @@ def daily(publish: bool = True, render: bool = True) -> dict:
             else:
                 raise RuntimeError("Faltan credenciales de TikTok")
         result["ok"] = True
+        (STATE / "last_daily.json").write_text(json.dumps({"date": date.isoformat(), "episode": number}))
+    except limits.LimitReached as e:
+        m.note("operations", f"PAUSA por límite ({e}). El episodio {number} queda guardado en su estado actual "
+                             "y se retoma automáticamente cuando se reinicie el límite.")
+        result.update(ok=False, paused=True, error=str(e))
     except Exception as e:  # noqa: BLE001
         m.note("operations", f"INCIDENCIA: {e}\n```\n{traceback.format_exc()[-1500:]}\n```")
         result.update(ok=False, error=str(e))
     finally:
-        if len(m.log) > 2 and (os.environ.get("ANTHROPIC_API_KEY") or os.environ.get("ANTHROPIC_AUTH_TOKEN")):
+        llm.PRIORITY = False
+        if len(m.log) > 2 and not result.get("paused") and (os.environ.get("ANTHROPIC_API_KEY") or os.environ.get("ANTHROPIC_AUTH_TOKEN")):
             try:
                 m.say("operations", "Cierra el acta: decisiones, estado del episodio, incidencias y próximos pasos "
                                     "(con responsable). Máx. 120 palabras.")
@@ -174,9 +184,9 @@ def daily(publish: bool = True, render: bool = True) -> dict:
                 m.note("operations", f"(no se pudo cerrar el acta con IA: {e})")
         MINUTES.mkdir(exist_ok=True)
         (MINUTES / f"{date.isoformat()}-ep{number:03d}.md").write_text(m.minutes(), encoding="utf-8")
-        ledger.log("publicación" if result.get("ok") else "incidencia",
+        ledger.log("publicación" if result.get("ok") else ("pausa" if result.get("paused") else "incidencia"),
                    f"Ep. {number}: " + (f"{entry_status(number)}" if result.get("ok") else result.get("error", "")[:300]))
-        if not result.get("ok"):
+        if not result.get("ok") and not result.get("paused"):
             owner.request(f"Incidencia en el episodio {number}",
                           f"El comité diario no pudo completar el episodio {number}:\n\n> {result.get('error', '')[:800]}\n\n"
                           "IT lo reintentará en la próxima ejecución. Responde solo si quieres dar instrucciones.", by="Operaciones")
@@ -192,6 +202,21 @@ def entry_status(n: int) -> str:
 # ---------------------------------------------------------------- consejo semanal
 
 def board() -> dict:
+    from . import ledger, limits
+    flag = STATE / "board_pending"
+    try:
+        out = _board()
+        if flag.exists():
+            flag.unlink()
+        return out
+    except limits.LimitReached as e:
+        flag.write_text(str(e))
+        ledger.log("pausa", f"Consejo semanal aplazado por límite ({e}); se celebrará en cuanto se reinicie.")
+        ledger.write_panel()
+        return {"ok": True, "paused": True}
+
+
+def _board() -> dict:
     from . import ledger
     handle_owner_decisions()
     cfg = load_config()
@@ -362,26 +387,63 @@ def fill_buffer(cfg: dict, max_new: int = 1) -> list[int]:
             d.mkdir(parents=True, exist_ok=True)
             (d / "episode.json").write_text(json.dumps(ep, ensure_ascii=False, indent=1), encoding="utf-8")
             (d / "script.txt").write_text(script_text(ep), encoding="utf-8")
-            eps.append({"number": n, "slug": ep["slug"], "title": ep["title"], "topic": ep["topic"],
+            copy = m.say("marketing", f"""Escribe el copy del episodio {n} ("{ep['title']}") en JSON:
+{{"caption":"1–3 frases, con la pregunta A/B/C, sin el aviso legal (se añade solo)","hashtags":["4–6"],
+"hook_variants":["variante A","variante B"],"cover_text":"máx 5 palabras","post_time":"HH:MM Europe/Madrid"}}""",
+                         want_json=True)
+            (d / "copy.json").write_text(json.dumps(copy, ensure_ascii=False, indent=1), encoding="utf-8")
+            eps.append({"compliance_ok": True, "number": n, "slug": ep["slug"], "title": ep["title"], "topic": ep["topic"],
                         "core_idea": ep["core_idea"], "characters": ep.get("characters", []),
                         "objects": sorted({s["type"] for s in ep["scenes"]}), "status": "ready"})
             save_episodes(eps)
             made.append(n)
             ledger.log("episodio", f"Ep. {n} escrito y aprobado por Compliance: {ep['title']}")
         except Exception as e:  # noqa: BLE001
+            from .limits import LimitReached
+            if isinstance(e, LimitReached):
+                raise
             ledger.log("incidencia", f"No se pudo escribir el ep. {n}: {e}")
         finally:
             (MINUTES / f"{today(cfg).isoformat()}-ep{n:03d}-estudio.md").write_text(m.minutes(), encoding="utf-8")
     return made
 
 
-def improve(topic: str | None = None) -> dict:
+DAILY_UTC = (15, 37)  # hora del comité diario (coincide con finroots-daily.yml)
+
+
+def catch_up() -> dict | None:
+    """Si el episodio de hoy no salió (límite, fallo, minutos de GitHub agotados), lo retoma ahora."""
+    cfg = load_config()
+    last = STATE / "last_daily.json"
+    done = json.loads(last.read_text()).get("date") if last.exists() else None
+    now = dt.datetime.utcnow()
+    if done == today(cfg).isoformat() or (now.hour, now.minute) < DAILY_UTC:
+        return None
     from . import ledger
+    ledger.log("reanudación", "El episodio de hoy estaba pendiente; el comité diario lo retoma ahora.")
+    return daily()
+
+
+def improve(topic: str | None = None) -> dict:
+    from . import ledger, limits
     cfg = load_config()
     MINUTES.mkdir(exist_ok=True)
     handle_owner_decisions()
+    p = limits.paused()
+    if p:
+        ledger.log("pausa", f"Reunión aplazada: {p['reason']} (hasta {p['until'][:16]} UTC).")
+        limits.defer_topic(topic or ORDER[(dt.datetime.utcnow().hour // 4) % len(ORDER)])
+        ledger.write_panel()
+        return {"ok": True, "paused": True}
+    caught = catch_up()
+    if caught is not None and not caught.get("ok"):
+        ledger.write_panel()
+        return {"ok": True, "catch_up": caught}
+    if (STATE / "board_pending").exists():
+        return {"ok": True, "board": board()}
     if not topic:
-        topic = ORDER[(dt.datetime.utcnow().hour // 4) % len(ORDER)]
+        pending = limits.agenda()
+        topic = pending[0] if pending else ORDER[(dt.datetime.utcnow().hour // 4) % len(ORDER)]
     title, roles, focus = TOPICS[topic]
     stamp = dt.datetime.utcnow().strftime("%Y-%m-%d-%H%M")
     m = Meeting(f"Reunión de mejora · {title} · {stamp} UTC", cfg)
@@ -402,8 +464,13 @@ Solo acciones con valor real (0–5). No pidas al dueño lo que ya está pendien
         done = apply_actions(res.get("actions", []), f"CEO ({title})")
         m.note("operations", "Acciones ejecutadas:\n" + ("\n".join(f"- {d}" for d in done) or "- ninguna"))
         ledger.log("reunión", f"{title}: {res.get('summary', '')[:200]}", topic=topic)
+        limits.done_topic(topic)
         made = fill_buffer(cfg, max_new=1) if topic in ("contenido", "crecimiento", "tecnologia") else []
         out = {"ok": True, "topic": topic, "actions": done, "buffer_new": made}
+    except limits.LimitReached as e:
+        limits.defer_topic(topic)
+        m.note("operations", f"PAUSA por límite ({e}). La reunión de «{title}» se retomará en cuanto se reinicie.")
+        out = {"ok": True, "paused": True, "topic": topic}
     except Exception as e:  # noqa: BLE001
         m.note("operations", f"INCIDENCIA: {e}")
         ledger.log("incidencia", f"Reunión {title}: {e}")

@@ -21,7 +21,7 @@ concurrency:
 jobs:
   meeting:
     runs-on: ubuntu-latest
-    timeout-minutes: 40
+    timeout-minutes: 75
     steps:
       - uses: actions/checkout@v4
       - uses: actions/setup-python@v5
@@ -31,16 +31,29 @@ jobs:
           cache-dependency-path: finroots/requirements.txt
       - name: Instalar dependencias
         run: |
+          sudo apt-get update -qq && sudo apt-get install -y -qq ffmpeg
           pip install -r finroots/requirements.txt
+          python -m playwright install --with-deps chromium
       - name: Reunión de mejora
         env:
           ANTHROPIC_API_KEY: ${{ secrets.ANTHROPIC_API_KEY }}
+          ELEVENLABS_API_KEY: ${{ secrets.ELEVENLABS_API_KEY }}
           TIKTOK_CLIENT_KEY: ${{ secrets.TIKTOK_CLIENT_KEY }}
           TIKTOK_CLIENT_SECRET: ${{ secrets.TIKTOK_CLIENT_SECRET }}
           TIKTOK_REFRESH_TOKEN: ${{ secrets.TIKTOK_REFRESH_TOKEN }}
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
           FINROOTS_NEW_REFRESH_TOKEN_FILE: ${{ runner.temp }}/rt
         run: python -m finroots.cli improve ${{ inputs.tema }}
+      - name: Guardar el vídeo si se recuperó el episodio del día
+        if: always()
+        uses: actions/upload-artifact@v4
+        with:
+          name: finroots-recuperado-${{ github.run_number }}
+          path: |
+            finroots/episodes/*/video.mp4
+            finroots/episodes/*/caption.txt
+          if-no-files-found: ignore
+          retention-days: 30
       - name: Rotar el token de TikTok si ha cambiado
         if: always()
         env:

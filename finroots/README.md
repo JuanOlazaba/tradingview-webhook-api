@@ -51,6 +51,15 @@ abren un Issue con la etiqueta `decision-dueño`. GitHub te avisa por email y en
 Respondes en el Issue **sí** o **no**, o escribes instrucciones. `finroots-owner.yml` lo lee al instante,
 lo aplica, cierra el Issue y lo registra. Mientras esperan, siguen trabajando en todo lo demás.
 
+## Límites: pausa y reanudación automática
+Si se agota algo, la empresa se pausa sola, deja apuntado dónde se quedó y lo retoma al reiniciarse
+el límite (`limits.py`). Pasa con la cuota de peticiones de Claude, con el saldo, con el tope de gasto
+mensual, con el presupuesto diario (`budget.daily_usd`) y con los minutos de GitHub.
+- Las reuniones aplazadas quedan en `state/agenda.json` y son las primeras al reanudar.
+- Si el episodio del día no salió, la siguiente reunión lo recupera antes de nada.
+- Los episodios del colchón ya están aprobados y con su copy, así que se pueden publicar aunque la IA esté en pausa.
+- Solo te avisamos si hace falta tu acción, por ejemplo para recargar saldo. El panel muestra si hay una pausa y hasta cuándo.
+
 ## Registro
 Nada se borra: actas de cada reunión en `minutes/`, informes en `reports/`, actividad en
 `state/activity.jsonl`, costes de IA por día y por rol en `state/costs.json`, peticiones y tus

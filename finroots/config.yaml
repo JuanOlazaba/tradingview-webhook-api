@@ -38,6 +38,10 @@ publishing:
   ai_generated_label: true
   dry_run_without_tokens: true        # si faltan credenciales de TikTok, genera el vídeo y no publica
 
+budget:
+  # Tope diario de gasto en IA. Al llegar, las reuniones paran hasta mañana (el episodio del día sigue).
+  daily_usd: 10
+
 pipeline:
   max_revisions: 2             # vueltas Estudio ↔ Compliance/IT antes de escalar al CEO
   board_day: sunday
