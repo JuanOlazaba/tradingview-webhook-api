@@ -1,19 +1,19 @@
 # Panel de Finroots
-_Actualizado: 2026-11-02 18:04 UTC · se regenera en cada reunión_
+_Actualizado: 2026-11-02 18:16 UTC · se regenera en cada reunión_
 
 ## Necesita tu sí
 - **Conectar la cuenta de TikTok @finroots** — [responder aquí](https://github.com/JuanOlazaba/tradingview-webhook-api/issues/4) · pedido por IT el 2026-11-02 03:59 UTC
 - **Incidencia en el episodio 2** — [responder aquí](https://github.com/JuanOlazaba/tradingview-webhook-api/issues/9) · pedido por Operaciones el 2026-11-02 14:32 UTC
 
 ## Estado
-- Episodios: 2 · en colchón (listos): 1 (2)
+- Episodios: 2 · en colchón (listos): 0
 - TikTok: — seguidores · — me gusta · — vídeos
-- Coste de IA: hoy 0.40 $ · este mes 0.40 $ de 20 $ · total 0.40 $
+- Coste de IA: hoy 0.44 $ · este mes 0.44 $ de 20 $ · total 0.44 $
 
 ## Episodios
 | # | Título | Estado |
 |---|---|---|
-| 2 | [Lucía y Marta: misma cuota, casi el doble de dinero](episodes/ep002/script.txt) | en colchón |
+| 2 | [Lucía y Marta: misma cuota, casi el doble de dinero](episodes/ep002/script.txt) | en tus borradores de TikTok |
 | 1 | [Tus 100 € en el cajón](episodes/ep001/script.txt) | publicado |
 
 ## Últimas reuniones
@@ -21,6 +21,7 @@ _Actualizado: 2026-11-02 18:04 UTC · se regenera en cada reunión_
 - [2026-11-02-ep001](minutes/2026-11-02-ep001.md)
 
 ## Actividad reciente
+- `2026-11-02 18:16 UTC` **publicación** — Ep. 2: Lucía y Marta: misma cuota, casi el doble de dinero · estado: sent_to_inbox
 - `2026-11-02 18:04 UTC` **incidencia** — Ep. 2 salió de 2:03 por silencios entre frases de la voz dinámica. Corregido (recorte de silencios, pausas más cortas) y reenviado; el borrador de 2:03 no se publica.
 - `2026-11-02 18:04 UTC` **dueño** — Ep. 1 publicado en TikTok por el dueño.
 - `2026-11-02 18:03 UTC` **publicación** — Ep. 2: Lucía y Marta: misma cuota, casi el doble de dinero · estado: sent_to_inbox

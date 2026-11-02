@@ -55,6 +55,14 @@
       "snowball"
     ],
     "question": "Antes de los 25 / Entre 25 y 35 / Todavía no",
-    "status": "ready"
+    "status": "sent_to_inbox",
+    "duration": 78.602,
+    "published_at": "2026-11-02T18:16:50.397275Z",
+    "tiktok": {
+      "publish_id": "v_inbox_file~v2.7703639536038856718",
+      "mode": "draft",
+      "status": "SEND_TO_USER_INBOX",
+      "post_ids": null
+    }
   }
 ]
