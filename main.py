@@ -137,11 +137,17 @@ async def tiktok_callback(request: Request, code: str = "", error: str = ""):
     if not rt:
         return HTMLResponse(f"<h1>Error al obtener el token</h1><pre>{data}</pre>", status_code=400)
     return HTMLResponse(
-        "<h1>Cuenta de TikTok conectada</h1>"
-        "<p>Copia este valor en GitHub → Settings → Secrets and variables → Actions → "
-        "<b>TIKTOK_REFRESH_TOKEN</b>. No lo compartas con nadie. Caduca en 365 días.</p>"
-        f"<textarea rows=4 cols=80 readonly>{rt}</textarea>"
-        f"<p>Permisos concedidos: {data.get('scope')}</p>")
+        "<!doctype html><meta name=viewport content='width=device-width,initial-scale=1'>"
+        "<body style='font-family:system-ui;max-width:640px;margin:40px auto;padding:0 16px'>"
+        "<h1>Finroots · cuenta de TikTok conectada</h1>"
+        f"<p>Permisos concedidos: {data.get('scope')}</p>"
+        "<p>Finroots ya puede enviar los vídeos del canal a la bandeja de TikTok y leer sus estadísticas.</p>"
+        "<details style='margin-top:32px'><summary>Mostrar código para el dueño (no grabar)</summary>"
+        "<p>Cópialo en GitHub → Settings → Secrets and variables → Actions → <b>TIKTOK_REFRESH_TOKEN</b>. "
+        "No lo compartas. Caduca en 365 días.</p>"
+        f"<textarea id=t rows=4 style='width:100%' readonly>{rt}</textarea>"
+        "<button onclick=\"navigator.clipboard.writeText(document.getElementById('t').value);this.textContent='Copiado'\">Copiar</button>"
+        "</details></body>")
 
 
 @app.get("/privacy", response_class=HTMLResponse)
