@@ -96,5 +96,33 @@
       "status": "SEND_TO_USER_INBOX",
       "post_ids": null
     }
+  },
+  {
+    "number": 4,
+    "slug": "dow-jones-1929-25-anos",
+    "title": "El Dow Jones tardó 25 años en recuperar 1929",
+    "topic": "El Dow Jones de 1929 y los 25 años para recuperar el máximo",
+    "core_idea": "El índice Dow Jones tardó unos 25 años en recuperar su máximo de 1929 en puntos nominales, sin contar dividendos ni inflación; con dividendos reinvertidos la recuperación habría sido más rápida.",
+    "characters": [],
+    "objects": [
+      "calendar",
+      "cards",
+      "chart",
+      "coins",
+      "display",
+      "levers",
+      "logo",
+      "options"
+    ],
+    "question": "Vender todo / Esperar / Comprar más",
+    "status": "sent_to_inbox",
+    "duration": 79.77,
+    "published_at": "2026-11-03T13:10:03.228854Z",
+    "tiktok": {
+      "publish_id": "v_inbox_file~v2.7703931419483195405",
+      "mode": "draft",
+      "status": "SEND_TO_USER_INBOX",
+      "post_ids": null
+    }
   }
 ]

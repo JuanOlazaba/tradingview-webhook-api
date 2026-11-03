@@ -1,0 +1,12 @@
+[01]   El Dow Jones tardó 25 años en recuperar su pico de 1929.
+[02] // 01 · el contexto  Septiembre de 1929. Wall Street está en máximos. Todo el mundo habla de bolsa. Parece imposible perder.
+[03] // 02 · la caída  Pero ojo: el índice Dow Jones pasó de unos 381 puntos a unos 41 en 1932.
+[04] // 02 · la caída  Una caída de alrededor del 89 %... en menos de tres años.
+[05] // 03 · la trampa de las matemáticas  ¿Y sabes qué? Perder un 89 % no se arregla ganando un 89 %. Hay que subir más de un 800 %.
+[06] // 03 · la trampa de las matemáticas  Y subir lleva tiempo. El Dow Jones no superó los 381 puntos hasta noviembre de 1954.
+[07] // 04 · la curva completa  Mira la curva: caída brutal, subida lenta, y por fin vuelta al nivel de 1929.
+[08] // 04 · los matices  Ojo con los matices: son puntos nominales, sin dividendos ni inflación. Con dividendos reinvertidos, la recuperación habría sido más rápida. Es un índice, no un consejo.
+[09] // 05 · la lección  ¿La lección? No es huir de la bolsa. Es entender plazo, riesgo y colchón antes de empezar.
+[10] // 05 · aplícalo hoy  Pregúntate: ¿cuándo necesitaré este dinero? ¿Cuánta caída soportaría sin vender asustado?
+[11] // 06 · tu turno  Tu turno. Si tu inversión cayera un 89 %, ¿qué harías? A, vender todo. B, esperar. C, comprar más. Es una reflexión, no una recomendación. Cuéntalo en comentarios.
+[12]   Esto ha sido Finroots. El dinero, desde la raíz.

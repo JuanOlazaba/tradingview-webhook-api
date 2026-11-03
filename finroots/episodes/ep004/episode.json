@@ -1,0 +1,274 @@
+{
+ "number": 4,
+ "format": "historia_dinero",
+ "slug": "dow-jones-1929-25-anos",
+ "title": "El Dow Jones tardó 25 años en recuperar 1929",
+ "topic": "El Dow Jones de 1929 y los 25 años para recuperar el máximo",
+ "core_idea": "El índice Dow Jones tardó unos 25 años en recuperar su máximo de 1929 en puntos nominales, sin contar dividendos ni inflación; con dividendos reinvertidos la recuperación habría sido más rápida.",
+ "series": "Finanzas en 1 minuto",
+ "characters": [],
+ "keywords": [
+  "1929",
+  "89",
+  "25",
+  "plazo",
+  "riesgo",
+  "inflaci"
+ ],
+ "scenes": [
+  {
+   "type": "display",
+   "chapter": "",
+   "sfx": "hit",
+   "voice": "El Dow Jones tardó 25 años en recuperar su pico de 1929.",
+   "params": {
+    "lines": [
+     {
+      "text": "PICO DE 1929",
+      "at": 0
+     },
+     {
+      "text": "25 AÑOS",
+      "color": "co",
+      "at": 1.8
+     },
+     {
+      "text": "PARA RECUPERARLO",
+      "at": 3
+     }
+    ],
+    "size": "xl",
+    "note": "Índice, en puntos nominales"
+   }
+  },
+  {
+   "type": "calendar",
+   "chapter": "// 01 · el contexto",
+   "sfx": "tick",
+   "voice": "Septiembre de 1929. Wall Street está en máximos. Todo el mundo habla de bolsa. Parece imposible perder.",
+   "params": {
+    "label": "Wall Street",
+    "from": 1925,
+    "to": 1929,
+    "sub": "Máximo del Dow Jones: unos 381 puntos",
+    "at": 0.5,
+    "dur": 3,
+    "note": "Dato histórico aproximado"
+   }
+  },
+  {
+   "type": "coins",
+   "chapter": "// 02 · la caída",
+   "sfx": "thud",
+   "voice": "Pero ojo: el índice Dow Jones pasó de unos 381 puntos a unos 41 en 1932.",
+   "params": {
+    "towers": [
+     {
+      "label": "Sep. 1929",
+      "coins": 14,
+      "value": "381 pts",
+      "color": ""
+     },
+     {
+      "label": "Jul. 1932",
+      "coins": 2,
+      "value": "41 pts",
+      "color": "co"
+     }
+    ],
+    "note": "Datos históricos aproximados; altura de las torres orientativa, no a escala exacta"
+   }
+  },
+  {
+   "type": "display",
+   "chapter": "// 02 · la caída",
+   "sfx": "hit2",
+   "voice": "Una caída de alrededor del 89 %... en menos de tres años.",
+   "params": {
+    "lines": [
+     {
+      "text": "CAÍDA",
+      "at": 0
+     },
+     {
+      "text": "-89 %",
+      "color": "co",
+      "at": 1
+     }
+    ],
+    "size": "xl",
+    "note": "Aproximado: de 381 a 41 puntos"
+   }
+  },
+  {
+   "type": "levers",
+   "chapter": "// 03 · la trampa de las matemáticas",
+   "sfx": "rise",
+   "voice": "¿Y sabes qué? Perder un 89 % no se arregla ganando un 89 %. Hay que subir más de un 800 %.",
+   "params": {
+    "title": "Para volver al punto de partida",
+    "levers": [
+     {
+      "label": "Caída sufrida",
+      "sub": "-89 %",
+      "from": 0,
+      "to": 89
+     },
+     {
+      "label": "Subida necesaria",
+      "sub": "unos +830 %",
+      "from": 0,
+      "to": 100
+     }
+    ],
+    "note": "Barra no a escala. Cálculo: de 41 a 381 son unas 9,3 veces, es decir, +829 % aprox."
+   }
+  },
+  {
+   "type": "calendar",
+   "chapter": "// 03 · la trampa de las matemáticas",
+   "sfx": "tick",
+   "voice": "Y subir lleva tiempo. El Dow Jones no superó los 381 puntos hasta noviembre de 1954.",
+   "params": {
+    "label": "Años",
+    "from": 1929,
+    "to": 1954,
+    "sub": "25 años para recuperar el máximo",
+    "at": 0.5,
+    "dur": 4,
+    "note": "Dato histórico aproximado"
+   }
+  },
+  {
+   "type": "chart",
+   "chapter": "// 04 · la curva completa",
+   "sfx": "whoosh",
+   "voice": "Mira la curva: caída brutal, subida lenta, y por fin vuelta al nivel de 1929.",
+   "params": {
+    "series": [
+     {
+      "name": "Dow Jones (puntos)",
+      "points": [
+       381,
+       41,
+       381
+      ],
+      "color": "co",
+      "end": 381,
+      "suffix": " pts"
+     }
+    ],
+    "x_labels": [
+     "1929",
+     "1932",
+     "1954"
+    ],
+    "at": 0.5,
+    "dur": 4,
+    "note": "Gráfica ilustrativa con tres puntos históricos aproximados"
+   }
+  },
+  {
+   "type": "display",
+   "chapter": "// 04 · los matices",
+   "sfx": "pop",
+   "voice": "Ojo con los matices: son puntos nominales, sin dividendos ni inflación. Con dividendos reinvertidos, la recuperación habría sido más rápida. Es un índice, no un consejo.",
+   "params": {
+    "lines": [
+     {
+      "text": "NOMINAL",
+      "at": 0
+     },
+     {
+      "text": "SIN DIVIDENDOS NI INFLACIÓN",
+      "color": "bl",
+      "at": 1.5
+     }
+    ],
+    "size": "m",
+    "pills": [
+     {
+      "text": "Con dividendos, antes"
+     },
+     {
+      "text": "Un índice, no un consejo",
+      "dark": true
+     }
+    ],
+    "note": "Con dividendos, antes"
+   }
+  },
+  {
+   "type": "cards",
+   "chapter": "// 05 · la lección",
+   "sfx": "deal",
+   "voice": "¿La lección? No es huir de la bolsa. Es entender plazo, riesgo y colchón antes de empezar.",
+   "params": {
+    "cards": [
+     {
+      "label": "Plazo",
+      "icon": "clock",
+      "lit": true
+     },
+     {
+      "label": "Riesgo",
+      "icon": "scale"
+     },
+     {
+      "label": "Colchón",
+      "icon": "shield"
+     }
+    ],
+    "question": "¿Qué miras antes?",
+    "question_at": 3
+   }
+  },
+  {
+   "type": "levers",
+   "chapter": "// 05 · aplícalo hoy",
+   "sfx": "rise",
+   "voice": "Pregúntate: ¿cuándo necesitaré este dinero? ¿Cuánta caída soportaría sin vender asustado?",
+   "params": {
+    "title": "Preguntas que hacerte",
+    "levers": [
+     {
+      "label": "¿Cuándo lo necesitaré?",
+      "sub": "tu plazo",
+      "from": 50,
+      "to": 50
+     },
+     {
+      "label": "¿Cuánta caída soportaría?",
+      "sub": "sé honesto contigo",
+      "from": 50,
+      "to": 50
+     }
+    ],
+    "note": "Ilustrativo: reflexión personal, no una recomendación"
+   }
+  },
+  {
+   "type": "options",
+   "chapter": "// 06 · tu turno",
+   "sfx": "ding",
+   "voice": "Tu turno. Si tu inversión cayera un 89 %, ¿qué harías? A, vender todo. B, esperar. C, comprar más. Es una reflexión, no una recomendación. Cuéntalo en comentarios.",
+   "params": {
+    "options": [
+     "Vender todo",
+     "Esperar",
+     "Comprar más"
+    ],
+    "disclaimer": "Reflexión, no una recomendación. Contenido educativo. No es asesoramiento financiero ni recomendación de inversión. Invertir conlleva riesgos. Cifras ilustrativas. Vídeo creado con ayuda de IA."
+   }
+  },
+  {
+   "type": "logo",
+   "chapter": "",
+   "sfx": "cling",
+   "voice": "Esto ha sido Finroots. El dinero, desde la raíz.",
+   "params": {
+    "next": "¿Cómo se recuperaron los inversores de aquella época? Y qué cambia con dividendos."
+   }
+  }
+ ]
+}
