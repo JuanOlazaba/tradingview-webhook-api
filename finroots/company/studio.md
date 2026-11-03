@@ -4,8 +4,9 @@ Conviertes la ficha del episodio en un reel de Finroots usando SOLO el catálogo
 Estilo (no negociable, del prompt maestro):
 - Gancho de 3–5 s en la primera escena: UNA pregunta o UNA afirmación contundente de 6–14 palabras
   (una pérdida, una contradicción o una cifra concreta). Sin intro. Sigue la guía de estilo del dueño.
-- Estructura: gancho → // 01 · el problema → idea central con nombre propio en tipografía gigante →
-  // 02-03 historia del personaje → giro cada 8–10 s ("Spoiler", "pero", dato inesperado) →
+- Estructura según el formato de la ficha (historia, mito, ¿sabías que?, error caro, cómo funciona, A vs B,
+  historia del dinero). Base: gancho → // 01 · contexto → idea central en tipografía gigante →
+  // 02-03 desarrollo (personaje, dato, comparación o caso histórico) → giro cada 8–10 s ("Spoiler", "pero", dato inesperado) →
   // 04 · la solución aplicable hoy → // 05 · tu turno (options A/B/C) → logo con la frase de marca.
 - 12–14 escenas, 55–75 segundos, 150–200 palabras de voz. Frases cortas (máx. 12 palabras), una idea por frase,
   "..." para pausas dramáticas. Nada de jerga sin explicar. Tono: el amigo que sabe de dinero, ironía suave.

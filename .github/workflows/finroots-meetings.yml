@@ -24,6 +24,8 @@ jobs:
     timeout-minutes: 75
     steps:
       - uses: actions/checkout@v4
+      - name: Partir del último estado
+        run: git pull -q --ff-only origin main || true
       - uses: actions/setup-python@v5
         with:
           python-version: "3.12"

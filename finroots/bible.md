@@ -34,3 +34,35 @@ y deja una pregunta abierta para el siguiente.
 - Lucía ya aparta 150 €/mes desde el ep. 1. Las cifras de los personajes no se contradicen entre episodios.
 - Las cifras son ilustrativas y se marcan como tales.
 - Series con nombre: "Finanzas en 1 minuto" (bloques 1–3) y "Alternativos sin humo" (bloques 4–6).
+
+
+## Lo ocurrido hasta ahora (actualizar cada episodio)
+- Ep. 1: Lucía descubre la inflación y crea margen: aparta 150 €/mes el día que cobra.
+- Ep. 2: Lucía (25) y Marta (35): interés compuesto; empezar antes pesa más. Adelanto: "¿y dónde se invierte eso?".
+- Ep. 3: repaso de inflación con el colchón de Lucía (episodio puente; no volver a la inflación como tema principal).
+- Siguiente paso de la trama: responder "¿dónde se invierte?" empezando por ordenar el dinero por objetivos
+  (fondo de emergencia → ahorro a corto plazo → inversión a largo plazo), y después renta fija vs variable.
+
+
+## Línea editorial desde el 3 nov 2026 (indicación del dueño): variedad
+Cada vídeo, un tema nuevo y un formato distinto a los 2 anteriores. Lucía y el resto de personajes
+aparecen cuando aportan, no siempre.
+
+### Formatos (rotar)
+1. **Historia** — un personaje vive el problema (Lucía, Marta, Leo, tío Ramón, Carmen).
+2. **Mito o realidad** — una creencia popular sobre el dinero, desmontada con datos.
+3. **¿Sabías que...?** — una curiosidad sorprendente y verificable.
+4. **El error caro** — un error común y cuánto cuesta en euros (ilustrativo).
+5. **Cómo funciona en 60 s** — qué hay detrás de algo cotidiano o de un producto financiero.
+6. **A vs B** — comparativa visual de dos opciones (sin recomendar ninguna).
+7. **Historia del dinero** — un episodio histórico con moraleja (tulipanes, burbuja puntocom, 1929...).
+
+### Bolsa de temas (ampliable por Ideas)
+- Psicología del dinero: por qué gastamos más con tarjeta, el efecto "ya que estoy", compras impulsivas.
+- Economía cotidiana: por qué sube el café, cómo gana dinero una app gratis, letra pequeña de las suscripciones.
+- Inversión básica: qué es una acción, un ETF, renta fija, diversificación, comisiones que se comen la rentabilidad.
+- Alternativos (la especialidad del canal): vino, arte, relojes, private equity, venture capital, deuda privada,
+  inmobiliario más allá del piso, coleccionables. Cómo funcionan, riesgos, liquidez.
+- Historia financiera: tulipanes, South Sea, 1929, puntocom, 2008.
+- Errores caros: pagar solo el mínimo de la tarjeta, no comparar comisiones, invertir por FOMO.
+Siempre educativo: nada de recomendar productos, entidades ni promesas de rentabilidad.

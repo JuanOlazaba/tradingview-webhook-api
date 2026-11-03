@@ -3,7 +3,7 @@ name: Finroots · comité diario (1 reel)
 on:
   schedule:
     - cron: "37 15 * * *"   # 16:37 Madrid (invierno) — el vídeo llega a TikTok antes de las 18:00
-    - cron: "41 21 * * *"   # 22:41 Madrid — reintento solo si el episodio de hoy no salió (límites, fallos)
+    - cron: "41 19 * * *"   # 20:41 Madrid — reintento solo si el episodio de hoy no salió (antes de medianoche)
   workflow_dispatch:
     inputs:
       publish:
@@ -25,11 +25,13 @@ jobs:
     timeout-minutes: 75
     steps:
       - uses: actions/checkout@v4
+      - name: Partir del último estado (si hay varios envíos en cola, cada uno continúa el anterior)
+        run: git pull -q --ff-only origin main || true
       - name: ¿Hace falta? (el reintento nocturno no gasta minutos si el episodio de hoy ya salió)
         id: need
         run: |
           today=$(TZ=Europe/Madrid date +%F)
-          if [ "${{ github.event.schedule }}" = "41 21 * * *" ] && grep -q "\"$today\"" finroots/state/last_daily.json 2>/dev/null; then
+          if [ "${{ github.event.schedule }}" = "41 19 * * *" ] && grep -q "\"$today\"" finroots/state/last_daily.json 2>/dev/null; then
             echo "run=false" >> "$GITHUB_OUTPUT"; echo "El episodio de hoy ya salió."
           else
             echo "run=true" >> "$GITHUB_OUTPUT"
@@ -57,7 +59,7 @@ jobs:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
           FINROOTS_NEW_REFRESH_TOKEN_FILE: ${{ runner.temp }}/rt
         run: |
-          if [ "${{ github.event.schedule }}" = "41 21 * * *" ]; then
+          if [ "${{ github.event.schedule }}" = "41 19 * * *" ]; then
             python -m finroots.cli catchup
           elif [ "${{ github.event_name }}" = "workflow_dispatch" ] && [ "${{ inputs.publish }}" != "true" ]; then
             python -m finroots.cli daily --no-publish
