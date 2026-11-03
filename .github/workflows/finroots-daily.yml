@@ -25,6 +25,8 @@ jobs:
     timeout-minutes: 75
     steps:
       - uses: actions/checkout@v4
+      - name: Partir del último estado (si hay varios envíos en cola, cada uno continúa el anterior)
+        run: git pull -q --ff-only origin main || true
       - name: ¿Hace falta? (el reintento nocturno no gasta minutos si el episodio de hoy ya salió)
         id: need
         run: |
