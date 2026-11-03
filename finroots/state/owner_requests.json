@@ -55,5 +55,16 @@
   "created": "2026-11-02 14:32 UTC",
   "issue": 9,
   "url": "https://github.com/JuanOlazaba/tradingview-webhook-api/issues/9"
+ },
+ {
+  "id": 6,
+  "title": "Incidencia en el episodio 4",
+  "body": "El comité diario no pudo completar el episodio 4:\n\n> Compliance no aprueba el episodio tras las revisiones: [{\"scene\": 2, \"problem\": \"Incoherencia con el cálculo de la escena 4: el móvil muestra 'Tipo anual 20 %' y un cargo de -33 € en el primer mes, pero la voz dice 'Este mes no la toca... y los intereses llegan igual' sin explicar de dónde sale el 33. Además, 'Tarjeta de crédito' con intereses sin pagos ni compras es un supuesto simplificado: el saldo pasa de -2000 a -2033 en 3 s, lo que visualmente sugiere interés instantáneo. El cargo aparece (at 3.0) justo cuando el saldo ya llegó a -2033. Es una simplificación aceptable, pero debe quedar declarada.\", \"fix\": \"Mantener la fila '-33 €' pero poner at: 2.0 para que aparezca antes o a la vez que el saldo cambia (balance_steps [[0,-2000],[3,-2033]]). Nota: 'Ilustrativo: mes sin pagos ni compr\n\nIT lo reintentará en la próxima ejecución. Responde solo si quieres dar instrucciones.",
+  "by": "Operaciones",
+  "status": "pending",
+  "apply_on_yes": {},
+  "created": "2026-11-02 23:15 UTC",
+  "issue": 15,
+  "url": "https://github.com/JuanOlazaba/tradingview-webhook-api/issues/15"
  }
 ]
