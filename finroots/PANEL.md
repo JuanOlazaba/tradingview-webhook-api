@@ -1,5 +1,5 @@
 # Panel de Finroots
-_Actualizado: 2026-11-03 12:30 UTC · se regenera en cada reunión_
+_Actualizado: 2026-11-03 12:54 UTC · se regenera en cada reunión_
 
 ## Necesita tu sí
 Nada pendiente. Los agentes siguen trabajando.
@@ -23,7 +23,9 @@ Nada pendiente. Los agentes siguen trabajando.
 - [2026-11-02-ep001](minutes/2026-11-02-ep001.md)
 
 ## Actividad reciente
+- `2026-11-03 12:54 UTC` **dueño** — Nueva línea editorial: temas nuevos y variados cada vídeo, 7 formatos rotativos, más curiosidades y alternativos; Lucía como personaje recurrente opcional.
 - `2026-11-03 12:30 UTC` **incidencia** — Ep. 4 (deudas, Leo) escrito de madrugada por el reintento nocturno: no seguía la trama y Compliance no lo aprobó. Se rehace con la continuidad nueva. Reintento nocturno movido a las 20:41.
+- `2026-11-03 12:30 UTC` **reanudación** — Se reinició el límite (Presupuesto diario de IA alcanzado (1.05 $ de 1.0 $)); retomamos donde lo dejamos.
 - `2026-11-02 23:15 UTC` **incidencia** — Ep. 4: Compliance no aprueba el episodio tras las revisiones: [{"scene": 2, "problem": "Incoherencia con el cálculo de la escena 4: el móvil muestra 'Tipo anual 20 %' y un cargo de -33 € en el primer mes, pero la voz dice 'Este mes no la toca... y los intereses llegan igual' sin explicar de dónde sale el 3
 - `2026-11-02 23:15 UTC` **pausa** — Presupuesto diario de IA alcanzado (1.05 $ de 1.0 $). Retomamos a partir de 2026-11-03 00:05 UTC.
 - `2026-11-02 19:31 UTC` **publicación** — Ep. 3: Tu dinero quieto pierde valor en silencio · estado: sent_to_inbox
@@ -41,8 +43,6 @@ Nada pendiente. Los agentes siguen trabajando.
 - `2026-11-02 12:15 UTC` **decisión** — Ep. 2 corregido según Compliance (6 % hipotético, sin garantías, colchón de emergencia). Nuevo: si Compliance bloquea, el Estudio corrige y se re-revisa solo.
 - `2026-11-02 12:15 UTC` **dueño** — Empresa activada: rama en main y clave de Claude funcionando (primer comité: 0,04 $).
 - `2026-11-02 11:43 UTC` **incidencia** — Ep. 2: Compliance bloquea el episodio: [{"escena": "03 · la historia", "texto": "A los 65, con un 6 por ciento anual... Lucía tiene unos 298.000 euros. Marta, unos 150.000.", "problema": "Las cifras son correctas. Recalculado con 150 €/mes, 6 % nominal anual capitalizado mensualmente: 40 años dan unos 298.
-- `2026-11-02 11:20 UTC` **decisión** — Repositorio: pasar a privado (gratis, ~800 min/mes de 2.000) para que actas, costes y peticiones no sean públicas. Se eliminaron del repositorio las menciones al trabajo del dueño.
-- `2026-11-02 11:20 UTC` **decisión** — Presupuesto de IA fijado por el dueño: 20 $/mes. Haiku 5.5 para casi todo y Sonnet 5.5 para guion y Compliance; tope diario 1 $ para reuniones.
 
 ## Directivas del consejo
 _(Las actualiza el consejo cada semana. Primera sesión pendiente.)_

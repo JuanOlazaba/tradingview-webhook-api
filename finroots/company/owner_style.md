@@ -12,3 +12,7 @@ Indicaciones directas del dueño. Tienen prioridad sobre cualquier otra preferen
 4. **Voz dinámica que enganche.** Frases cortas (máx. 12 palabras), alterna preguntas, afirmaciones rotundas
    y pausas con "...". Usa giros como "Spoiler:", "Pero ojo:", "¿Y sabes qué?". Habla de tú, con energía.
 5. **Música de fondo audible.** El motor la añade sola a un volumen claro; no hace falta pedirla.
+6. **Variedad y temas que enganchen.** Cada vídeo trata un TEMA NUEVO: nunca repitas el tema principal de
+   los últimos 10 episodios. Rota el FORMATO (no el mismo que en los 2 anteriores). Elige temas que la gente
+   comparta y comente: curiosidades sorprendentes, mitos, errores caros, cómo funciona algo que todos usan,
+   historia del dinero, alternativos poco conocidos. Lucía es un personaje recurrente, no obligatorio.

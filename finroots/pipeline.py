@@ -45,15 +45,20 @@ def write_episode(m: Meeting, number: int, prev: dict | None) -> dict:
             nxt = next((s.get("params", {}).get("next") for s in e.get("scenes", []) if s.get("type") == "logo"), None)
             if nxt:
                 teasers.append(f"ep. {k} prometió: {nxt}")
-    cont = ("TEMAS YA CONTADOS (no los repitas como tema principal):\n- " + "\n- ".join(recent) +
-            "\nADELANTOS PENDIENTES (el más reciente que siga sin responderse es OBLIGATORIO como tema):\n- " +
+    fmts = []
+    for k in range(max(1, number - 2), number):
+        f = _ep_dir(k) / "episode.json"
+        if f.exists():
+            fmts.append(json.loads(f.read_text(encoding="utf-8")).get("format", "historia"))
+    cont = ("TEMAS YA CONTADOS (prohibido repetirlos como tema principal):\n- " + "\n- ".join(recent) +
+            "\nFORMATOS DE LOS 2 ÚLTIMOS (usa otro distinto): " + (", ".join(fmts) or "ninguno") +
+            "\nAdelantos dejados en episodios anteriores (respóndelos solo si encajan en un tema y formato nuevos):\n- " +
             ("\n- ".join(teasers) or "ninguno") +
-            "\nRespeta la situación actual de los personajes según la biblia y los episodios (p. ej. Lucía ya "
-            "aparta 150 €/mes y ya entiende inflación e interés compuesto).")
+            "\nBusca temas que se compartan y comenten. Consulta los formatos y la bolsa de temas de la biblia.")
     m.note("operations", cont)
-    m.say("ideas", f"""Propón 3 fichas para el episodio {number} que continúen la trama de la biblia
-(siguiente paso lógico tras el episodio anterior, respondiendo al adelanto pendiente). Formato JSON:
-{{"proposals":[{{"topic":"","core_idea":"una frase","character":"personaje y situación concreta",
+    m.say("ideas", f"""Propón 3 fichas para el episodio {number}: tres TEMAS NUEVOS y distintos entre sí, cada uno
+con un formato de la biblia distinto al de los 2 últimos episodios. Prioriza lo que más engancha. Formato JSON:
+{{"proposals":[{{"format":"historia|mito|sabias_que|error_caro|como_funciona|a_vs_b|historia_dinero","topic":"","core_idea":"una frase","character":"personaje y situación (opcional según el formato)",
 "figures":"cifras ilustrativas con el cálculo","objects":["3+ objetos del catálogo, al menos 1 no usado en el ep. anterior"],
 "hook":"primer fotograma","question":"pregunta con A/B/C","teaser_next":"pregunta que deja para el siguiente"}}]}}""",
           want_json=True)
@@ -61,11 +66,11 @@ def write_episode(m: Meeting, number: int, prev: dict | None) -> dict:
                        "y propone mejoras concretas del gancho. Máx. 150 palabras.")
     m.say("product", "Evalúa valor educativo y encaje con el embudo de monetización. ¿Lleva CTA hoy? ¿Cuál? Máx. 120 palabras.")
     decision = m.say("ceo", """Decide. Elige una propuesta (o combina) y cierra la ficha final del episodio en JSON:
-{"chosen":0,"why":"","ficha":{"topic":"","core_idea":"","character":"","figures":"","objects":[],"hook":"",
+{"chosen":0,"why":"","ficha":{"format":"","topic":"","core_idea":"","character":"","figures":"","objects":[],"hook":"",
 "question":"","teaser_next":"","cta":""},"notes_for_studio":""}""", want_json=True)
 
     task = f"""Escribe el episodio {number} completo según la ficha del CEO, en el JSON del motor:
-{{"number":{number},"slug":"","title":"","topic":"","core_idea":"","series":"","characters":[],
+{{"number":{number},"format":"<formato de la ficha>","slug":"","title":"","topic":"","core_idea":"","series":"","characters":[],
 "keywords":["4-6 raíces de palabras clave para resaltar en azul en los subtítulos, en minúscula"],
 "scenes":[{{"type":"<objeto del catálogo>","chapter":"// 01 · el problema","sfx":"<efecto>","voice":"<frase hablada>","params":{{...}}}}]}}
 Reglas: 12–14 escenas, 150–200 palabras de voz en total, la primera escena es el gancho de 3–5 s (chapter vacío,
