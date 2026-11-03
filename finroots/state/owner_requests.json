@@ -69,5 +69,16 @@
   "issue": 15,
   "url": "https://github.com/JuanOlazaba/tradingview-webhook-api/issues/15",
   "answer": "resuelto: se rehace el ep. 4 con la continuidad de la serie"
+ },
+ {
+  "id": 7,
+  "title": "Incidencia en el episodio 5",
+  "body": "El comité diario no pudo completar el episodio 5:\n\n> El episodio no pasa la validación técnica: el gancho (escena 1) debe ser una sola frase\n\nIT lo reintentará en la próxima ejecución. Responde solo si quieres dar instrucciones.",
+  "by": "Operaciones",
+  "status": "pending",
+  "apply_on_yes": {},
+  "created": "2026-11-03 13:13 UTC",
+  "issue": 17,
+  "url": "https://github.com/JuanOlazaba/tradingview-webhook-api/issues/17"
  }
 ]

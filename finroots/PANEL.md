@@ -1,13 +1,13 @@
 # Panel de Finroots
-_Actualizado: 2026-11-03 13:10 UTC · se regenera en cada reunión_
+_Actualizado: 2026-11-03 13:13 UTC · se regenera en cada reunión_
 
 ## Necesita tu sí
-Nada pendiente. Los agentes siguen trabajando.
+- **Incidencia en el episodio 5** — [responder aquí](https://github.com/JuanOlazaba/tradingview-webhook-api/issues/17) · pedido por Operaciones el 2026-11-03 13:13 UTC
 
 ## Estado
 - Episodios: 4 · en colchón (listos): 0
 - TikTok: — seguidores · — me gusta · — vídeos
-- Coste de IA: hoy 0.31 $ · este mes 1.35 $ de 20 $ · total 1.35 $
+- Coste de IA: hoy 0.53 $ · este mes 1.58 $ de 20 $ · total 1.58 $
 
 ## Episodios
 | # | Título | Estado |
@@ -18,12 +18,14 @@ Nada pendiente. Los agentes siguen trabajando.
 | 1 | [Tus 100 € en el cajón](episodes/ep001/script.txt) | publicado |
 
 ## Últimas reuniones
+- [2026-11-03-ep005](minutes/2026-11-03-ep005.md)
 - [2026-11-03-ep004](minutes/2026-11-03-ep004.md)
 - [2026-11-02-ep003](minutes/2026-11-02-ep003.md)
 - [2026-11-02-ep002](minutes/2026-11-02-ep002.md)
 - [2026-11-02-ep001](minutes/2026-11-02-ep001.md)
 
 ## Actividad reciente
+- `2026-11-03 13:13 UTC` **incidencia** — Ep. 5: El episodio no pasa la validación técnica: el gancho (escena 1) debe ser una sola frase
 - `2026-11-03 13:10 UTC` **publicación** — Ep. 4: El Dow Jones tardó 25 años en recuperar 1929 · estado: sent_to_inbox
 - `2026-11-03 12:54 UTC` **dueño** — Nueva línea editorial: temas nuevos y variados cada vídeo, 7 formatos rotativos, más curiosidades y alternativos; Lucía como personaje recurrente opcional.
 - `2026-11-03 12:30 UTC` **incidencia** — Ep. 4 (deudas, Leo) escrito de madrugada por el reintento nocturno: no seguía la trama y Compliance no lo aprobó. Se rehace con la continuidad nueva. Reintento nocturno movido a las 20:41.
@@ -43,7 +45,6 @@ Nada pendiente. Los agentes siguen trabajando.
 - `2026-11-02 15:28 UTC` **incidencia** — Ep. 2: Subida fallida (trozo 1/1): HTTP 500 null
 - `2026-11-02 14:32 UTC` **incidencia** — Ep. 2: No se pudo renovar el token de TikTok: {'error': 'invalid_grant', 'error_description': 'Refresh token is invalid or expired.', 'log_id': '20261102143207A806556075C7C313C8CA'}
 - `2026-11-02 12:15 UTC` **decisión** — Ep. 2 corregido según Compliance (6 % hipotético, sin garantías, colchón de emergencia). Nuevo: si Compliance bloquea, el Estudio corrige y se re-revisa solo.
-- `2026-11-02 12:15 UTC` **dueño** — Empresa activada: rama en main y clave de Claude funcionando (primer comité: 0,04 $).
 
 ## Directivas del consejo
 _(Las actualiza el consejo cada semana. Primera sesión pendiente.)_
