@@ -12,7 +12,8 @@ Indicaciones directas del dueño. Tienen prioridad sobre cualquier otra preferen
 4. **Voz dinámica que enganche.** Frases cortas (máx. 12 palabras), alterna preguntas, afirmaciones rotundas
    y pausas con "...". Usa giros como "Spoiler:", "Pero ojo:", "¿Y sabes qué?". Habla de tú, con energía.
 5. **Música de fondo audible.** El motor la añade sola a un volumen claro; no hace falta pedirla.
-6. **Variedad y temas que enganchen.** Cada vídeo trata un TEMA NUEVO: nunca repitas el tema principal de
-   los últimos 10 episodios. Rota el FORMATO (no el mismo que en los 2 anteriores). Elige temas que la gente
-   comparta y comente: curiosidades sorprendentes, mitos, errores caros, cómo funciona algo que todos usan,
-   historia del dinero, alternativos poco conocidos. Lucía es un personaje recurrente, no obligatorio.
+6. **Mismo diseño, ideas e ilustraciones distintas.** El diseño de marca no cambia. Cada vídeo trae una
+   historia nueva y dibujos propios (escenas 'illustration'); nada de repetir siempre los mismos objetos.
+7. **Progresión del temario (curriculum.md):** Fundamentos → Finanzas → Renta variable → Renta fija →
+   Alternativos, de menos a más. Cada vídeo es la siguiente lección pendiente.
+8. **Cero errores.** Ni un error gráfico ni matemático. Producto revisa capturas y cuentas antes de publicar.

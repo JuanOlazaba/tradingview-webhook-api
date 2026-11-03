@@ -30,3 +30,5 @@
 {"t": "2026-11-03 15:32 UTC", "kind": "pausa", "summary": "Presupuesto diario de IA alcanzado (1.12 $ de 1.0 $). Retomamos a partir de 2026-11-04 00:05 UTC."}
 {"t": "2026-11-03 15:32 UTC", "kind": "publicación", "summary": "Ep. 6: Tu app gratis no es gratis · estado: sent_to_inbox"}
 {"t": "2026-11-03 21:15 UTC", "kind": "pausa", "summary": "Ep. 7: en pausa: Presupuesto diario de IA alcanzado (1.12 $ de 1.0 $) (hasta 2026-11-04T00:05 UTC)"}
+{"t": "2026-11-03 21:33 UTC", "kind": "dueño", "summary": "Indicaciones: mismo diseño con ilustraciones e ideas distintas; Ideas innovador; Producto sin un solo error gráfico ni matemático; temario Fundamentos → Finanzas → Renta variable → Renta fija → Alternativos."}
+{"t": "2026-11-03 21:33 UTC", "kind": "decisión", "summary": "Ep. 4, 5 y 6 descartados por errores gráficos (gráficas vacías, NaN, textos cortados). Motor corregido, control de calidad de Producto con capturas y recálculo, ilustraciones SVG propias, temario progresivo. Siguiente lección: F04 fondo de emergencia."}

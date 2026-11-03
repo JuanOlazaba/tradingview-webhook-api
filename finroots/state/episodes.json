@@ -28,7 +28,11 @@
       "mode": "draft",
       "status": "SEND_TO_USER_INBOX",
       "post_ids": null
-    }
+    },
+    "lessons": [
+      "F01",
+      "F02"
+    ]
   },
   {
     "number": 2,
@@ -63,7 +67,10 @@
       "mode": "draft",
       "status": "SEND_TO_USER_INBOX",
       "post_ids": null
-    }
+    },
+    "lessons": [
+      "F03"
+    ]
   },
   {
     "number": 3,
@@ -95,7 +102,10 @@
       "mode": "draft",
       "status": "SEND_TO_USER_INBOX",
       "post_ids": null
-    }
+    },
+    "lessons": [
+      "F02"
+    ]
   },
   {
     "number": 4,
@@ -115,7 +125,7 @@
       "options"
     ],
     "question": "Vender todo / Esperar / Comprar más",
-    "status": "sent_to_inbox",
+    "status": "discarded",
     "duration": 79.77,
     "published_at": "2026-11-03T13:10:03.228854Z",
     "tiktok": {
@@ -123,7 +133,8 @@
       "mode": "draft",
       "status": "SEND_TO_USER_INBOX",
       "post_ids": null
-    }
+    },
+    "lessons": []
   },
   {
     "number": 5,
@@ -148,7 +159,7 @@
       "snowball"
     ],
     "question": "A) El porcentaje / B) El total pagado en euros / C) Solo la rentabilidad pasada",
-    "status": "sent_to_inbox",
+    "status": "discarded",
     "duration": 84.864,
     "published_at": "2026-11-03T15:23:07.066885Z",
     "tiktok": {
@@ -156,7 +167,8 @@
       "mode": "draft",
       "status": "SEND_TO_USER_INBOX",
       "post_ids": null
-    }
+    },
+    "lessons": []
   },
   {
     "number": 6,
@@ -179,7 +191,7 @@
       "piggies"
     ],
     "question": "A) No gana nada / B) Publicidad y datos, muy a menudo / C) Solo donaciones",
-    "status": "sent_to_inbox",
+    "status": "discarded",
     "duration": 64.854,
     "published_at": "2026-11-03T15:32:49.431160Z",
     "tiktok": {
@@ -187,6 +199,7 @@
       "mode": "draft",
       "status": "SEND_TO_USER_INBOX",
       "post_ids": null
-    }
+    },
+    "lessons": []
   }
 ]

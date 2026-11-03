@@ -1,5 +1,5 @@
 # Panel de Finroots
-_Actualizado: 2026-11-03 21:15 UTC · se regenera en cada reunión_
+_Actualizado: 2026-11-03 21:33 UTC · se regenera en cada reunión_
 
 > **En pausa:** Presupuesto diario de IA alcanzado (1.12 $ de 1.0 $). Se reanuda sola a partir de 2026-11-04 00:05 UTC y retoma lo pendiente.
 
@@ -14,9 +14,9 @@ _Actualizado: 2026-11-03 21:15 UTC · se regenera en cada reunión_
 ## Episodios
 | # | Título | Estado |
 |---|---|---|
-| 6 | [Tu app gratis no es gratis](episodes/ep006/script.txt) | en tus borradores de TikTok |
-| 5 | [Un 1 % de comisión te cuesta casi 19.000 €](episodes/ep005/script.txt) | en tus borradores de TikTok |
-| 4 | [El Dow Jones tardó 25 años en recuperar 1929](episodes/ep004/script.txt) | en tus borradores de TikTok |
+| 6 | [Tu app gratis no es gratis](episodes/ep006/script.txt) | discarded |
+| 5 | [Un 1 % de comisión te cuesta casi 19.000 €](episodes/ep005/script.txt) | discarded |
+| 4 | [El Dow Jones tardó 25 años en recuperar 1929](episodes/ep004/script.txt) | discarded |
 | 3 | [Tu dinero quieto pierde valor en silencio](episodes/ep003/script.txt) | en tus borradores de TikTok |
 | 2 | [Lucía y Marta: misma cuota, casi el doble de dinero](episodes/ep002/script.txt) | en tus borradores de TikTok |
 | 1 | [Tus 100 € en el cajón](episodes/ep001/script.txt) | publicado |
@@ -31,6 +31,8 @@ _Actualizado: 2026-11-03 21:15 UTC · se regenera en cada reunión_
 - [2026-11-02-ep001](minutes/2026-11-02-ep001.md)
 
 ## Actividad reciente
+- `2026-11-03 21:33 UTC` **decisión** — Ep. 4, 5 y 6 descartados por errores gráficos (gráficas vacías, NaN, textos cortados). Motor corregido, control de calidad de Producto con capturas y recálculo, ilustraciones SVG propias, temario progresivo. Siguiente lección: F04 fondo de emergencia.
+- `2026-11-03 21:33 UTC` **dueño** — Indicaciones: mismo diseño con ilustraciones e ideas distintas; Ideas innovador; Producto sin un solo error gráfico ni matemático; temario Fundamentos → Finanzas → Renta variable → Renta fija → Alternativos.
 - `2026-11-03 21:15 UTC` **pausa** — Ep. 7: en pausa: Presupuesto diario de IA alcanzado (1.12 $ de 1.0 $) (hasta 2026-11-04T00:05 UTC)
 - `2026-11-03 15:32 UTC` **publicación** — Ep. 6: Tu app gratis no es gratis · estado: sent_to_inbox
 - `2026-11-03 15:32 UTC` **pausa** — Presupuesto diario de IA alcanzado (1.12 $ de 1.0 $). Retomamos a partir de 2026-11-04 00:05 UTC.
@@ -49,8 +51,6 @@ _Actualizado: 2026-11-03 21:15 UTC · se regenera en cada reunión_
 - `2026-11-02 18:03 UTC` **publicación** — Ep. 2: Lucía y Marta: misma cuota, casi el doble de dinero · estado: sent_to_inbox
 - `2026-11-02 17:21 UTC` **dueño** — Ep. 2 adaptado al nuevo estilo (gancho de 3–5 s, frases cortas, voz dinámica, música, subtítulos grandes) y reenviado. El borrador anterior no se publica.
 - `2026-11-02 17:20 UTC` **dueño** — Guía de estilo del dueño para todos los vídeos nuevos: info centrada, música de fondo audible, subtítulos grandes, gancho de 3–5 s (pregunta o afirmación), voz más dinámica.
-- `2026-11-02 16:10 UTC` **publicación** — Ep. 1: Tus 100 € en el cajón · estado: sent_to_inbox
-- `2026-11-02 15:58 UTC` **decisión** — Por indicación del dueño: el ep. 1 se convierte en vídeo (mismo guion y escenas) y se envía antes que el 2. Orden de publicación: 1, 2, 3...
 
 ## Directivas del consejo
 _(Las actualiza el consejo cada semana. Primera sesión pendiente.)_

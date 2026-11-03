@@ -44,7 +44,11 @@ y deja una pregunta abierta para el siguiente.
   (fondo de emergencia → ahorro a corto plazo → inversión a largo plazo), y después renta fija vs variable.
 
 
-## Línea editorial desde el 3 nov 2026 (indicación del dueño): variedad
+## (Sustituido) Línea editorial del 3 nov por la mañana
+Sustituida por el temario progresivo de `curriculum.md` (indicación del dueño, 3 nov por la tarde):
+mismo diseño, ideas e ilustraciones nuevas en cada vídeo, progresión de menos a más.
+
+### Formatos y temas de referencia (solo como inspiración)
 Cada vídeo, un tema nuevo y un formato distinto a los 2 anteriores. Lucía y el resto de personajes
 aparecen cuando aportan, no siempre.
 
