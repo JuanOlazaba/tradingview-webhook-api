@@ -1,0 +1,12 @@
+[01]   Un 1 % de comisión parece nada. En este ejemplo, casi 19.000 €.
+[02] // 01 · el mito  Tío Ramón lo tiene claro: un 1 % no importa. Lucía saca la calculadora... Imagina 10.000 € durante 30 años.
+[03] // 02 · sin comisión  Primero, sin comisión. Con un 7 % anual supuesto, se quedan en 76.120 €.
+[04] // 03 · con comisión  Ahora, con un 1 % de comisión. Rentabilidad neta supuesta: 6 %. Resultado aproximado: 57.430 €.
+[05] // 03 · con comisión  Mira las dos líneas. Al principio casi van juntas... pero con los años se abren como unas tijeras.
+[06] // 04 · la idea  Diferencia: unos 18.690 €. Por un solo punto, en este ejemplo... Cifras ilustrativas, no garantizadas.
+[07] // 04 · por qué pasa  ¿Y sabes qué? Muchas comisiones no se pagan una vez. Se cobran cada año... y le quitan combustible al interés compuesto.
+[08] // 04 · por qué pasa  Pero ojo: en muchos productos te la cobran aunque ese año pierdas. Ejemplo simplificado: año 1, unos 100 €. Año 2, unos 106. Año 3, unos 112.
+[09] // 04 · la cuenta  Ramón se rinde. Ese 1 %, con los años, deja unos 18.690 € menos en el bote.
+[10] // 05 · qué mirar  Entonces, ¿qué miras? El porcentaje solo no basta. Mira también el total en euros y el plazo.
+[11] // 05 · tu turno  Tu turno. Si ves una comisión anual, ¿qué miras primero? A, el porcentaje. B, el total en euros. C, solo la rentabilidad pasada.
+[12]   Esto ha sido Finroots. El dinero, desde la raíz.

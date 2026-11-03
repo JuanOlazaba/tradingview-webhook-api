@@ -124,5 +124,38 @@
       "status": "SEND_TO_USER_INBOX",
       "post_ids": null
     }
+  },
+  {
+    "number": 5,
+    "slug": "comision-1-por-ciento",
+    "title": "Un 1 % de comisión te cuesta casi 19.000 €",
+    "topic": "Comisiones: un 1 % que parece nada",
+    "core_idea": "Una comisión anual aparentemente pequeña se come una parte enorme de la rentabilidad a largo plazo.",
+    "characters": [
+      "Lucía",
+      "Tío Ramón"
+    ],
+    "objects": [
+      "cards",
+      "chart",
+      "counter",
+      "display",
+      "drawer",
+      "logo",
+      "options",
+      "phone",
+      "receipt",
+      "snowball"
+    ],
+    "question": "A) El porcentaje / B) El total pagado en euros / C) Solo la rentabilidad pasada",
+    "status": "sent_to_inbox",
+    "duration": 84.864,
+    "published_at": "2026-11-03T15:23:07.066885Z",
+    "tiktok": {
+      "publish_id": "v_inbox_file~v2.7703965745482532878",
+      "mode": "draft",
+      "status": "SEND_TO_USER_INBOX",
+      "post_ids": null
+    }
   }
 ]

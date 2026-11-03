@@ -1,17 +1,18 @@
 # Panel de Finroots
-_Actualizado: 2026-11-03 13:13 UTC · se regenera en cada reunión_
+_Actualizado: 2026-11-03 15:23 UTC · se regenera en cada reunión_
 
 ## Necesita tu sí
 - **Incidencia en el episodio 5** — [responder aquí](https://github.com/JuanOlazaba/tradingview-webhook-api/issues/17) · pedido por Operaciones el 2026-11-03 13:13 UTC
 
 ## Estado
-- Episodios: 4 · en colchón (listos): 0
+- Episodios: 5 · en colchón (listos): 0
 - TikTok: — seguidores · — me gusta · — vídeos
-- Coste de IA: hoy 0.53 $ · este mes 1.58 $ de 20 $ · total 1.58 $
+- Coste de IA: hoy 0.91 $ · este mes 1.95 $ de 20 $ · total 1.95 $
 
 ## Episodios
 | # | Título | Estado |
 |---|---|---|
+| 5 | [Un 1 % de comisión te cuesta casi 19.000 €](episodes/ep005/script.txt) | en tus borradores de TikTok |
 | 4 | [El Dow Jones tardó 25 años en recuperar 1929](episodes/ep004/script.txt) | en tus borradores de TikTok |
 | 3 | [Tu dinero quieto pierde valor en silencio](episodes/ep003/script.txt) | en tus borradores de TikTok |
 | 2 | [Lucía y Marta: misma cuota, casi el doble de dinero](episodes/ep002/script.txt) | en tus borradores de TikTok |
@@ -25,6 +26,7 @@ _Actualizado: 2026-11-03 13:13 UTC · se regenera en cada reunión_
 - [2026-11-02-ep001](minutes/2026-11-02-ep001.md)
 
 ## Actividad reciente
+- `2026-11-03 15:23 UTC` **publicación** — Ep. 5: Un 1 % de comisión te cuesta casi 19.000 € · estado: sent_to_inbox
 - `2026-11-03 13:13 UTC` **incidencia** — Ep. 5: El episodio no pasa la validación técnica: el gancho (escena 1) debe ser una sola frase
 - `2026-11-03 13:10 UTC` **publicación** — Ep. 4: El Dow Jones tardó 25 años en recuperar 1929 · estado: sent_to_inbox
 - `2026-11-03 12:54 UTC` **dueño** — Nueva línea editorial: temas nuevos y variados cada vídeo, 7 formatos rotativos, más curiosidades y alternativos; Lucía como personaje recurrente opcional.
@@ -44,7 +46,6 @@ _Actualizado: 2026-11-03 13:13 UTC · se regenera en cada reunión_
 - `2026-11-02 15:53 UTC` **publicación** — Ep. 2: Lucía y Marta: misma cuota, casi el doble de dinero · estado: sent_to_inbox
 - `2026-11-02 15:28 UTC` **incidencia** — Ep. 2: Subida fallida (trozo 1/1): HTTP 500 null
 - `2026-11-02 14:32 UTC` **incidencia** — Ep. 2: No se pudo renovar el token de TikTok: {'error': 'invalid_grant', 'error_description': 'Refresh token is invalid or expired.', 'log_id': '20261102143207A806556075C7C313C8CA'}
-- `2026-11-02 12:15 UTC` **decisión** — Ep. 2 corregido según Compliance (6 % hipotético, sin garantías, colchón de emergencia). Nuevo: si Compliance bloquea, el Estudio corrige y se re-revisa solo.
 
 ## Directivas del consejo
 _(Las actualiza el consejo cada semana. Primera sesión pendiente.)_
