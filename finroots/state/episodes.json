@@ -157,5 +157,36 @@
       "status": "SEND_TO_USER_INBOX",
       "post_ids": null
     }
+  },
+  {
+    "number": 6,
+    "slug": "apps-gratis-quien-paga",
+    "title": "Tu app gratis no es gratis",
+    "topic": "Cómo ganan dinero las apps gratis",
+    "core_idea": "Si una app no cobra, su negocio suele ser vender acceso a tu atención o datos a anunciantes, y tú eres parte del modelo.",
+    "characters": [
+      "Marta"
+    ],
+    "objects": [
+      "calendar",
+      "cards",
+      "coins",
+      "counter",
+      "display",
+      "levers",
+      "logo",
+      "options",
+      "piggies"
+    ],
+    "question": "A) No gana nada / B) Publicidad y datos, muy a menudo / C) Solo donaciones",
+    "status": "sent_to_inbox",
+    "duration": 64.854,
+    "published_at": "2026-11-03T15:32:49.431160Z",
+    "tiktok": {
+      "publish_id": "v_inbox_file~v2.7703968378133776397",
+      "mode": "draft",
+      "status": "SEND_TO_USER_INBOX",
+      "post_ids": null
+    }
   }
 ]

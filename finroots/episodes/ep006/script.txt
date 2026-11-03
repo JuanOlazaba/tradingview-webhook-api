@@ -1,0 +1,12 @@
+[01]   Tu app gratis no es gratis. Suele pagarse con tu atención.
+[02] // 01 · el problema  Marta, un caso ficticio, lleva 5 años con una app de fotos. Nunca ha pagado nada. ¿Y sabes qué? Nunca se preguntó por qué.
+[03] // 01 · el problema  Spoiler: si no pagas con dinero, a menudo pagas con otra cosa.
+[04] // 02 · cómo funciona  Atención, datos y publicidad. Es un modelo muy habitual. Los anunciantes pagan por llegar a tu atención.
+[05] // 02 · cómo funciona  Hagamos números, en este ejemplo ilustrativo. Una app con 1.000.000 de usuarios. Gana 2 € al año por cada uno.
+[06] // 03 · los números  Total: 2.000.000 € de ingresos al año. Tú no pagas nada, pero el negocio existe.
+[07] // 03 · el motor  Pero ojo: en muchas apps, más tiempo de uso significa más anuncios vistos y más ingresos para ellas.
+[08] // 03 · el caso de Marta  Marta, en 5 años, no pagó ni 1 €. En este ejemplo ilustrativo, generó unos 10 € de ingresos para la app.
+[09] // 04 · el giro  Suele ser un trato que aceptas al instalarla. Lo malo es no saberlo.
+[10] // 04 · hazlo hoy  Una idea general: revisa los permisos de tus apps. Mira cuánto tiempo les dedicas. Y valora si el trato te compensa.
+[11] // 05 · tu turno  Tu turno. ¿Cómo suele ganar dinero una app gratis?
+[12]   Esto ha sido Finroots. El dinero, desde la raíz.

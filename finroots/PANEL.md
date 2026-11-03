@@ -1,17 +1,20 @@
 # Panel de Finroots
-_Actualizado: 2026-11-03 15:23 UTC · se regenera en cada reunión_
+_Actualizado: 2026-11-03 15:32 UTC · se regenera en cada reunión_
+
+> **En pausa:** Presupuesto diario de IA alcanzado (1.12 $ de 1.0 $). Se reanuda sola a partir de 2026-11-04 00:05 UTC y retoma lo pendiente.
 
 ## Necesita tu sí
 - **Incidencia en el episodio 5** — [responder aquí](https://github.com/JuanOlazaba/tradingview-webhook-api/issues/17) · pedido por Operaciones el 2026-11-03 13:13 UTC
 
 ## Estado
-- Episodios: 5 · en colchón (listos): 0
+- Episodios: 6 · en colchón (listos): 0
 - TikTok: — seguidores · — me gusta · — vídeos
-- Coste de IA: hoy 0.91 $ · este mes 1.95 $ de 20 $ · total 1.95 $
+- Coste de IA: hoy 1.12 $ · este mes 2.17 $ de 20 $ · total 2.17 $
 
 ## Episodios
 | # | Título | Estado |
 |---|---|---|
+| 6 | [Tu app gratis no es gratis](episodes/ep006/script.txt) | en tus borradores de TikTok |
 | 5 | [Un 1 % de comisión te cuesta casi 19.000 €](episodes/ep005/script.txt) | en tus borradores de TikTok |
 | 4 | [El Dow Jones tardó 25 años en recuperar 1929](episodes/ep004/script.txt) | en tus borradores de TikTok |
 | 3 | [Tu dinero quieto pierde valor en silencio](episodes/ep003/script.txt) | en tus borradores de TikTok |
@@ -19,6 +22,7 @@ _Actualizado: 2026-11-03 15:23 UTC · se regenera en cada reunión_
 | 1 | [Tus 100 € en el cajón](episodes/ep001/script.txt) | publicado |
 
 ## Últimas reuniones
+- [2026-11-03-ep006](minutes/2026-11-03-ep006.md)
 - [2026-11-03-ep005](minutes/2026-11-03-ep005.md)
 - [2026-11-03-ep004](minutes/2026-11-03-ep004.md)
 - [2026-11-02-ep003](minutes/2026-11-02-ep003.md)
@@ -26,6 +30,8 @@ _Actualizado: 2026-11-03 15:23 UTC · se regenera en cada reunión_
 - [2026-11-02-ep001](minutes/2026-11-02-ep001.md)
 
 ## Actividad reciente
+- `2026-11-03 15:32 UTC` **publicación** — Ep. 6: Tu app gratis no es gratis · estado: sent_to_inbox
+- `2026-11-03 15:32 UTC` **pausa** — Presupuesto diario de IA alcanzado (1.12 $ de 1.0 $). Retomamos a partir de 2026-11-04 00:05 UTC.
 - `2026-11-03 15:23 UTC` **publicación** — Ep. 5: Un 1 % de comisión te cuesta casi 19.000 € · estado: sent_to_inbox
 - `2026-11-03 13:13 UTC` **incidencia** — Ep. 5: El episodio no pasa la validación técnica: el gancho (escena 1) debe ser una sola frase
 - `2026-11-03 13:10 UTC` **publicación** — Ep. 4: El Dow Jones tardó 25 años en recuperar 1929 · estado: sent_to_inbox
@@ -44,8 +50,6 @@ _Actualizado: 2026-11-03 15:23 UTC · se regenera en cada reunión_
 - `2026-11-02 16:10 UTC` **publicación** — Ep. 1: Tus 100 € en el cajón · estado: sent_to_inbox
 - `2026-11-02 15:58 UTC` **decisión** — Por indicación del dueño: el ep. 1 se convierte en vídeo (mismo guion y escenas) y se envía antes que el 2. Orden de publicación: 1, 2, 3...
 - `2026-11-02 15:53 UTC` **publicación** — Ep. 2: Lucía y Marta: misma cuota, casi el doble de dinero · estado: sent_to_inbox
-- `2026-11-02 15:28 UTC` **incidencia** — Ep. 2: Subida fallida (trozo 1/1): HTTP 500 null
-- `2026-11-02 14:32 UTC` **incidencia** — Ep. 2: No se pudo renovar el token de TikTok: {'error': 'invalid_grant', 'error_description': 'Refresh token is invalid or expired.', 'log_id': '20261102143207A806556075C7C313C8CA'}
 
 ## Directivas del consejo
 _(Las actualiza el consejo cada semana. Primera sesión pendiente.)_

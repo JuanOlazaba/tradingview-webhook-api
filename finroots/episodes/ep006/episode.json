@@ -1,0 +1,274 @@
+{
+ "number": 6,
+ "format": "como_funciona",
+ "slug": "apps-gratis-quien-paga",
+ "title": "Tu app gratis no es gratis",
+ "topic": "Cómo ganan dinero las apps gratis",
+ "core_idea": "Si una app no cobra, su negocio suele ser vender acceso a tu atención o datos a anunciantes, y tú eres parte del modelo.",
+ "series": "Finanzas en 1 minuto",
+ "characters": [
+  "Marta"
+ ],
+ "keywords": [
+  "gratis",
+  "datos",
+  "publicidad",
+  "atenci",
+  "usuario",
+  "anunci"
+ ],
+ "scenes": [
+  {
+   "type": "display",
+   "chapter": "",
+   "sfx": "hit",
+   "voice": "Tu app gratis no es gratis. Suele pagarse con tu atención.",
+   "params": {
+    "lines": [
+     {
+      "text": "TU APP GRATIS"
+     },
+     {
+      "text": "NO ES GRATIS",
+      "color": "co"
+     }
+    ],
+    "size": "xl"
+   }
+  },
+  {
+   "type": "calendar",
+   "chapter": "// 01 · el problema",
+   "sfx": "tick",
+   "voice": "Marta, un caso ficticio, lleva 5 años con una app de fotos. Nunca ha pagado nada. ¿Y sabes qué? Nunca se preguntó por qué.",
+   "params": {
+    "label": "Años de Marta con la app",
+    "from": 1,
+    "to": 5,
+    "sub": "Pagado: 0 €",
+    "at": 0.5,
+    "dur": 3,
+    "note": "Caso ficticio e ilustrativo."
+   }
+  },
+  {
+   "type": "display",
+   "chapter": "// 01 · el problema",
+   "sfx": "ding",
+   "voice": "Spoiler: si no pagas con dinero, a menudo pagas con otra cosa.",
+   "params": {
+    "lines": [
+     {
+      "text": "SIN DINERO",
+      "color": "bl"
+     },
+     {
+      "text": "PAGAS CON",
+      "at": 1
+     },
+     {
+      "text": "OTRA COSA",
+      "color": "co",
+      "at": 2
+     }
+    ],
+    "size": "xl"
+   }
+  },
+  {
+   "type": "cards",
+   "chapter": "// 02 · cómo funciona",
+   "sfx": "deal",
+   "voice": "Atención, datos y publicidad. Es un modelo muy habitual. Los anunciantes pagan por llegar a tu atención.",
+   "params": {
+    "cards": [
+     {
+      "label": "Atención",
+      "icon": "clock",
+      "lit": true
+     },
+     {
+      "label": "Datos",
+      "icon": "shield"
+     },
+     {
+      "label": "Publicidad",
+      "icon": "bag",
+      "lit": true
+     }
+    ],
+    "question": "¿Quién paga la cuenta?",
+    "question_at": 3
+   }
+  },
+  {
+   "type": "coins",
+   "chapter": "// 02 · cómo funciona",
+   "sfx": "coins",
+   "voice": "Hagamos números, en este ejemplo ilustrativo. Una app con 1.000.000 de usuarios. Gana 2 € al año por cada uno.",
+   "params": {
+    "towers": [
+     {
+      "label": "1 usuario",
+      "coins": 1,
+      "value": 2,
+      "suffix": " €/año"
+     },
+     {
+      "label": "1.000.000 de usuarios",
+      "coins": 14,
+      "value": 2000000,
+      "color": "co",
+      "suffix": " €/año"
+     }
+    ],
+    "note": "Ilustrativo: torres no a escala. No corresponde a ninguna app real."
+   }
+  },
+  {
+   "type": "counter",
+   "chapter": "// 03 · los números",
+   "sfx": "rise",
+   "voice": "Total: 2.000.000 € de ingresos al año. Tú no pagas nada, pero el negocio existe.",
+   "params": {
+    "label": "Ingresos de la app al año",
+    "from": 0,
+    "to": 2000000,
+    "suffix": " €",
+    "color": "co",
+    "sub": "1.000.000 de usuarios × 2 €",
+    "note": "Ilustrativo: cifra inventada para el ejemplo. Son ingresos, no beneficios."
+   }
+  },
+  {
+   "type": "levers",
+   "chapter": "// 03 · el motor",
+   "sfx": "tick",
+   "voice": "Pero ojo: en muchas apps, más tiempo de uso significa más anuncios vistos y más ingresos para ellas.",
+   "params": {
+    "title": "Cuánto vale tu atención",
+    "levers": [
+     {
+      "label": "Tu tiempo en pantalla",
+      "from": 30,
+      "to": 80
+     },
+     {
+      "label": "Anuncios que ves",
+      "from": 30,
+      "to": 80
+     },
+     {
+      "label": "Ingresos para la app",
+      "from": 20,
+      "to": 90
+     }
+    ],
+    "note": "Ilustrativo: valores inventados, sin unidades reales."
+   }
+  },
+  {
+   "type": "piggies",
+   "chapter": "// 03 · el caso de Marta",
+   "sfx": "pop",
+   "voice": "Marta, en 5 años, no pagó ni 1 €. En este ejemplo ilustrativo, generó unos 10 € de ingresos para la app.",
+   "params": {
+    "pigs": [
+     {
+      "name": "Marta",
+      "tag": "Ha pagado",
+      "sub": "5 años",
+      "fill": 0.02,
+      "from": 0,
+      "to": 0,
+      "suffix": " €",
+      "at": 0.5,
+      "dur": 2
+     },
+     {
+      "name": "La app",
+      "tag": "Ingresos ilustrativos",
+      "sub": "5 años × 2 €",
+      "fill": 0.6,
+      "from": 0,
+      "to": 10,
+      "suffix": " €",
+      "at": 0.5,
+      "dur": 3
+     }
+    ],
+    "note": "Ilustrativo y ficticio: 5 años × 2 € = 10 €."
+   }
+  },
+  {
+   "type": "display",
+   "chapter": "// 04 · el giro",
+   "sfx": "ding",
+   "voice": "Suele ser un trato que aceptas al instalarla. Lo malo es no saberlo.",
+   "params": {
+    "lines": [
+     {
+      "text": "ES UN TRATO"
+     },
+     {
+      "text": "LO MALO:",
+      "at": 1.5
+     },
+     {
+      "text": "NO SABERLO",
+      "color": "co",
+      "at": 2.5
+     }
+    ],
+    "size": "xl"
+   }
+  },
+  {
+   "type": "cards",
+   "chapter": "// 04 · hazlo hoy",
+   "sfx": "deal",
+   "voice": "Una idea general: revisa los permisos de tus apps. Mira cuánto tiempo les dedicas. Y valora si el trato te compensa.",
+   "params": {
+    "cards": [
+     {
+      "label": "Permisos",
+      "icon": "shield",
+      "lit": true
+     },
+     {
+      "label": "Tu tiempo",
+      "icon": "clock"
+     },
+     {
+      "label": "¿Compensa?",
+      "icon": "scale",
+      "lit": true
+     }
+    ]
+   }
+  },
+  {
+   "type": "options",
+   "chapter": "// 05 · tu turno",
+   "sfx": "pop",
+   "voice": "Tu turno. ¿Cómo suele ganar dinero una app gratis?",
+   "params": {
+    "options": [
+     "A) No gana nada",
+     "B) Publicidad y datos, muy a menudo",
+     "C) Solo donaciones"
+    ],
+    "disclaimer": "Contenido educativo. No es asesoramiento financiero ni recomendación de inversión. Invertir conlleva riesgos. Cifras ilustrativas. Vídeo creado con ayuda de IA."
+   }
+  },
+  {
+   "type": "logo",
+   "chapter": "",
+   "sfx": "cling",
+   "voice": "Esto ha sido Finroots. El dinero, desde la raíz.",
+   "params": {
+    "next": "¿Y si pagas por una app y aun así hay anuncios o datos de por medio?"
+   }
+  }
+ ]
+}
