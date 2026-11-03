@@ -21,3 +21,4 @@
 {"t": "2026-11-02 19:31 UTC", "kind": "publicación", "summary": "Ep. 3: Tu dinero quieto pierde valor en silencio · estado: sent_to_inbox"}
 {"t": "2026-11-02 23:15 UTC", "kind": "pausa", "summary": "Presupuesto diario de IA alcanzado (1.05 $ de 1.0 $). Retomamos a partir de 2026-11-03 00:05 UTC."}
 {"t": "2026-11-02 23:15 UTC", "kind": "incidencia", "summary": "Ep. 4: Compliance no aprueba el episodio tras las revisiones: [{\"scene\": 2, \"problem\": \"Incoherencia con el cálculo de la escena 4: el móvil muestra 'Tipo anual 20 %' y un cargo de -33 € en el primer mes, pero la voz dice 'Este mes no la toca... y los intereses llegan igual' sin explicar de dónde sale el 3"}
+{"t": "2026-11-03 12:30 UTC", "kind": "reanudación", "summary": "Se reinició el límite (Presupuesto diario de IA alcanzado (1.05 $ de 1.0 $)); retomamos donde lo dejamos."}

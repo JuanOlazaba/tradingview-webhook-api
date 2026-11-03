@@ -1,7 +1,5 @@
 # Panel de Finroots
-_Actualizado: 2026-11-02 23:15 UTC · se regenera en cada reunión_
-
-> **En pausa:** Presupuesto diario de IA alcanzado (1.05 $ de 1.0 $). Se reanuda sola a partir de 2026-11-03 00:05 UTC y retoma lo pendiente.
+_Actualizado: 2026-11-03 12:30 UTC · se regenera en cada reunión_
 
 ## Necesita tu sí
 - **Conectar la cuenta de TikTok @finroots** — [responder aquí](https://github.com/JuanOlazaba/tradingview-webhook-api/issues/4) · pedido por IT el 2026-11-02 03:59 UTC
@@ -11,7 +9,7 @@ _Actualizado: 2026-11-02 23:15 UTC · se regenera en cada reunión_
 ## Estado
 - Episodios: 3 · en colchón (listos): 0
 - TikTok: — seguidores · — me gusta · — vídeos
-- Coste de IA: hoy 1.05 $ · este mes 1.05 $ de 20 $ · total 1.05 $
+- Coste de IA: hoy 0.00 $ · este mes 1.05 $ de 20 $ · total 1.05 $
 
 ## Episodios
 | # | Título | Estado |
