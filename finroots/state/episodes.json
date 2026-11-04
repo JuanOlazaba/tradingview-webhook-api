@@ -201,5 +201,39 @@
       "post_ids": null
     },
     "lessons": []
+  },
+  {
+    "number": 7,
+    "slug": "pagar-solo-el-minimo-tarjeta",
+    "title": "Pagar solo el mínimo le cuesta a Leo 3.470 € extra",
+    "topic": "Pagar solo el mínimo de la tarjeta",
+    "core_idea": "Pagar solo el mínimo de la tarjeta alarga la deuda años y multiplica los intereses que acabas pagando.",
+    "characters": [
+      "Leo"
+    ],
+    "objects": [
+      "calendar",
+      "cards",
+      "chart",
+      "coins",
+      "counter",
+      "display",
+      "drawer",
+      "logo",
+      "options",
+      "phone",
+      "receipt"
+    ],
+    "question": "A) 2 años / B) 5 años / C) 11 años",
+    "status": "discarded",
+    "duration": 70.914,
+    "published_at": "2026-11-04T17:30:07.413775Z",
+    "tiktok": {
+      "publish_id": "v_inbox_file~v2.7704369665618970637",
+      "mode": "draft",
+      "status": "SEND_TO_USER_INBOX",
+      "post_ids": null
+    },
+    "lessons": []
   }
 ]

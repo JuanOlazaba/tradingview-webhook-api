@@ -1,0 +1,12 @@
+[01]   Pagar solo el mínimo le cuesta a Leo 3.470 € extra.
+[02] // 01 · el problema  Leo debe 2.000 € en la tarjeta. Imagina que paga cada mes 40 €, el mínimo. Y se queda tan tranquilo.
+[03] // 02 · el truco  Pero ojo: con un interés nominal del 22 % anual, el primer mes genera unos 37 € de intereses.
+[04] // 03 · la idea  De esos 40 €, 37 se van en intereses. ¿Y la deuda? Casi ni se mueve.
+[05] // 03 · la idea  En 2 años, la deuda baja solo 100 €. Spoiler: lo duro viene después.
+[06] // 04 · el tiempo  Así, Leo tarda unos 137 meses en liquidarla... Algo más de 11 años pagando por una deuda de 2.000 €.
+[07] // 04 · el coste  ¿Y sabes qué? En total, Leo pagaría unos 3.470 € solo en intereses.
+[08] // 05 · la comparación  Debía 2.000 €. En este ejemplo acaba pagando unos 5.470 €. Más del doble.
+[09] // 06 · una pista  Una pista: mira cuánto de tu cuota son intereses. Pagar más que el mínimo suele acortar la deuda. Y cada compra nueva la alarga.
+[10] // 06 · una pista  Normalmente, un pago extra reduce el capital pendiente... y recorta años. Revisa las condiciones de tu contrato.
+[11] // 07 · tu turno  Tu turno: ¿cuánto tardarías en pagar 2.000 € así? ¿2 años, 5 o 11?
+[12]   Esto ha sido Finroots. El dinero, desde la raíz.
