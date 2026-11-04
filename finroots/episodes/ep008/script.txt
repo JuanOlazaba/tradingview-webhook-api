@@ -1,0 +1,12 @@
+[01]   ¿Tus 150 € al mes tienen destino, o se esfuman?
+[02] // 01 · el problema  Lucía aparta 150 € el día que cobra. Pero todos van al mismo cajón.
+[03] // 01 · el problema  Spoiler: no todo el dinero sirve para lo mismo. Depende de cuándo lo vas a necesitar.
+[04] // 02 · la idea  Primero el plazo. Después, el dónde.
+[05] // 03 · las huchas  Hucha uno: emergencia. 60 € al mes, 1.200 € en 20 meses. Hucha dos: corto plazo. 40 € al mes, 1.000 € en 25 meses. Cifras ilustrativas, sin rentabilidad.
+[06] // 03 · el reparto  Así reparte Lucía sus 150 € en este ejemplo: 60, 40 y 50. Sin sobras.
+[07] // 03 · largo plazo  Hucha tres: largo plazo. 50 € al mes, 600 € en un año. Ilustrativo, solo aportaciones, sin rentabilidad. Idea: no tocarlo en años.
+[08] // 04 · el giro  Pero ojo: si mezclas las huchas, un imprevisto se come tu largo plazo.
+[09] // 04 · hazlo hoy  Solución: el día que cobra, Lucía programa tres transferencias. Una por hucha. Y las revisa de vez en cuando.
+[10] // 04 · el orden  ¿Y el orden? Muchos expertos priorizan la emergencia. Es un colchón que evita vender una inversión a la fuerza.
+[11] // 05 · tu turno  Y tú, ¿qué hucha te parece más urgente y por qué? Cuéntalo en comentarios y guarda este vídeo.
+[12]   Esto ha sido Finroots. El dinero, desde la raíz.

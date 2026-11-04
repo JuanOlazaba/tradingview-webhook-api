@@ -221,5 +221,36 @@
       "status": "SEND_TO_USER_INBOX",
       "post_ids": null
     }
+  },
+  {
+    "number": 8,
+    "slug": "lucia-ordena-150-euros-por-objetivos",
+    "title": "¿Tus 150 € al mes tienen destino?",
+    "topic": "Ordenar los 150 € al mes por objetivos: ¿dónde se invierte?",
+    "core_idea": "Antes de invertir, Lucía separa su margen mensual en tres huchas según cuándo necesita el dinero: fondo de emergencia, ahorro a corto plazo e inversión a largo plazo.",
+    "characters": [
+      "Lucía"
+    ],
+    "objects": [
+      "cards",
+      "display",
+      "drawer",
+      "levers",
+      "logo",
+      "options",
+      "phone",
+      "piggies",
+      "snowball"
+    ],
+    "question": "Emergencia / Corto plazo / Largo plazo",
+    "status": "sent_to_inbox",
+    "duration": 71.176,
+    "published_at": "2026-11-04T21:39:06.845149Z",
+    "tiktok": {
+      "publish_id": "v_inbox_file~v2.7704433711927855118",
+      "mode": "draft",
+      "status": "SEND_TO_USER_INBOX",
+      "post_ids": null
+    }
   }
 ]
