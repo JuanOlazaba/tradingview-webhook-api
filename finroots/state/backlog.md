@@ -15,3 +15,5 @@
 - [ ] Música de fondo con licencia.
 - [ ] Publicación cruzada a Instagram Reels y YouTube Shorts.
 - [ ] Voz premium (ElevenLabs) cuando haya ingresos.
+- [ ] Estudio: recalcular a mano las cifras del ep. 5 (19.000 €) y del ep. 7 (3.470 €), documentar la hipótesis (capital, años, tipo) y enviarla a Compliance antes de cualquier nuevo render. Responsable: Estudio + Compliance. _(añadido por CEO (Contenido y colchón de episodios), 2026-11-04)_
+- [ ] Medición: reportar retención a 3 s por tipo de gancho (pregunta o cifra) y retención media por formato a partir de 10 vídeos publicados. Responsable: Ideas (retención por formato) y Estudio (retención a 3 s por gancho). Sin conclusiones antes de 10 vídeos. _(añadido por CEO (Contenido y colchón de episodios), 2026-11-04)_

@@ -1,0 +1,273 @@
+{
+ "number": 7,
+ "format": "error_caro",
+ "slug": "pagar-solo-el-minimo-tarjeta",
+ "title": "Pagar solo el mínimo le cuesta a Leo 3.470 € extra",
+ "topic": "Pagar solo el mínimo de la tarjeta",
+ "core_idea": "Pagar solo el mínimo de la tarjeta alarga la deuda años y multiplica los intereses que acabas pagando.",
+ "series": "Finanzas en 1 minuto",
+ "characters": [
+  "Leo"
+ ],
+ "keywords": [
+  "mínimo",
+  "interes",
+  "deuda",
+  "tarjeta",
+  "años",
+  "cuota"
+ ],
+ "scenes": [
+  {
+   "type": "display",
+   "chapter": "",
+   "sfx": "hit",
+   "voice": "Pagar solo el mínimo le cuesta a Leo 3.470 € extra.",
+   "params": {
+    "lines": [
+     {
+      "text": "SOLO EL MÍNIMO",
+      "color": "bl",
+      "at": 0
+     },
+     {
+      "text": "+3.470 €",
+      "color": "co",
+      "at": 1.2
+     }
+    ],
+    "size": "xl",
+    "note": "Ilustrativo: caso de Leo"
+   }
+  },
+  {
+   "type": "phone",
+   "chapter": "// 01 · el problema",
+   "sfx": "ding",
+   "voice": "Leo debe 2.000 € en la tarjeta. Imagina que paga cada mes 40 €, el mínimo. Y se queda tan tranquilo.",
+   "params": {
+    "name": "Leo",
+    "label": "Tarjeta de crédito",
+    "balance_steps": [
+     [
+      0,
+      2000
+     ]
+    ],
+    "rows": [
+     {
+      "label": "Pago mínimo",
+      "amount": "-40 €",
+      "color": "#E8553D",
+      "at": 2.5
+     }
+    ],
+    "notifications": [
+     {
+      "title": "Pago realizado",
+      "body": "Has pagado el mínimo: 40 €",
+      "at": 3.5
+     }
+    ],
+    "side": {
+     "label": "Deuda",
+     "value": "2.000 €",
+     "tone": "co",
+     "at": 1
+    },
+    "note": "Ilustrativo. Simplificación: cuota fija; en la realidad el mínimo puede variar"
+   }
+  },
+  {
+   "type": "receipt",
+   "chapter": "// 02 · el truco",
+   "sfx": "print",
+   "voice": "Pero ojo: con un interés nominal del 22 % anual, el primer mes genera unos 37 € de intereses.",
+   "params": {
+    "header": "Mes 1 de Leo",
+    "items": [
+     {
+      "label": "Deuda",
+      "from": 2000
+     },
+     {
+      "label": "Cuota",
+      "from": 40
+     },
+     {
+      "label": "Intereses del mes",
+      "from": 37
+     }
+    ],
+    "note": "Ilustrativo: interés nominal anual del 22 %, cuota fija de 40 €, sin nuevas compras"
+   }
+  },
+  {
+   "type": "display",
+   "chapter": "// 03 · la idea",
+   "sfx": "whoosh",
+   "voice": "De esos 40 €, 37 se van en intereses. ¿Y la deuda? Casi ni se mueve.",
+   "params": {
+    "lines": [
+     {
+      "text": "DE 40 €",
+      "at": 0
+     },
+     {
+      "text": "37 SON INTERESES",
+      "color": "co",
+      "at": 1.2
+     }
+    ],
+    "size": "xl",
+    "note": "Ilustrativo"
+   }
+  },
+  {
+   "type": "chart",
+   "chapter": "// 03 · la idea",
+   "sfx": "rise",
+   "voice": "En 2 años, la deuda baja solo 100 €. Spoiler: lo duro viene después.",
+   "params": {
+    "series": [
+     {
+      "name": "Deuda de Leo",
+      "points": [
+       2000,
+       1900,
+       1750,
+       1510,
+       1140,
+       570
+      ],
+      "color": "co",
+      "end": 570,
+      "suffix": " €"
+     }
+    ],
+    "x_labels": [
+     "0",
+     "2",
+     "4",
+     "6",
+     "8",
+     "10 años"
+    ],
+    "at": 0.5,
+    "dur": 5,
+    "note": "Ilustrativo: saldo aproximado, cuota fija de 40 €"
+   }
+  },
+  {
+   "type": "calendar",
+   "chapter": "// 04 · el tiempo",
+   "sfx": "tick",
+   "voice": "Así, Leo tarda unos 137 meses en liquidarla... Algo más de 11 años pagando por una deuda de 2.000 €.",
+   "params": {
+    "label": "Años pagando",
+    "from": 0,
+    "to": 11,
+    "sub": "Leo, a 40 € al mes",
+    "at": 0.5,
+    "dur": 5,
+    "note": "Ilustrativo: 137 meses aproximados"
+   }
+  },
+  {
+   "type": "counter",
+   "chapter": "// 04 · el coste",
+   "sfx": "hit2",
+   "voice": "¿Y sabes qué? En total, Leo pagaría unos 3.470 € solo en intereses.",
+   "params": {
+    "label": "Intereses pagados",
+    "from": 0,
+    "to": 3470,
+    "color": "co",
+    "sub": "Por una deuda de 2.000 €",
+    "note": "Ilustrativo: cálculo aproximado, sin nuevas compras"
+   }
+  },
+  {
+   "type": "coins",
+   "chapter": "// 05 · la comparación",
+   "sfx": "coins",
+   "voice": "Debía 2.000 €. En este ejemplo acaba pagando unos 5.470 €. Más del doble.",
+   "params": {
+    "towers": [
+     {
+      "label": "Debía",
+      "coins": 4,
+      "value": 2000,
+      "suffix": " €"
+     },
+     {
+      "label": "Paga",
+      "coins": 11,
+      "value": 5470,
+      "color": "co",
+      "suffix": " €"
+     }
+    ],
+    "note": "Ilustrativo: total aproximado según las hipótesis del ejemplo"
+   }
+  },
+  {
+   "type": "cards",
+   "chapter": "// 06 · una pista",
+   "sfx": "deal",
+   "voice": "Una pista: mira cuánto de tu cuota son intereses. Pagar más que el mínimo suele acortar la deuda. Y cada compra nueva la alarga.",
+   "params": {
+    "cards": [
+     {
+      "label": "Mira los intereses",
+      "icon": "scale",
+      "lit": true
+     },
+     {
+      "label": "Más que el mínimo suele acortarla",
+      "icon": "card"
+     },
+     {
+      "label": "Compras nuevas la alargan",
+      "icon": "shield"
+     }
+    ],
+    "note": "Ilustrativo. Depende de tu contrato"
+   }
+  },
+  {
+   "type": "drawer",
+   "chapter": "// 06 · una pista",
+   "sfx": "thud",
+   "voice": "Normalmente, un pago extra reduce el capital pendiente... y recorta años. Revisa las condiciones de tu contrato.",
+   "params": {
+    "amount": 20,
+    "currency": "€",
+    "note": "Ilustrativo: 20 € extra al mes"
+   }
+  },
+  {
+   "type": "options",
+   "chapter": "// 07 · tu turno",
+   "sfx": "pop",
+   "voice": "Tu turno: ¿cuánto tardarías en pagar 2.000 € así? ¿2 años, 5 o 11?",
+   "params": {
+    "options": [
+     "A) 2 años",
+     "B) 5 años",
+     "C) 11 años"
+    ],
+    "disclaimer": "Contenido educativo. No es asesoramiento financiero ni recomendación de inversión. Invertir conlleva riesgos. Cifras ilustrativas. Vídeo creado con ayuda de IA."
+   }
+  },
+  {
+   "type": "logo",
+   "chapter": "",
+   "sfx": "cling",
+   "voice": "Esto ha sido Finroots. El dinero, desde la raíz.",
+   "params": {
+    "next": "¿Y qué pasa si pagas el doble cada mes? ¿Cuánto ahorras de verdad?"
+   }
+  }
+ ]
+}
