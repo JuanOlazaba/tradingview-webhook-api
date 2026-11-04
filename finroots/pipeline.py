@@ -83,7 +83,11 @@ Reglas: 12–14 escenas, 150–200 palabras de voz en total. La primera escena e
 6–14 palabras). Al menos 3 escenas 'illustration' con dibujos SVG propios de esta historia (estilo de marca, animados).
 Textos en pantalla CORTOS (display: máx. 3 líneas de 1–3 palabras). Números siempre como número en params (sin texto).
 Colores solo de marca ('co','bl','am' o hex de marca). La penúltima es options; la última es logo (params.next = adelanto).
-Haz bien las cuentas: lo que se dice y lo que se ve debe coincidir exactamente."""
+Haz bien las cuentas: lo que se dice y lo que se ve debe coincidir exactamente.
+Usa sobre todo 'art' (biblioteca de ilustraciones profesionales) y añade 'illustration' propia solo si la biblioteca
+no tiene lo que necesitas.
+EPISODIO DE REFERENCIA (nivel de calidad exigido; copia su estructura y su cuidado, NO su historia):
+{(ROOT / 'episodes' / 'ep008' / 'episode.json').read_text(encoding='utf-8')[:7000]}"""
     ep = m.say("studio", task, want_json=True)
     for rnd in range(cfg["pipeline"].get("max_revisions", 2) + 1):
         ep["number"] = number
@@ -199,8 +203,28 @@ def daily(publish: bool = True, render: bool = True) -> dict:
             m.note("it", "El vídeo ya estaba renderizado (publicación pendiente de un intento anterior).")
             result["video"] = str(d / "video.mp4")
         elif render:
+            from .qa import final_check, gate
             from .render import render_episode
-            r = render_episode(ep, d, cfg)
+            have_ai = bool(os.environ.get("ANTHROPIC_API_KEY") or os.environ.get("ANTHROPIC_AUTH_TOKEN"))
+            for attempt in range(4):
+                r = render_episode(ep, d, cfg)
+                if not have_ai:
+                    break
+                tl = json.loads((d / "timeline.json").read_text())
+                verdict = final_check(m, ep, number, d / "video.mp4", tl, d / "_qa" / f"final{attempt}")
+                if verdict.get("approved"):
+                    m.note("product", f"Vídeo final revisado fotograma a fotograma: cero errores (intento {attempt + 1}).")
+                    break
+                if attempt == 3:
+                    entry["status"] = "blocked"
+                    save_episodes(eps)
+                    raise RuntimeError("Producto no aprueba el vídeo final tras 4 intentos; no se envía a TikTok")
+                ep = m.say("studio", "Producto ha encontrado errores en el VÍDEO FINAL. Arregla TODOS y devuelve el episodio "
+                                     f"completo en el mismo formato JSON. Episodio actual:\n{json.dumps(ep, ensure_ascii=False)}",
+                           want_json=True)
+                ep["number"] = number
+                ep = gate(m, ep, number, d / "_qa" / f"refix{attempt}")
+                (d / "episode.json").write_text(json.dumps(ep, ensure_ascii=False, indent=1), encoding="utf-8")
             result.update(r)
             entry["status"] = "rendered"
             entry["duration"] = r["duration"]

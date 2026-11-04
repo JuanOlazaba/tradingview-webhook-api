@@ -1,0 +1,286 @@
+{
+ "number": 8,
+ "lesson": "F04",
+ "format": "historia",
+ "slug": "fondo-de-emergencia-el-coche-de-lucia",
+ "title": "El coche de Lucía y los 900 € que no tenía",
+ "topic": "El fondo de emergencia: cuánto, dónde y para qué",
+ "core_idea": "Antes de invertir, aparta entre 3 y 6 meses de gastos básicos para los imprevistos.",
+ "series": "Finanzas en 1 minuto",
+ "characters": [
+  "Lucía"
+ ],
+ "keywords": [
+  "emergencia",
+  "colchón",
+  "imprevist",
+  "básicos",
+  "finroots"
+ ],
+ "scenes": [
+  {
+   "type": "display",
+   "chapter": "",
+   "sfx": "hit",
+   "voice": "¿Y si mañana se te rompe el coche... y no tienes 900 euros?",
+   "params": {
+    "lines": [
+     {
+      "text": "900 €",
+      "color": "co",
+      "at": 0.2
+     },
+     {
+      "text": "mañana.",
+      "at": 0.9
+     }
+    ],
+    "size": "xl"
+   }
+  },
+  {
+   "type": "art",
+   "chapter": "// 01 · el imprevisto",
+   "sfx": "thud",
+   "voice": "Le pasa a Lucía. El coche dice basta. Factura del taller: 900 euros.",
+   "params": {
+    "asset": "broken_car",
+    "tag": "Lucía · martes",
+    "value": 900,
+    "color": "co",
+    "value_at": 2.4,
+    "note": "caso ficticio · cifras ilustrativas",
+    "note_at": 3
+   }
+  },
+  {
+   "type": "phone",
+   "chapter": "// 01 · el imprevisto",
+   "sfx": "tick",
+   "voice": "Ese mes le quedan 600 euros en la cuenta. No llega.",
+   "params": {
+    "name": "Lucía",
+    "label": "saldo disponible",
+    "low": 1,
+    "balance_steps": [
+     [
+      0,
+      600
+     ],
+     [
+      2.2,
+      -300
+     ]
+    ],
+    "notifications": [
+     {
+      "title": "Cargo · Taller",
+      "body": "−900 € con tarjeta",
+      "at": 1.8
+     }
+    ],
+    "side": {
+     "label": "le faltan",
+     "value": "300 €",
+     "tone": "co",
+     "at": 2.8
+    }
+   }
+  },
+  {
+   "type": "art",
+   "chapter": "// 01 · el imprevisto",
+   "sfx": "pop",
+   "voice": "La salida fácil: la tarjeta. Pero ojo: pagar a plazos con intereses altos hace la avería más cara.",
+   "params": {
+    "asset": "credit_card",
+    "label": "Aplazar = pagar intereses",
+    "label_at": 2.6
+   }
+  },
+  {
+   "type": "display",
+   "chapter": "// 02 · la idea",
+   "sfx": "hit2",
+   "voice": "Lo que le faltaba tiene nombre: fondo de emergencia. Dinero apartado solo para imprevistos.",
+   "params": {
+    "lines": [
+     {
+      "text": "Fondo de",
+      "at": 0.8
+     },
+     {
+      "text": "emergencia",
+      "color": "bl",
+      "at": 1.2
+     }
+    ],
+    "size": "m",
+    "pills": [
+     {
+      "text": "dinero apartado",
+      "at": 3
+     },
+     {
+      "text": "solo para imprevistos",
+      "dark": true,
+      "at": 3.6
+     }
+    ]
+   }
+  },
+  {
+   "type": "art",
+   "chapter": "// 02 · la idea",
+   "sfx": "whoosh",
+   "voice": "Es como un paraguas: no evita la tormenta... pero evita que te empapes.",
+   "params": {
+    "asset": "umbrella",
+    "label": "No evita la lluvia. Te mantiene seco.",
+    "label_at": 2.8
+   }
+  },
+  {
+   "type": "art",
+   "chapter": "// 03 · cuánto",
+   "sfx": "deal",
+   "voice": "¿Cuánto? Suma tus gastos básicos de un mes. Los de Lucía: 1.000 euros.",
+   "params": {
+    "items": [
+     {
+      "asset": "house",
+      "label": "Alquiler",
+      "value": 600,
+      "at": 0.6
+     },
+     {
+      "asset": "jar",
+      "label": "Comida",
+      "value": 300,
+      "at": 1.1
+     },
+     {
+      "asset": "wallet",
+      "label": "Transporte",
+      "value": 100,
+      "at": 1.6
+     }
+    ],
+    "label": "Total: 1.000 € al mes",
+    "label_at": 3.4,
+    "note": "gastos del episodio 1 · ilustrativo",
+    "note_at": 3.8
+   }
+  },
+  {
+   "type": "display",
+   "chapter": "// 03 · cuánto",
+   "sfx": "hit",
+   "voice": "Una referencia habitual: de 3 a 6 meses de gastos básicos. Para Lucía, de 3.000 a 6.000 euros.",
+   "params": {
+    "lines": [
+     {
+      "text": "3 a 6",
+      "color": "co",
+      "at": 0.4
+     },
+     {
+      "text": "meses",
+      "at": 0.8
+     }
+    ],
+    "size": "xl",
+    "pills": [
+     {
+      "text": "3.000 € – 6.000 €",
+      "dark": true,
+      "at": 3.6
+     }
+    ],
+    "note": "orientación general · cada caso es distinto",
+    "note_at": 4
+   }
+  },
+  {
+   "type": "coins",
+   "chapter": "// 03 · cuánto",
+   "sfx": "coins",
+   "voice": "Spoiler: no hace falta tenerlo mañana. Se llena poco a poco, mes a mes.",
+   "params": {
+    "towers": [
+     {
+      "label": "3 meses",
+      "coins": 6,
+      "value": 3000,
+      "color": "bl"
+     },
+     {
+      "label": "6 meses",
+      "coins": 12,
+      "value": 6000,
+      "color": "co",
+      "at": 0.8
+     }
+    ],
+    "note": "ilustrativo",
+    "note_at": 2.5
+   }
+  },
+  {
+   "type": "art",
+   "chapter": "// 04 · dónde",
+   "sfx": "ding",
+   "voice": "¿Dónde? En un sitio seguro, disponible al momento... y separado de tu cuenta del día a día.",
+   "params": {
+    "asset": "vault",
+    "label": "Seguro · disponible · aparte",
+    "label_at": 3
+   }
+  },
+  {
+   "type": "art",
+   "chapter": "// 04 · dónde",
+   "sfx": "rise",
+   "voice": "Y va antes de invertir. Sin colchón, un imprevisto te puede obligar a vender en mal momento.",
+   "params": {
+    "items": [
+     {
+      "asset": "umbrella",
+      "label": "1 · Colchón",
+      "at": 0.5
+     },
+     {
+      "asset": "candles",
+      "label": "2 · Invertir",
+      "at": 1.6
+     }
+    ],
+    "label": "Primero el colchón",
+    "label_at": 3
+   }
+  },
+  {
+   "type": "options",
+   "chapter": "// 05 · tu turno",
+   "sfx": "deal",
+   "voice": "¿Tienes fondo de emergencia? A, sí, de 3 meses o más. B, menos de 3. C, todavía no.",
+   "params": {
+    "options": [
+     "Sí, 3 meses o más",
+     "Menos de 3 meses",
+     "Todavía no"
+    ]
+   }
+  },
+  {
+   "type": "logo",
+   "chapter": "",
+   "sfx": "cling",
+   "voice": "Esto ha sido Finroots. El dinero, desde la raíz.",
+   "params": {
+    "next": "Próximo: deuda buena y deuda mala"
+   }
+  }
+ ],
+ "qa_ok": true
+}

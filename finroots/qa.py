@@ -57,7 +57,7 @@ Devuelve JSON {{"approved":true|false,"math_check":"tus cálculos","issues":[{{"
 approved=true SOLO si no hay ningún problema.""", want_json=True, images=shots)
 
 
-def gate(m, ep: dict, number: int, workdir: Path, rounds: int = 3) -> dict:
+def gate(m, ep: dict, number: int, workdir: Path, rounds: int = 5) -> dict:
     """Bucle de calidad: Estudio corrige hasta que Producto aprueba. Devuelve el episodio aprobado."""
     for rnd in range(rounds + 1):
         auto, shots = scan(ep, workdir / f"qa{rnd}")
@@ -89,3 +89,23 @@ def gate(m, ep: dict, number: int, workdir: Path, rounds: int = 3) -> dict:
 
 def summary(ep: dict) -> str:
     return script_text(ep)
+
+
+def video_frames(video: Path, timeline: dict, workdir: Path) -> list[Path]:
+    """Fotogramas del VÍDEO FINAL (con la voz real): uno al final de cada escena."""
+    import subprocess
+    workdir.mkdir(parents=True, exist_ok=True)
+    out = []
+    for i, s in enumerate(timeline["scenes"]):
+        f = workdir / f"v_{i:02d}.jpg"
+        t = s["start"] + s["dur"] * 0.9
+        subprocess.run(["ffmpeg", "-y", "-loglevel", "error", "-ss", f"{t:.2f}", "-i", str(video), "-frames:v", "1",
+                        "-vf", "scale=360:-1", "-q:v", "4", str(f)], check=True)
+        out.append(f)
+    return out
+
+
+def final_check(m, ep: dict, number: int, video: Path, timeline: dict, workdir: Path) -> dict:
+    """Revisión de Producto sobre el vídeo ya generado. Devuelve su veredicto."""
+    shots = video_frames(video, timeline, workdir)
+    return product_review(m, ep, number, shots)

@@ -60,7 +60,8 @@ def build_html(ep: dict, timeline: dict, audio_src: str | None = None) -> str:
             .replace("__FONTS__", _fonts_css())
             .replace("__EPISODE__", json.dumps(ep, ensure_ascii=False))
             .replace("__TIMELINE__", json.dumps(timeline, ensure_ascii=False))
-            .replace("__AUDIO__", json.dumps(audio_src)))
+            .replace("__AUDIO__", json.dumps(audio_src))
+            .replace("__ASSETS__", json.dumps({k: v[1] for k, v in __import__("finroots.assets", fromlist=["ASSETS"]).ASSETS.items()})))
 
 
 def capture(html_path: Path, total: float, out_mp4: Path, wav: Path, fps: int = 30, width: int = 1080):
