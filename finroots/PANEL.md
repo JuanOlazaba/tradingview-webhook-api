@@ -1,5 +1,5 @@
 # Panel de Finroots
-_Actualizado: 2026-11-04 17:33 UTC · se regenera en cada reunión_
+_Actualizado: 2026-11-04 19:41 UTC · se regenera en cada reunión_
 
 ## Necesita tu sí
 - **Incidencia en el episodio 5** — [responder aquí](https://github.com/JuanOlazaba/tradingview-webhook-api/issues/17) · pedido por Operaciones el 2026-11-03 13:13 UTC
@@ -12,10 +12,10 @@ _Actualizado: 2026-11-04 17:33 UTC · se regenera en cada reunión_
 ## Episodios
 | # | Título | Estado |
 |---|---|---|
-| 7 | [Pagar solo el mínimo le cuesta a Leo 3.470 € extra](episodes/ep007/script.txt) | en tus borradores de TikTok |
-| 6 | [Tu app gratis no es gratis](episodes/ep006/script.txt) | en tus borradores de TikTok |
-| 5 | [Un 1 % de comisión te cuesta casi 19.000 €](episodes/ep005/script.txt) | en tus borradores de TikTok |
-| 4 | [El Dow Jones tardó 25 años en recuperar 1929](episodes/ep004/script.txt) | en tus borradores de TikTok |
+| 7 | [Pagar solo el mínimo le cuesta a Leo 3.470 € extra](episodes/ep007/script.txt) | discarded |
+| 6 | [Tu app gratis no es gratis](episodes/ep006/script.txt) | discarded |
+| 5 | [Un 1 % de comisión te cuesta casi 19.000 €](episodes/ep005/script.txt) | discarded |
+| 4 | [El Dow Jones tardó 25 años en recuperar 1929](episodes/ep004/script.txt) | discarded |
 | 3 | [Tu dinero quieto pierde valor en silencio](episodes/ep003/script.txt) | en tus borradores de TikTok |
 | 2 | [Lucía y Marta: misma cuota, casi el doble de dinero](episodes/ep002/script.txt) | en tus borradores de TikTok |
 | 1 | [Tus 100 € en el cajón](episodes/ep001/script.txt) | publicado |
@@ -46,13 +46,13 @@ _Actualizado: 2026-11-04 17:33 UTC · se regenera en cada reunión_
 - `2026-11-04 17:30 UTC` **publicación** — Ep. 7: Pagar solo el mínimo le cuesta a Leo 3.470 € extra · estado: sent_to_inbox
 - `2026-11-04 17:22 UTC` **reanudación** — El episodio de hoy estaba pendiente; el comité diario lo retoma ahora.
 - `2026-11-04 17:22 UTC` **reanudación** — Se reinició el límite (Presupuesto diario de IA alcanzado (1.12 $ de 1.0 $)); retomamos donde lo dejamos.
+- `2026-11-03 21:33 UTC` **decisión** — Ep. 4, 5 y 6 descartados por errores gráficos (gráficas vacías, NaN, textos cortados). Motor corregido, control de calidad de Producto con capturas y recálculo, ilustraciones SVG propias, temario progresivo. Siguiente lección: F04 fondo de emergencia.
+- `2026-11-03 21:33 UTC` **dueño** — Indicaciones: mismo diseño con ilustraciones e ideas distintas; Ideas innovador; Producto sin un solo error gráfico ni matemático; temario Fundamentos → Finanzas → Renta variable → Renta fija → Alternativos.
 - `2026-11-03 21:15 UTC` **pausa** — Ep. 7: en pausa: Presupuesto diario de IA alcanzado (1.12 $ de 1.0 $) (hasta 2026-11-04T00:05 UTC)
 - `2026-11-03 15:32 UTC` **publicación** — Ep. 6: Tu app gratis no es gratis · estado: sent_to_inbox
 - `2026-11-03 15:32 UTC` **pausa** — Presupuesto diario de IA alcanzado (1.12 $ de 1.0 $). Retomamos a partir de 2026-11-04 00:05 UTC.
 - `2026-11-03 15:23 UTC` **publicación** — Ep. 5: Un 1 % de comisión te cuesta casi 19.000 € · estado: sent_to_inbox
 - `2026-11-03 13:13 UTC` **incidencia** — Ep. 5: El episodio no pasa la validación técnica: el gancho (escena 1) debe ser una sola frase
-- `2026-11-03 13:10 UTC` **publicación** — Ep. 4: El Dow Jones tardó 25 años en recuperar 1929 · estado: sent_to_inbox
-- `2026-11-03 12:54 UTC` **dueño** — Nueva línea editorial: temas nuevos y variados cada vídeo, 7 formatos rotativos, más curiosidades y alternativos; Lucía como personaje recurrente opcional.
 
 ## Directivas del consejo
 _(Las actualiza el consejo cada semana. Primera sesión pendiente.)_

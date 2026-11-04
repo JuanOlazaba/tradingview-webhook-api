@@ -1,0 +1,13 @@
+[01]   ¿Y si mañana se te rompe el coche... y no tienes 900 euros?
+[02] // 01 · el imprevisto  Le pasa a Lucía. El coche dice basta. Factura del taller: 900 euros.
+[03] // 01 · el imprevisto  Ese mes le quedan 600 euros en la cuenta. No llega.
+[04] // 01 · el imprevisto  La salida fácil: la tarjeta. Pero ojo: pagar a plazos con intereses altos hace la avería más cara.
+[05] // 02 · la idea  Lo que le faltaba tiene nombre: fondo de emergencia. Dinero apartado solo para imprevistos.
+[06] // 02 · la idea  Es como un paraguas: no evita la tormenta... pero evita que te empapes.
+[07] // 03 · cuánto  ¿Cuánto? Suma tus gastos básicos de un mes. Los de Lucía: 1.000 euros.
+[08] // 03 · cuánto  Una referencia habitual: de 3 a 6 meses de gastos básicos. Para Lucía, de 3.000 a 6.000 euros.
+[09] // 03 · cuánto  Spoiler: no hace falta tenerlo mañana. Se llena poco a poco, mes a mes.
+[10] // 04 · dónde  ¿Dónde? En un sitio seguro, disponible al momento... y separado de tu cuenta del día a día.
+[11] // 04 · dónde  Y va antes de invertir. Sin colchón, un imprevisto te puede obligar a vender en mal momento.
+[12] // 05 · tu turno  ¿Tienes fondo de emergencia? A, sí, de 3 meses o más. B, menos de 3. C, todavía no.
+[13]   Esto ha sido Finroots. El dinero, desde la raíz.
