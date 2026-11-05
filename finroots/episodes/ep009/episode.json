@@ -1,0 +1,316 @@
+{
+ "number": 9,
+ "format": "mito",
+ "slug": "invertir-no-es-la-loteria",
+ "title": "Invertir no es la lotería (pero tiene riesgo)",
+ "topic": "Invertir es jugar a la lotería",
+ "core_idea": "Un sorteo no mejora con el tiempo y cada jugada es independiente. Invertir a largo plazo en activos diversificados es un proceso distinto, pero con riesgo real de perder dinero.",
+ "series": "Finanzas en 1 minuto",
+ "characters": [
+  "Leo",
+  "Lucía"
+ ],
+ "keywords": [
+  "lotería",
+  "azar",
+  "tiempo",
+  "riesgo",
+  "ilustrativ",
+  "diversific"
+ ],
+ "scenes": [
+  {
+   "type": "display",
+   "chapter": "",
+   "sfx": "hit",
+   "voice": "Invertir no es la lotería. Pero tampoco es seguro.",
+   "params": {
+    "lines": [
+     {
+      "text": "INVERTIR",
+      "color": "co",
+      "at": 0.2
+     },
+     {
+      "text": "NO ES LA",
+      "at": 1.0
+     },
+     {
+      "text": "LOTERÍA",
+      "color": "bl",
+      "at": 1.8
+     }
+    ],
+    "size": "xl",
+    "pills": [
+     {
+      "text": "Pero tampoco es seguro"
+     }
+    ]
+   }
+  },
+  {
+   "type": "cards",
+   "chapter": "// 01 · el mito",
+   "sfx": "deal",
+   "voice": "Leo lo suelta en el piso: invertir es jugar a la lotería. Lucía le pregunta: ¿seguro?",
+   "params": {
+    "cards": [
+     {
+      "label": "Lotería",
+      "icon": "coin"
+     },
+     {
+      "label": "Invertir",
+      "icon": "chart"
+     }
+    ],
+    "question": "¿Es lo mismo?",
+    "question_at": 3.0
+   }
+  },
+  {
+   "type": "counter",
+   "chapter": "// 02 · la lotería",
+   "sfx": "tick",
+   "voice": "Primitiva: acertar el bote es 1 entre 13.983.816. Casi imposible.",
+   "params": {
+    "label": "Probabilidad del bote de la Primitiva",
+    "from": 0,
+    "to": 13983816,
+    "prefix": "1 entre ",
+    "suffix": "",
+    "color": "co",
+    "sub": "6 números entre 49"
+   }
+  },
+  {
+   "type": "display",
+   "chapter": "// 02 · la lotería",
+   "sfx": "hit2",
+   "voice": "Y cada sorteo empieza de cero. Jugar más años no mejora tus opciones.",
+   "params": {
+    "lines": [
+     {
+      "text": "CADA SORTEO",
+      "at": 0.2
+     },
+     {
+      "text": "EMPIEZA",
+      "at": 1.0
+     },
+     {
+      "text": "DE CERO",
+      "color": "co",
+      "at": 1.8
+     }
+    ],
+    "size": "xl"
+   }
+  },
+  {
+   "type": "calendar",
+   "chapter": "// 03 · invertir es otra cosa",
+   "sfx": "whoosh",
+   "voice": "Invertir es distinto. Aquí el tiempo sí cuenta... pero ojo: nada está garantizado.",
+   "params": {
+    "label": "AÑOS INVIRTIENDO",
+    "from": 0,
+    "to": 20,
+    "sub": "El plazo cambia el juego",
+    "at": 0.5,
+    "dur": 3.5
+   }
+  },
+  {
+   "type": "levers",
+   "chapter": "// 03 · invertir es otra cosa",
+   "sfx": "tick",
+   "voice": "Hay tres palancas que sí controlas: cuánto aportas, cuánto tiempo y cómo repartes.",
+   "params": {
+    "title": "Lo que sí controlas",
+    "levers": [
+     {
+      "label": "Aportación",
+      "sub": "cada mes",
+      "from": 20,
+      "to": 60
+     },
+     {
+      "label": "Plazo",
+      "sub": "años",
+      "from": 10,
+      "to": 80
+     },
+     {
+      "label": "Reparto",
+      "sub": "diversificar",
+      "from": 15,
+      "to": 70
+     }
+    ]
+   }
+  },
+  {
+   "type": "chart",
+   "chapter": "// 04 · un ejemplo",
+   "sfx": "rise",
+   "voice": "Ilustrativo: 100 € al mes, 20 años, 5 % anual hipotético, sin comisiones ni impuestos.",
+   "params": {
+    "series": [
+     {
+      "name": "Aportado",
+      "points": [
+       0,
+       6000,
+       12000,
+       18000,
+       24000
+      ],
+      "color": "bl",
+      "end": 24000,
+      "suffix": " €"
+     },
+     {
+      "name": "Valor ilustrativo",
+      "points": [
+       0,
+       6802,
+       15528,
+       26729,
+       41103
+      ],
+      "color": "co",
+      "end": 41103,
+      "suffix": " €"
+     }
+    ],
+    "x_labels": [
+     "0",
+     "5",
+     "10",
+     "15",
+     "20"
+    ],
+    "at": 0.5,
+    "dur": 4,
+    "note": "Ilustrativo: 5 % anual nominal, capitalización mensual, hipotético (no garantizado), 100 €/mes, 20 años, sin comisiones ni impuestos"
+   }
+  },
+  {
+   "type": "counter",
+   "chapter": "// 04 · un ejemplo",
+   "sfx": "cling",
+   "voice": "Aportas 24.000 €. Saldrían unos 41.000 €... si ese 5 % se cumpliera.",
+   "params": {
+    "label": "Valor final ilustrativo",
+    "from": 0,
+    "to": 41000,
+    "color": "co",
+    "sub": "ilustrativo: 5 % anual nominal, capitalización mensual, 100 €/mes, 20 años, sin comisiones ni impuestos",
+    "note": "Ilustrativo: cifra redondeada, no garantizada"
+   }
+  },
+  {
+   "type": "coins",
+   "chapter": "// 04 · un ejemplo",
+   "sfx": "coins",
+   "voice": "Ese crecimiento, si llegara, no dependería de la suerte. Dependería del tiempo, la constancia y el reparto... y de cómo vaya el mercado.",
+   "params": {
+    "towers": [
+     {
+      "label": "Aportado",
+      "coins": 8,
+      "value": 24000,
+      "color": "bl",
+      "suffix": " €"
+     },
+     {
+      "label": "Valor hipotético",
+      "coins": 14,
+      "value": 41000,
+      "color": "co",
+      "suffix": " €"
+     }
+    ],
+    "note": "Ilustrativo: hipótesis del 5 % anual, no garantizada"
+   }
+  },
+  {
+   "type": "display",
+   "chapter": "// 05 · el giro",
+   "sfx": "deflate",
+   "voice": "Pero ojo: también puede caer. Sobre todo a corto plazo. El riesgo es real.",
+   "params": {
+    "lines": [
+     {
+      "text": "PERO OJO:",
+      "at": 0.2
+     },
+     {
+      "text": "EL RIESGO",
+      "color": "co",
+      "at": 1.0
+     },
+     {
+      "text": "ES REAL",
+      "at": 1.8
+     }
+    ],
+    "size": "xl",
+    "pills": [
+     {
+      "text": "Puedes perder dinero"
+     }
+    ]
+   }
+  },
+  {
+   "type": "display",
+   "chapter": "// 06 · la clave",
+   "sfx": "hit",
+   "voice": "Spoiler: no es azar puro. Es riesgo que se reduce con plazo y reparto, pero no desaparece.",
+   "params": {
+    "lines": [
+     {
+      "text": "NO ES AZAR:",
+      "at": 0.2
+     },
+     {
+      "text": "ES RIESGO",
+      "color": "bl",
+      "at": 1.0
+     },
+     {
+      "text": "NO ELIMINADO",
+      "at": 1.8
+     }
+    ],
+    "size": "xl"
+   }
+  },
+  {
+   "type": "options",
+   "chapter": "// 07 · tu turno",
+   "sfx": "pop",
+   "voice": "Tu turno. ¿Qué crees tú? ¿Azar puro, riesgo de perder, o depende del plazo y del reparto?",
+   "params": {
+    "options": [
+     "A) Sí, es azar puro",
+     "B) No, pero hay riesgo de perder",
+     "C) Depende del plazo y del reparto"
+    ],
+    "disclaimer": "Contenido educativo. No es asesoramiento financiero ni recomendación de inversión. Invertir conlleva riesgos. Cifras ilustrativas. Vídeo creado con ayuda de IA."
+   }
+  },
+  {
+   "type": "logo",
+   "chapter": "",
+   "sfx": "ding",
+   "voice": "Esto ha sido Finroots. El dinero, desde la raíz.",
+   "params": {
+    "next": "¿Qué pasa cuando el mercado cae justo antes de necesitar el dinero?"
+   }
+  }
+ ]
+}

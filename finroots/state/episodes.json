@@ -252,5 +252,37 @@
       "status": "SEND_TO_USER_INBOX",
       "post_ids": null
     }
+  },
+  {
+    "number": 9,
+    "slug": "invertir-no-es-la-loteria",
+    "title": "Invertir no es la lotería (pero tiene riesgo)",
+    "topic": "Invertir es jugar a la lotería",
+    "core_idea": "Un sorteo no mejora con el tiempo y cada jugada es independiente. Invertir a largo plazo en activos diversificados es un proceso distinto, pero con riesgo real de perder dinero.",
+    "characters": [
+      "Leo",
+      "Lucía"
+    ],
+    "objects": [
+      "calendar",
+      "cards",
+      "chart",
+      "coins",
+      "counter",
+      "display",
+      "levers",
+      "logo",
+      "options"
+    ],
+    "question": "A) Sí, es azar puro / B) No, pero hay riesgo de perder / C) Depende del plazo y del reparto",
+    "status": "sent_to_inbox",
+    "duration": 72.12,
+    "published_at": "2026-11-05T21:44:30.547713Z",
+    "tiktok": {
+      "publish_id": "v_inbox_file~v2.7704806174424107021",
+      "mode": "draft",
+      "status": "SEND_TO_USER_INBOX",
+      "post_ids": null
+    }
   }
 ]
