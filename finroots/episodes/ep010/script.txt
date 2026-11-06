@@ -1,0 +1,13 @@
+[01]   Cae un 50 %. ¿Sabes cuánto tiene que subir para volver?
+[02] // 01 · el punto de partida  Imagina 1.000 € invertidos. Cifras ilustrativas, ¿vale? Sin previsiones, solo matemáticas.
+[03] // 01 · el punto de partida  Imagina que Leo ve su cartera en rojo. Cae un 50 %: de 1.000 € a 500 €. Cifras ilustrativas.
+[04] // 02 · la trampa  Leo piensa: «Solo necesito subir otro 50 %». Error típico. Spoiler: no basta.
+[05] // 02 · la trampa  Sube un 50 % desde 500 €... y llega a 750 €. Aún faltan 250 €.
+[06] // 03 · por qué pasa  ¿Por qué? Perdió un 50 % sobre 1.000 €, pero ahora sube desde una base de 500 €.
+[07] // 03 · por qué pasa  Para volver a 1.000 €, tiene que duplicar: un +100 %. Y nadie garantiza que ocurra. Cifras ilustrativas.
+[08] // 03 · por qué pasa  Con una caída del 20 %, hace falta un +25 %. Con un 30 %, algo más del 40 %. Con un 50 %, el doble.
+[09] // 03 · por qué pasa  Cuanto más profunda es la caída, más se dispara la subida. No es una recta... es una curva.
+[10] // 04 · lo que sí puedes hacer  Pero ojo: nada garantiza volver al punto de partida, ni cuándo ocurriría.
+[11] // 04 · lo que sí puedes hacer  Preguntas que muchos inversores se hacen: ¿cuánta caída aguantaría? ¿Cuándo necesito el dinero?
+[12] // 05 · tu turno  ¿Qué te parece más difícil de digerir? A, que volver al punto de partida pueda tardar. B, que la subida sea siempre mayor. C, no saber si ni cuándo volverías.
+[13]   Esto ha sido Finroots. El dinero, desde la raíz.

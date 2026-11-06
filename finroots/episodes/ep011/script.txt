@@ -1,0 +1,13 @@
+[01]   Vender en pánico puede convertir una caída temporal en pérdida real.
+[02] // 01 · el problema  Marta por fin empezó a invertir. Cifras ilustrativas: tiene 10.000 € invertidos.
+[03] // 01 · el problema  Ilustrativo: el mercado cae un 20 %. Su cartera baja a 8.000 €. Duele.
+[04] // 02 · el pánico  Marta mira el móvil... y entra en pánico. Vende todo.
+[05] // 02 · la idea central  Spoiler: mientras no vendes, la pérdida es latente. Vender la fija.
+[06] // 03 · dos caminos  Supón, solo como hipótesis, que después sube un 25 %. Podría no pasar. Cifras ilustrativas.
+[07] // 03 · el plazo  ¿Cuánto tardaría? Nadie lo sabe. Meses, años... o quizá no se recupere.
+[08] // 03 · la cuenta  En esta hipótesis, quien vendió se queda en 8.000 €. Quien aguantó, con +25 %, llega a 10.000 €. Solo un supuesto.
+[09] // 03 · el matiz  Pero ojo: aguantar no siempre es viable. Si necesitas el dinero pronto, una caída puede forzarte a vender con pérdidas.
+[10] // 04 · lo que hace mucha gente  Muchas personas definen su plazo antes de invertir, tienen un plan por si cae y separan un colchón de emergencia.
+[11] // 04 · la pregunta clave  ¿Y sabes qué? Antes de decidir, conviene preguntarse: ¿ha cambiado mi situación... o solo mi miedo?
+[12] // 05 · tu turno  ¿Qué te cuesta más: ver una caída o decidir con miedo? Tu turno.
+[13]   Esto ha sido Finroots. El dinero, desde la raíz.
