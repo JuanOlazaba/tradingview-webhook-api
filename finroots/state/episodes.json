@@ -338,6 +338,15 @@
       "options",
       "piggies"
     ],
-    "status": "ready"
+    "status": "sent_to_inbox",
+    "question": "A) Ver la caída / B) Decidir con miedo / C) Ambas",
+    "duration": 70.84,
+    "published_at": "2026-11-06T21:09:48.089573Z",
+    "tiktok": {
+      "publish_id": "v_inbox_file~v2.7705168512285542413",
+      "mode": "draft",
+      "status": "SEND_TO_USER_INBOX",
+      "post_ids": null
+    }
   }
 ]

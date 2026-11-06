@@ -1,18 +1,18 @@
 # Panel de Finroots
-_Actualizado: 2026-11-06 17:50 UTC · se regenera en cada reunión_
+_Actualizado: 2026-11-06 21:09 UTC · se regenera en cada reunión_
 
 ## Necesita tu sí
 - **Incidencia en el episodio 5** — [responder aquí](https://github.com/JuanOlazaba/tradingview-webhook-api/issues/17) · pedido por Operaciones el 2026-11-03 13:13 UTC
 
 ## Estado
-- Episodios: 11 · en colchón (listos): 1 (11)
+- Episodios: 11 · en colchón (listos): 0
 - TikTok: — seguidores · — me gusta · — vídeos
 - Coste de IA: hoy 0.62 $ · este mes 3.90 $ de 20 $ · total 3.90 $
 
 ## Episodios
 | # | Título | Estado |
 |---|---|---|
-| 11 | [Vender en pánico puede fijar la pérdida](episodes/ep011/script.txt) | en colchón |
+| 11 | [Vender en pánico puede fijar la pérdida](episodes/ep011/script.txt) | en tus borradores de TikTok |
 | 10 | [Cae un 50 %: ¿cuánto debe subir?](episodes/ep010/script.txt) | en tus borradores de TikTok |
 | 9 | [Invertir no es la lotería (pero tiene riesgo)](episodes/ep009/script.txt) | en tus borradores de TikTok |
 | 8 | [¿Tus 150 € al mes tienen destino?](episodes/ep008/script.txt) | en tus borradores de TikTok |
@@ -25,6 +25,7 @@ _Actualizado: 2026-11-06 17:50 UTC · se regenera en cada reunión_
 | 1 | [Tus 100 € en el cajón](episodes/ep001/script.txt) | publicado |
 
 ## Últimas reuniones
+- [2026-11-06-ep011](minutes/2026-11-06-ep011.md)
 - [2026-11-06-ep011-estudio](minutes/2026-11-06-ep011-estudio.md)
 - [2026-11-06-ep010](minutes/2026-11-06-ep010.md)
 - [2026-11-06-1747-mejora-crecimiento](minutes/2026-11-06-1747-mejora-crecimiento.md)
@@ -36,9 +37,9 @@ _Actualizado: 2026-11-06 17:50 UTC · se regenera en cada reunión_
 - [2026-11-03-ep007](minutes/2026-11-03-ep007.md)
 - [2026-11-03-ep006](minutes/2026-11-03-ep006.md)
 - [2026-11-03-ep005](minutes/2026-11-03-ep005.md)
-- [2026-11-03-ep004](minutes/2026-11-03-ep004.md)
 
 ## Actividad reciente
+- `2026-11-06 21:09 UTC` **publicación** — Ep. 11: Vender en pánico puede fijar la pérdida · estado: sent_to_inbox
 - `2026-11-06 17:50 UTC` **episodio** — Ep. 11 escrito y aprobado por Compliance: Vender en pánico puede fijar la pérdida
 - `2026-11-06 17:47 UTC` **reunión** — Crecimiento en TikTok: Se aprueba el plan de crecimiento con ganchos alternados entre pregunta y afirmación, cifras marcadas como ilustrativas y medición por formato sin conclusiones antes de 10 vídeos. La rotación de forma
 - `2026-11-06 17:47 UTC` **acción** — backlog: Medición de crecimiento: registrar por vídeo retención a 3 s (con etiqueta de tipo de gancho), retención media por formato, visitas al perfil y clics al enlace de la bio. Responsables: Ideas (retención por formato y temas de comentarios), Estudio (retención a 3 s por gancho), Producto (embudo: visitas y clics). Primera lectura tras 10 vídeos publicados.
@@ -58,7 +59,6 @@ _Actualizado: 2026-11-06 17:50 UTC · se regenera en cada reunión_
 - `2026-11-04 17:30 UTC` **acción** — decisión: Hora de publicación 19:00–21:00 (Madrid) y hashtags nicho (#finanzaspersonales #ahorro #educacionfinanciera) y amplio (#dinero #inversion) se mantienen hasta tener datos. La descripción repite la aclaración de que las cifras son ilustrativas.
 - `2026-11-04 17:30 UTC` **acción** — decisión: Estructura de guion: 12–14 escenas, 150–200 palabras, gancho de 6–14 palabras. Cada episodio usa al menos 3 tipos de objeto distintos a los del episodio anterior. Ep. 8 propuesto con piggies (tres huchas por objetivo) y levers (reparto de los 150 €); phone solo si aporta.
 - `2026-11-04 17:30 UTC` **acción** — decisión: Calendario de los próximos 7 episodios: 8 Historia (Lucía, ordenar los 150 €/mes por objetivos), 9 Mito o realidad ('invertir es jugar a la lotería'), 10 A vs B (renta fija frente a renta variable, sin elegir), 11 ¿Sabías que? (tulipanes de 1637), 12 Cómo funciona en 60 s (qué es un ETF), 13 Error caro (Leo y el FOMO), 14 Historia del dinero (burbuja puntocom y Marta). En el ep. 10 la pregunta final de options será de opinión sobre el concepto, nunca sobre qué producto elegir.
-- `2026-11-04 17:30 UTC` **acción** — decisión: Ep. 7: se reescribe el gancho sobre el mecanismo ('El mínimo de tu tarjeta es una trampa que dura años.'), no sobre Leo. Leo puede aparecer en el cuerpo del episodio, nunca en el juicio del gancho. Se prepara una variante de gancho en forma de pregunta para test A/B de retención a 3 s.
 
 ## Directivas del consejo
 _(Las actualiza el consejo cada semana. Primera sesión pendiente.)_
