@@ -1,0 +1,302 @@
+{
+ "number": 12,
+ "format": "como_funciona",
+ "slug": "que-es-un-etf-en-60-segundos",
+ "title": "Un ETF: una compra, muchas empresas",
+ "topic": "Qué es un ETF en 60 segundos",
+ "core_idea": "Un ETF suele ser una cesta que replica un índice con muchas empresas dentro. Se compra y vende en bolsa como una acción y cobra una comisión anual pequeña, que se resta cada año de la rentabilidad.",
+ "series": "Finanzas en 1 minuto",
+ "characters": [
+  "Lucía"
+ ],
+ "keywords": [
+  "etf",
+  "cesta",
+  "índice",
+  "comisi",
+  "empresas",
+  "garantiz"
+ ],
+ "scenes": [
+  {
+   "type": "display",
+   "chapter": "",
+   "sfx": "hit",
+   "voice": "¿Compras un solo producto y te llevas, según el índice, cientos de empresas?",
+   "params": {
+    "lines": [
+     {
+      "text": "UN PRODUCTO"
+     },
+     {
+      "text": "CIENTOS DE EMPRESAS",
+      "color": "co"
+     }
+    ],
+    "size": "xl",
+    "note": "Ilustrativo: depende del índice."
+   }
+  },
+  {
+   "type": "cards",
+   "chapter": "// 01 · el problema",
+   "sfx": "deal",
+   "voice": "Lucía ya ordenó sus 150 € al mes. Pero oye \"ETF\" por todas partes.",
+   "params": {
+    "cards": [
+     {
+      "label": "Una acción",
+      "icon": "building"
+     },
+     {
+      "label": "Un ETF",
+      "icon": "leaf",
+      "lit": true
+     }
+    ],
+    "question": "¿Qué es un ETF?",
+    "question_at": 2.5
+   }
+  },
+  {
+   "type": "display",
+   "chapter": "// 01 · la idea",
+   "sfx": "hit2",
+   "voice": "Un ETF suele ser una cesta. Dentro, muchas empresas.",
+   "params": {
+    "lines": [
+     {
+      "text": "UN ETF =",
+      "color": "bl"
+     },
+     {
+      "text": "UNA CESTA",
+      "color": "co",
+      "at": 1.0
+     }
+    ],
+    "size": "xl",
+    "note": "Depende del ETF: algunos tienen pocas empresas."
+   }
+  },
+  {
+   "type": "drawer",
+   "chapter": "// 02 · cómo funciona",
+   "sfx": "thud",
+   "voice": "Imagina 10.000 €, solo como ejemplo. No van a una sola empresa. Se reparten por toda la cesta.",
+   "params": {
+    "amount": 10000,
+    "currency": "€",
+    "note": "Ilustrativo: 10.000 € como ejemplo."
+   }
+  },
+  {
+   "type": "cards",
+   "chapter": "// 02 · cómo funciona",
+   "sfx": "deal",
+   "voice": "La cesta suele copiar un índice, que es una lista de empresas. Si el índice sube o baja, ella le sigue.",
+   "params": {
+    "cards": [
+     {
+      "label": "Índice: la lista",
+      "icon": "chart"
+     },
+     {
+      "label": "ETF: la copia",
+      "icon": "scale",
+      "lit": true
+     }
+    ],
+    "question": "Sube o baja con el índice",
+    "question_at": 3.5
+   }
+  },
+  {
+   "type": "display",
+   "chapter": "// 03 · dónde se compra",
+   "sfx": "whoosh",
+   "voice": "Spoiler: se compra y se vende en bolsa, como una acción.",
+   "params": {
+    "lines": [
+     {
+      "text": "SE COMPRA EN BOLSA"
+     },
+     {
+      "text": "COMO UNA ACCIÓN",
+      "color": "bl",
+      "at": 1.2
+     }
+    ],
+    "size": "m",
+    "pills": [
+     {
+      "text": "ETF = fondo cotizado"
+     }
+    ]
+   }
+  },
+  {
+   "type": "chart",
+   "chapter": "// 03 · los números",
+   "sfx": "rise",
+   "voice": "Ejemplo ilustrativo: 10.000 € durante 20 años, con un 7 % anual supuesto. Serían unos 38.700 €.",
+   "params": {
+    "series": [
+     {
+      "name": "Sin comisión (7 % supuesto)",
+      "points": [
+       10000,
+       14000,
+       19700,
+       27600,
+       38700
+      ],
+      "color": "bl",
+      "end": 38700,
+      "suffix": " €"
+     },
+     {
+      "name": "Con comisión 0,2 %",
+      "points": [
+       10000,
+       13900,
+       19300,
+       26800,
+       37300
+      ],
+      "color": "co",
+      "end": 37300,
+      "suffix": " €"
+     }
+    ],
+    "x_labels": [
+     "Año 0",
+     "5",
+     "10",
+     "15",
+     "20"
+    ],
+    "at": 0.5,
+    "dur": 5,
+    "note": "Ilustrativo. 10.000 €, 20 años, 7 % anual supuesto y constante, sin aportaciones, antes de impuestos y otros costes. La rentabilidad real varía y puede ser negativa."
+   }
+  },
+  {
+   "type": "receipt",
+   "chapter": "// 04 · el peaje",
+   "sfx": "print",
+   "voice": "Pero ojo: el ETF cobra comisión. Aquí, un 0,2 % al año.",
+   "params": {
+    "header": "TICKET DE TU ETF (ilustrativo)",
+    "items": [
+     {
+      "label": "Comisión anual (%)",
+      "from": 0.2
+     },
+     {
+      "label": "Coste en 20 años (€)",
+      "from": 1400
+     }
+    ],
+    "note": "Ilustrativo. Hipótesis: 10.000 €, 20 años, 7 % bruto y comisión del 0,2 % anual."
+   }
+  },
+  {
+   "type": "display",
+   "chapter": "// 04 · el resultado",
+   "sfx": "hit",
+   "voice": "En este ejemplo ilustrativo, quedarían unos 37.300 €. Unos 1.400 € menos por la comisión.",
+   "params": {
+    "lines": [
+     {
+      "text": "UNOS 37.300 €",
+      "color": "co"
+     },
+     {
+      "text": "UNOS 1.400 € MENOS",
+      "at": 1.5
+     }
+    ],
+    "size": "xl",
+    "pills": [
+     {
+      "text": "Ilustrativo · 7 % supuesto"
+     }
+    ],
+    "note": "Ilustrativo: 38.700 € brutos menos unos 37.300 € con comisión, unos 1.400 € de diferencia."
+   }
+  },
+  {
+   "type": "cards",
+   "chapter": "// 05 · la letra pequeña",
+   "sfx": "tick",
+   "voice": "¿Y sabes qué? Nada está garantizado. El índice también puede bajar.",
+   "params": {
+    "cards": [
+     {
+      "label": "Puede subir",
+      "icon": "chart"
+     },
+     {
+      "label": "Puede bajar",
+      "icon": "shield",
+      "lit": true
+     }
+    ],
+    "question": "Rentabilidad no garantizada",
+    "question_at": 2.5,
+    "note": "El 7 % del ejemplo es solo una hipótesis ilustrativa."
+   }
+  },
+  {
+   "type": "levers",
+   "chapter": "// 05 · qué mirar",
+   "sfx": "tick",
+   "voice": "Para entender un ETF, fíjate en tres cosas: qué copia, cuánto cobra y cuánto riesgo tiene.",
+   "params": {
+    "title": "Tres cosas para entenderlo",
+    "levers": [
+     {
+      "label": "Qué índice copia",
+      "from": 50,
+      "to": 50
+     },
+     {
+      "label": "Cuánto cobra",
+      "from": 50,
+      "to": 50
+     },
+     {
+      "label": "Cuánto riesgo tiene",
+      "from": 50,
+      "to": 50
+     }
+    ],
+    "note": "Esquema ilustrativo, sin valores reales."
+   }
+  },
+  {
+   "type": "options",
+   "chapter": "// 06 · tu turno",
+   "sfx": "ding",
+   "voice": "Tu turno: ¿qué te parece más útil de un ETF? Y mañana: Leo y el miedo a quedarse fuera.",
+   "params": {
+    "options": [
+     "A) Diversificar de golpe",
+     "B) Pagar poca comisión",
+     "C) Venderlo cualquier día de bolsa"
+    ],
+    "disclaimer": "Contenido educativo. No es asesoramiento financiero ni recomendación de inversión. Invertir conlleva riesgos. Cifras ilustrativas. Vídeo creado con ayuda de IA."
+   }
+  },
+  {
+   "type": "logo",
+   "chapter": "",
+   "sfx": "cling",
+   "voice": "Esto ha sido Finroots. El dinero, desde la raíz.",
+   "params": {
+    "next": "Mañana: Leo compra porque \"todo el mundo lo compra\". ¿Cuánto puede costarle el miedo a quedarse fuera?"
+   }
+  }
+ ]
+}

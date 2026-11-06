@@ -348,5 +348,35 @@
       "status": "SEND_TO_USER_INBOX",
       "post_ids": null
     }
+  },
+  {
+    "number": 12,
+    "slug": "que-es-un-etf-en-60-segundos",
+    "title": "Un ETF: una compra, muchas empresas",
+    "topic": "Qué es un ETF en 60 segundos",
+    "core_idea": "Un ETF suele ser una cesta que replica un índice con muchas empresas dentro. Se compra y vende en bolsa como una acción y cobra una comisión anual pequeña, que se resta cada año de la rentabilidad.",
+    "characters": [
+      "Lucía"
+    ],
+    "objects": [
+      "cards",
+      "chart",
+      "display",
+      "drawer",
+      "levers",
+      "logo",
+      "options",
+      "receipt"
+    ],
+    "question": "A) Diversificar de golpe / B) Pagar poca comisión / C) Venderlo cualquier día de bolsa",
+    "status": "sent_to_inbox",
+    "duration": 69.612,
+    "published_at": "2026-11-06T23:57:29.296229Z",
+    "tiktok": {
+      "publish_id": "v_inbox_file~v2.7705211701368621069",
+      "mode": "draft",
+      "status": "SEND_TO_USER_INBOX",
+      "post_ids": null
+    }
   }
 ]

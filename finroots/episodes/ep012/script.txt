@@ -1,0 +1,13 @@
+[01]   ¿Compras un solo producto y te llevas, según el índice, cientos de empresas?
+[02] // 01 · el problema  Lucía ya ordenó sus 150 € al mes. Pero oye "ETF" por todas partes.
+[03] // 01 · la idea  Un ETF suele ser una cesta. Dentro, muchas empresas.
+[04] // 02 · cómo funciona  Imagina 10.000 €, solo como ejemplo. No van a una sola empresa. Se reparten por toda la cesta.
+[05] // 02 · cómo funciona  La cesta suele copiar un índice, que es una lista de empresas. Si el índice sube o baja, ella le sigue.
+[06] // 03 · dónde se compra  Spoiler: se compra y se vende en bolsa, como una acción.
+[07] // 03 · los números  Ejemplo ilustrativo: 10.000 € durante 20 años, con un 7 % anual supuesto. Serían unos 38.700 €.
+[08] // 04 · el peaje  Pero ojo: el ETF cobra comisión. Aquí, un 0,2 % al año.
+[09] // 04 · el resultado  En este ejemplo ilustrativo, quedarían unos 37.300 €. Unos 1.400 € menos por la comisión.
+[10] // 05 · la letra pequeña  ¿Y sabes qué? Nada está garantizado. El índice también puede bajar.
+[11] // 05 · qué mirar  Para entender un ETF, fíjate en tres cosas: qué copia, cuánto cobra y cuánto riesgo tiene.
+[12] // 06 · tu turno  Tu turno: ¿qué te parece más útil de un ETF? Y mañana: Leo y el miedo a quedarse fuera.
+[13]   Esto ha sido Finroots. El dinero, desde la raíz.
