@@ -1,13 +1,14 @@
 # Panel de Finroots
-_Actualizado: 2026-11-06 23:57 UTC · se regenera en cada reunión_
+_Actualizado: 2026-11-07 19:38 UTC · se regenera en cada reunión_
 
 ## Necesita tu sí
 - **Incidencia en el episodio 5** — [responder aquí](https://github.com/JuanOlazaba/tradingview-webhook-api/issues/17) · pedido por Operaciones el 2026-11-03 13:13 UTC
+- **Incidencia en el episodio 13** — [responder aquí](https://github.com/JuanOlazaba/tradingview-webhook-api/issues/20) · pedido por Operaciones el 2026-11-07 19:38 UTC
 
 ## Estado
 - Episodios: 12 · en colchón (listos): 0
 - TikTok: — seguidores · — me gusta · — vídeos
-- Coste de IA: hoy 0.88 $ · este mes 4.16 $ de 20 $ · total 4.16 $
+- Coste de IA: hoy 0.39 $ · este mes 4.55 $ de 20 $ · total 4.55 $
 
 ## Episodios
 | # | Título | Estado |
@@ -26,6 +27,7 @@ _Actualizado: 2026-11-06 23:57 UTC · se regenera en cada reunión_
 | 1 | [Tus 100 € en el cajón](episodes/ep001/script.txt) | publicado |
 
 ## Últimas reuniones
+- [2026-11-07-ep013](minutes/2026-11-07-ep013.md)
 - [2026-11-07-ep012](minutes/2026-11-07-ep012.md)
 - [2026-11-06-ep011](minutes/2026-11-06-ep011.md)
 - [2026-11-06-ep011-estudio](minutes/2026-11-06-ep011-estudio.md)
@@ -37,9 +39,9 @@ _Actualizado: 2026-11-06 23:57 UTC · se regenera en cada reunión_
 - [2026-11-04-ep007](minutes/2026-11-04-ep007.md)
 - [2026-11-04-1730-mejora-contenido](minutes/2026-11-04-1730-mejora-contenido.md)
 - [2026-11-03-ep007](minutes/2026-11-03-ep007.md)
-- [2026-11-03-ep006](minutes/2026-11-03-ep006.md)
 
 ## Actividad reciente
+- `2026-11-07 19:38 UTC` **incidencia** — Ep. 13: Compliance no aprueba el episodio tras las revisiones: [{"scene": 3, "problem": "El phone muestra balance_steps 0 → 1.000 con la etiqueta 'Valor de la inversión' y una fila 'Compra del chollo' de '-1.000 €' en azul. El saldo sube mientras el movimiento resta, lo que es incoherente y puede leerse com
 - `2026-11-06 23:57 UTC` **publicación** — Ep. 12: Un ETF: una compra, muchas empresas · estado: sent_to_inbox
 - `2026-11-06 23:48 UTC` **reanudación** — El episodio de hoy estaba pendiente; el comité diario lo retoma ahora.
 - `2026-11-06 21:09 UTC` **publicación** — Ep. 11: Vender en pánico puede fijar la pérdida · estado: sent_to_inbox
@@ -59,7 +61,6 @@ _Actualizado: 2026-11-06 23:57 UTC · se regenera en cada reunión_
 - `2026-11-04 17:30 UTC` **acción** — biblia: Continuidad: desde el ep. 8 se retoma '¿dónde se invierte?'. Lucía ordena sus 15
 - `2026-11-04 17:30 UTC` **acción** — backlog: Medición: reportar retención a 3 s por tipo de gancho (pregunta o cifra) y retención media por formato a partir de 10 vídeos publicados. Responsable: Ideas (retención por formato) y Estudio (retención a 3 s por gancho). Sin conclusiones antes de 10 vídeos.
 - `2026-11-04 17:30 UTC` **acción** — backlog: Estudio: recalcular a mano las cifras del ep. 5 (19.000 €) y del ep. 7 (3.470 €), documentar la hipótesis (capital, años, tipo) y enviarla a Compliance antes de cualquier nuevo render. Responsable: Estudio + Compliance.
-- `2026-11-04 17:30 UTC` **acción** — decisión: Hora de publicación 19:00–21:00 (Madrid) y hashtags nicho (#finanzaspersonales #ahorro #educacionfinanciera) y amplio (#dinero #inversion) se mantienen hasta tener datos. La descripción repite la aclaración de que las cifras son ilustrativas.
 
 ## Directivas del consejo
 _(Las actualiza el consejo cada semana. Primera sesión pendiente.)_
