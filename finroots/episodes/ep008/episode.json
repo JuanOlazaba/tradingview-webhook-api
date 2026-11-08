@@ -1,275 +1,282 @@
 {
  "number": 8,
- "lesson": "F04",
  "format": "historia",
- "slug": "fondo-de-emergencia-el-coche-de-lucia",
- "title": "El coche de Lucía y los 900 € que no tenía",
- "topic": "El fondo de emergencia: cuánto, dónde y para qué",
- "core_idea": "Antes de invertir, aparta entre 3 y 6 meses de gastos básicos para los imprevistos.",
+ "slug": "lucia-ordena-150-euros-por-objetivos",
+ "title": "¿Tus 150 € al mes tienen destino?",
+ "topic": "Ordenar los 150 € al mes por objetivos: ¿dónde se invierte?",
+ "core_idea": "Antes de invertir, Lucía separa su margen mensual en tres huchas según cuándo necesita el dinero: fondo de emergencia, ahorro a corto plazo e inversión a largo plazo.",
  "series": "Finanzas en 1 minuto",
  "characters": [
   "Lucía"
  ],
  "keywords": [
+  "plazo",
+  "hucha",
   "emergencia",
-  "colchón",
-  "imprevist",
-  "básicos",
-  "finroots"
+  "destino",
+  "150",
+  "ilustrativ"
  ],
+ "description": "Lucía reparte sus 150 € al mes en tres huchas según el plazo. Reparto de ejemplo, no una recomendación. Cifras ilustrativas, sin rentabilidad, inflación ni impuestos. #finanzaspersonales #ahorro #educacionfinanciera #dinero #inversion",
  "scenes": [
   {
    "type": "display",
    "chapter": "",
    "sfx": "hit",
-   "voice": "¿Y si mañana se te rompe el coche... y no tienes 900 euros?",
+   "voice": "¿Tus 150 € al mes tienen destino, o se esfuman?",
    "params": {
     "lines": [
      {
-      "text": "900 €",
+      "text": "¿TUS 150 €",
       "color": "co",
-      "at": 0.2
+      "at": 0
      },
      {
-      "text": "mañana.",
-      "at": 0.9
+      "text": "TIENEN DESTINO?",
+      "at": 1.2
      }
     ],
     "size": "xl"
    }
   },
   {
-   "type": "art",
-   "chapter": "// 01 · el imprevisto",
+   "type": "drawer",
+   "chapter": "// 01 · el problema",
    "sfx": "thud",
-   "voice": "Le pasa a Lucía. El coche dice basta. Factura del taller: 900 euros.",
+   "voice": "Lucía aparta 150 € el día que cobra. Pero todos van al mismo cajón.",
    "params": {
-    "asset": "broken_car",
-    "tag": "Lucía · martes",
-    "value": 900,
-    "color": "co",
-    "value_at": 2.4,
-    "note": "caso ficticio · cifras ilustrativas",
-    "note_at": 3
+    "amount": 150,
+    "currency": "€",
+    "note": "Lucía, 25 años, aparta 150 €/mes desde el ep. 1"
    }
   },
   {
-   "type": "phone",
-   "chapter": "// 01 · el imprevisto",
-   "sfx": "tick",
-   "voice": "Ese mes le quedan 600 euros en la cuenta. No llega.",
+   "type": "cards",
+   "chapter": "// 01 · el problema",
+   "sfx": "deal",
+   "voice": "Spoiler: no todo el dinero sirve para lo mismo. Depende de cuándo lo vas a necesitar.",
    "params": {
-    "name": "Lucía",
-    "label": "saldo disponible",
-    "low": 1,
-    "balance_steps": [
-     [
-      0,
-      600
-     ],
-     [
-      2.2,
-      -300
-     ]
-    ],
-    "notifications": [
+    "cards": [
      {
-      "title": "Cargo · Taller",
-      "body": "−900 € con tarjeta",
-      "at": 1.8
+      "label": "Emergencia",
+      "icon": "shield"
+     },
+     {
+      "label": "Corto plazo",
+      "icon": "clock"
+     },
+     {
+      "label": "Largo plazo",
+      "icon": "chart"
      }
     ],
-    "side": {
-     "label": "le faltan",
-     "value": "300 €",
-     "tone": "co",
-     "at": 2.8
-    }
-   }
-  },
-  {
-   "type": "art",
-   "chapter": "// 01 · el imprevisto",
-   "sfx": "pop",
-   "voice": "La salida fácil: la tarjeta. Pero ojo: pagar a plazos con intereses altos hace la avería más cara.",
-   "params": {
-    "asset": "credit_card",
-    "label": "Aplazar = pagar intereses",
-    "label_at": 2.6
+    "note": "Tres objetivos, tres plazos"
    }
   },
   {
    "type": "display",
    "chapter": "// 02 · la idea",
    "sfx": "hit2",
-   "voice": "Lo que le faltaba tiene nombre: fondo de emergencia. Dinero apartado solo para imprevistos.",
+   "voice": "Primero el plazo. Después, el dónde.",
    "params": {
     "lines": [
      {
-      "text": "Fondo de",
+      "text": "PRIMERO",
+      "at": 0
+     },
+     {
+      "text": "EL PLAZO",
+      "color": "co",
       "at": 0.8
-     },
-     {
-      "text": "emergencia",
-      "color": "bl",
-      "at": 1.2
      }
     ],
-    "size": "m",
-    "pills": [
-     {
-      "text": "dinero apartado",
-      "at": 3
-     },
-     {
-      "text": "solo para imprevistos",
-      "dark": true,
-      "at": 3.6
-     }
-    ]
+    "size": "xl"
    }
   },
   {
-   "type": "art",
-   "chapter": "// 02 · la idea",
-   "sfx": "whoosh",
-   "voice": "Es como un paraguas: no evita la tormenta... pero evita que te empapes.",
+   "type": "piggies",
+   "chapter": "// 03 · las huchas",
+   "sfx": "coins",
+   "voice": "Hucha uno: emergencia. 60 € al mes, 1.200 € en 20 meses. Hucha dos: corto plazo. 40 € al mes, 1.000 € en 25 meses. Cifras ilustrativas, sin rentabilidad.",
    "params": {
-    "asset": "umbrella",
-    "label": "No evita la lluvia. Te mantiene seco.",
-    "label_at": 2.8
+    "pigs": [
+     {
+      "name": "Emergencia",
+      "tag": "60 € al mes",
+      "sub": "20 meses",
+      "fill": 1,
+      "from": 0,
+      "to": 1200,
+      "suffix": " €",
+      "at": 0.5,
+      "dur": 6
+     },
+     {
+      "name": "Corto plazo",
+      "tag": "40 € al mes",
+      "sub": "25 meses",
+      "fill": 1,
+      "from": 0,
+      "to": 1000,
+      "suffix": " €",
+      "at": 0.5,
+      "dur": 6
+     }
+    ],
+    "note": "Ilustrativo: aportación mensual × meses, sin rentabilidad ni inflación. 60 × 20 = 1.200 €; 40 × 25 = 1.000 €. Cada hucha se llena al llegar a su meta"
    }
   },
   {
-   "type": "art",
-   "chapter": "// 03 · cuánto",
-   "sfx": "deal",
-   "voice": "¿Cuánto? Suma tus gastos básicos de un mes. Los de Lucía: 1.000 euros.",
+   "type": "levers",
+   "chapter": "// 03 · el reparto",
+   "sfx": "tick",
+   "voice": "Así reparte Lucía sus 150 € en este ejemplo: 60, 40 y 50. Sin sobras.",
    "params": {
-    "items": [
+    "title": "Reparto de 150 € al mes (ejemplo)",
+    "levers": [
      {
-      "asset": "house",
-      "label": "Alquiler",
-      "value": 600,
-      "at": 0.6
+      "label": "Emergencia",
+      "sub": "60 € · 40 %",
+      "from": 0,
+      "to": 40
      },
      {
-      "asset": "jar",
-      "label": "Comida",
-      "value": 300,
-      "at": 1.1
+      "label": "Corto plazo",
+      "sub": "40 € · 26,7 %",
+      "from": 0,
+      "to": 26.7
      },
      {
-      "asset": "wallet",
-      "label": "Transporte",
-      "value": 100,
-      "at": 1.6
+      "label": "Largo plazo",
+      "sub": "50 € · 33,3 %",
+      "from": 0,
+      "to": 33.3
      }
     ],
-    "label": "Total: 1.000 € al mes",
-    "label_at": 3.4,
-    "note": "gastos del episodio 1 · ilustrativo",
-    "note_at": 3.8
+    "note": "Ilustrativo: 60 + 40 + 50 = 150 €/mes. Cada persona reparte según su situación"
+   }
+  },
+  {
+   "type": "snowball",
+   "chapter": "// 03 · largo plazo",
+   "sfx": "rise",
+   "voice": "Hucha tres: largo plazo. 50 € al mes, 600 € en un año. Ilustrativo, solo aportaciones, sin rentabilidad. Idea: no tocarlo en años.",
+   "params": {
+    "start_label": "50 € al mes",
+    "end_label": "600 € en 12 meses",
+    "dur": 5,
+    "note": "Ilustrativo: 50 € × 12 meses = 600 €. La bola representa aportaciones acumuladas, no rentabilidad. Sin inflación ni impuestos"
    }
   },
   {
    "type": "display",
-   "chapter": "// 03 · cuánto",
+   "chapter": "// 04 · el giro",
    "sfx": "hit",
-   "voice": "Una referencia habitual: de 3 a 6 meses de gastos básicos. Para Lucía, de 3.000 a 6.000 euros.",
+   "voice": "Pero ojo: si mezclas las huchas, un imprevisto se come tu largo plazo.",
    "params": {
     "lines": [
      {
-      "text": "3 a 6",
-      "color": "co",
-      "at": 0.4
+      "text": "SI LO MEZCLAS",
+      "at": 0
      },
      {
-      "text": "meses",
-      "at": 0.8
-     }
-    ],
-    "size": "xl",
-    "pills": [
+      "text": "EL IMPREVISTO",
+      "color": "co",
+      "at": 1
+     },
      {
-      "text": "3.000 € – 6.000 €",
-      "dark": true,
-      "at": 3.6
+      "text": "SE LO COME",
+      "at": 2
      }
     ],
-    "note": "orientación general · cada caso es distinto",
-    "note_at": 4
+    "size": "m"
    }
   },
   {
-   "type": "coins",
-   "chapter": "// 03 · cuánto",
-   "sfx": "coins",
-   "voice": "Spoiler: no hace falta tenerlo mañana. Se llena poco a poco, mes a mes.",
-   "params": {
-    "towers": [
-     {
-      "label": "3 meses",
-      "coins": 6,
-      "value": 3000,
-      "color": "bl"
-     },
-     {
-      "label": "6 meses",
-      "coins": 12,
-      "value": 6000,
-      "color": "co",
-      "at": 0.8
-     }
-    ],
-    "note": "ilustrativo",
-    "note_at": 2.5
-   }
-  },
-  {
-   "type": "art",
-   "chapter": "// 04 · dónde",
+   "type": "phone",
+   "chapter": "// 04 · hazlo hoy",
    "sfx": "ding",
-   "voice": "¿Dónde? En un sitio seguro, disponible al momento... y separado de tu cuenta del día a día.",
+   "voice": "Solución: el día que cobra, Lucía programa tres transferencias. Una por hucha. Y las revisa de vez en cuando.",
    "params": {
-    "asset": "vault",
-    "label": "Seguro · disponible · aparte",
-    "label_at": 3
+    "name": "Lucía",
+    "label": "Día de cobro",
+    "balance_steps": [
+     [
+      0,
+      1500
+     ],
+     [
+      2,
+      1440
+     ],
+     [
+      3,
+      1400
+     ],
+     [
+      4,
+      1350
+     ]
+    ],
+    "rows": [
+     {
+      "label": "Emergencia",
+      "amount": -60,
+      "color": "#3B82F6",
+      "at": 1.5
+     },
+     {
+      "label": "Corto plazo",
+      "amount": -40,
+      "color": "#F59E0B",
+      "at": 2.5
+     },
+     {
+      "label": "Largo plazo",
+      "amount": -50,
+      "color": "#10B981",
+      "at": 3.5
+     }
+    ],
+    "note": "Ilustrativo: sueldo 1.500 € − 150 € apartados = 1.350 €"
    }
   },
   {
-   "type": "art",
-   "chapter": "// 04 · dónde",
-   "sfx": "rise",
-   "voice": "Y va antes de invertir. Sin colchón, un imprevisto te puede obligar a vender en mal momento.",
+   "type": "cards",
+   "chapter": "// 04 · el orden",
+   "sfx": "pop",
+   "voice": "¿Y el orden? Muchos expertos priorizan la emergencia. Es un colchón que evita vender una inversión a la fuerza.",
    "params": {
-    "items": [
+    "cards": [
      {
-      "asset": "umbrella",
-      "label": "1 · Colchón",
-      "at": 0.5
+      "label": "1 · Emergencia",
+      "icon": "shield",
+      "lit": true
      },
      {
-      "asset": "candles",
-      "label": "2 · Invertir",
-      "at": 1.6
+      "label": "2 · Corto plazo",
+      "icon": "clock"
+     },
+     {
+      "label": "3 · Largo plazo",
+      "icon": "chart"
      }
     ],
-    "label": "Primero el colchón",
-    "label_at": 3
+    "note": "Orientativo, no es una recomendación personal. Lucía las llena en paralelo en este ejemplo"
    }
   },
   {
    "type": "options",
    "chapter": "// 05 · tu turno",
-   "sfx": "deal",
-   "voice": "¿Tienes fondo de emergencia? A, sí, de 3 meses o más. B, menos de 3. C, todavía no.",
+   "sfx": "ding",
+   "voice": "Y tú, ¿qué hucha te parece más urgente y por qué? Cuéntalo en comentarios y guarda este vídeo.",
    "params": {
     "options": [
-     "Sí, 3 meses o más",
-     "Menos de 3 meses",
-     "Todavía no"
-    ]
+     "Emergencia",
+     "Corto plazo",
+     "Largo plazo"
+    ],
+    "disclaimer": "Contenido educativo. No es asesoramiento financiero ni recomendación de inversión. Invertir conlleva riesgos. Cifras ilustrativas. Vídeo creado con ayuda de IA."
    }
   },
   {
@@ -278,9 +285,8 @@
    "sfx": "cling",
    "voice": "Esto ha sido Finroots. El dinero, desde la raíz.",
    "params": {
-    "next": "Próximo: deuda buena y deuda mala"
+    "next": "Si el dinero de largo plazo no se toca en años, ¿cómo afecta una mala racha del mercado a quien invierte?"
    }
   }
- ],
- "qa_ok": true
+ ]
 }

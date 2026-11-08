@@ -28,11 +28,7 @@
       "mode": "draft",
       "status": "SEND_TO_USER_INBOX",
       "post_ids": null
-    },
-    "lessons": [
-      "F01",
-      "F02"
-    ]
+    }
   },
   {
     "number": 2,
@@ -67,10 +63,7 @@
       "mode": "draft",
       "status": "SEND_TO_USER_INBOX",
       "post_ids": null
-    },
-    "lessons": [
-      "F03"
-    ]
+    }
   },
   {
     "number": 3,
@@ -102,10 +95,7 @@
       "mode": "draft",
       "status": "SEND_TO_USER_INBOX",
       "post_ids": null
-    },
-    "lessons": [
-      "F02"
-    ]
+    }
   },
   {
     "number": 4,
@@ -125,7 +115,7 @@
       "options"
     ],
     "question": "Vender todo / Esperar / Comprar más",
-    "status": "discarded",
+    "status": "sent_to_inbox",
     "duration": 79.77,
     "published_at": "2026-11-03T13:10:03.228854Z",
     "tiktok": {
@@ -133,8 +123,7 @@
       "mode": "draft",
       "status": "SEND_TO_USER_INBOX",
       "post_ids": null
-    },
-    "lessons": []
+    }
   },
   {
     "number": 5,
@@ -159,7 +148,7 @@
       "snowball"
     ],
     "question": "A) El porcentaje / B) El total pagado en euros / C) Solo la rentabilidad pasada",
-    "status": "discarded",
+    "status": "sent_to_inbox",
     "duration": 84.864,
     "published_at": "2026-11-03T15:23:07.066885Z",
     "tiktok": {
@@ -167,8 +156,7 @@
       "mode": "draft",
       "status": "SEND_TO_USER_INBOX",
       "post_ids": null
-    },
-    "lessons": []
+    }
   },
   {
     "number": 6,
@@ -191,7 +179,7 @@
       "piggies"
     ],
     "question": "A) No gana nada / B) Publicidad y datos, muy a menudo / C) Solo donaciones",
-    "status": "discarded",
+    "status": "sent_to_inbox",
     "duration": 64.854,
     "published_at": "2026-11-03T15:32:49.431160Z",
     "tiktok": {
@@ -199,8 +187,7 @@
       "mode": "draft",
       "status": "SEND_TO_USER_INBOX",
       "post_ids": null
-    },
-    "lessons": []
+    }
   },
   {
     "number": 7,
@@ -225,7 +212,7 @@
       "receipt"
     ],
     "question": "A) 2 años / B) 5 años / C) 11 años",
-    "status": "discarded",
+    "status": "sent_to_inbox",
     "duration": 70.914,
     "published_at": "2026-11-04T17:30:07.413775Z",
     "tiktok": {
@@ -233,30 +220,163 @@
       "mode": "draft",
       "status": "SEND_TO_USER_INBOX",
       "post_ids": null
-    },
-    "lessons": []
+    }
   },
   {
     "number": 8,
-    "lesson": "F04",
-    "lessons": [
-      "F04"
-    ],
-    "slug": "fondo-de-emergencia-el-coche-de-lucia",
-    "title": "El coche de Lucía y los 900 € que no tenía",
-    "topic": "El fondo de emergencia",
-    "core_idea": "Antes de invertir, aparta entre 3 y 6 meses de gastos básicos.",
+    "slug": "lucia-ordena-150-euros-por-objetivos",
+    "title": "¿Tus 150 € al mes tienen destino?",
+    "topic": "Ordenar los 150 € al mes por objetivos: ¿dónde se invierte?",
+    "core_idea": "Antes de invertir, Lucía separa su margen mensual en tres huchas según cuándo necesita el dinero: fondo de emergencia, ahorro a corto plazo e inversión a largo plazo.",
     "characters": [
       "Lucía"
     ],
     "objects": [
-      "art",
-      "coins",
+      "cards",
       "display",
+      "drawer",
+      "levers",
       "logo",
       "options",
-      "phone"
+      "phone",
+      "piggies",
+      "snowball"
     ],
-    "status": "ready"
+    "question": "Emergencia / Corto plazo / Largo plazo",
+    "status": "sent_to_inbox",
+    "duration": 71.176,
+    "published_at": "2026-11-04T21:39:06.845149Z",
+    "tiktok": {
+      "publish_id": "v_inbox_file~v2.7704433711927855118",
+      "mode": "draft",
+      "status": "SEND_TO_USER_INBOX",
+      "post_ids": null
+    }
+  },
+  {
+    "number": 9,
+    "slug": "invertir-no-es-la-loteria",
+    "title": "Invertir no es la lotería (pero tiene riesgo)",
+    "topic": "Invertir es jugar a la lotería",
+    "core_idea": "Un sorteo no mejora con el tiempo y cada jugada es independiente. Invertir a largo plazo en activos diversificados es un proceso distinto, pero con riesgo real de perder dinero.",
+    "characters": [
+      "Leo",
+      "Lucía"
+    ],
+    "objects": [
+      "calendar",
+      "cards",
+      "chart",
+      "coins",
+      "counter",
+      "display",
+      "levers",
+      "logo",
+      "options"
+    ],
+    "question": "A) Sí, es azar puro / B) No, pero hay riesgo de perder / C) Depende del plazo y del reparto",
+    "status": "sent_to_inbox",
+    "duration": 72.12,
+    "published_at": "2026-11-05T21:44:30.547713Z",
+    "tiktok": {
+      "publish_id": "v_inbox_file~v2.7704806174424107021",
+      "mode": "draft",
+      "status": "SEND_TO_USER_INBOX",
+      "post_ids": null
+    }
+  },
+  {
+    "number": 10,
+    "slug": "matematica-de-las-caidas",
+    "title": "Cae un 50 %: ¿cuánto debe subir?",
+    "topic": "La matemática de las caídas: lo que pierdes exige más para volver",
+    "core_idea": "Una caída porcentual necesita una subida mayor para volver al valor inicial, y cuanto más profunda es la caída, mayor es la diferencia.",
+    "characters": [
+      "Leo"
+    ],
+    "objects": [
+      "cards",
+      "chart",
+      "counter",
+      "display",
+      "drawer",
+      "levers",
+      "logo",
+      "options",
+      "phone",
+      "snowball"
+    ],
+    "question": "A) Que volver al punto de partida pueda tardar / B) Que la subida necesaria siempre sea mayor que la caída / C) Que no sepas si ni cuándo volverías",
+    "status": "sent_to_inbox",
+    "duration": 81.053,
+    "published_at": "2026-11-06T17:47:33.432545Z",
+    "tiktok": {
+      "publish_id": "v_inbox_file~v2.7705116255518345230",
+      "mode": "draft",
+      "status": "SEND_TO_USER_INBOX",
+      "post_ids": null
+    }
+  },
+  {
+    "compliance_ok": true,
+    "number": 11,
+    "slug": "vender-en-panico",
+    "title": "Vender en pánico puede fijar la pérdida",
+    "topic": "Vender en pánico tras una caída: el error que convierte una pérdida temporal en definitiva",
+    "core_idea": "Vender en la peor semana puede convertir una caída temporal en una pérdida real, porque ese dinero ya no participa de una posible recuperación.",
+    "characters": [
+      "Marta"
+    ],
+    "objects": [
+      "calendar",
+      "cards",
+      "coins",
+      "counter",
+      "display",
+      "levers",
+      "logo",
+      "options",
+      "piggies"
+    ],
+    "status": "sent_to_inbox",
+    "question": "A) Ver la caída / B) Decidir con miedo / C) Ambas",
+    "duration": 70.84,
+    "published_at": "2026-11-06T21:09:48.089573Z",
+    "tiktok": {
+      "publish_id": "v_inbox_file~v2.7705168512285542413",
+      "mode": "draft",
+      "status": "SEND_TO_USER_INBOX",
+      "post_ids": null
+    }
+  },
+  {
+    "number": 12,
+    "slug": "que-es-un-etf-en-60-segundos",
+    "title": "Un ETF: una compra, muchas empresas",
+    "topic": "Qué es un ETF en 60 segundos",
+    "core_idea": "Un ETF suele ser una cesta que replica un índice con muchas empresas dentro. Se compra y vende en bolsa como una acción y cobra una comisión anual pequeña, que se resta cada año de la rentabilidad.",
+    "characters": [
+      "Lucía"
+    ],
+    "objects": [
+      "cards",
+      "chart",
+      "display",
+      "drawer",
+      "levers",
+      "logo",
+      "options",
+      "receipt"
+    ],
+    "question": "A) Diversificar de golpe / B) Pagar poca comisión / C) Venderlo cualquier día de bolsa",
+    "status": "sent_to_inbox",
+    "duration": 69.612,
+    "published_at": "2026-11-06T23:57:29.296229Z",
+    "tiktok": {
+      "publish_id": "v_inbox_file~v2.7705211701368621069",
+      "mode": "draft",
+      "status": "SEND_TO_USER_INBOX",
+      "post_ids": null
+    }
   }
 ]

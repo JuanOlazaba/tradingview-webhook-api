@@ -1,0 +1,279 @@
+{
+ "number": 10,
+ "format": "sabias_que",
+ "slug": "matematica-de-las-caidas",
+ "title": "Cae un 50 %: ¿cuánto debe subir?",
+ "topic": "La matemática de las caídas: lo que pierdes exige más para volver",
+ "core_idea": "Una caída porcentual necesita una subida mayor para volver al valor inicial, y cuanto más profunda es la caída, mayor es la diferencia.",
+ "series": "Finanzas en 1 minuto",
+ "characters": [
+  "Leo"
+ ],
+ "keywords": [
+  "caíd",
+  "subi",
+  "100",
+  "base",
+  "garant"
+ ],
+ "scenes": [
+  {
+   "type": "display",
+   "chapter": "",
+   "sfx": "hit",
+   "voice": "Cae un 50 %. ¿Sabes cuánto tiene que subir para volver?",
+   "params": {
+    "lines": [
+     {
+      "text": "CAE UN 50 %",
+      "color": "co",
+      "at": 0
+     },
+     {
+      "text": "¿CUÁNTO SUBE?",
+      "at": 1.8
+     }
+    ],
+    "size": "xl"
+   }
+  },
+  {
+   "type": "drawer",
+   "chapter": "// 01 · el punto de partida",
+   "sfx": "thud",
+   "voice": "Imagina 1.000 € invertidos. Cifras ilustrativas, ¿vale? Sin previsiones, solo matemáticas.",
+   "params": {
+    "amount": 1000,
+    "currency": "€",
+    "note": "Ilustrativo: capital hipotético de 1.000 €"
+   }
+  },
+  {
+   "type": "phone",
+   "chapter": "// 01 · el punto de partida",
+   "sfx": "deflate",
+   "voice": "Imagina que Leo ve su cartera en rojo. Cae un 50 %: de 1.000 € a 500 €. Cifras ilustrativas.",
+   "params": {
+    "name": "Leo",
+    "label": "Cartera",
+    "balance_steps": [
+     [
+      0,
+      1000
+     ],
+     [
+      2.5,
+      500
+     ]
+    ],
+    "low": 500,
+    "side": {
+     "label": "Caída",
+     "value": "-50 %",
+     "tone": "co",
+     "at": 2.5
+    },
+    "note": "Ilustrativo: personaje ficticio y capital hipotético"
+   }
+  },
+  {
+   "type": "display",
+   "chapter": "// 02 · la trampa",
+   "sfx": "whoosh",
+   "voice": "Leo piensa: «Solo necesito subir otro 50 %». Error típico. Spoiler: no basta.",
+   "params": {
+    "lines": [
+     {
+      "text": "SUBIR 50 %",
+      "at": 0
+     },
+     {
+      "text": "NO BASTA",
+      "color": "co",
+      "at": 1.8
+     }
+    ],
+    "size": "xl",
+    "note": "Ilustrativo: error de razonamiento habitual, no una previsión"
+   }
+  },
+  {
+   "type": "counter",
+   "chapter": "// 02 · la trampa",
+   "sfx": "tick",
+   "voice": "Sube un 50 % desde 500 €... y llega a 750 €. Aún faltan 250 €.",
+   "params": {
+    "label": "Tras subir un 50 %",
+    "from": 500,
+    "to": 750,
+    "suffix": " €",
+    "color": "am",
+    "sub": "Aún faltan 250 € para los 1.000 €",
+    "note": "Ilustrativo: 500 × 1,5 = 750"
+   }
+  },
+  {
+   "type": "snowball",
+   "chapter": "// 03 · por qué pasa",
+   "sfx": "rise",
+   "voice": "¿Por qué? Perdió un 50 % sobre 1.000 €, pero ahora sube desde una base de 500 €.",
+   "params": {
+    "start_label": "500 € (nueva base)",
+    "end_label": "1.000 € (meta)",
+    "dur": 5,
+    "note": "Ilustrativo: la base cambia tras la caída"
+   }
+  },
+  {
+   "type": "display",
+   "chapter": "// 03 · por qué pasa",
+   "sfx": "hit2",
+   "voice": "Para volver a 1.000 €, tiene que duplicar: un +100 %. Y nadie garantiza que ocurra. Cifras ilustrativas.",
+   "params": {
+    "lines": [
+     {
+      "text": "HAY QUE SUBIR",
+      "at": 0
+     },
+     {
+      "text": "+100 %",
+      "color": "co",
+      "at": 1.2
+     }
+    ],
+    "size": "xl",
+    "pills": [
+     {
+      "text": "1 / (1 − caída) − 1"
+     }
+    ],
+    "note": "Ilustrativo: 500 × 2 = 1.000. No es una previsión"
+   }
+  },
+  {
+   "type": "levers",
+   "chapter": "// 03 · por qué pasa",
+   "sfx": "tick",
+   "voice": "Con una caída del 20 %, hace falta un +25 %. Con un 30 %, algo más del 40 %. Con un 50 %, el doble.",
+   "params": {
+    "title": "Subida necesaria (ilustrativo)",
+    "levers": [
+     {
+      "label": "Caída 20 %",
+      "sub": "Hace falta +25 %",
+      "from": 0,
+      "to": 25
+     },
+     {
+      "label": "Caída 30 %",
+      "sub": "Hace falta +42,9 %",
+      "from": 0,
+      "to": 42.9
+     },
+     {
+      "label": "Caída 50 %",
+      "sub": "Hace falta +100 %",
+      "from": 0,
+      "to": 100
+     }
+    ],
+    "note": "Ilustrativo: 800 €, 700 € y 500 € desde 1.000 €"
+   }
+  },
+  {
+   "type": "chart",
+   "chapter": "// 03 · por qué pasa",
+   "sfx": "rise",
+   "voice": "Cuanto más profunda es la caída, más se dispara la subida. No es una recta... es una curva.",
+   "params": {
+    "series": [
+     {
+      "name": "Subida necesaria",
+      "points": [
+       0,
+       11.1,
+       25,
+       42.9,
+       66.7,
+       100
+      ],
+      "color": "co",
+      "end": 100,
+      "suffix": " %"
+     }
+    ],
+    "x_labels": [
+     "0 %",
+     "-10 %",
+     "-20 %",
+     "-30 %",
+     "-40 %",
+     "-50 %"
+    ],
+    "at": 0.3,
+    "dur": 4,
+    "note": "Ilustrativo: fórmula matemática 1 / (1 − caída) − 1, no datos de mercado"
+   }
+  },
+  {
+   "type": "snowball",
+   "chapter": "// 04 · lo que sí puedes hacer",
+   "sfx": "whoosh",
+   "voice": "Pero ojo: nada garantiza volver al punto de partida, ni cuándo ocurriría.",
+   "params": {
+    "start_label": "Caída",
+    "end_label": "¿Cuándo vuelve?",
+    "dur": 4,
+    "note": "Ilustrativo: ningún escenario es una previsión"
+   }
+  },
+  {
+   "type": "cards",
+   "chapter": "// 04 · lo que sí puedes hacer",
+   "sfx": "deal",
+   "voice": "Preguntas que muchos inversores se hacen: ¿cuánta caída aguantaría? ¿Cuándo necesito el dinero?",
+   "params": {
+    "cards": [
+     {
+      "label": "Caída que aguantas",
+      "icon": "shield",
+      "lit": true
+     },
+     {
+      "label": "Cuándo lo necesitas",
+      "icon": "clock",
+      "lit": true
+     },
+     {
+      "label": "Riesgo que asumes",
+      "icon": "scale"
+     }
+    ],
+    "note": "Educativo, no es una recomendación"
+   }
+  },
+  {
+   "type": "options",
+   "chapter": "// 05 · tu turno",
+   "sfx": "pop",
+   "voice": "¿Qué te parece más difícil de digerir? A, que volver al punto de partida pueda tardar. B, que la subida sea siempre mayor. C, no saber si ni cuándo volverías.",
+   "params": {
+    "options": [
+     "A) Que volver al punto de partida pueda tardar",
+     "B) Que la subida necesaria siempre sea mayor que la caída",
+     "C) Que no sepas si ni cuándo volverías"
+    ],
+    "disclaimer": "Contenido educativo. No es asesoramiento financiero ni recomendación de inversión. Invertir conlleva riesgos. Cifras ilustrativas. Vídeo creado con ayuda de IA."
+   }
+  },
+  {
+   "type": "logo",
+   "chapter": "",
+   "sfx": "cling",
+   "voice": "Esto ha sido Finroots. El dinero, desde la raíz.",
+   "params": {
+    "next": "¿Y si la caída llega justo el año en que necesitas sacar el dinero?"
+   }
+  }
+ ]
+}

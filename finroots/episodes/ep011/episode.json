@@ -1,0 +1,297 @@
+{
+ "number": 11,
+ "format": "error_caro",
+ "slug": "vender-en-panico",
+ "title": "Vender en pánico puede fijar la pérdida",
+ "topic": "Vender en pánico tras una caída: el error que convierte una pérdida temporal en definitiva",
+ "core_idea": "Vender en la peor semana puede convertir una caída temporal en una pérdida real, porque ese dinero ya no participa de una posible recuperación.",
+ "series": "Finanzas en 1 minuto",
+ "characters": [
+  "Marta"
+ ],
+ "keywords": [
+  "pánic",
+  "caíd",
+  "pérdid",
+  "vend",
+  "plaz"
+ ],
+ "scenes": [
+  {
+   "type": "display",
+   "chapter": "",
+   "sfx": "hit",
+   "voice": "Vender en pánico puede convertir una caída temporal en pérdida real.",
+   "params": {
+    "lines": [
+     {
+      "text": "VENDER EN PÁNICO",
+      "color": "co",
+      "at": 0.2
+     },
+     {
+      "text": "PUEDE FIJAR",
+      "at": 1.6
+     },
+     {
+      "text": "LA PÉRDIDA",
+      "color": "bl",
+      "at": 2.8
+     }
+    ],
+    "size": "xl"
+   }
+  },
+  {
+   "type": "coins",
+   "chapter": "// 01 · el problema",
+   "sfx": "coins",
+   "voice": "Marta por fin empezó a invertir. Cifras ilustrativas: tiene 10.000 € invertidos.",
+   "params": {
+    "towers": [
+     {
+      "label": "Cartera de Marta",
+      "coins": 10,
+      "value": "10.000 €",
+      "color": "bl"
+     }
+    ],
+    "note": "Cifras ilustrativas. Hipótesis: cartera de 10.000 €."
+   }
+  },
+  {
+   "type": "counter",
+   "chapter": "// 01 · el problema",
+   "sfx": "deflate",
+   "voice": "Ilustrativo: el mercado cae un 20 %. Su cartera baja a 8.000 €. Duele.",
+   "params": {
+    "label": "Cartera tras caer un 20 %",
+    "from": 10000,
+    "to": 8000,
+    "suffix": " €",
+    "color": "co",
+    "sub": "10.000 × 0,80 = 8.000 €",
+    "note": "Cifras ilustrativas. Hipótesis: caída del 20 %."
+   }
+  },
+  {
+   "type": "cards",
+   "chapter": "// 02 · el pánico",
+   "sfx": "deal",
+   "voice": "Marta mira el móvil... y entra en pánico. Vende todo.",
+   "params": {
+    "cards": [
+     {
+      "label": "Caída",
+      "icon": "chart"
+     },
+     {
+      "label": "Miedo",
+      "icon": "clock",
+      "lit": true
+     },
+     {
+      "label": "Venta",
+      "icon": "card",
+      "lit": true
+     }
+    ],
+    "note": "Ilustrativo."
+   }
+  },
+  {
+   "type": "display",
+   "chapter": "// 02 · la idea central",
+   "sfx": "hit2",
+   "voice": "Spoiler: mientras no vendes, la pérdida es latente. Vender la fija.",
+   "params": {
+    "lines": [
+     {
+      "text": "VENDER",
+      "color": "co",
+      "at": 0.3
+     },
+     {
+      "text": "FIJA",
+      "at": 1.6
+     },
+     {
+      "text": "LA PÉRDIDA",
+      "color": "bl",
+      "at": 2.8
+     }
+    ],
+    "size": "xl"
+   }
+  },
+  {
+   "type": "piggies",
+   "chapter": "// 03 · dos caminos",
+   "sfx": "rise",
+   "voice": "Supón, solo como hipótesis, que después sube un 25 %. Podría no pasar. Cifras ilustrativas.",
+   "params": {
+    "pigs": [
+     {
+      "name": "Vendió",
+      "tag": "En pánico",
+      "sub": "Se queda fuera",
+      "fill": 0.8,
+      "from": 8000,
+      "to": 8000,
+      "suffix": " €",
+      "at": 0.5,
+      "dur": 3
+     },
+     {
+      "name": "Aguantó",
+      "tag": "Con calma",
+      "sub": "+25 % hipotético",
+      "fill": 1,
+      "from": 8000,
+      "to": 10000,
+      "suffix": " €",
+      "at": 0.5,
+      "dur": 3
+     }
+    ],
+    "note": "Cifras ilustrativas. Hipótesis: subida del 25 %, exactamente la que compensa una caída del 20 %. No garantizada."
+   }
+  },
+  {
+   "type": "calendar",
+   "chapter": "// 03 · el plazo",
+   "sfx": "tick",
+   "voice": "¿Cuánto tardaría? Nadie lo sabe. Meses, años... o quizá no se recupere.",
+   "params": {
+    "label": "Plazo desconocido",
+    "from": 1,
+    "to": 10,
+    "sub": "años o más, sin garantía de recuperación",
+    "at": 0.5,
+    "dur": 3,
+    "note": "Ilustrativo: el número no es una duración esperada. La recuperación puede tardar más o no producirse."
+   }
+  },
+  {
+   "type": "coins",
+   "chapter": "// 03 · la cuenta",
+   "sfx": "cling",
+   "voice": "En esta hipótesis, quien vendió se queda en 8.000 €. Quien aguantó, con +25 %, llega a 10.000 €. Solo un supuesto.",
+   "params": {
+    "towers": [
+     {
+      "label": "Vendió",
+      "coins": 8,
+      "value": "8.000 €",
+      "color": "co"
+     },
+     {
+      "label": "Aguantó (hipótesis)",
+      "coins": 10,
+      "value": "10.000 €",
+      "color": "bl"
+     }
+    ],
+    "note": "Cifras ilustrativas. 8.000 × 1,25 = 10.000 €. Hipótesis: subida del 25 %, no garantizada. Aguantar no asegura este resultado."
+   }
+  },
+  {
+   "type": "levers",
+   "chapter": "// 03 · el matiz",
+   "sfx": "whoosh",
+   "voice": "Pero ojo: aguantar no siempre es viable. Si necesitas el dinero pronto, una caída puede forzarte a vender con pérdidas.",
+   "params": {
+    "title": "Cuanto más cerca el plazo",
+    "levers": [
+     {
+      "label": "Tiempo hasta necesitar el dinero",
+      "sub": "se acorta",
+      "from": 80,
+      "to": 20
+     },
+     {
+      "label": "Riesgo de venta forzosa",
+      "sub": "aumenta",
+      "from": 20,
+      "to": 80
+     }
+    ],
+    "note": "Ilustrativo: los valores no son datos reales, solo muestran la relación."
+   }
+  },
+  {
+   "type": "cards",
+   "chapter": "// 04 · lo que hace mucha gente",
+   "sfx": "deal",
+   "voice": "Muchas personas definen su plazo antes de invertir, tienen un plan por si cae y separan un colchón de emergencia.",
+   "params": {
+    "cards": [
+     {
+      "label": "Plazo",
+      "icon": "clock",
+      "lit": true
+     },
+     {
+      "label": "Plan por si cae",
+      "icon": "scale",
+      "lit": true
+     },
+     {
+      "label": "Colchón",
+      "icon": "shield",
+      "lit": true
+     }
+    ],
+    "note": "Información general, no asesoramiento."
+   }
+  },
+  {
+   "type": "display",
+   "chapter": "// 04 · la pregunta clave",
+   "sfx": "ding",
+   "voice": "¿Y sabes qué? Antes de decidir, conviene preguntarse: ¿ha cambiado mi situación... o solo mi miedo?",
+   "params": {
+    "lines": [
+     {
+      "text": "¿CAMBIÓ MI SITUACIÓN",
+      "color": "bl",
+      "at": 0.3
+     },
+     {
+      "text": "O SOLO",
+      "at": 2.2
+     },
+     {
+      "text": "MI MIEDO?",
+      "color": "co",
+      "at": 3.0
+     }
+    ],
+    "size": "xl"
+   }
+  },
+  {
+   "type": "options",
+   "chapter": "// 05 · tu turno",
+   "sfx": "pop",
+   "voice": "¿Qué te cuesta más: ver una caída o decidir con miedo? Tu turno.",
+   "params": {
+    "options": [
+     "A) Ver la caída",
+     "B) Decidir con miedo",
+     "C) Ambas"
+    ],
+    "disclaimer": "Contenido educativo. No es asesoramiento financiero ni recomendación de inversión. Invertir conlleva riesgos. Cifras ilustrativas. Vídeo creado con ayuda de IA."
+   }
+  },
+  {
+   "type": "logo",
+   "chapter": "",
+   "sfx": "cling",
+   "voice": "Esto ha sido Finroots. El dinero, desde la raíz.",
+   "params": {
+    "next": "Mañana: qué es un ETF, en 60 segundos."
+   }
+  }
+ ]
+}

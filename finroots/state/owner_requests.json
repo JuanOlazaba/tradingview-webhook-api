@@ -80,5 +80,16 @@
   "created": "2026-11-03 13:13 UTC",
   "issue": 17,
   "url": "https://github.com/JuanOlazaba/tradingview-webhook-api/issues/17"
+ },
+ {
+  "id": 8,
+  "title": "Incidencia en el episodio 13",
+  "body": "El comité diario no pudo completar el episodio 13:\n\n> Compliance no aprueba el episodio tras las revisiones: [{\"scene\": 3, \"problem\": \"El phone muestra balance_steps 0 → 1.000 con la etiqueta 'Valor de la inversión' y una fila 'Compra del chollo' de '-1.000 €' en azul. El saldo sube mientras el movimiento resta, lo que es incoherente y puede leerse como ingreso. Además la voz dice 'cuando ya había subido un 60 %', pero el calendario de la escena 2 sitúa la subida en 3 meses y el phone no muestra ninguna caída, que es el centro del relato.\", \"fix\": \"Cambiar la fila a amount '-1.000 € (invertidos)' con color neutro y mantener label 'Valor de la inversión'. Voz sin cambios. Opcional: añadir un paso final a 600 en balance_steps ([5, 600]) o dejarlo solo en la escena 5 con coins.\"}, {\"scene\": 4, \"problem\": \"'Y puede salir caro' es correcto como ma\n\nIT lo reintentará en la próxima ejecución. Responde solo si quieres dar instrucciones.",
+  "by": "Operaciones",
+  "status": "pending",
+  "apply_on_yes": {},
+  "created": "2026-11-07 19:38 UTC",
+  "issue": 20,
+  "url": "https://github.com/JuanOlazaba/tradingview-webhook-api/issues/20"
  }
 ]

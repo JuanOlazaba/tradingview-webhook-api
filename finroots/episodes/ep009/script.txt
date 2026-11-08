@@ -1,0 +1,13 @@
+[01]   Invertir no es la lotería. Pero tampoco es seguro.
+[02] // 01 · el mito  Leo lo suelta en el piso: invertir es jugar a la lotería. Lucía le pregunta: ¿seguro?
+[03] // 02 · la lotería  Primitiva: acertar el bote es 1 entre 13.983.816. Casi imposible.
+[04] // 02 · la lotería  Y cada sorteo empieza de cero. Jugar más años no mejora tus opciones.
+[05] // 03 · invertir es otra cosa  Invertir es distinto. Aquí el tiempo sí cuenta... pero ojo: nada está garantizado.
+[06] // 03 · invertir es otra cosa  Hay tres palancas que sí controlas: cuánto aportas, cuánto tiempo y cómo repartes.
+[07] // 04 · un ejemplo  Ilustrativo: 100 € al mes, 20 años, 5 % anual hipotético, sin comisiones ni impuestos.
+[08] // 04 · un ejemplo  Aportas 24.000 €. Saldrían unos 41.000 €... si ese 5 % se cumpliera.
+[09] // 04 · un ejemplo  Ese crecimiento, si llegara, no dependería de la suerte. Dependería del tiempo, la constancia y el reparto... y de cómo vaya el mercado.
+[10] // 05 · el giro  Pero ojo: también puede caer. Sobre todo a corto plazo. El riesgo es real.
+[11] // 06 · la clave  Spoiler: no es azar puro. Es riesgo que se reduce con plazo y reparto, pero no desaparece.
+[12] // 07 · tu turno  Tu turno. ¿Qué crees tú? ¿Azar puro, riesgo de perder, o depende del plazo y del reparto?
+[13]   Esto ha sido Finroots. El dinero, desde la raíz.
