@@ -1,0 +1,12 @@
+[01]   ¿Comprarías algo solo porque todo el mundo lo compra?
+[02] // 01 · el contexto  Leo ve un índice. Vale 100 puntos y sube a 160 en unos meses. Un 60 % más. Hipótesis ilustrativa, no una previsión.
+[03] // 02 · la presión  Todos hablan de ello. ¿Y si llega tarde? Spoiler: la prisa es mala consejera.
+[04] // 03 · la compra  Entra con 1.000 €, con el índice en 160 puntos. Un precio alto.
+[05] // 03 · la idea  Ese es el error caro: comprar por miedo, no por plan.
+[06] // 04 · el giro  Pero ojo... el índice no desaparece. Solo vuelve a 100. Es una caída del 37,5 %.
+[07] // 04 · las cuentas  Cuentas ilustrativas: 1.000 € a 160 puntos. Si vuelve a 100, valen 1.000 por 100 entre 160. Son 625 €.
+[08] // 04 · el coste  Son 375 € menos. Ilustrativo: nada garantiza que el precio vuelva.
+[09] // 05 · qué hacer hoy  ¿La alternativa? Un plan antes de mirar el precio. Para qué es el dinero, cuándo lo necesitas y cuánto riesgo aguantas. Aun así, invertir conlleva riesgos.
+[10] // 05 · constancia  Lucía aparta 150 € el día que cobra y decide su destino por objetivos, no por modas.
+[11] // 06 · tu turno  Tu turno. ¿Qué pesa más al decidir? A: ver que sube. B: que lo recomiende alguien. C: mi propio plan.
+[12]   Esto ha sido Finroots. El dinero, desde la raíz.

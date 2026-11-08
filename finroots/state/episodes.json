@@ -409,5 +409,36 @@
       "status": "SEND_TO_USER_INBOX",
       "post_ids": null
     }
+  },
+  {
+    "number": 14,
+    "slug": "comprar-porque-sube-fomo",
+    "title": "¿Comprarías algo solo porque todo el mundo lo compra?",
+    "topic": "Comprar porque sube: el FOMO que te compra caro",
+    "core_idea": "Invertir después de una gran subida, empujado por el miedo a quedarse fuera, suele dejarte comprando a un precio alto. Si el precio vuelve a su nivel anterior, llega la pérdida aunque el activo no haya fracasado. Hipótesis ilustrativa: capital 1.000 €; índice de 100 a 160 puntos (+60 %) en un plazo ilustrativo de unos 3 meses y vuelta a 100 (caída del 37,5 %); precio puro, sin dividendos ni comisiones; tipo de interés no aplica. Valor final: 1.000 × 100/160 = 625 €, es decir, 375 € menos. No es una previsión y nada garantiza que un precio vuelva a ningún nivel.",
+    "characters": [
+      "Leo",
+      "Lucía"
+    ],
+    "objects": [
+      "cards",
+      "chart",
+      "display",
+      "drawer",
+      "levers",
+      "logo",
+      "options",
+      "receipt"
+    ],
+    "question": "Ver que sube / Que lo recomiende alguien / Mi propio plan",
+    "status": "sent_to_inbox",
+    "duration": 70.47,
+    "published_at": "2026-11-08T23:17:49.698325Z",
+    "tiktok": {
+      "publish_id": "v_inbox_file~v2.7705943645090007054",
+      "mode": "draft",
+      "status": "SEND_TO_USER_INBOX",
+      "post_ids": null
+    }
   }
 ]

@@ -1,0 +1,282 @@
+{
+ "number": 14,
+ "format": "error_caro",
+ "slug": "comprar-porque-sube-fomo",
+ "title": "¿Comprarías algo solo porque todo el mundo lo compra?",
+ "topic": "Comprar porque sube: el FOMO que te compra caro",
+ "core_idea": "Invertir después de una gran subida, empujado por el miedo a quedarse fuera, suele dejarte comprando a un precio alto. Si el precio vuelve a su nivel anterior, llega la pérdida aunque el activo no haya fracasado. Hipótesis ilustrativa: capital 1.000 €; índice de 100 a 160 puntos (+60 %) en un plazo ilustrativo de unos 3 meses y vuelta a 100 (caída del 37,5 %); precio puro, sin dividendos ni comisiones; tipo de interés no aplica. Valor final: 1.000 × 100/160 = 625 €, es decir, 375 € menos. No es una previsión y nada garantiza que un precio vuelva a ningún nivel.",
+ "series": "Finanzas en 1 minuto",
+ "characters": [
+  "Leo",
+  "Lucía"
+ ],
+ "keywords": [
+  "miedo",
+  "plan",
+  "precio",
+  "índice",
+  "375",
+  "ilustrativ"
+ ],
+ "scenes": [
+  {
+   "type": "display",
+   "chapter": "",
+   "sfx": "hit",
+   "voice": "¿Comprarías algo solo porque todo el mundo lo compra?",
+   "params": {
+    "lines": [
+     {
+      "text": "¿COMPRAR",
+      "at": 0.2
+     },
+     {
+      "text": "PORQUE",
+      "at": 0.9
+     },
+     {
+      "text": "TODOS",
+      "color": "co",
+      "at": 1.5
+     },
+     {
+      "text": "COMPRAN?",
+      "color": "co",
+      "at": 2.1
+     }
+    ],
+    "size": "xl"
+   }
+  },
+  {
+   "type": "chart",
+   "chapter": "// 01 · el contexto",
+   "sfx": "rise",
+   "voice": "Leo ve un índice. Vale 100 puntos y sube a 160 en unos meses. Un 60 % más. Hipótesis ilustrativa, no una previsión.",
+   "params": {
+    "series": [
+     {
+      "name": "Índice",
+      "points": [
+       100,
+       115,
+       135,
+       160
+      ],
+      "color": "bl",
+      "end": 160,
+      "suffix": " pts"
+     }
+    ],
+    "x_labels": [
+     "Antes",
+     "",
+     "",
+     "Hoy"
+    ],
+    "at": 0.5,
+    "dur": 4,
+    "note": "Hipótesis ilustrativa: 1.000 €, índice 100→160 (+60 %) en unos 3 meses, precio puro sin dividendos ni comisiones. No es una previsión."
+   }
+  },
+  {
+   "type": "levers",
+   "chapter": "// 02 · la presión",
+   "sfx": "tick",
+   "voice": "Todos hablan de ello. ¿Y si llega tarde? Spoiler: la prisa es mala consejera.",
+   "params": {
+    "title": "Lo que mueve a Leo",
+    "levers": [
+     {
+      "label": "Miedo a quedarse fuera",
+      "from": 20,
+      "to": 90
+     },
+     {
+      "label": "Plan y objetivo",
+      "from": 60,
+      "to": 10
+     }
+    ],
+    "note": "Ilustrativo: representación del estado de ánimo, no un dato medido."
+   }
+  },
+  {
+   "type": "drawer",
+   "chapter": "// 03 · la compra",
+   "sfx": "thud",
+   "voice": "Entra con 1.000 €, con el índice en 160 puntos. Un precio alto.",
+   "params": {
+    "amount": 1000,
+    "currency": "€",
+    "note": "Ilustrativo: Leo invierte 1.000 € con el índice en 160 puntos. Precio puro, sin dividendos ni comisiones."
+   }
+  },
+  {
+   "type": "display",
+   "chapter": "// 03 · la idea",
+   "sfx": "hit2",
+   "voice": "Ese es el error caro: comprar por miedo, no por plan.",
+   "params": {
+    "lines": [
+     {
+      "text": "COMPRAR",
+      "at": 0.2
+     },
+     {
+      "text": "POR MIEDO",
+      "color": "co",
+      "at": 0.8
+     },
+     {
+      "text": "NO POR PLAN",
+      "color": "bl",
+      "at": 1.5
+     }
+    ],
+    "size": "xl"
+   }
+  },
+  {
+   "type": "chart",
+   "chapter": "// 04 · el giro",
+   "sfx": "deflate",
+   "voice": "Pero ojo... el índice no desaparece. Solo vuelve a 100. Es una caída del 37,5 %.",
+   "params": {
+    "series": [
+     {
+      "name": "Índice",
+      "points": [
+       160,
+       140,
+       120,
+       100
+      ],
+      "color": "co",
+      "end": 100,
+      "suffix": " pts"
+     }
+    ],
+    "x_labels": [
+     "Pico",
+     "",
+     "",
+     "Vuelta"
+    ],
+    "at": 0.5,
+    "dur": 4,
+    "note": "Ilustrativo: el índice vuelve de 160 a 100 puntos (−37,5 %). No es una previsión."
+   }
+  },
+  {
+   "type": "receipt",
+   "chapter": "// 04 · las cuentas",
+   "sfx": "print",
+   "voice": "Cuentas ilustrativas: 1.000 € a 160 puntos. Si vuelve a 100, valen 1.000 por 100 entre 160. Son 625 €.",
+   "params": {
+    "header": "Cuentas de Leo (ilustrativo)",
+    "items": [
+     {
+      "label": "Invertido a 160 puntos",
+      "from": 1000
+     },
+     {
+      "label": "Valor al volver a 100",
+      "from": 1000,
+      "to": 625
+     }
+    ],
+    "total_from": 1000,
+    "total_to": 625,
+    "note": "Hipótesis ilustrativa: 1.000 €, índice 100→160→100, precio puro sin dividendos ni comisiones. 1.000 × 100/160 = 625 €."
+   }
+  },
+  {
+   "type": "display",
+   "chapter": "// 04 · el coste",
+   "sfx": "hit",
+   "voice": "Son 375 € menos. Ilustrativo: nada garantiza que el precio vuelva.",
+   "params": {
+    "lines": [
+     {
+      "text": "-375 €",
+      "color": "co",
+      "at": 0.3
+     },
+     {
+      "text": "SOLO POR EL PRECIO DE ENTRADA",
+      "at": 1.4
+     }
+    ],
+    "size": "xl",
+    "pills": [
+     {
+      "text": "Cifra ilustrativa"
+     }
+    ],
+    "note": "Hipótesis ilustrativa: 1.000 €, índice 100→160→100, precio puro sin dividendos ni comisiones. 1.000 € − 625 € = 375 €."
+   }
+  },
+  {
+   "type": "cards",
+   "chapter": "// 05 · qué hacer hoy",
+   "sfx": "deal",
+   "voice": "¿La alternativa? Un plan antes de mirar el precio. Para qué es el dinero, cuándo lo necesitas y cuánto riesgo aguantas. Aun así, invertir conlleva riesgos.",
+   "params": {
+    "cards": [
+     {
+      "label": "Para qué",
+      "icon": "piggy",
+      "lit": true
+     },
+     {
+      "label": "Cuándo lo necesito",
+      "icon": "clock",
+      "lit": true
+     },
+     {
+      "label": "Cuánto riesgo aguanto",
+      "icon": "shield",
+      "lit": true
+     }
+    ],
+    "question": "Plan antes que precio",
+    "question_at": 2.5
+   }
+  },
+  {
+   "type": "drawer",
+   "chapter": "// 05 · constancia",
+   "sfx": "coins",
+   "voice": "Lucía aparta 150 € el día que cobra y decide su destino por objetivos, no por modas.",
+   "params": {
+    "amount": 150,
+    "currency": "€",
+    "note": "Ilustrativo: aportación mensual de Lucía."
+   }
+  },
+  {
+   "type": "options",
+   "chapter": "// 06 · tu turno",
+   "sfx": "ding",
+   "voice": "Tu turno. ¿Qué pesa más al decidir? A: ver que sube. B: que lo recomiende alguien. C: mi propio plan.",
+   "params": {
+    "options": [
+     "Ver que sube",
+     "Que lo recomiende alguien",
+     "Mi propio plan"
+    ],
+    "disclaimer": "Contenido educativo. No es asesoramiento financiero ni recomendación de inversión. Invertir conlleva riesgos. Cifras ilustrativas. Vídeo creado con ayuda de IA."
+   }
+  },
+  {
+   "type": "logo",
+   "chapter": "",
+   "sfx": "cling",
+   "voice": "Esto ha sido Finroots. El dinero, desde la raíz.",
+   "params": {
+    "next": "¿Y si el precio tarda años en volver? Mañana lo vemos."
+   }
+  }
+ ]
+}
