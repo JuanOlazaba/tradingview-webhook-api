@@ -1,0 +1,276 @@
+{
+ "number": 13,
+ "format": "a_vs_b",
+ "slug": "suscripciones-que-no-usas",
+ "title": "Tienes suscripciones que no usas",
+ "topic": "Suscripciones que no usas frente a las que sí usas: la letra pequeña del gasto invisible",
+ "core_idea": "Una suscripción de pocos euros al mes parece irrelevante, pero acumulada durante un año pesa más de lo que sospechamos.",
+ "series": "Finanzas en 1 minuto",
+ "characters": [
+  "Lucía"
+ ],
+ "keywords": [
+  "suscripcion",
+  "olvid",
+  "extracto",
+  "mes",
+  "año",
+  "576"
+ ],
+ "scenes": [
+  {
+   "type": "display",
+   "chapter": "",
+   "sfx": "hit",
+   "voice": "Tienes suscripciones que no usas. Y te cuestan más de lo que crees.",
+   "params": {
+    "lines": [
+     {
+      "text": "SUSCRIPCIONES",
+      "at": 0
+     },
+     {
+      "text": "QUE NO USAS",
+      "color": "co",
+      "at": 1.2
+     }
+    ],
+    "size": "xl"
+   }
+  },
+  {
+   "type": "phone",
+   "chapter": "// 01 · el problema",
+   "sfx": "tick",
+   "voice": "Lucía abre su extracto. Cuatro cargos de 12 € al mes, cifras ilustrativas. Dos ni los recuerda.",
+   "params": {
+    "name": "Lucía",
+    "label": "Extracto",
+    "balance_steps": [
+     [
+      0,
+      1200
+     ],
+     [
+      3.4,
+      1152
+     ]
+    ],
+    "low": 1100,
+    "rows": [
+     {
+      "label": "Suscripción de vídeo",
+      "amount": "-12 €",
+      "color": "#E4572E",
+      "at": 0.8
+     },
+     {
+      "label": "App de música",
+      "amount": "-12 €",
+      "color": "#E4572E",
+      "at": 1.6
+     },
+     {
+      "label": "App de fitness",
+      "amount": "-12 €",
+      "color": "#E4572E",
+      "at": 2.4
+     },
+     {
+      "label": "Servicio en la nube",
+      "amount": "-12 €",
+      "color": "#E4572E",
+      "at": 3.2
+     }
+    ],
+    "note": "Ilustrativo: saldo y cargos inventados"
+   }
+  },
+  {
+   "type": "piggies",
+   "chapter": "// 02 · a contra b",
+   "sfx": "coins",
+   "voice": "Vamos a compararlo. Una hucha, lo que usas. Otra, lo que olvidaste. Mismo dinero al mes, ilustrativo... pero uno lo aprovechas y el otro, no.",
+   "params": {
+    "pigs": [
+     {
+      "name": "Lo que usas",
+      "tag": "A",
+      "sub": "2 suscripciones",
+      "fill": 0.5,
+      "from": 0,
+      "to": 24,
+      "suffix": " €/mes",
+      "at": 0.5,
+      "dur": 4
+     },
+     {
+      "name": "Lo que olvidaste",
+      "tag": "B",
+      "sub": "2 suscripciones",
+      "fill": 0.5,
+      "from": 0,
+      "to": 24,
+      "suffix": " €/mes",
+      "at": 0.5,
+      "dur": 4
+     }
+    ],
+    "note": "Ilustrativo: 2 × 12 € = 24 € en cada hucha"
+   }
+  },
+  {
+   "type": "display",
+   "chapter": "// 02 · a contra b",
+   "sfx": "whoosh",
+   "voice": "¿Doce euros? Parece nada... Pero ojo: se acumulan sin que lo notes.",
+   "params": {
+    "lines": [
+     {
+      "text": "12 € PARECE NADA",
+      "at": 0
+     },
+     {
+      "text": "PERO SUMA",
+      "color": "co",
+      "at": 1.5
+     }
+    ],
+    "size": "xl",
+    "note": "Cifra ilustrativa"
+   }
+  },
+  {
+   "type": "counter",
+   "chapter": "// 03 · la suma",
+   "sfx": "rise",
+   "voice": "Cuatro suscripciones de 12 € suman 48 € al mes. Cifra ilustrativa.",
+   "params": {
+    "label": "4 suscripciones × 12 €",
+    "from": 0,
+    "to": 48,
+    "suffix": " € al mes",
+    "color": "co",
+    "sub": "Ilustrativo",
+    "note": "Ilustrativo: 4 suscripciones, 12 € cada una"
+   }
+  },
+  {
+   "type": "coins",
+   "chapter": "// 03 · la suma",
+   "sfx": "coins",
+   "voice": "Un mes, una torre pequeña. Doce meses... una torre enorme. Todo ilustrativo.",
+   "params": {
+    "towers": [
+     {
+      "label": "1 mes",
+      "coins": 1,
+      "value": 48,
+      "suffix": " €"
+     },
+     {
+      "label": "12 meses",
+      "coins": 12,
+      "value": 576,
+      "color": "co",
+      "suffix": " €"
+     }
+    ],
+    "note": "Ilustrativo: 48 € al mes durante 12 meses"
+   }
+  },
+  {
+   "type": "calendar",
+   "chapter": "// 04 · el tiempo",
+   "sfx": "tick",
+   "voice": "Pasan los meses... y el cargo sigue ahí, sin que lo abras.",
+   "params": {
+    "label": "meses pagando",
+    "from": 1,
+    "to": 12,
+    "sub": "Y tú, sin abrir la app",
+    "at": 0.5,
+    "dur": 4,
+    "note": "Ilustrativo"
+   }
+  },
+  {
+   "type": "counter",
+   "chapter": "// 04 · el tiempo",
+   "sfx": "ding",
+   "voice": "Ilustrativo: 48 € por 12 meses son 576 € en un año.",
+   "params": {
+    "label": "Ilustrativo · al cabo de un año",
+    "from": 0,
+    "to": 576,
+    "color": "co",
+    "sub": "4 × 12 € × 12 meses",
+    "note": "Ilustrativo: hipótesis de 4 suscripciones, 12 € al mes, 12 meses, precios constantes"
+   }
+  },
+  {
+   "type": "display",
+   "chapter": "// 04 · el giro",
+   "sfx": "hit2",
+   "voice": "Spoiler: el problema no es el precio. Es el olvido. ¿Y sabes qué? Lo que no ves, es más fácil no cancelarlo.",
+   "params": {
+    "lines": [
+     {
+      "text": "NO ES EL PRECIO",
+      "at": 0
+     },
+     {
+      "text": "ES EL OLVIDO",
+      "color": "co",
+      "at": 1.8
+     }
+    ],
+    "size": "xl"
+   }
+  },
+  {
+   "type": "cards",
+   "chapter": "// 05 · hazlo hoy",
+   "sfx": "deal",
+   "voice": "Una idea: revisa tu extracto cuando puedas. Ante cada cargo, pregúntate: ¿la uso o solo la pago? Tú decides.",
+   "params": {
+    "cards": [
+     {
+      "label": "La uso",
+      "icon": "leaf",
+      "lit": true
+     },
+     {
+      "label": "Solo la pago",
+      "icon": "clock"
+     }
+    ],
+    "question": "¿La uso o solo la pago?",
+    "question_at": 2.5
+   }
+  },
+  {
+   "type": "options",
+   "chapter": "// 06 · tu turno",
+   "sfx": "pop",
+   "voice": "Tu turno. ¿Cuántas suscripciones tienes que no usas? A, B o C. Contenido educativo, cifras ilustrativas.",
+   "params": {
+    "options": [
+     "A) Ninguna",
+     "B) Una o dos",
+     "C) Más de tres"
+    ],
+    "disclaimer": "Contenido educativo. No es asesoramiento financiero ni recomendación de inversión. Invertir conlleva riesgos. Cifras ilustrativas. Vídeo creado con ayuda de IA."
+   }
+  },
+  {
+   "type": "logo",
+   "chapter": "",
+   "sfx": "cling",
+   "voice": "Esto ha sido Finroots. El dinero, desde la raíz.",
+   "params": {
+    "next": "¿Cuánto te cuesta cada suscripción olvidada al cabo de cinco años?"
+   }
+  }
+ ]
+}

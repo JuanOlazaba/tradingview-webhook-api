@@ -1,0 +1,12 @@
+[01]   Tienes suscripciones que no usas. Y te cuestan más de lo que crees.
+[02] // 01 · el problema  Lucía abre su extracto. Cuatro cargos de 12 € al mes, cifras ilustrativas. Dos ni los recuerda.
+[03] // 02 · a contra b  Vamos a compararlo. Una hucha, lo que usas. Otra, lo que olvidaste. Mismo dinero al mes, ilustrativo... pero uno lo aprovechas y el otro, no.
+[04] // 02 · a contra b  ¿Doce euros? Parece nada... Pero ojo: se acumulan sin que lo notes.
+[05] // 03 · la suma  Cuatro suscripciones de 12 € suman 48 € al mes. Cifra ilustrativa.
+[06] // 03 · la suma  Un mes, una torre pequeña. Doce meses... una torre enorme. Todo ilustrativo.
+[07] // 04 · el tiempo  Pasan los meses... y el cargo sigue ahí, sin que lo abras.
+[08] // 04 · el tiempo  Ilustrativo: 48 € por 12 meses son 576 € en un año.
+[09] // 04 · el giro  Spoiler: el problema no es el precio. Es el olvido. ¿Y sabes qué? Lo que no ves, es más fácil no cancelarlo.
+[10] // 05 · hazlo hoy  Una idea: revisa tu extracto cuando puedas. Ante cada cargo, pregúntate: ¿la uso o solo la pago? Tú decides.
+[11] // 06 · tu turno  Tu turno. ¿Cuántas suscripciones tienes que no usas? A, B o C. Contenido educativo, cifras ilustrativas.
+[12]   Esto ha sido Finroots. El dinero, desde la raíz.
