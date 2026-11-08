@@ -1,5 +1,5 @@
 # Panel de Finroots
-_Actualizado: 2026-11-07 19:38 UTC · se regenera en cada reunión_
+_Actualizado: 2026-11-08 16:44 UTC · se regenera en cada reunión_
 
 ## Necesita tu sí
 - **Incidencia en el episodio 5** — [responder aquí](https://github.com/JuanOlazaba/tradingview-webhook-api/issues/17) · pedido por Operaciones el 2026-11-03 13:13 UTC
@@ -7,8 +7,8 @@ _Actualizado: 2026-11-07 19:38 UTC · se regenera en cada reunión_
 
 ## Estado
 - Episodios: 12 · en colchón (listos): 0
-- TikTok: — seguidores · — me gusta · — vídeos
-- Coste de IA: hoy 0.39 $ · este mes 4.55 $ de 20 $ · total 4.55 $
+- TikTok: 3 seguidores · 7 me gusta · 3 vídeos
+- Coste de IA: hoy 0.01 $ · este mes 4.56 $ de 20 $ · total 4.56 $
 
 ## Episodios
 | # | Título | Estado |
@@ -27,6 +27,7 @@ _Actualizado: 2026-11-07 19:38 UTC · se regenera en cada reunión_
 | 1 | [Tus 100 € en el cajón](episodes/ep001/script.txt) | publicado |
 
 ## Últimas reuniones
+- [2026-11-08-consejo](minutes/2026-11-08-consejo.md)
 - [2026-11-07-ep013](minutes/2026-11-07-ep013.md)
 - [2026-11-07-ep012](minutes/2026-11-07-ep012.md)
 - [2026-11-06-ep011](minutes/2026-11-06-ep011.md)
@@ -38,9 +39,9 @@ _Actualizado: 2026-11-07 19:38 UTC · se regenera en cada reunión_
 - [2026-11-04-ep008-estudio](minutes/2026-11-04-ep008-estudio.md)
 - [2026-11-04-ep007](minutes/2026-11-04-ep007.md)
 - [2026-11-04-1730-mejora-contenido](minutes/2026-11-04-1730-mejora-contenido.md)
-- [2026-11-03-ep007](minutes/2026-11-03-ep007.md)
 
 ## Actividad reciente
+- `2026-11-08 16:44 UTC` **consejo** — Sesión semanal: Publicar 5 vídeos esta semana (9-15 nov), todos entre 19:00 y 21:00 (Madrid), con la hora confirmada en la plataforma antes de programar.; Mantener colchón de al menos 3 episodios listos cada noche; si no se cumple, avisar al consejo el mismo día y no publicar tarde.; Conciliar el 100 % de los IDs d
 - `2026-11-07 19:38 UTC` **incidencia** — Ep. 13: Compliance no aprueba el episodio tras las revisiones: [{"scene": 3, "problem": "El phone muestra balance_steps 0 → 1.000 con la etiqueta 'Valor de la inversión' y una fila 'Compra del chollo' de '-1.000 €' en azul. El saldo sube mientras el movimiento resta, lo que es incoherente y puede leerse com
 - `2026-11-06 23:57 UTC` **publicación** — Ep. 12: Un ETF: una compra, muchas empresas · estado: sent_to_inbox
 - `2026-11-06 23:48 UTC` **reanudación** — El episodio de hoy estaba pendiente; el comité diario lo retoma ahora.
@@ -60,15 +61,28 @@ _Actualizado: 2026-11-07 19:38 UTC · se regenera en cada reunión_
 - `2026-11-04 17:30 UTC` **reunión** — Contenido y colchón de episodios: Cerramos la reunión del 4 nov con tres decisiones: marcar como ilustrativas todas las cifras grandes (hipótesis visible en nota y voz), retomar la pregunta '¿dónde se invierte?' con Lucía en el ep. 8 
 - `2026-11-04 17:30 UTC` **acción** — biblia: Continuidad: desde el ep. 8 se retoma '¿dónde se invierte?'. Lucía ordena sus 15
 - `2026-11-04 17:30 UTC` **acción** — backlog: Medición: reportar retención a 3 s por tipo de gancho (pregunta o cifra) y retención media por formato a partir de 10 vídeos publicados. Responsable: Ideas (retención por formato) y Estudio (retención a 3 s por gancho). Sin conclusiones antes de 10 vídeos.
-- `2026-11-04 17:30 UTC` **acción** — backlog: Estudio: recalcular a mano las cifras del ep. 5 (19.000 €) y del ep. 7 (3.470 €), documentar la hipótesis (capital, años, tipo) y enviarla a Compliance antes de cualquier nuevo render. Responsable: Estudio + Compliance.
 
 ## Directivas del consejo
-_(Las actualiza el consejo cada semana. Primera sesión pendiente.)_
+_Sesión del 2026-11-08_
 
-1. Publicar 1 reel diario sin fallar; la constancia es el objetivo nº 1 del primer mes.
-2. Seguir la biblia de la serie; ep. 2 = interés compuesto con Lucía y Marta.
-3. Compliance revisa el 100 % de los guiones. Cero recomendaciones personalizadas.
-4. Objetivo mes 1: 1.000 seguidores en TikTok y retención media > 40 %.
+1. Publicar 5 vídeos esta semana (9-15 nov), todos entre 19:00 y 21:00 (Madrid), con la hora confirmada en la plataforma antes de programar.
+2. Mantener colchón de al menos 3 episodios listos cada noche; si no se cumple, avisar al consejo el mismo día y no publicar tarde.
+3. Conciliar el 100 % de los IDs de TikTok con su episodio antes del viernes 13 nov; ningún episodio se marca como publicado sin ID verificado.
+4. Cada vídeo se publica con gancho (pregunta o afirmación de 6-14 palabras) como título, etiquetado en el registro como pregunta o afirmación, alternando tipo entre vídeos consecutivos.
+5. Cada cierre termina con la pregunta de opinión A/B/C del episodio (options), sin producto ni recomendación. Objetivo: al menos 1 comentario en cada uno de los próximos 5 vídeos; responder los primeros comentarios en las 2 primeras horas.
+6. Ningún episodio con cifras (ep. 5, ep. 7 y cualquier nuevo) se renderiza ni publica sin hipótesis documentada (capital, años, tipo) y validación de Compliance. Toda cifra va marcada como ilustrativa en pantalla y en voz.
+7. Registrar por vídeo a 24 h y 72 h: vistas, likes, comentarios, compartidos, visitas al perfil y clics en bio; y retención a 3 s con etiqueta de gancho en cuanto haya fuente (API o TikTok Studio si se autoriza).
+8. No cambiar temas ni formatos ni sacar conclusiones antes de 10 vídeos publicados con datos completos. Próxima revisión del consejo al llegar a 10 vídeos o en la sesión del domingo 15 nov, lo que ocurra antes.
+9. Producto: plantilla de margen mensual (PDF, 0 €) terminada y enviada a Compliance antes del viernes 13 nov. No se crea ninguna cuenta nueva sin el sí del dueño.
+
+## Vetos
+- Veto de Compliance: no se renderiza ni publica ningún episodio con cifras (ep. 5 'casi 19.000 €', ep. 7 '3.470 €' o similares) hasta que se documente la hipótesis y se valide.
+- Veto de Compliance: ningún título, gancho o cierre puede contener cifras no marcadas como ilustrativas ni recomendaciones de producto, entidad o rentabilidad.
+- Veto de Compliance: no se cierra la incidencia #8 (ep. 13) sin conocer y documentar el motivo.
+- Veto de Compliance: no se crea ninguna cuenta nueva (página de captación, newsletter) ni se da acceso a terceros sin el sí explícito del dueño (P2 aplazada).
+
+## Objetivos
+{"followers": 100, "avg_views": 150}
 
 ## Decisiones recientes de dirección
 - 2026-11-04 · Toda cifra grande de un guion (ep. 5 'casi 19.000 €', ep. 7 '3.470 €' y similares) debe ir marcada como ilustrativa en pantalla y en voz, con la hipótesis visible (capital, años y tipo). Compliance revisa la hipótesis antes de publicar; si el cálculo no cuadra exacto, se redondea y se dice 'casi' o 'unos'.
