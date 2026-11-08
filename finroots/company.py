@@ -94,7 +94,7 @@ class Meeting:
         t = "\n\n".join(f"**{ROLES.get(w, w)}:**\n{x}" for w, x in self.log)
         return t[-limit_chars:]
 
-    def say(self, role: str, task: str, want_json: bool = False, record: bool = True, retries: int = 2):
+    def say(self, role: str, task: str, want_json: bool = False, record: bool = True, retries: int = 2, images: list | None = None):
         persona = (ROOT / "company" / f"{role}.md").read_text(encoding="utf-8")
         system = [
             {"type": "text", "text": self.ctx, "cache_control": {"type": "ephemeral"}},
@@ -108,8 +108,16 @@ class Meeting:
         effort = self.cfg["models"]["effort"].get(role, "medium")
         last_err = None
         for _ in range(retries + 1):
-            text = llm.ask(system, user if last_err is None else user + f"\n\n(Tu respuesta anterior no era JSON válido: {last_err}. Repite solo el JSON.)",
-                           model=model, effort=effort, role=role)
+            prompt = user if last_err is None else user + f"\n\n(Tu respuesta anterior no era JSON válido: {last_err}. Repite solo el JSON.)"
+            if images:
+                import base64
+                content = [{"type": "text", "text": prompt}]
+                for k, img in enumerate(images):
+                    content.append({"type": "text", "text": f"Escena {k + 1}:"})
+                    content.append({"type": "image", "source": {"type": "base64", "media_type": "image/jpeg",
+                                                                "data": base64.b64encode(open(img, "rb").read()).decode()}})
+                prompt = content
+            text = llm.ask(system, prompt, model=model, effort=effort, role=role)
             if not want_json:
                 if record:
                     self.log.append((role, text))

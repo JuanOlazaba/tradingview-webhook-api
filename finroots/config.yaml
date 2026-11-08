@@ -12,6 +12,7 @@ models:
   default: claude-haiku-5-5
   studio_model: claude-sonnet-5-5
   compliance_model: claude-sonnet-5-5
+  product_model: claude-sonnet-5-5   # control de calidad visual y matemático
   effort:                      # cuánto piensa cada rol (low | medium | high)
     ceo: medium
     board: medium

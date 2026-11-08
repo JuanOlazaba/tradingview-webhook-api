@@ -27,7 +27,7 @@ def ask(system_blocks: list[dict], user: str, model: str, effort: str = "medium"
         model=model,
         max_tokens=max_tokens,
         system=system_blocks,
-        messages=[{"role": "user", "content": user}],
+        messages=[{"role": "user", "content": user}],  # str o lista de bloques (texto + imágenes)
         output_config={"effort": effort},
     )
     # Respaldo del servidor si el modelo rechaza la petición (no existe para Haiku).

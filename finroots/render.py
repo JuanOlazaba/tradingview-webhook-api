@@ -7,6 +7,7 @@ el vídeo sale perfectamente sincronizado con la voz.
 from __future__ import annotations
 
 import base64
+import re
 import json
 import os
 import subprocess
@@ -40,8 +41,14 @@ def build_timeline(ep: dict, workdir: Path, voice_cfg: dict) -> tuple[dict, list
         dur, words = audio.synth_voice(s["voice"], f, voice_cfg)
         files.append(f if f.exists() and f.stat().st_size > 0 else None)
         sd = max(min_dur, float(s.get("min_t", 0)), lead + dur + tail)
+        merged = []
+        for w, wt in words:  # "57.430 €." se muestra junto: la unidad nunca va sola en el subtítulo
+            if merged and (re.fullmatch(r"[€%$]+[.,;:!?…]*|pts\.?|€/\w+\.?", w) or not re.search(r"\w", w)):
+                merged[-1] = (merged[-1][0] + " " + w, merged[-1][1])
+            else:
+                merged.append((w, wt))
         scenes.append({"start": round(t, 3), "dur": round(sd, 3), "lead": lead,
-                       "words": [[w, round(t + lead + wt, 3)] for w, wt in words]})
+                       "words": [[w, round(t + lead + wt, 3)] for w, wt in merged]})
         t += sd
     return {"total": round(t, 3), "scenes": scenes}, files
 
@@ -53,7 +60,8 @@ def build_html(ep: dict, timeline: dict, audio_src: str | None = None) -> str:
             .replace("__FONTS__", _fonts_css())
             .replace("__EPISODE__", json.dumps(ep, ensure_ascii=False))
             .replace("__TIMELINE__", json.dumps(timeline, ensure_ascii=False))
-            .replace("__AUDIO__", json.dumps(audio_src)))
+            .replace("__AUDIO__", json.dumps(audio_src))
+            .replace("__ASSETS__", json.dumps({k: v[1] for k, v in __import__("finroots.assets", fromlist=["ASSETS"]).ASSETS.items()})))
 
 
 def capture(html_path: Path, total: float, out_mp4: Path, wav: Path, fps: int = 30, width: int = 1080):

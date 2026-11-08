@@ -11,6 +11,10 @@ Estilo (no negociable, del prompt maestro):
 - 12–14 escenas, 55–75 segundos, 150–200 palabras de voz. Frases cortas (máx. 12 palabras), una idea por frase,
   "..." para pausas dramáticas. Nada de jerga sin explicar. Tono: el amigo que sabe de dinero, ironía suave.
 - Objetos reconocibles, no diapositivas. No repitas el mismo objeto dos escenas seguidas.
+- Ilustraciones propias: al menos 3 escenas 'illustration' con SVG dibujado para ESTA historia (viewBox 0 0 200 200,
+  formas planas con colores de marca, trazo 3–5, sombras suaves, animado con 'dw', 'pop', 'grow', 'bob').
+  Que se entienda a la primera: un objeto o escena clara, centrada, sin texto largo dentro.
+- Textos de pantalla cortos (display: máx. 3 líneas de 1–3 palabras). Números como número en params.
   Usa al menos 3 objetos distintos de los del episodio anterior.
 - Cifras inventadas o simplificadas: siempre con "ilustrativo" en el campo note de esa escena.
 - Los números en la voz, escríbelos con cifras (150, 1.500) para que se resalten en coral.

@@ -24,6 +24,8 @@ COMPONENTS: dict[str, dict] = {
     "calendar": {"desc": "Calendario de sobremesa cuyo número salta (años, edades).", "params": {"label": "str", "from": "int", "to": "int", "sub": "str?", "at": "num?", "dur": "num?", "note": "str?"}},
     "snowball": {"desc": "Bola de nieve que rueda pendiente abajo y crece.", "params": {"start_label": "str?", "end_label": "str?", "dur": "num?", "note": "str?"}},
     "counter": {"desc": "Tarjeta con un número gigante que cuenta solo.", "params": {"label": "str", "from": "num?", "to": "num", "prefix": "str?", "suffix": "str? (por defecto ' €')", "decimals": "int?", "color": "''|'co'|'bl'|'am'", "sub": "str?", "note": "str?"}},
+    "illustration": {"desc": "Ilustración PROPIA dibujada en SVG para este tema (lo que hace único cada vídeo). Estilo Finroots: formas planas, colores de marca (#15120e tinta, #e0522f coral, #2c4fb5 azul, #f2b84b ámbar, #f3ede2 crema, #ffffff), trazo 3–5, esquinas redondeadas, sombras suaves. viewBox='0 0 200 200'. Animaciones con clases: 'dw' (se dibuja el trazo; añade pathLength='1'), 'pop' (aparece con rebote), 'grow' (crece desde abajo), 'bob' (flota); retardo con style='--at:1.2s'. Máx. 6000 caracteres, sin texto largo dentro (máx. 3 palabras), sin imágenes externas.", "params": {"svg": "str (<svg ...>...</svg>)", "label": "str? (frase corta bajo la ilustración)", "note": "str?"}},
+    "art": {"desc": "Ilustración PROFESIONAL de la biblioteca (preferente). Una grande con etiqueta y cifra, o 2–3 en fila para comparar. Biblioteca: ver lista de ilustraciones.", "params": {"asset": "nombre", "tag": "str? (chip arriba)", "value": "num? (cifra grande que cuenta)", "color": "''|'co'|'bl'", "label": "str? (frase corta abajo)", "items": "[{asset, label, value?, color?}] (2–3, en lugar de asset)", "note": "str?"}},
     "coins": {"desc": "Torres de monedas que se apilan (comparar cantidades).", "params": {"towers": "[{label, coins:1-14, value?, color?:''|'co'|'bl', suffix?}] (1-3)", "note": "str?"}},
 }
 
@@ -35,8 +37,31 @@ def catalog_text() -> str:
     for k, v in COMPONENTS.items():
         ps = ", ".join(f"{p}: {t}" for p, t in v["params"].items())
         lines.append(f"- {k}: {v['desc']} | {ps}")
+    from .assets import catalog_text as _assets
+    lines.append("BIBLIOTECA DE ILUSTRACIONES para 'art' (nombre: qué representa):\n" + _assets())
     lines.append(f"Efectos de sonido válidos (campo sfx): {', '.join(s for s in SFX if s)}")
     return "\n".join(lines)
+
+
+import re as _re
+
+_SVG_BAD = _re.compile(r"<\s*(script|foreignObject|iframe|image|use|a)\b|\son\w+\s*=|javascript:|url\s*\(|href\s*=", _re.I)
+
+
+def svg_problems(svg: str) -> list[str]:
+    out = []
+    if not svg.strip().startswith("<svg") or "</svg>" not in svg:
+        out.append("la ilustración debe ser un único <svg>...</svg>")
+    if len(svg) > 6500:
+        out.append("la ilustración es demasiado grande (máx. 6000 caracteres)")
+    if _SVG_BAD.search(svg):
+        out.append("la ilustración contiene elementos no permitidos (script, enlaces, imágenes, url())")
+    try:
+        import xml.etree.ElementTree as ET
+        ET.fromstring(svg)
+    except Exception as e:  # noqa: BLE001
+        out.append(f"el SVG no es válido: {e}")
+    return out
 
 
 def validate(ep: dict) -> list[str]:
@@ -59,8 +84,10 @@ def validate(ep: dict) -> list[str]:
             errs.append(f"escena {i+1}: falta 'voice'")
         if s.get("sfx", "") not in SFX:
             errs.append(f"escena {i+1}: sfx '{s.get('sfx')}' no válido")
-        if t == prev and t not in ("display",) and not s.get("allow_repeat"):
+        if t == prev and t not in ("display", "art", "illustration") and not s.get("allow_repeat"):
             errs.append(f"escena {i+1}: repite el mismo objeto '{t}' que la anterior")
+        if t == "illustration":
+            errs += [f"escena {i+1}: {e}" for e in svg_problems(str((s.get("params") or {}).get("svg", "")))]
         if not isinstance(s.get("params", {}), dict):
             errs.append(f"escena {i+1}: params debe ser un objeto")
         prev = t
@@ -77,6 +104,15 @@ def validate(ep: dict) -> list[str]:
         errs.append("la última escena debe decir: 'Esto ha sido Finroots. El dinero, desde la raíz.'")
     if not (110 <= words <= 215):
         errs.append(f"el guion tiene {words} palabras; para 55–75 s apunta a 140–200")
+    if sum(1 for s in scenes if s.get("type") in ("illustration", "art")) < 3:
+        errs.append("incluye al menos 3 escenas con ilustraciones ('art' de la biblioteca o 'illustration' propia)")
+    for i, s in enumerate(scenes):
+        if s.get("type") == "art":
+            from .assets import ASSETS
+            names = [s["params"].get("asset")] if not s.get("params", {}).get("items") else [x.get("asset") for x in s["params"]["items"]]
+            bad = [n for n in names if n not in ASSETS]
+            if bad:
+                errs.append(f"escena {i+1}: ilustración desconocida {bad}; usa una de la biblioteca")
     blob = str(ep).lower()
     if "ilustrativ" not in blob:
         errs.append("las cifras deben marcarse como 'ilustrativo' en algún 'note'")

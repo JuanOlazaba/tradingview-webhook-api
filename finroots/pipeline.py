@@ -31,55 +31,67 @@ def build_caption(cfg: dict, copy: dict) -> str:
 
 # ---------------------------------------------------------------- comité diario
 
+CURRICULUM = ROOT / "curriculum.md"
+
+
+def lessons() -> list[tuple[str, str]]:
+    import re
+    return re.findall(r"^- \[(\w+)\] (.+)$", CURRICULUM.read_text(encoding="utf-8"), re.M)
+
+
+def next_lesson() -> tuple[str, str]:
+    done = {e.get("lesson") for e in load_episodes()} | {x for e in load_episodes() for x in e.get("lessons", [])}
+    for lid, title in lessons():
+        if lid not in done:
+            return lid, title
+    return lessons()[-1]
+
+
 def write_episode(m: Meeting, number: int, prev: dict | None) -> dict:
     cfg = m.cfg
-    m.note("operations", f"Hoy toca el episodio {number}. Último publicado: "
-                         f"{(prev or {}).get('title', 'ninguno')}. Objetivo: 1 reel de 55–75 s listo para publicar.")
-    # Continuidad: adelantos que dejaron los episodios anteriores y temas recientes que no se deben repetir
-    teasers, recent = [], []
-    for k in range(max(1, number - 4), number):
+    lid, ltitle = next_lesson()
+    recent, metaphors = [], []
+    for k in range(max(1, number - 10), number):
         f = _ep_dir(k) / "episode.json"
         if f.exists():
             e = json.loads(f.read_text(encoding="utf-8"))
-            recent.append(f"ep. {k}: {e.get('topic')} — {e.get('core_idea')}")
-            nxt = next((s.get("params", {}).get("next") for s in e.get("scenes", []) if s.get("type") == "logo"), None)
-            if nxt:
-                teasers.append(f"ep. {k} prometió: {nxt}")
-    fmts = []
-    for k in range(max(1, number - 2), number):
-        f = _ep_dir(k) / "episode.json"
-        if f.exists():
-            fmts.append(json.loads(f.read_text(encoding="utf-8")).get("format", "historia"))
-    cont = ("TEMAS YA CONTADOS (prohibido repetirlos como tema principal):\n- " + "\n- ".join(recent) +
-            "\nFORMATOS DE LOS 2 ÚLTIMOS (usa otro distinto): " + (", ".join(fmts) or "ninguno") +
-            "\nAdelantos dejados en episodios anteriores (respóndelos solo si encajan en un tema y formato nuevos):\n- " +
-            ("\n- ".join(teasers) or "ninguno") +
-            "\nBusca temas que se compartan y comenten. Consulta los formatos y la bolsa de temas de la biblia.")
-    m.note("operations", cont)
-    m.say("ideas", f"""Propón 3 fichas para el episodio {number}: tres TEMAS NUEVOS y distintos entre sí, cada uno
-con un formato de la biblia distinto al de los 2 últimos episodios. Prioriza lo que más engancha. Formato JSON:
-{{"proposals":[{{"format":"historia|mito|sabias_que|error_caro|como_funciona|a_vs_b|historia_dinero","topic":"","core_idea":"una frase","character":"personaje y situación (opcional según el formato)",
-"figures":"cifras ilustrativas con el cálculo","objects":["3+ objetos del catálogo, al menos 1 no usado en el ep. anterior"],
-"hook":"primer fotograma","question":"pregunta con A/B/C","teaser_next":"pregunta que deja para el siguiente"}}]}}""",
+            recent.append(f"ep. {k}: {e.get('title')} — {e.get('core_idea')}")
+            metaphors.append(", ".join(sorted({sc["type"] for sc in e.get("scenes", [])})))
+    m.note("operations", f"Episodio {number}. LECCIÓN DEL TEMARIO QUE TOCA (obligatoria): [{lid}] {ltitle}.\n"
+                         "Episodios recientes (no repetir sus ideas, historias ni metáforas):\n- " + "\n- ".join(recent))
+    m.say("ideas", f"""Propón 3 enfoques MUY distintos e innovadores para enseñar la lección [{lid}] {ltitle}.
+Cada enfoque: una historia o situación original (puede ser un personaje de la biblia o uno nuevo), una metáfora visual
+nueva que no se haya usado antes en el canal, y 2–3 ilustraciones propias concretas (qué se dibuja y cómo se anima).
+Nada de repetir cajones, huchas, bolas de nieve o las mismas cartas: inventa. Que sea memorable y fácil de entender.
+Cifras ilustrativas con el cálculo hecho y comprobado. Formato JSON:
+{{"proposals":[{{"lesson":"{lid}","angle":"","story":"","visual_metaphor":"","illustrations":["descripción del dibujo y su animación"],
+"figures":"cifras con cálculo","hook":"gancho de 6–14 palabras","question":"pregunta con A/B/C","why_it_hooks":""}}]}}""",
           want_json=True)
-    m.say("marketing", "Evalúa las 3 propuestas para TikTok (gancho, retención, comentarios, serie). Puntúa de 1 a 10 "
-                       "y propone mejoras concretas del gancho. Máx. 150 palabras.")
-    m.say("product", "Evalúa valor educativo y encaje con el embudo de monetización. ¿Lleva CTA hoy? ¿Cuál? Máx. 120 palabras.")
-    decision = m.say("ceo", """Decide. Elige una propuesta (o combina) y cierra la ficha final del episodio en JSON:
-{"chosen":0,"why":"","ficha":{"format":"","topic":"","core_idea":"","character":"","figures":"","objects":[],"hook":"",
-"question":"","teaser_next":"","cta":""},"notes_for_studio":""}""", want_json=True)
+    m.say("marketing", "Evalúa los 3 enfoques para TikTok: gancho, originalidad visual, retención, comentarios. "
+                       "Puntúa de 1 a 10 y mejora el gancho del mejor. Máx. 150 palabras.")
+    m.say("product", "Evalúa claridad didáctica del enfoque para principiantes y riesgo de errores (cifras, dibujos difíciles). "
+                     "Máx. 120 palabras.")
+    m.say("ceo", f"""Decide. Elige o combina un enfoque y cierra la ficha final en JSON:
+{{"chosen":0,"why":"","ficha":{{"lesson":"{lid}","angle":"","story":"","visual_metaphor":"","illustrations":[],
+"figures":"","hook":"","question":"","teaser_next":""}},"notes_for_studio":""}}""", want_json=True)
 
     task = f"""Escribe el episodio {number} completo según la ficha del CEO, en el JSON del motor:
-{{"number":{number},"format":"<formato de la ficha>","slug":"","title":"","topic":"","core_idea":"","series":"","characters":[],
+{{"number":{number},"lesson":"{lid}","slug":"","title":"","topic":"{ltitle}","core_idea":"","series":"","characters":[],
 "keywords":["4-6 raíces de palabras clave para resaltar en azul en los subtítulos, en minúscula"],
 "scenes":[{{"type":"<objeto del catálogo>","chapter":"// 01 · el problema","sfx":"<efecto>","voice":"<frase hablada>","params":{{...}}}}]}}
-Reglas: 12–14 escenas, 150–200 palabras de voz en total, la primera escena es el gancho de 3–5 s (chapter vacío,
-UNA pregunta o afirmación contundente de 6–14 palabras),
-la penúltima es options, la última es logo con la frase de marca (params.next = teaser del siguiente).
-Haz bien las cuentas: lo que se dice y lo que se ve debe coincidir."""
+Reglas: 12–14 escenas, 150–200 palabras de voz en total. La primera escena es el gancho de 3–5 s (chapter vacío,
+6–14 palabras). Al menos 3 escenas 'illustration' con dibujos SVG propios de esta historia (estilo de marca, animados).
+Textos en pantalla CORTOS (display: máx. 3 líneas de 1–3 palabras). Números siempre como número en params (sin texto).
+Colores solo de marca ('co','bl','am' o hex de marca). La penúltima es options; la última es logo (params.next = adelanto).
+Haz bien las cuentas: lo que se dice y lo que se ve debe coincidir exactamente.
+Usa sobre todo 'art' (biblioteca de ilustraciones profesionales) y añade 'illustration' propia solo si la biblioteca
+no tiene lo que necesitas.
+EPISODIO DE REFERENCIA (nivel de calidad exigido; copia su estructura y su cuidado, NO su historia):
+{(ROOT / 'episodes' / 'ep008' / 'episode.json').read_text(encoding='utf-8')[:7000]}"""
     ep = m.say("studio", task, want_json=True)
     for rnd in range(cfg["pipeline"].get("max_revisions", 2) + 1):
         ep["number"] = number
+        ep["lesson"] = lid
         errs = validate(ep)
         if errs:
             m.note("it", "Validación automática del motor: el JSON NO es renderizable.\n- " + "\n- ".join(errs))
@@ -88,16 +100,15 @@ Haz bien las cuentas: lo que se dice y lo que se ve debe coincidir."""
             ep = m.say("studio", "Corrige los errores de validación de IT y devuelve el episodio completo.", want_json=True)
             continue
         m.note("it", "Validación automática del motor: OK, el episodio es renderizable.")
-        review = m.say("compliance", f"""Revisa el guion del episodio {number}:
-{script_text(ep)}
-Comprueba también las cifras de los params. Devuelve JSON:
-{{"approved":true|false,"issues":[{{"scene":1,"problem":"","fix":""}}],"math_check":"tus cálculos"}}""", want_json=True)
-        if review.get("approved"):
-            return ep
-        if rnd == cfg["pipeline"].get("max_revisions", 2):
-            raise RuntimeError("Compliance no aprueba el episodio tras las revisiones: "
-                               + json.dumps(review.get("issues", []), ensure_ascii=False))
-        ep = m.say("studio", "Aplica TODOS los cambios de Compliance y devuelve el episodio completo.", want_json=True)
+        break
+    ep = review_and_fix(m, ep, number, "Revisión de Compliance")
+    from .qa import gate
+    before = json.dumps(ep, sort_keys=True, ensure_ascii=False)
+    ep = gate(m, ep, number, _ep_dir(number) / "_qa")
+    ep["lesson"] = lid
+    if json.dumps(ep, sort_keys=True, ensure_ascii=False) != before:  # solo si Producto pidió cambios
+        ep = review_and_fix(m, ep, number, "Revisión final de Compliance tras el control de calidad")
+    ep["qa_ok"] = True
     return ep
 
 
@@ -152,6 +163,11 @@ def daily(publish: bool = True, render: bool = True) -> dict:
             if errs:
                 raise RuntimeError("Episodio del colchón inválido: " + "; ".join(errs))
             ready_entry = next((e for e in eps if e["number"] == number), {})
+            if not ep.get("qa_ok") and (os.environ.get("ANTHROPIC_API_KEY") or os.environ.get("ANTHROPIC_AUTH_TOKEN")):
+                from .qa import gate
+                ep = gate(m, ep, number, d / "_qa")
+                ep["qa_ok"] = True
+                (d / "episode.json").write_text(json.dumps(ep, ensure_ascii=False, indent=1), encoding="utf-8")
             if ready_entry.get("compliance_ok"):
                 m.note("compliance", "Episodio ya aprobado por Compliance cuando se escribió para el colchón.")
             elif os.environ.get("ANTHROPIC_API_KEY") or os.environ.get("ANTHROPIC_AUTH_TOKEN"):
@@ -177,7 +193,7 @@ def daily(publish: bool = True, render: bool = True) -> dict:
         if not entry:
             entry = {"number": number}
             eps.append(entry)
-        entry.update({"slug": ep["slug"], "title": ep["title"], "topic": ep["topic"], "core_idea": ep["core_idea"],
+        entry.update({"lesson": ep.get("lesson"), "slug": ep["slug"], "title": ep["title"], "topic": ep["topic"], "core_idea": ep["core_idea"],
                       "characters": ep.get("characters", []), "objects": sorted({s["type"] for s in ep["scenes"]}),
                       "question": next((" / ".join(s["params"].get("options", [])) for s in ep["scenes"] if s["type"] == "options"), ""),
                       "status": entry.get("status") if entry.get("status") in ("rendered",) else "ready"})
@@ -187,8 +203,28 @@ def daily(publish: bool = True, render: bool = True) -> dict:
             m.note("it", "El vídeo ya estaba renderizado (publicación pendiente de un intento anterior).")
             result["video"] = str(d / "video.mp4")
         elif render:
+            from .qa import final_check, gate
             from .render import render_episode
-            r = render_episode(ep, d, cfg)
+            have_ai = bool(os.environ.get("ANTHROPIC_API_KEY") or os.environ.get("ANTHROPIC_AUTH_TOKEN"))
+            for attempt in range(4):
+                r = render_episode(ep, d, cfg)
+                if not have_ai:
+                    break
+                tl = json.loads((d / "timeline.json").read_text())
+                verdict = final_check(m, ep, number, d / "video.mp4", tl, d / "_qa" / f"final{attempt}")
+                if verdict.get("approved"):
+                    m.note("product", f"Vídeo final revisado fotograma a fotograma: cero errores (intento {attempt + 1}).")
+                    break
+                if attempt == 3:
+                    entry["status"] = "blocked"
+                    save_episodes(eps)
+                    raise RuntimeError("Producto no aprueba el vídeo final tras 4 intentos; no se envía a TikTok")
+                ep = m.say("studio", "Producto ha encontrado errores en el VÍDEO FINAL. Arregla TODOS y devuelve el episodio "
+                                     f"completo en el mismo formato JSON. Episodio actual:\n{json.dumps(ep, ensure_ascii=False)}",
+                           want_json=True)
+                ep["number"] = number
+                ep = gate(m, ep, number, d / "_qa" / f"refix{attempt}")
+                (d / "episode.json").write_text(json.dumps(ep, ensure_ascii=False, indent=1), encoding="utf-8")
             result.update(r)
             entry["status"] = "rendered"
             entry["duration"] = r["duration"]
