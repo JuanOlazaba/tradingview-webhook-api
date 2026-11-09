@@ -1,19 +1,19 @@
 # Panel de Finroots
-_Actualizado: 2026-11-09 19:59 UTC · se regenera en cada reunión_
+_Actualizado: 2026-11-09 23:58 UTC · se regenera en cada reunión_
 
 ## Necesita tu sí
 - **Incidencia en el episodio 5** — [responder aquí](https://github.com/JuanOlazaba/tradingview-webhook-api/issues/17) · pedido por Operaciones el 2026-11-03 13:13 UTC
 - **Incidencia en el episodio 13** — [responder aquí](https://github.com/JuanOlazaba/tradingview-webhook-api/issues/20) · pedido por Operaciones el 2026-11-07 19:38 UTC
 
 ## Estado
-- Episodios: 15 · en colchón (listos): 1 (15)
+- Episodios: 15 · en colchón (listos): 0
 - TikTok: 3 seguidores · 7 me gusta · 3 vídeos
-- Coste de IA: hoy 0.45 $ · este mes 5.60 $ de 20 $ · total 5.60 $
+- Coste de IA: hoy 0.46 $ · este mes 5.60 $ de 20 $ · total 5.60 $
 
 ## Episodios
 | # | Título | Estado |
 |---|---|---|
-| 15 | [Los tulipanes de 1637 no hundieron a Holanda](episodes/ep015/script.txt) | en colchón |
+| 15 | [Los tulipanes de 1637 no hundieron a Holanda](episodes/ep015/script.txt) | en tus borradores de TikTok |
 | 14 | [¿Comprarías algo solo porque todo el mundo lo compra?](episodes/ep014/script.txt) | en tus borradores de TikTok |
 | 13 | [Tienes suscripciones que no usas](episodes/ep013/script.txt) | en tus borradores de TikTok |
 | 12 | [Un ETF: una compra, muchas empresas](episodes/ep012/script.txt) | en tus borradores de TikTok |
@@ -30,6 +30,7 @@ _Actualizado: 2026-11-09 19:59 UTC · se regenera en cada reunión_
 | 1 | [Tus 100 € en el cajón](episodes/ep001/script.txt) | publicado |
 
 ## Últimas reuniones
+- [2026-11-10-ep015](minutes/2026-11-10-ep015.md)
 - [2026-11-09-ep015-estudio](minutes/2026-11-09-ep015-estudio.md)
 - [2026-11-09-ep014](minutes/2026-11-09-ep014.md)
 - [2026-11-09-1955-mejora-monetizacion](minutes/2026-11-09-1955-mejora-monetizacion.md)
@@ -41,9 +42,9 @@ _Actualizado: 2026-11-09 19:59 UTC · se regenera en cada reunión_
 - [2026-11-06-ep011-estudio](minutes/2026-11-06-ep011-estudio.md)
 - [2026-11-06-ep010](minutes/2026-11-06-ep010.md)
 - [2026-11-06-1747-mejora-crecimiento](minutes/2026-11-06-1747-mejora-crecimiento.md)
-- [2026-11-05-ep009](minutes/2026-11-05-ep009.md)
 
 ## Actividad reciente
+- `2026-11-09 23:58 UTC` **publicación** — Ep. 15: Los tulipanes de 1637 no hundieron a Holanda · estado: sent_to_inbox
 - `2026-11-09 19:59 UTC` **episodio** — Ep. 15 escrito y aprobado por Compliance: Los tulipanes de 1637 no hundieron a Holanda
 - `2026-11-09 19:56 UTC` **reunión** — Producto y monetización: Con 3 seguidores y 176 visualizaciones como máximo, no hay base para monetizar: el paso útil es consolidar un único recurso gratuito (plantilla de margen mensual, PDF, 0 €). La captación se hace por c
 - `2026-11-09 19:56 UTC` **acción** — biblia: Nota de continuidad: la plantilla de margen mensual es el recurso gratuito de la
@@ -63,7 +64,6 @@ _Actualizado: 2026-11-09 19:59 UTC · se regenera en cada reunión_
 - `2026-11-06 23:48 UTC` **reanudación** — El episodio de hoy estaba pendiente; el comité diario lo retoma ahora.
 - `2026-11-06 21:09 UTC` **publicación** — Ep. 11: Vender en pánico puede fijar la pérdida · estado: sent_to_inbox
 - `2026-11-06 17:50 UTC` **episodio** — Ep. 11 escrito y aprobado por Compliance: Vender en pánico puede fijar la pérdida
-- `2026-11-06 17:47 UTC` **reunión** — Crecimiento en TikTok: Se aprueba el plan de crecimiento con ganchos alternados entre pregunta y afirmación, cifras marcadas como ilustrativas y medición por formato sin conclusiones antes de 10 vídeos. La rotación de forma
 
 ## Directivas del consejo
 _Sesión del 2026-11-08_
