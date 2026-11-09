@@ -1,0 +1,282 @@
+{
+ "number": 15,
+ "format": "mito",
+ "slug": "tulipanes-1637-mito",
+ "title": "Los tulipanes de 1637 no hundieron a Holanda",
+ "topic": "Los tulipanes de 1637 arruinaron a toda Holanda",
+ "core_idea": "La burbuja de tulipanes existió y hubo pérdidas, pero su daño real a la economía fue mucho menor que la leyenda que se cuenta.",
+ "series": "Finanzas en 1 minuto",
+ "characters": [],
+ "keywords": [
+  "tulipan",
+  "burbuja",
+  "mito",
+  "florin",
+  "ilustrativ",
+  "historiador"
+ ],
+ "hypothesis": "Ejemplo ilustrativo: un solo bulbo con precio unitario de 10 a 100 florines (+900 %) en unas semanas y caída de 100 a 10 (-90 %). Precio puro, sin capital real invertido, sin costes ni impuestos; plazo de semanas ilustrativo; tipo de interés no aplica. No son precios históricos. Hecho histórico general: los compradores dejaron de aparecer a comienzos de 1637. Fuente interna: Goldgar, 'Tulipmania' (2007).",
+ "scenes": [
+  {
+   "type": "display",
+   "chapter": "",
+   "sfx": "hit",
+   "voice": "Los tulipanes de 1637 no hundieron a Holanda. Lo cuentan exagerado.",
+   "params": {
+    "lines": [
+     {
+      "text": "TULIPANES 1637",
+      "color": "co"
+     },
+     {
+      "text": "NO HUNDIERON"
+     },
+     {
+      "text": "A HOLANDA",
+      "color": "bl"
+     }
+    ],
+    "size": "xl"
+   }
+  },
+  {
+   "type": "calendar",
+   "chapter": "// 01 · el contexto",
+   "sfx": "tick",
+   "voice": "Holanda, 1637. Los tulipanes se ponen de moda entre ricos y comerciantes.",
+   "params": {
+    "label": "Año",
+    "from": 1634,
+    "to": 1637,
+    "sub": "Holanda · fiebre del tulipán",
+    "at": 0.5,
+    "dur": 2.5
+   }
+  },
+  {
+   "type": "coins",
+   "chapter": "// 01 · el contexto",
+   "sfx": "coins",
+   "voice": "La leyenda cuenta que se cambiaban casas por bulbos. Imagen ilustrativa, sin precios reales.",
+   "params": {
+    "towers": [
+     {
+      "label": "Un bulbo (leyenda)",
+      "coins": 6,
+      "color": "co"
+     },
+     {
+      "label": "Una casa (leyenda)",
+      "coins": 6,
+      "color": "bl"
+     }
+    ],
+    "note": "Imagen de la leyenda. Ilustrativo, sin valores históricos"
+   }
+  },
+  {
+   "type": "display",
+   "chapter": "// 02 · la leyenda",
+   "sfx": "whoosh",
+   "voice": "Spoiler: gran parte de la leyenda está exagerada. Vamos con la mecánica.",
+   "params": {
+    "lines": [
+     {
+      "text": "SPOILER",
+      "color": "co"
+     },
+     {
+      "text": "LA LEYENDA"
+     },
+     {
+      "text": "SE EXAGERA",
+      "color": "bl"
+     }
+    ],
+    "size": "xl",
+    "note": "Sí hubo burbuja y hubo pérdidas, pero limitadas"
+   }
+  },
+  {
+   "type": "counter",
+   "chapter": "// 02 · la mecánica",
+   "sfx": "rise",
+   "voice": "Ejemplo ilustrativo, no precios históricos. Un bulbo sube de 10 a 100 florines en semanas.",
+   "params": {
+    "label": "Precio de un bulbo",
+    "from": 10,
+    "to": 100,
+    "suffix": " florines",
+    "color": "co",
+    "sub": "En unas semanas",
+    "note": "Cifras ilustrativas, no históricas"
+   }
+  },
+  {
+   "type": "coins",
+   "chapter": "// 02 · la mecánica",
+   "sfx": "coins",
+   "voice": "En este ejemplo ilustrativo es un +900 %. Quien compra arriba espera vender aún más caro.",
+   "params": {
+    "towers": [
+     {
+      "label": "Antes",
+      "coins": 1,
+      "value": 10,
+      "suffix": " florines"
+     },
+     {
+      "label": "Pico",
+      "coins": 10,
+      "value": 100,
+      "color": "co",
+      "suffix": " florines"
+     }
+    ],
+    "note": "Ilustrativo: 100 / 10 = 10 veces el precio, es decir +900 %"
+   }
+  },
+  {
+   "type": "display",
+   "chapter": "// 03 · el giro",
+   "sfx": "hit2",
+   "voice": "Pero ojo: eso es una burbuja. No un colapso del país.",
+   "params": {
+    "lines": [
+     {
+      "text": "BURBUJA",
+      "color": "co"
+     },
+     {
+      "text": "NO ES LO MISMO QUE"
+     },
+     {
+      "text": "COLAPSO",
+      "color": "bl"
+     }
+    ],
+    "size": "xl"
+   }
+  },
+  {
+   "type": "calendar",
+   "chapter": "// 03 · la caída",
+   "sfx": "tick",
+   "voice": "A comienzos de 1637, según los historiadores, los compradores dejaron de aparecer. Los precios cayeron.",
+   "params": {
+    "label": "Año",
+    "from": 1636,
+    "to": 1637,
+    "sub": "Dejan de aparecer compradores",
+    "at": 0.5,
+    "dur": 2,
+    "note": "Hecho histórico general. Las cifras de florines son ilustrativas"
+   }
+  },
+  {
+   "type": "counter",
+   "chapter": "// 03 · la caída",
+   "sfx": "deflate",
+   "voice": "Ejemplo ilustrativo: si un bulbo comprado a 100 florines pasa a valer 10, la pérdida es del 90 %.",
+   "params": {
+    "label": "Pérdida de quien compró en 100",
+    "from": 0,
+    "to": 90,
+    "prefix": "-",
+    "suffix": " %",
+    "color": "co",
+    "sub": "De 100 a 10 florines",
+    "note": "Ilustrativo. Un bulbo, precio puro: sin capital real, costes ni impuestos; plazo de semanas ilustrativo; tipo de interés no aplica. No son precios históricos"
+   }
+  },
+  {
+   "type": "display",
+   "chapter": "// 04 · el daño real",
+   "sfx": "whoosh",
+   "voice": "Según varios historiadores, el daño fue limitado y local, aunque algunos comerciantes sí perdieron.",
+   "params": {
+    "lines": [
+     {
+      "text": "DAÑO REAL"
+     },
+     {
+      "text": "LIMITADO",
+      "color": "co"
+     },
+     {
+      "text": "Y LOCAL",
+      "color": "bl"
+     }
+    ],
+    "size": "xl",
+    "note": "Matiz: el daño fue limitado, no inexistente. Sin cifras históricas"
+   }
+  },
+  {
+   "type": "coins",
+   "chapter": "// 04 · la moraleja",
+   "sfx": "ding",
+   "voice": "En este esquema ilustrativo, una burbuja suele darse cuando el precio sube sobre todo por esperar otro comprador.",
+   "params": {
+    "towers": [
+     {
+      "label": "Lo que vale",
+      "coins": 3,
+      "color": "bl"
+     },
+     {
+      "label": "Lo que se paga",
+      "coins": 11,
+      "color": "co"
+     }
+    ],
+    "note": "Ilustrativo, sin valores reales"
+   }
+  },
+  {
+   "type": "display",
+   "chapter": "// 04 · la moraleja",
+   "sfx": "hit",
+   "voice": "Ojo con las historias perfectas. Y ante una subida muy rápida, pregúntate por qué.",
+   "params": {
+    "lines": [
+     {
+      "text": "PREGÚNTATE",
+      "color": "co"
+     },
+     {
+      "text": "POR QUÉ"
+     },
+     {
+      "text": "SUBE TANTO",
+      "color": "bl"
+     }
+    ],
+    "size": "xl"
+   }
+  },
+  {
+   "type": "options",
+   "chapter": "// 05 · tu turno",
+   "sfx": "pop",
+   "voice": "Tu turno. ¿Cuál te parece más cercano a lo que pasó en 1637? A, B o C. Cuéntamelo en comentarios.",
+   "params": {
+    "options": [
+     "A) Una locura que hundió el país",
+     "B) Una burbuja con daños limitados y locales",
+     "C) Una leyenda sin ninguna base real"
+    ],
+    "disclaimer": "Contenido educativo. No es asesoramiento financiero ni recomendación de inversión. Invertir conlleva riesgos. Cifras ilustrativas. Vídeo creado con ayuda de IA."
+   }
+  },
+  {
+   "type": "logo",
+   "chapter": "",
+   "sfx": "cling",
+   "voice": "Esto ha sido Finroots. El dinero, desde la raíz.",
+   "params": {
+    "next": "Mañana: ¿pagar con tarjeta duele menos que pagar en efectivo?"
+   }
+  }
+ ]
+}

@@ -1,0 +1,14 @@
+[01]   Los tulipanes de 1637 no hundieron a Holanda. Lo cuentan exagerado.
+[02] // 01 · el contexto  Holanda, 1637. Los tulipanes se ponen de moda entre ricos y comerciantes.
+[03] // 01 · el contexto  La leyenda cuenta que se cambiaban casas por bulbos. Imagen ilustrativa, sin precios reales.
+[04] // 02 · la leyenda  Spoiler: gran parte de la leyenda está exagerada. Vamos con la mecánica.
+[05] // 02 · la mecánica  Ejemplo ilustrativo, no precios históricos. Un bulbo sube de 10 a 100 florines en semanas.
+[06] // 02 · la mecánica  En este ejemplo ilustrativo es un +900 %. Quien compra arriba espera vender aún más caro.
+[07] // 03 · el giro  Pero ojo: eso es una burbuja. No un colapso del país.
+[08] // 03 · la caída  A comienzos de 1637, según los historiadores, los compradores dejaron de aparecer. Los precios cayeron.
+[09] // 03 · la caída  Ejemplo ilustrativo: si un bulbo comprado a 100 florines pasa a valer 10, la pérdida es del 90 %.
+[10] // 04 · el daño real  Según varios historiadores, el daño fue limitado y local, aunque algunos comerciantes sí perdieron.
+[11] // 04 · la moraleja  En este esquema ilustrativo, una burbuja suele darse cuando el precio sube sobre todo por esperar otro comprador.
+[12] // 04 · la moraleja  Ojo con las historias perfectas. Y ante una subida muy rápida, pregúntate por qué.
+[13] // 05 · tu turno  Tu turno. ¿Cuál te parece más cercano a lo que pasó en 1637? A, B o C. Cuéntamelo en comentarios.
+[14]   Esto ha sido Finroots. El dinero, desde la raíz.

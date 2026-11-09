@@ -68,3 +68,4 @@ aparecen cuando aportan, no siempre.
 Siempre educativo: nada de recomendar productos, entidades ni promesas de rentabilidad.
 
 - (2026-11-04) Continuidad: desde el ep. 8 se retoma '¿dónde se invierte?'. Lucía ordena sus 150 €/mes por objetivos (fondo de emergencia → ahorro a corto plazo → inversión a largo plazo) y después se contrasta renta fija frente a variable, sin recomendar productos ni entidades. Marta y Leo aparecen cuando aportan al tema.
+- (2026-11-09) Nota de continuidad: la plantilla de margen mensual es el recurso gratuito de la serie y conecta con el ep. 1 (Lucía aparta 150 €/mes el día que cobra). Puede citarse en el cierre como herramienta general, nunca como producto. Las cifras de la plantilla son ilustrativas.
