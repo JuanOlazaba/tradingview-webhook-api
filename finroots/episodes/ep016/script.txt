@@ -1,0 +1,13 @@
+[01]   Pagar con tarjeta se siente menos. Y eso se nota en el gasto.
+[02] // 01 · la caja del súper  Lucía está en la caja del súper. Va a pagar la misma compra de dos maneras.
+[03] // 02 · efectivo  Primero, efectivo. El billete sale de su mano... y lo ve irse.
+[04] // 03 · el móvil  Ahora, el móvil. Toca, pita y listo. El saldo ilustrativo baja, pero el momento pasa casi sin notarse.
+[05] // 04 · la idea  Spoiler: no es magia. Es que, con tarjeta, el gasto se separa del momento en que pagas.
+[06] // 05 · pequeñas compras  Ejemplo ilustrativo: tres compras de 30 € al mes, siempre iguales. Pequeñas, fáciles de pasar por alto.
+[07] // 06 · la suma  Suman 90 € al mes. ¿Y en un año? 1.080 €. Ilustrativo: es el mismo gasto, pagues como pagues. La clave es verlo.
+[08] // 07 · A contra B  Efectivo: el gasto es más visible al pagar. Tarjeta: lo ves al revisar los movimientos. Ninguna es mala.
+[09] // 08 · ver el gasto  Pero ojo: lo importante es ver el gasto. Hay formas sencillas, como estas dos.
+[10] // 09 · el domingo de Lucía  Lucía revisa sus movimientos cada domingo. Diez minutos, para ver adónde va su dinero.
+[11] // 10 · la clave  ¿Y sabes qué? Mirar el gasto no es gastar menos. Es decidir con los ojos abiertos.
+[12] // 11 · tu turno  Tu turno: ¿con qué pagas notando más el gasto? A, B o C. Cuéntamelo en comentarios.
+[13]   Esto ha sido Finroots. El dinero, desde la raíz.

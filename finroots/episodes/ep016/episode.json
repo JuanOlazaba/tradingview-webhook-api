@@ -1,0 +1,305 @@
+{
+ "number": 16,
+ "format": "a_vs_b",
+ "slug": "tarjeta-o-efectivo-duele-distinto",
+ "title": "Pagar con tarjeta se siente menos. Y eso se nota en el gasto.",
+ "topic": "Pagar en efectivo o con tarjeta: por qué se siente distinto",
+ "core_idea": "Con tarjeta o móvil el gasto se separa del momento en que pagas; con efectivo es más visible al pagar. Las compras pequeñas se acumulan y son fáciles de pasar por alto. Hipótesis ilustrativa: 3 compras idénticas de 30 € al mes = 90 €/mes = 1.080 € en 12 meses; capital no aplica, tipo de interés no aplica, sin intereses ni comisiones. Es el mismo gasto con cualquier medio de pago. No procede de ningún estudio.",
+ "series": "Finanzas en 1 minuto",
+ "characters": [
+  "Lucía"
+ ],
+ "keywords": [
+  "tarjeta",
+  "efectivo",
+  "gasto",
+  "1.080",
+  "ilustrativ",
+  "visible"
+ ],
+ "hook_type": "afirmacion",
+ "description_notes": "Descripción de TikTok: 'Contenido educativo. No es asesoramiento financiero ni recomendación de inversión. Invertir conlleva riesgos. Cifras ilustrativas. Vídeo creado con ayuda de IA.' Aclarar que 30 €, 90 € y 1.080 € son hipótesis ilustrativas. Activar etiqueta de contenido generado con IA. Sin CTA ni plantilla en este vídeo. Gancho registrado como afirmación (el ep. 15 fue pregunta).",
+ "scenes": [
+  {
+   "type": "display",
+   "chapter": "",
+   "sfx": "hit",
+   "voice": "Pagar con tarjeta se siente menos. Y eso se nota en el gasto.",
+   "params": {
+    "lines": [
+     {
+      "text": "PAGAR CON TARJETA"
+     },
+     {
+      "text": "SE SIENTE MENOS",
+      "color": "co",
+      "at": 1.5
+     }
+    ],
+    "size": "xl",
+    "note": "Gancho (afirmación)."
+   }
+  },
+  {
+   "type": "cards",
+   "chapter": "// 01 · la caja del súper",
+   "sfx": "deal",
+   "voice": "Lucía está en la caja del súper. Va a pagar la misma compra de dos maneras.",
+   "params": {
+    "cards": [
+     {
+      "label": "Efectivo",
+      "icon": "coin"
+     },
+     {
+      "label": "Tarjeta o móvil",
+      "icon": "card"
+     }
+    ],
+    "question": "¿Cuál se nota más?",
+    "question_at": 3.5
+   }
+  },
+  {
+   "type": "drawer",
+   "chapter": "// 02 · efectivo",
+   "sfx": "thud",
+   "voice": "Primero, efectivo. El billete sale de su mano... y lo ve irse.",
+   "params": {
+    "amount": 30,
+    "currency": "€",
+    "note": "Importe ilustrativo."
+   }
+  },
+  {
+   "type": "phone",
+   "chapter": "// 03 · el móvil",
+   "sfx": "tick",
+   "voice": "Ahora, el móvil. Toca, pita y listo. El saldo ilustrativo baja, pero el momento pasa casi sin notarse.",
+   "params": {
+    "name": "Lucía",
+    "label": "Saldo ilustrativo",
+    "balance_steps": [
+     [
+      0,
+      1200
+     ],
+     [
+      3,
+      1170
+     ]
+    ],
+    "low": 0,
+    "rows": [
+     {
+      "label": "Supermercado",
+      "amount": -30,
+      "color": "#E8553D",
+      "at": 3
+     }
+    ],
+    "note": "Saldo e importes ilustrativos."
+   }
+  },
+  {
+   "type": "display",
+   "chapter": "// 04 · la idea",
+   "sfx": "hit2",
+   "voice": "Spoiler: no es magia. Es que, con tarjeta, el gasto se separa del momento en que pagas.",
+   "params": {
+    "lines": [
+     {
+      "text": "EL GASTO SE SEPARA"
+     },
+     {
+      "text": "DEL MOMENTO",
+      "color": "bl",
+      "at": 1.5
+     },
+     {
+      "text": "DEL PAGO",
+      "at": 3
+     }
+    ],
+    "size": "xl"
+   }
+  },
+  {
+   "type": "receipt",
+   "chapter": "// 05 · pequeñas compras",
+   "sfx": "print",
+   "voice": "Ejemplo ilustrativo: tres compras de 30 € al mes, siempre iguales. Pequeñas, fáciles de pasar por alto.",
+   "params": {
+    "header": "UN MES (ilustrativo)",
+    "items": [
+     {
+      "label": "Compra 1",
+      "from": 30
+     },
+     {
+      "label": "Compra 2",
+      "from": 30
+     },
+     {
+      "label": "Compra 3",
+      "from": 30
+     }
+    ],
+    "total_from": 0,
+    "total_to": 90,
+    "note": "Ilustrativo: 3 × 30 € = 90 €/mes, sin intereses ni comisiones."
+   }
+  },
+  {
+   "type": "counter",
+   "chapter": "// 06 · la suma",
+   "sfx": "rise",
+   "voice": "Suman 90 € al mes. ¿Y en un año? 1.080 €. Ilustrativo: es el mismo gasto, pagues como pagues. La clave es verlo.",
+   "params": {
+    "label": "En un año (ilustrativo)",
+    "from": 0,
+    "to": 1080,
+    "suffix": " €",
+    "color": "co",
+    "sub": "90 € × 12 meses, gasto igual con cualquier medio de pago",
+    "note": "Ilustrativo: 90 € × 12 = 1.080 €."
+   }
+  },
+  {
+   "type": "cards",
+   "chapter": "// 07 · A contra B",
+   "sfx": "deal",
+   "voice": "Efectivo: el gasto es más visible al pagar. Tarjeta: lo ves al revisar los movimientos. Ninguna es mala.",
+   "params": {
+    "cards": [
+     {
+      "label": "Efectivo: se ve al pagar",
+      "icon": "coin"
+     },
+     {
+      "label": "Tarjeta: se ve al revisar",
+      "icon": "card"
+     }
+    ],
+    "note": "Comparativa sin recomendar ninguna opción."
+   }
+  },
+  {
+   "type": "levers",
+   "chapter": "// 08 · ver el gasto",
+   "sfx": "whoosh",
+   "voice": "Pero ojo: lo importante es ver el gasto. Hay formas sencillas, como estas dos.",
+   "params": {
+    "title": "Ideas para ver el gasto",
+    "levers": [
+     {
+      "label": "Revisión semanal",
+      "sub": "una opción posible",
+      "from": 50,
+      "to": 50
+     },
+     {
+      "label": "Aviso por cada compra",
+      "sub": "una opción posible",
+      "from": 50,
+      "to": 50
+     }
+    ],
+    "note": "Valores neutros, sin significado numérico."
+   }
+  },
+  {
+   "type": "phone",
+   "chapter": "// 09 · el domingo de Lucía",
+   "sfx": "ding",
+   "voice": "Lucía revisa sus movimientos cada domingo. Diez minutos, para ver adónde va su dinero.",
+   "params": {
+    "name": "Lucía",
+    "label": "Revisión (ilustrativa)",
+    "balance_steps": [
+     [
+      0,
+      1170
+     ],
+     [
+      4,
+      1170
+     ]
+    ],
+    "rows": [
+     {
+      "label": "Compra 1",
+      "amount": -30,
+      "color": "#E8553D",
+      "at": 1
+     },
+     {
+      "label": "Compra 2",
+      "amount": -30,
+      "color": "#E8553D",
+      "at": 2
+     },
+     {
+      "label": "Compra 3",
+      "amount": -30,
+      "color": "#E8553D",
+      "at": 3
+     }
+    ],
+    "side": {
+     "label": "Mes",
+     "value": "90 €",
+     "tone": "co",
+     "at": 4
+    },
+    "note": "Importes ilustrativos."
+   }
+  },
+  {
+   "type": "display",
+   "chapter": "// 10 · la clave",
+   "sfx": "hit",
+   "voice": "¿Y sabes qué? Mirar el gasto no es gastar menos. Es decidir con los ojos abiertos.",
+   "params": {
+    "lines": [
+     {
+      "text": "MIRAR EL GASTO"
+     },
+     {
+      "text": "NO ES GASTAR MENOS",
+      "color": "bl",
+      "at": 1.5
+     },
+     {
+      "text": "ES VERLO",
+      "at": 3
+     }
+    ],
+    "size": "xl"
+   }
+  },
+  {
+   "type": "options",
+   "chapter": "// 11 · tu turno",
+   "sfx": "pop",
+   "voice": "Tu turno: ¿con qué pagas notando más el gasto? A, B o C. Cuéntamelo en comentarios.",
+   "params": {
+    "options": [
+     "Efectivo",
+     "Tarjeta o móvil",
+     "Me fijo igual en las dos"
+    ],
+    "disclaimer": "Contenido educativo. No es asesoramiento financiero ni recomendación de inversión. Invertir conlleva riesgos. Cifras ilustrativas. Vídeo creado con ayuda de IA."
+   }
+  },
+  {
+   "type": "logo",
+   "chapter": "",
+   "sfx": "cling",
+   "voice": "Esto ha sido Finroots. El dinero, desde la raíz.",
+   "params": {
+    "next": "¿Y qué pasa con el gasto que pagas en cuotas? Mañana lo vemos."
+   }
+  }
+ ]
+}
