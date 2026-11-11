@@ -1,5 +1,5 @@
 # Panel de Finroots
-_Actualizado: 2026-11-11 17:30 UTC · se regenera en cada reunión_
+_Actualizado: 2026-11-11 22:22 UTC · se regenera en cada reunión_
 
 ## Necesita tu sí
 - **Incidencia en el episodio 5** — [responder aquí](https://github.com/JuanOlazaba/tradingview-webhook-api/issues/17) · pedido por Operaciones el 2026-11-03 13:13 UTC
@@ -7,14 +7,14 @@ _Actualizado: 2026-11-11 17:30 UTC · se regenera en cada reunión_
 - **Publicación cruzada a Instagram Reels y YouTube Shorts** — [responder aquí](https://github.com/JuanOlazaba/tradingview-webhook-api/issues/21) · pedido por CEO (Calidad de vídeo y tecnología) el 2026-11-11 17:27 UTC
 
 ## Estado
-- Episodios: 18 · en colchón (listos): 1 (18)
+- Episodios: 18 · en colchón (listos): 0
 - TikTok: 3 seguidores · 7 me gusta · 3 vídeos
 - Coste de IA: hoy 0.80 $ · este mes 6.65 $ de 20 $ · total 6.65 $
 
 ## Episodios
 | # | Título | Estado |
 |---|---|---|
-| 18 | [Pagar en cuotas sin intereses puede costarte más](episodes/ep018/script.txt) | en colchón |
+| 18 | [Pagar en cuotas sin intereses puede costarte más](episodes/ep018/script.txt) | en tus borradores de TikTok |
 | 17 | [En 1720, una empresa con poco negocio real hizo perder fortunas.](episodes/ep017/script.txt) | en tus borradores de TikTok |
 | 16 | [Pagar con tarjeta se siente menos. Y eso se nota en el gasto.](episodes/ep016/script.txt) | en tus borradores de TikTok |
 | 15 | [Los tulipanes de 1637 no hundieron a Holanda](episodes/ep015/script.txt) | en tus borradores de TikTok |
@@ -31,6 +31,7 @@ _Actualizado: 2026-11-11 17:30 UTC · se regenera en cada reunión_
 | 4 | [El Dow Jones tardó 25 años en recuperar 1929](episodes/ep004/script.txt) | en tus borradores de TikTok |
 
 ## Últimas reuniones
+- [2026-11-11-ep018](minutes/2026-11-11-ep018.md)
 - [2026-11-11-ep018-estudio](minutes/2026-11-11-ep018-estudio.md)
 - [2026-11-11-ep017](minutes/2026-11-11-ep017.md)
 - [2026-11-11-1727-mejora-tecnologia](minutes/2026-11-11-1727-mejora-tecnologia.md)
@@ -42,9 +43,9 @@ _Actualizado: 2026-11-11 17:30 UTC · se regenera en cada reunión_
 - [2026-11-08-ep013](minutes/2026-11-08-ep013.md)
 - [2026-11-08-consejo](minutes/2026-11-08-consejo.md)
 - [2026-11-07-ep013](minutes/2026-11-07-ep013.md)
-- [2026-11-07-ep012](minutes/2026-11-07-ep012.md)
 
 ## Actividad reciente
+- `2026-11-11 22:22 UTC` **publicación** — Ep. 18: Pagar en cuotas sin intereses puede costarte más · estado: sent_to_inbox
 - `2026-11-11 17:30 UTC` **episodio** — Ep. 18 escrito y aprobado por Compliance: Pagar en cuotas sin intereses puede costarte más
 - `2026-11-11 17:27 UTC` **reunión** — Calidad de vídeo y tecnología: Cerramos la reunión de calidad: la prioridad es la validación automática de la cadena (cifra en pantalla ↔ voz, hipótesis presente, marca 'ilustrativa') antes de cualquier render. La voz se ajusta en 
 - `2026-11-11 17:27 UTC` **acción** — petición al dueño: Publicación cruzada a Instagram Reels y YouTube Shorts
@@ -64,7 +65,6 @@ _Actualizado: 2026-11-11 17:30 UTC · se regenera en cada reunión_
 - `2026-11-09 19:56 UTC` **acción** — backlog: Marketing: fijar en la descripción de TikTok la frase de captación 'Comenta PLANTILLA y te la enviamos' y preparar la respuesta manual estándar (solo contenido general). Responsable: Marketing. Medición: comentarios con la palabra clave por vídeo y envíos, sin guardar datos personales.
 - `2026-11-09 19:56 UTC` **acción** — backlog: Producto: terminar la plantilla de margen mensual (PDF, 0 €), con aviso legal, cifras ilustrativas y etiqueta de IA, y enviarla a Compliance antes del viernes 13 nov. Responsable: Producto (diseño) y Compliance (revisión).
 - `2026-11-09 19:56 UTC` **acción** — decisión: CTA permitido: 'plantilla gratuita de margen mensual', sin promesas de transformación. Se mide con revisión tras 10 vídeos: si no hay ninguna petición de plantilla, se revisa el CTA y no el producto.
-- `2026-11-09 19:56 UTC` **acción** — decisión: Plantilla de margen mensual: debe incluir el aviso legal íntegro, marcar toda cifra como ilustrativa, ser una herramienta de cálculo sin porcentajes 'ideales' ni recomendaciones, y llevar la indicación de contenido creado con ayuda de IA.
 
 ## Directivas del consejo
 _Sesión del 2026-11-08_
