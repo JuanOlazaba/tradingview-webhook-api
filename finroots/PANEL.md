@@ -1,18 +1,21 @@
 # Panel de Finroots
-_Actualizado: 2026-11-10 21:35 UTC · se regenera en cada reunión_
+_Actualizado: 2026-11-11 17:30 UTC · se regenera en cada reunión_
 
 ## Necesita tu sí
 - **Incidencia en el episodio 5** — [responder aquí](https://github.com/JuanOlazaba/tradingview-webhook-api/issues/17) · pedido por Operaciones el 2026-11-03 13:13 UTC
 - **Incidencia en el episodio 13** — [responder aquí](https://github.com/JuanOlazaba/tradingview-webhook-api/issues/20) · pedido por Operaciones el 2026-11-07 19:38 UTC
+- **Publicación cruzada a Instagram Reels y YouTube Shorts** — [responder aquí](https://github.com/JuanOlazaba/tradingview-webhook-api/issues/21) · pedido por CEO (Calidad de vídeo y tecnología) el 2026-11-11 17:27 UTC
 
 ## Estado
-- Episodios: 16 · en colchón (listos): 0
+- Episodios: 18 · en colchón (listos): 1 (18)
 - TikTok: 3 seguidores · 7 me gusta · 3 vídeos
-- Coste de IA: hoy 0.26 $ · este mes 5.86 $ de 20 $ · total 5.86 $
+- Coste de IA: hoy 0.80 $ · este mes 6.65 $ de 20 $ · total 6.65 $
 
 ## Episodios
 | # | Título | Estado |
 |---|---|---|
+| 18 | [Pagar en cuotas sin intereses puede costarte más](episodes/ep018/script.txt) | en colchón |
+| 17 | [En 1720, una empresa con poco negocio real hizo perder fortunas.](episodes/ep017/script.txt) | en tus borradores de TikTok |
 | 16 | [Pagar con tarjeta se siente menos. Y eso se nota en el gasto.](episodes/ep016/script.txt) | en tus borradores de TikTok |
 | 15 | [Los tulipanes de 1637 no hundieron a Holanda](episodes/ep015/script.txt) | en tus borradores de TikTok |
 | 14 | [¿Comprarías algo solo porque todo el mundo lo compra?](episodes/ep014/script.txt) | en tus borradores de TikTok |
@@ -26,10 +29,11 @@ _Actualizado: 2026-11-10 21:35 UTC · se regenera en cada reunión_
 | 6 | [Tu app gratis no es gratis](episodes/ep006/script.txt) | en tus borradores de TikTok |
 | 5 | [Un 1 % de comisión te cuesta casi 19.000 €](episodes/ep005/script.txt) | en tus borradores de TikTok |
 | 4 | [El Dow Jones tardó 25 años en recuperar 1929](episodes/ep004/script.txt) | en tus borradores de TikTok |
-| 3 | [Tu dinero quieto pierde valor en silencio](episodes/ep003/script.txt) | en tus borradores de TikTok |
-| 2 | [Lucía y Marta: misma cuota, casi el doble de dinero](episodes/ep002/script.txt) | en tus borradores de TikTok |
 
 ## Últimas reuniones
+- [2026-11-11-ep018-estudio](minutes/2026-11-11-ep018-estudio.md)
+- [2026-11-11-ep017](minutes/2026-11-11-ep017.md)
+- [2026-11-11-1727-mejora-tecnologia](minutes/2026-11-11-1727-mejora-tecnologia.md)
 - [2026-11-10-ep016](minutes/2026-11-10-ep016.md)
 - [2026-11-10-ep015](minutes/2026-11-10-ep015.md)
 - [2026-11-09-ep015-estudio](minutes/2026-11-09-ep015-estudio.md)
@@ -39,11 +43,18 @@ _Actualizado: 2026-11-10 21:35 UTC · se regenera en cada reunión_
 - [2026-11-08-consejo](minutes/2026-11-08-consejo.md)
 - [2026-11-07-ep013](minutes/2026-11-07-ep013.md)
 - [2026-11-07-ep012](minutes/2026-11-07-ep012.md)
-- [2026-11-06-ep011](minutes/2026-11-06-ep011.md)
-- [2026-11-06-ep011-estudio](minutes/2026-11-06-ep011-estudio.md)
-- [2026-11-06-ep010](minutes/2026-11-06-ep010.md)
 
 ## Actividad reciente
+- `2026-11-11 17:30 UTC` **episodio** — Ep. 18 escrito y aprobado por Compliance: Pagar en cuotas sin intereses puede costarte más
+- `2026-11-11 17:27 UTC` **reunión** — Calidad de vídeo y tecnología: Cerramos la reunión de calidad: la prioridad es la validación automática de la cadena (cifra en pantalla ↔ voz, hipótesis presente, marca 'ilustrativa') antes de cualquier render. La voz se ajusta en 
+- `2026-11-11 17:27 UTC` **acción** — petición al dueño: Publicación cruzada a Instagram Reels y YouTube Shorts
+- `2026-11-11 17:27 UTC` **acción** — backlog: Operaciones: confirmar hoy la directiva 1 (5 vídeos del 9 al 15 nov, 19:00–21:00 Madrid) y la conciliación de IDs de TikTok antes del viernes 13 nov. Responsable: Operaciones.
+- `2026-11-11 17:27 UTC` **acción** — backlog: IT: implementar la validación automática del JSON (bloqueo + aviso) y registrar métricas semanales: número de bloqueos y episodios que llegan a Compliance sin hipótesis (objetivo cero). Responsable: IT. Prioridad 1.
+- `2026-11-11 17:27 UTC` **acción** — decisión: Sin cambios de catálogo de objetos hasta tener 10 vídeos publicados con datos completos. Se mantiene la rotación de al menos 3 tipos de objeto distintos entre episodios consecutivos. Responsable: Estudio.
+- `2026-11-11 17:27 UTC` **acción** — decisión: Voz: no se cambia voice.edge_rate en episodios programados sin render de prueba. En episodios con cifras, la palabra 'ilustrativa' va al final de frase corta con pausa '...' y aparece en el note de pantalla. Revisión manual de cada escena con cifra. Responsable: Estudio.
+- `2026-11-11 17:27 UTC` **acción** — decisión: Antes de cualquier render, validación automática obligatoria: (a) toda cifra en counter, chart, display u options lleva nota de hipótesis (capital, años, tipo) y marca 'ilustrativa'; (b) la cifra de pantalla coincide con la de la voz de esa escena; (c) si falla, el render se bloquea y se avisa a IT y Compliance. Responsable: IT. Plazo: antes del próximo render.
+- `2026-11-11 17:27 UTC` **publicación** — Ep. 17: En 1720, una empresa con poco negocio real hizo perder fortunas. · estado: sent_to_inbox
+- `2026-11-11 17:17 UTC` **reanudación** — El episodio de hoy estaba pendiente; el comité diario lo retoma ahora.
 - `2026-11-10 21:35 UTC` **publicación** — Ep. 16: Pagar con tarjeta se siente menos. Y eso se nota en el gasto. · estado: sent_to_inbox
 - `2026-11-09 23:58 UTC` **publicación** — Ep. 15: Los tulipanes de 1637 no hundieron a Holanda · estado: sent_to_inbox
 - `2026-11-09 19:59 UTC` **episodio** — Ep. 15 escrito y aprobado por Compliance: Los tulipanes de 1637 no hundieron a Holanda
@@ -54,16 +65,6 @@ _Actualizado: 2026-11-10 21:35 UTC · se regenera en cada reunión_
 - `2026-11-09 19:56 UTC` **acción** — backlog: Producto: terminar la plantilla de margen mensual (PDF, 0 €), con aviso legal, cifras ilustrativas y etiqueta de IA, y enviarla a Compliance antes del viernes 13 nov. Responsable: Producto (diseño) y Compliance (revisión).
 - `2026-11-09 19:56 UTC` **acción** — decisión: CTA permitido: 'plantilla gratuita de margen mensual', sin promesas de transformación. Se mide con revisión tras 10 vídeos: si no hay ninguna petición de plantilla, se revisa el CTA y no el producto.
 - `2026-11-09 19:56 UTC` **acción** — decisión: Plantilla de margen mensual: debe incluir el aviso legal íntegro, marcar toda cifra como ilustrativa, ser una herramienta de cálculo sin porcentajes 'ideales' ni recomendaciones, y llevar la indicación de contenido creado con ayuda de IA.
-- `2026-11-09 19:56 UTC` **acción** — decisión: Aplazadas la página de captación, la newsletter, los afiliados y la guía de pago. No se reabren hasta tener audiencia suficiente y el sí del dueño. Ninguna cuenta nueva sin su aprobación.
-- `2026-11-09 19:56 UTC` **acción** — decisión: Embudo provisional: comentario con palabra clave (PLANTILLA) → envío manual del PDF general en las 2 primeras horas. Solo en 1 de cada 4 vídeos. Sin recogida de correos ni datos personales, sin enlaces de afiliado ni de entidades, sin productos. Si la distribución pública es posible (descripción fijada), se usa como vía principal.
-- `2026-11-08 23:17 UTC` **publicación** — Ep. 14: ¿Comprarías algo solo porque todo el mundo lo compra? · estado: sent_to_inbox
-- `2026-11-08 23:07 UTC` **reanudación** — El episodio de hoy estaba pendiente; el comité diario lo retoma ahora.
-- `2026-11-08 20:04 UTC` **publicación** — Ep. 13: Tienes suscripciones que no usas · estado: sent_to_inbox
-- `2026-11-08 16:44 UTC` **consejo** — Sesión semanal: Publicar 5 vídeos esta semana (9-15 nov), todos entre 19:00 y 21:00 (Madrid), con la hora confirmada en la plataforma antes de programar.; Mantener colchón de al menos 3 episodios listos cada noche; si no se cumple, avisar al consejo el mismo día y no publicar tarde.; Conciliar el 100 % de los IDs d
-- `2026-11-07 19:38 UTC` **incidencia** — Ep. 13: Compliance no aprueba el episodio tras las revisiones: [{"scene": 3, "problem": "El phone muestra balance_steps 0 → 1.000 con la etiqueta 'Valor de la inversión' y una fila 'Compra del chollo' de '-1.000 €' en azul. El saldo sube mientras el movimiento resta, lo que es incoherente y puede leerse com
-- `2026-11-06 23:57 UTC` **publicación** — Ep. 12: Un ETF: una compra, muchas empresas · estado: sent_to_inbox
-- `2026-11-06 23:48 UTC` **reanudación** — El episodio de hoy estaba pendiente; el comité diario lo retoma ahora.
-- `2026-11-06 21:09 UTC` **publicación** — Ep. 11: Vender en pánico puede fijar la pérdida · estado: sent_to_inbox
 
 ## Directivas del consejo
 _Sesión del 2026-11-08_
@@ -88,9 +89,6 @@ _Sesión del 2026-11-08_
 {"followers": 100, "avg_views": 150}
 
 ## Decisiones recientes de dirección
-- 2026-11-04 · Ep. 7: se reescribe el gancho sobre el mecanismo ('El mínimo de tu tarjeta es una trampa que dura años.'), no sobre Leo. Leo puede aparecer en el cuerpo del episodio, nunca en el juicio del gancho. Se prepara una variante de gancho en forma de pregunta para test A/B de retención a 3 s.
-- 2026-11-04 · Calendario de los próximos 7 episodios: 8 Historia (Lucía, ordenar los 150 €/mes por objetivos), 9 Mito o realidad ('invertir es jugar a la lotería'), 10 A vs B (renta fija frente a renta variable, sin elegir), 11 ¿Sabías que? (tulipanes de 1637), 12 Cómo funciona en 60 s (qué es un ETF), 13 Error caro (Leo y el FOMO), 14 Historia del dinero (burbuja puntocom y Marta). En el ep. 10 la pregunta final de options será de opinión sobre el concepto, nunca sobre qué producto elegir.
-- 2026-11-04 · Estructura de guion: 12–14 escenas, 150–200 palabras, gancho de 6–14 palabras. Cada episodio usa al menos 3 tipos de objeto distintos a los del episodio anterior. Ep. 8 propuesto con piggies (tres huchas por objetivo) y levers (reparto de los 150 €); phone solo si aporta.
 - 2026-11-04 · Hora de publicación 19:00–21:00 (Madrid) y hashtags nicho (#finanzaspersonales #ahorro #educacionfinanciera) y amplio (#dinero #inversion) se mantienen hasta tener datos. La descripción repite la aclaración de que las cifras son ilustrativas.
 - 2026-11-06 · Ganchos: alternar pregunta y afirmación entre vídeos consecutivos con temas distintos, nunca dos ganchos sobre el mismo tema. Cada gancho se clasifica y se mide la retención a 3 s, sin conclusiones antes de 10 vídeos. Toda cifra del gancho va marcada como ilustrativa.
 - 2026-11-06 · Formatos: rotar el formato en cada vídeo sin repetir los dos anteriores, según la biblia. Se descarta cambiar de formato cada dos vídeos. El cierre de cada reel anuncia el siguiente episodio y termina con pregunta de opinión (options), sin recomendar productos.
@@ -100,6 +98,9 @@ _Sesión del 2026-11-08_
 - 2026-11-09 · Aplazadas la página de captación, la newsletter, los afiliados y la guía de pago. No se reabren hasta tener audiencia suficiente y el sí del dueño. Ninguna cuenta nueva sin su aprobación.
 - 2026-11-09 · Plantilla de margen mensual: debe incluir el aviso legal íntegro, marcar toda cifra como ilustrativa, ser una herramienta de cálculo sin porcentajes 'ideales' ni recomendaciones, y llevar la indicación de contenido creado con ayuda de IA.
 - 2026-11-09 · CTA permitido: 'plantilla gratuita de margen mensual', sin promesas de transformación. Se mide con revisión tras 10 vídeos: si no hay ninguna petición de plantilla, se revisa el CTA y no el producto.
+- 2026-11-11 · Antes de cualquier render, validación automática obligatoria: (a) toda cifra en counter, chart, display u options lleva nota de hipótesis (capital, años, tipo) y marca 'ilustrativa'; (b) la cifra de pantalla coincide con la de la voz de esa escena; (c) si falla, el render se bloquea y se avisa a IT y Compliance. Responsable: IT. Plazo: antes del próximo render.
+- 2026-11-11 · Voz: no se cambia voice.edge_rate en episodios programados sin render de prueba. En episodios con cifras, la palabra 'ilustrativa' va al final de frase corta con pausa '...' y aparece en el note de pantalla. Revisión manual de cada escena con cifra. Responsable: Estudio.
+- 2026-11-11 · Sin cambios de catálogo de objetos hasta tener 10 vídeos publicados con datos completos. Se mantiene la rotación de al menos 3 tipos de objeto distintos entre episodios consecutivos. Responsable: Estudio.
 
 ---
 Registro completo: [actas](minutes/) · [informes](reports/) · [actividad](state/activity.jsonl) · [costes](state/costs.json) · [peticiones](state/owner_requests.json)

@@ -1,0 +1,13 @@
+[01]   En 1720, una empresa con poco negocio real hizo perder fortunas.
+[02] // 01 · el contexto  Londres, 1720. Una compañía promete riquezas desde Sudamérica. Según historiadores, su negocio real era limitado.
+[03] // 02 · el rumor  Corre el rumor... y mucha gente compra. Ilustrativo: las compras empujan el precio.
+[04] // 03 · la subida  Ilustrativo: un precio de 100 sube a 300. Un 200 % más. Cifras no históricas.
+[05]   ¿Y sabes qué? A veces subir atrae compradores, y ellos empujan más.
+[06] // 04 · el giro  Spoiler: el precio no es el negocio. Puede alejarse de lo que vale.
+[07]   Llega la duda... y alguien vende. Ejemplo ilustrativo: de 300 a 100.
+[08] // 05 · el coste  En el ejemplo, cae un 66,7 %. Dos tercios del precio se esfuman. Ilustrativo.
+[09] // 06 · las señales  Ojo, no es regla infalible: precio sin negocio claro, todo el mundo hablando, prisa por entrar.
+[10] // 07 · hazte preguntas  Antes de entrar, pregúntate: ¿qué vende? ¿Cómo gana dinero? ¿Qué sé de su valor?
+[11]   Según la tradición, hasta Isaac Newton perdió dinero. La inteligencia no siempre protege del entusiasmo.
+[12] // 08 · tu turno  Tu turno. ¿Qué te llama más la atención de esta historia? A, B o C.
+[13]   Esto ha sido Finroots. El dinero, desde la raíz.

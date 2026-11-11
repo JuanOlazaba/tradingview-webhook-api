@@ -91,5 +91,19 @@
   "created": "2026-11-07 19:38 UTC",
   "issue": 20,
   "url": "https://github.com/JuanOlazaba/tradingview-webhook-api/issues/20"
+ },
+ {
+  "id": 9,
+  "title": "Publicación cruzada a Instagram Reels y YouTube Shorts",
+  "body": "Recomendación: no abrirla todavía. Motivo: requiere crear cuentas nuevas y la cadena de TikTok aún no es estable (3 vídeos, 60–176 vistas, fiabilidad en validación). Coste: 0 € en herramientas, pero trabajo de Operaciones y revisión de Compliance por cada cuenta. Riesgo de abrirla ahora: duplicar errores y dispersar la audiencia antes de tener datos. Si dice que no: seguimos solo en TikTok y revisamos la decisión tras 10 vídeos publicados.",
+  "by": "CEO (Calidad de vídeo y tecnología)",
+  "status": "pending",
+  "apply_on_yes": {
+   "accion": "abrir cuentas de Instagram y YouTube",
+   "condicion": "revisión previa de Compliance y cadena TikTok estable"
+  },
+  "created": "2026-11-11 17:27 UTC",
+  "issue": 21,
+  "url": "https://github.com/JuanOlazaba/tradingview-webhook-api/issues/21"
  }
 ]

@@ -1,0 +1,288 @@
+{
+ "number": 17,
+ "format": "historia_dinero",
+ "slug": "mares-del-sur-1720",
+ "title": "En 1720, una empresa con poco negocio real hizo perder fortunas.",
+ "topic": "La burbuja de los Mares del Sur (1720)",
+ "core_idea": "Una compañía con negocio real limitado vio disparado el precio de sus acciones por promesas y entusiasmo. Al caer el precio, muchos inversores perdieron dinero. Señal posible de alerta: un precio que sube sin un negocio claro que lo respalde. Hipótesis ilustrativa, no histórica: índice inicial 100, pico 300 (+200 %) y vuelta a 100 (−66,7 %); precio puro, sin dividendos ni comisiones; sin plazo; tipo de interés no aplica.",
+ "series": "Finanzas en 1 minuto",
+ "characters": [],
+ "keywords": [
+  "1720",
+  "empresa",
+  "negocio",
+  "precio",
+  "ilustrativ",
+  "200",
+  "66"
+ ],
+ "scenes": [
+  {
+   "type": "calendar",
+   "chapter": "",
+   "sfx": "hit",
+   "voice": "En 1720, una empresa con poco negocio real hizo perder fortunas.",
+   "params": {
+    "label": "Año",
+    "from": 1719,
+    "to": 1720,
+    "sub": "Londres · resumen simplificado",
+    "at": 0.3,
+    "dur": 2.5
+   }
+  },
+  {
+   "type": "display",
+   "chapter": "// 01 · el contexto",
+   "sfx": "whoosh",
+   "voice": "Londres, 1720. Una compañía promete riquezas desde Sudamérica. Según historiadores, su negocio real era limitado.",
+   "params": {
+    "lines": [
+     {
+      "text": "PROMESAS",
+      "color": "co",
+      "at": 0.3
+     },
+     {
+      "text": "POCO NEGOCIO",
+      "at": 3.5
+     }
+    ],
+    "size": "xl",
+    "note": "Resumen simplificado de un hecho histórico"
+   }
+  },
+  {
+   "type": "coins",
+   "chapter": "// 02 · el rumor",
+   "sfx": "coins",
+   "voice": "Corre el rumor... y mucha gente compra. Ilustrativo: las compras empujan el precio.",
+   "params": {
+    "towers": [
+     {
+      "label": "Al principio",
+      "coins": 3
+     },
+     {
+      "label": "Después",
+      "coins": 7
+     },
+     {
+      "label": "Con la fiebre",
+      "coins": 13,
+      "color": "co"
+     }
+    ],
+    "note": "Ilustrativo, no histórico"
+   }
+  },
+  {
+   "type": "chart",
+   "chapter": "// 03 · la subida",
+   "sfx": "rise",
+   "voice": "Ilustrativo: un precio de 100 sube a 300. Un 200 % más. Cifras no históricas.",
+   "params": {
+    "series": [
+     {
+      "name": "Precio (índice)",
+      "points": [
+       100,
+       130,
+       180,
+       250,
+       300
+      ],
+      "color": "co",
+      "end": 300
+     }
+    ],
+    "x_labels": [
+     "Inicio",
+     "",
+     "",
+     "",
+     "Pico"
+    ],
+    "at": 0.5,
+    "dur": 5,
+    "note": "Ilustrativo, no histórico: índice de 100 a 300 (+200 %), precio puro"
+   }
+  },
+  {
+   "type": "snowball",
+   "chapter": "",
+   "sfx": "whoosh",
+   "voice": "¿Y sabes qué? A veces subir atrae compradores, y ellos empujan más.",
+   "params": {
+    "start_label": "Sube el precio",
+    "end_label": "Llegan más compradores",
+    "dur": 5,
+    "note": "Ilustrativo"
+   }
+  },
+  {
+   "type": "display",
+   "chapter": "// 04 · el giro",
+   "sfx": "hit2",
+   "voice": "Spoiler: el precio no es el negocio. Puede alejarse de lo que vale.",
+   "params": {
+    "lines": [
+     {
+      "text": "PRECIO ≠",
+      "color": "co",
+      "at": 0.3
+     },
+     {
+      "text": "NEGOCIO",
+      "color": "bl",
+      "at": 2.5
+     }
+    ],
+    "size": "xl"
+   }
+  },
+  {
+   "type": "chart",
+   "chapter": "",
+   "sfx": "deflate",
+   "voice": "Llega la duda... y alguien vende. Ejemplo ilustrativo: de 300 a 100.",
+   "params": {
+    "series": [
+     {
+      "name": "Precio (índice)",
+      "points": [
+       300,
+       260,
+       180,
+       120,
+       100
+      ],
+      "color": "bl",
+      "end": 100
+     }
+    ],
+    "x_labels": [
+     "Pico",
+     "",
+     "",
+     "",
+     "Final"
+    ],
+    "at": 0.5,
+    "dur": 5,
+    "note": "Ilustrativo, no histórico: índice de 300 a 100 (−66,7 %), precio puro"
+   }
+  },
+  {
+   "type": "counter",
+   "chapter": "// 05 · el coste",
+   "sfx": "thud",
+   "voice": "En el ejemplo, cae un 66,7 %. Dos tercios del precio se esfuman. Ilustrativo.",
+   "params": {
+    "label": "Caída de 300 a 100",
+    "from": 0,
+    "to": 66.7,
+    "prefix": "−",
+    "suffix": " %",
+    "decimals": 1,
+    "color": "co",
+    "sub": "Precio puro, sin dividendos ni comisiones",
+    "note": "Ilustrativo, no histórico"
+   }
+  },
+  {
+   "type": "cards",
+   "chapter": "// 06 · las señales",
+   "sfx": "deal",
+   "voice": "Ojo, no es regla infalible: precio sin negocio claro, todo el mundo hablando, prisa por entrar.",
+   "params": {
+    "cards": [
+     {
+      "label": "Sube sin negocio claro",
+      "icon": "chart",
+      "lit": true
+     },
+     {
+      "label": "Todos hablan de ello",
+      "icon": "bag"
+     },
+     {
+      "label": "Prisa por entrar",
+      "icon": "clock"
+     }
+    ],
+    "note": "Señales generales, no una receta ni una regla infalible"
+   }
+  },
+  {
+   "type": "levers",
+   "chapter": "// 07 · hazte preguntas",
+   "sfx": "tick",
+   "voice": "Antes de entrar, pregúntate: ¿qué vende? ¿Cómo gana dinero? ¿Qué sé de su valor?",
+   "params": {
+    "title": "Preguntas generales, no un método",
+    "levers": [
+     {
+      "label": "Qué vende",
+      "from": 10,
+      "to": 80
+     },
+     {
+      "label": "Cómo gana dinero",
+      "from": 10,
+      "to": 70
+     },
+     {
+      "label": "Qué sé de su valor",
+      "from": 10,
+      "to": 60
+     }
+    ]
+   }
+  },
+  {
+   "type": "display",
+   "chapter": "",
+   "sfx": "ding",
+   "voice": "Según la tradición, hasta Isaac Newton perdió dinero. La inteligencia no siempre protege del entusiasmo.",
+   "params": {
+    "lines": [
+     {
+      "text": "EL ENTUSIASMO",
+      "at": 0.3
+     },
+     {
+      "text": "TAMBIÉN COTIZA",
+      "color": "co",
+      "at": 3
+     }
+    ],
+    "size": "xl",
+    "note": "Anécdota popular, no verificada al detalle"
+   }
+  },
+  {
+   "type": "options",
+   "chapter": "// 08 · tu turno",
+   "sfx": "pop",
+   "voice": "Tu turno. ¿Qué te llama más la atención de esta historia? A, B o C.",
+   "params": {
+    "options": [
+     "El precio sin negocio",
+     "La prisa por entrar",
+     "El efecto de la multitud"
+    ],
+    "disclaimer": "Contenido educativo. No es asesoramiento financiero ni recomendación de inversión. Invertir conlleva riesgos. Cifras ilustrativas. Vídeo creado con ayuda de IA."
+   }
+  },
+  {
+   "type": "logo",
+   "chapter": "",
+   "sfx": "cling",
+   "voice": "Esto ha sido Finroots. El dinero, desde la raíz.",
+   "params": {
+    "next": "¿Por qué tanta gente creyó que la subida no tendría fin?"
+   }
+  }
+ ]
+}

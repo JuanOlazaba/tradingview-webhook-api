@@ -1,0 +1,280 @@
+{
+ "number": 18,
+ "format": "error_caro",
+ "slug": "cuotas-sin-intereses-precio-que-no-ves",
+ "title": "Pagar en cuotas sin intereses puede costarte más",
+ "topic": "Pagar en cuotas sin intereses: el precio que no ves",
+ "core_idea": "Pagar en cuotas puede costar más que el precio al contado aunque el ticket no muestre intereses. Conviene comparar el precio total. Hipótesis ilustrativa: precio al contado 540 €; 12 cuotas de 50 € = 600 € en 12 meses (1 año); diferencia 60 € (casi un 11 % sobre el precio al contado, no es un tipo de interés); capital no aplica; tipo de interés no aplica; sin TAE ni comisiones; solo comparación de precio, sin desglose de la causa de la diferencia. El saldo del móvil de Leo (1.200 € a 1.150 €) es un saldo ilustrativo que solo ambienta la escena. No es una previsión ni una recomendación.",
+ "series": "Finanzas en 1 minuto",
+ "characters": [
+  "Leo"
+ ],
+ "keywords": [
+  "cuota",
+  "interes",
+  "contado",
+  "total",
+  "precio",
+  "ilustrativ"
+ ],
+ "scenes": [
+  {
+   "type": "display",
+   "chapter": "",
+   "sfx": "hit",
+   "voice": "Pagar en cuotas sin intereses puede costarte más.",
+   "params": {
+    "lines": [
+     {
+      "text": "CUOTAS SIN INTERESES",
+      "color": "bl",
+      "at": 0.3
+     },
+     {
+      "text": "PUEDEN COSTAR MÁS",
+      "color": "co",
+      "at": 1.8
+     }
+    ],
+    "size": "xl"
+   }
+  },
+  {
+   "type": "phone",
+   "chapter": "// 01 · el problema",
+   "sfx": "ding",
+   "voice": "Leo ve un televisor. 12 cuotas de 50 €... \"sin intereses\". ¿Gratis? Ejemplo ilustrativo.",
+   "params": {
+    "name": "Leo",
+    "label": "Compra en cuotas",
+    "balance_steps": [
+     [
+      0,
+      1200
+     ],
+     [
+      3,
+      1150
+     ]
+    ],
+    "low": 100,
+    "rows": [
+     {
+      "label": "Televisor · cuota 1/12",
+      "amount": "-50",
+      "color": "#E5533D",
+      "at": 3
+     }
+    ],
+    "notifications": [
+     {
+      "title": "Compra aprobada",
+      "body": "12 cuotas de 50 €",
+      "at": 2
+     }
+    ],
+    "side": {
+     "label": "Cuota",
+     "value": "50 €",
+     "tone": "co",
+     "at": 3.5
+    },
+    "note": "Ilustrativo. Saldo ilustrativo. Sin TAE ni comisiones."
+   }
+  },
+  {
+   "type": "cards",
+   "chapter": "// 01 · el problema",
+   "sfx": "deal",
+   "voice": "Leo solo mira la cuota. 50 € al mes no se notan... Ejemplo ilustrativo. ¿Y sabes qué? Ahí está el truco.",
+   "params": {
+    "cards": [
+     {
+      "label": "Cuota: 50 €",
+      "icon": "card",
+      "lit": true
+     },
+     {
+      "label": "12 meses",
+      "icon": "clock"
+     }
+    ],
+    "question": "¿Y el precio total?",
+    "question_at": 4,
+    "note": "Ilustrativo. 12 cuotas de 50 €."
+   }
+  },
+  {
+   "type": "drawer",
+   "chapter": "// 02 · la cuenta",
+   "sfx": "thud",
+   "voice": "Cada mes cae un billete de 50 €. Durante 12 meses... Ejemplo ilustrativo.",
+   "params": {
+    "amount": 50,
+    "currency": "€",
+    "note": "Ilustrativo: 12 cuotas de 50 €."
+   }
+  },
+  {
+   "type": "display",
+   "chapter": "// 02 · la cuenta",
+   "sfx": "hit2",
+   "voice": "Haz la cuenta. 12 por 50 son 600 €... Cifras ilustrativas.",
+   "params": {
+    "lines": [
+     {
+      "text": "12 × 50 €",
+      "color": "bl",
+      "at": 0.3
+     },
+     {
+      "text": "= 600 €",
+      "color": "co",
+      "at": 2
+     }
+    ],
+    "size": "xl",
+    "note": "Ilustrativo. Hipótesis: 12 cuotas de 50 € en 1 año; tipo de interés no aplica; sin TAE ni comisiones."
+   }
+  },
+  {
+   "type": "receipt",
+   "chapter": "// 03 · el giro",
+   "sfx": "print",
+   "voice": "Días después, Leo mira el precio al contado. 540 €. En cuotas, 600 €... Ejemplo ilustrativo.",
+   "params": {
+    "header": "TELEVISOR · EJEMPLO ILUSTRATIVO",
+    "items": [
+     {
+      "label": "Precio al contado",
+      "from": 540
+     },
+     {
+      "label": "12 cuotas de 50 €",
+      "from": 600
+     }
+    ],
+    "note": "Ilustrativo. Hipótesis: contado 540 €; 12 cuotas de 50 € = 600 € en 1 año; tipo de interés no aplica; sin TAE ni comisiones. Solo comparación de precio."
+   }
+  },
+  {
+   "type": "display",
+   "chapter": "// 03 · el giro",
+   "sfx": "hit",
+   "voice": "Son 60 € de más. Casi un 11 % sobre el precio al contado... Ejemplo ilustrativo, no es un tipo de interés.",
+   "params": {
+    "lines": [
+     {
+      "text": "60 € DE MÁS",
+      "color": "co",
+      "at": 0.3
+     },
+     {
+      "text": "UN 11 % MÁS CARO",
+      "color": "bl",
+      "at": 2
+     }
+    ],
+    "size": "xl",
+    "pills": [
+     {
+      "text": "Ilustrativo",
+      "dark": true
+     }
+    ],
+    "note": "Ilustrativo. 600 € - 540 € = 60 €; 60 / 540 ≈ 11 %. No es un tipo de interés."
+   }
+  },
+  {
+   "type": "coins",
+   "chapter": "// 04 · la diferencia",
+   "sfx": "coins",
+   "voice": "En este ejemplo, el ticket no muestra intereses. Pero el total en cuotas era mayor... Ejemplo ilustrativo.",
+   "params": {
+    "towers": [
+     {
+      "label": "Al contado",
+      "coins": 9,
+      "value": 540,
+      "suffix": " €"
+     },
+     {
+      "label": "En 12 cuotas",
+      "coins": 10,
+      "value": 600,
+      "color": "co",
+      "suffix": " €"
+     }
+    ],
+    "note": "Ilustrativo. Diferencia de precio, sin desglose de causa. Sin TAE ni comisiones."
+   }
+  },
+  {
+   "type": "cards",
+   "chapter": "// 04 · la diferencia",
+   "sfx": "pop",
+   "voice": "Pero ojo: no siempre pasa. Depende de cada oferta. Por eso hay que comparar.",
+   "params": {
+    "cards": [
+     {
+      "label": "Precio al contado",
+      "icon": "scale",
+      "lit": true
+     },
+     {
+      "label": "Total en cuotas",
+      "icon": "card",
+      "lit": true
+     }
+    ],
+    "question": "¿Coinciden?",
+    "question_at": 3,
+    "note": "Depende de cada caso."
+   }
+  },
+  {
+   "type": "display",
+   "chapter": "// 05 · qué comparar",
+   "sfx": "rise",
+   "voice": "Antes de aceptar, compara: ¿cuánto cuesta al contado? ¿Y cuánto suman todas las cuotas? Con esos dos datos, decides tú.",
+   "params": {
+    "lines": [
+     {
+      "text": "PRECIO AL CONTADO",
+      "color": "bl",
+      "at": 0.3
+     },
+     {
+      "text": "TOTAL EN CUOTAS",
+      "color": "co",
+      "at": 3
+     }
+    ],
+    "size": "m"
+   }
+  },
+  {
+   "type": "options",
+   "chapter": "// 06 · tu turno",
+   "sfx": "ding",
+   "voice": "Tu turno. Cuando algo se paga en cuotas, ¿qué miras primero? A, la cuota mensual. B, el precio total. C, si lo necesito de verdad.",
+   "params": {
+    "options": [
+     "A) La cuota mensual",
+     "B) El precio total",
+     "C) Si lo necesito de verdad"
+    ],
+    "disclaimer": "Contenido educativo. No es asesoramiento financiero ni recomendación de inversión. Invertir conlleva riesgos. Cifras ilustrativas. Vídeo creado con ayuda de IA."
+   }
+  },
+  {
+   "type": "logo",
+   "chapter": "",
+   "sfx": "cling",
+   "voice": "Esto ha sido Finroots. El dinero, desde la raíz.",
+   "params": {
+    "next": "Mañana: otro error de dinero que pasa desapercibido."
+   }
+  }
+ ]
+}

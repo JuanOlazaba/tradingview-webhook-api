@@ -1,0 +1,12 @@
+[01]   Pagar en cuotas sin intereses puede costarte más.
+[02] // 01 · el problema  Leo ve un televisor. 12 cuotas de 50 €... "sin intereses". ¿Gratis? Ejemplo ilustrativo.
+[03] // 01 · el problema  Leo solo mira la cuota. 50 € al mes no se notan... Ejemplo ilustrativo. ¿Y sabes qué? Ahí está el truco.
+[04] // 02 · la cuenta  Cada mes cae un billete de 50 €. Durante 12 meses... Ejemplo ilustrativo.
+[05] // 02 · la cuenta  Haz la cuenta. 12 por 50 son 600 €... Cifras ilustrativas.
+[06] // 03 · el giro  Días después, Leo mira el precio al contado. 540 €. En cuotas, 600 €... Ejemplo ilustrativo.
+[07] // 03 · el giro  Son 60 € de más. Casi un 11 % sobre el precio al contado... Ejemplo ilustrativo, no es un tipo de interés.
+[08] // 04 · la diferencia  En este ejemplo, el ticket no muestra intereses. Pero el total en cuotas era mayor... Ejemplo ilustrativo.
+[09] // 04 · la diferencia  Pero ojo: no siempre pasa. Depende de cada oferta. Por eso hay que comparar.
+[10] // 05 · qué comparar  Antes de aceptar, compara: ¿cuánto cuesta al contado? ¿Y cuánto suman todas las cuotas? Con esos dos datos, decides tú.
+[11] // 06 · tu turno  Tu turno. Cuando algo se paga en cuotas, ¿qué miras primero? A, la cuota mensual. B, el precio total. C, si lo necesito de verdad.
+[12]   Esto ha sido Finroots. El dinero, desde la raíz.

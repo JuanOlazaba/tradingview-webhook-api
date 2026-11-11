@@ -498,5 +498,57 @@
       "status": "SEND_TO_USER_INBOX",
       "post_ids": null
     }
+  },
+  {
+    "number": 17,
+    "slug": "mares-del-sur-1720",
+    "title": "En 1720, una empresa con poco negocio real hizo perder fortunas.",
+    "topic": "La burbuja de los Mares del Sur (1720)",
+    "core_idea": "Una compañía con negocio real limitado vio disparado el precio de sus acciones por promesas y entusiasmo. Al caer el precio, muchos inversores perdieron dinero. Señal posible de alerta: un precio que sube sin un negocio claro que lo respalde. Hipótesis ilustrativa, no histórica: índice inicial 100, pico 300 (+200 %) y vuelta a 100 (−66,7 %); precio puro, sin dividendos ni comisiones; sin plazo; tipo de interés no aplica.",
+    "characters": [],
+    "objects": [
+      "calendar",
+      "cards",
+      "chart",
+      "coins",
+      "counter",
+      "display",
+      "levers",
+      "logo",
+      "options",
+      "snowball"
+    ],
+    "question": "El precio sin negocio / La prisa por entrar / El efecto de la multitud",
+    "status": "sent_to_inbox",
+    "duration": 68.028,
+    "published_at": "2026-11-11T17:27:21.487904Z",
+    "tiktok": {
+      "publish_id": "v_inbox_file~v2.7706966525017802766",
+      "mode": "draft",
+      "status": "SEND_TO_USER_INBOX",
+      "post_ids": null
+    }
+  },
+  {
+    "compliance_ok": true,
+    "number": 18,
+    "slug": "cuotas-sin-intereses-precio-que-no-ves",
+    "title": "Pagar en cuotas sin intereses puede costarte más",
+    "topic": "Pagar en cuotas sin intereses: el precio que no ves",
+    "core_idea": "Pagar en cuotas puede costar más que el precio al contado aunque el ticket no muestre intereses. Conviene comparar el precio total. Hipótesis ilustrativa: precio al contado 540 €; 12 cuotas de 50 € = 600 € en 12 meses (1 año); diferencia 60 € (casi un 11 % sobre el precio al contado, no es un tipo de interés); capital no aplica; tipo de interés no aplica; sin TAE ni comisiones; solo comparación de precio, sin desglose de la causa de la diferencia. El saldo del móvil de Leo (1.200 € a 1.150 €) es un saldo ilustrativo que solo ambienta la escena. No es una previsión ni una recomendación.",
+    "characters": [
+      "Leo"
+    ],
+    "objects": [
+      "cards",
+      "coins",
+      "display",
+      "drawer",
+      "logo",
+      "options",
+      "phone",
+      "receipt"
+    ],
+    "status": "ready"
   }
 ]
