@@ -1,0 +1,12 @@
+[01]   ¿Quién paga la app que dices que es gratis?
+[02] // 01 · el problema  Leo descarga un juego gratis. Cero euros. Y se pregunta: ¿de qué vive esta empresa?
+[03] // 02 · tres vías  Spoiler: gratis para ti no significa gratis para ellos. Tienen tres formas de ganar dinero.
+[04] // 02 · tres vías  Publicidad, compras dentro de la app o suscripción de pago. Cada una es una palanca.
+[05] // 03 · la idea  Si no pagas con dinero... muchas veces alguien paga de otra forma.
+[06] // 03 · las cuentas  Imagina, con cifras ilustrativas, 1.000.000 de usuarios. Cada uno deja 2 € al año. Total: 2.000.000 €... Ilustrativa.
+[07] // 03 · las cuentas  ¿Y sabes qué? Pocos euros por persona, muchas personas... y la suma puede crecer.
+[08] // 04 · el giro  Pero ojo: en algunas apps el pago es tu atención. O, según la política de cada una, tus datos.
+[09] // 04 · aplícalo hoy  Leo mira su móvil. Ya no ve solo una app gratis. Ve un negocio.
+[10] // 04 · aplícalo hoy  Antes de instalar, puedes preguntarte: ¿cómo gana dinero esto? Ayuda a entender el negocio.
+[11] // 05 · tu turno  Tu turno. ¿Cómo se financia una app gratis? A, publicidad. B, compras dentro. C, datos.
+[12]   Esto ha sido Finroots. El dinero, desde la raíz.

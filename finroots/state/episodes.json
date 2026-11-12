@@ -559,5 +559,35 @@
       "status": "SEND_TO_USER_INBOX",
       "post_ids": null
     }
+  },
+  {
+    "number": 19,
+    "slug": "quien-paga-la-app-gratis",
+    "title": "¿Quién paga la app que dices que es gratis?",
+    "topic": "Cómo gana dinero una app que se descarga gratis",
+    "core_idea": "Una app gratuita se financia con publicidad, compras dentro de la app o suscripciones de pago. Si no pagas con dinero, muchas veces el negocio se paga de otra forma.",
+    "characters": [
+      "Leo"
+    ],
+    "objects": [
+      "cards",
+      "counter",
+      "display",
+      "levers",
+      "logo",
+      "options",
+      "phone",
+      "snowball"
+    ],
+    "question": "A) Con publicidad / B) Con compras dentro de la app / C) Con los datos de quien la usa",
+    "status": "sent_to_inbox",
+    "duration": 62.245,
+    "published_at": "2026-11-12T22:01:37.081708Z",
+    "tiktok": {
+      "publish_id": "v_inbox_file~v2.7707408388077963277",
+      "mode": "draft",
+      "status": "SEND_TO_USER_INBOX",
+      "post_ids": null
+    }
   }
 ]

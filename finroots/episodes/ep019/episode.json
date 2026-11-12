@@ -1,0 +1,262 @@
+{
+ "number": 19,
+ "format": "como_funciona",
+ "slug": "quien-paga-la-app-gratis",
+ "title": "¿Quién paga la app que dices que es gratis?",
+ "topic": "Cómo gana dinero una app que se descarga gratis",
+ "core_idea": "Una app gratuita se financia con publicidad, compras dentro de la app o suscripciones de pago. Si no pagas con dinero, muchas veces el negocio se paga de otra forma.",
+ "series": "Finanzas en 1 minuto",
+ "characters": [
+  "Leo"
+ ],
+ "keywords": [
+  "gratis",
+  "publicidad",
+  "suscrip",
+  "usuarios",
+  "ilustrativa",
+  "datos"
+ ],
+ "scenes": [
+  {
+   "type": "display",
+   "chapter": "",
+   "sfx": "hit",
+   "voice": "¿Quién paga la app que dices que es gratis?",
+   "params": {
+    "lines": [
+     {
+      "text": "¿QUIÉN PAGA",
+      "color": "co"
+     },
+     {
+      "text": "LA APP"
+     },
+     {
+      "text": "GRATIS?",
+      "color": "bl"
+     }
+    ],
+    "size": "xl"
+   }
+  },
+  {
+   "type": "phone",
+   "chapter": "// 01 · el problema",
+   "sfx": "pop",
+   "voice": "Leo descarga un juego gratis. Cero euros. Y se pregunta: ¿de qué vive esta empresa?",
+   "params": {
+    "name": "Leo",
+    "label": "Juego gratis",
+    "balance_steps": [
+     [
+      0,
+      1200
+     ]
+    ],
+    "notifications": [
+     {
+      "title": "Descarga completada",
+      "body": "Juego gratis · 0 €",
+      "at": 1.5
+     }
+    ],
+    "note": "Saldo ilustrativo; solo ambienta la escena"
+   }
+  },
+  {
+   "type": "cards",
+   "chapter": "// 02 · tres vías",
+   "sfx": "deal",
+   "voice": "Spoiler: gratis para ti no significa gratis para ellos. Tienen tres formas de ganar dinero.",
+   "params": {
+    "cards": [
+     {
+      "label": "Publicidad",
+      "icon": "chart",
+      "lit": true
+     },
+     {
+      "label": "Compras en la app",
+      "icon": "bag"
+     },
+     {
+      "label": "Suscripción",
+      "icon": "card"
+     }
+    ]
+   }
+  },
+  {
+   "type": "levers",
+   "chapter": "// 02 · tres vías",
+   "sfx": "tick",
+   "voice": "Publicidad, compras dentro de la app o suscripción de pago. Cada una es una palanca.",
+   "params": {
+    "title": "Palancas de ingresos",
+    "levers": [
+     {
+      "label": "Publicidad",
+      "from": 30,
+      "to": 60
+     },
+     {
+      "label": "Compras dentro de la app",
+      "from": 30,
+      "to": 60
+     },
+     {
+      "label": "Suscripción",
+      "from": 30,
+      "to": 60
+     }
+    ],
+    "note": "Esquema ilustrativo: no representa ningún reparto real de ingresos"
+   }
+  },
+  {
+   "type": "display",
+   "chapter": "// 03 · la idea",
+   "sfx": "hit2",
+   "voice": "Si no pagas con dinero... muchas veces alguien paga de otra forma.",
+   "params": {
+    "lines": [
+     {
+      "text": "GRATIS",
+      "color": "bl"
+     },
+     {
+      "text": "SUELE TENER"
+     },
+     {
+      "text": "UN PRECIO",
+      "color": "co"
+     }
+    ],
+    "size": "xl"
+   }
+  },
+  {
+   "type": "counter",
+   "chapter": "// 03 · las cuentas",
+   "sfx": "rise",
+   "voice": "Imagina, con cifras ilustrativas, 1.000.000 de usuarios. Cada uno deja 2 € al año. Total: 2.000.000 €... Ilustrativa.",
+   "params": {
+    "label": "Ingresos al año · ilustrativa",
+    "from": 0,
+    "to": 2000000,
+    "suffix": " €",
+    "color": "co",
+    "sub": "1.000.000 usuarios × 2 € al año",
+    "note": "Hipótesis ilustrativa, no describe ninguna app real: 1.000.000 usuarios × 2 €/año. Cifra inventada; sin capital, tipo de interés ni plazo adicional"
+   }
+  },
+  {
+   "type": "snowball",
+   "chapter": "// 03 · las cuentas",
+   "sfx": "whoosh",
+   "voice": "¿Y sabes qué? Pocos euros por persona, muchas personas... y la suma puede crecer.",
+   "params": {
+    "start_label": "Pocos usuarios",
+    "end_label": "Muchos usuarios",
+    "dur": 5,
+    "note": "Esquema ilustrativo, sin cifras adicionales"
+   }
+  },
+  {
+   "type": "cards",
+   "chapter": "// 04 · el giro",
+   "sfx": "deal",
+   "voice": "Pero ojo: en algunas apps el pago es tu atención. O, según la política de cada una, tus datos.",
+   "params": {
+    "cards": [
+     {
+      "label": "Tu atención",
+      "icon": "clock",
+      "lit": true
+     },
+     {
+      "label": "Tus datos",
+      "icon": "coin"
+     }
+    ],
+    "question": "¿Qué pagas sin darte cuenta?",
+    "question_at": 2.5
+   }
+  },
+  {
+   "type": "phone",
+   "chapter": "// 04 · aplícalo hoy",
+   "sfx": "ding",
+   "voice": "Leo mira su móvil. Ya no ve solo una app gratis. Ve un negocio.",
+   "params": {
+    "name": "Leo",
+    "label": "Juego gratis",
+    "balance_steps": [
+     [
+      0,
+      1200
+     ]
+    ],
+    "notifications": [
+     {
+      "title": "Anuncio",
+      "body": "Patrocinado",
+      "at": 1.5
+     },
+     {
+      "title": "Oferta",
+      "body": "Mejora a la versión de pago",
+      "at": 3
+     }
+    ],
+    "note": "Saldo ilustrativo; solo ambienta la escena"
+   }
+  },
+  {
+   "type": "display",
+   "chapter": "// 04 · aplícalo hoy",
+   "sfx": "hit",
+   "voice": "Antes de instalar, puedes preguntarte: ¿cómo gana dinero esto? Ayuda a entender el negocio.",
+   "params": {
+    "lines": [
+     {
+      "text": "¿CÓMO GANA",
+      "color": "bl"
+     },
+     {
+      "text": "DINERO"
+     },
+     {
+      "text": "ESTO?",
+      "color": "co"
+     }
+    ],
+    "size": "xl"
+   }
+  },
+  {
+   "type": "options",
+   "chapter": "// 05 · tu turno",
+   "sfx": "pop",
+   "voice": "Tu turno. ¿Cómo se financia una app gratis? A, publicidad. B, compras dentro. C, datos.",
+   "params": {
+    "options": [
+     "A) Con publicidad",
+     "B) Con compras dentro de la app",
+     "C) Con los datos de quien la usa"
+    ],
+    "disclaimer": "Contenido educativo. No es asesoramiento financiero ni recomendación de inversión. Invertir conlleva riesgos. Cifras ilustrativas. Vídeo creado con ayuda de IA."
+   }
+  },
+  {
+   "type": "logo",
+   "chapter": "",
+   "sfx": "cling",
+   "voice": "Esto ha sido Finroots. El dinero, desde la raíz.",
+   "params": {
+    "next": "¿Qué pasa con tus datos cuando aceptas los términos sin leerlos?"
+   }
+  }
+ ]
+}
