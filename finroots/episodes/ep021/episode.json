@@ -1,0 +1,264 @@
+{
+ "number": 21,
+ "format": "mito",
+ "slug": "ya-es-tarde-para-entrar",
+ "title": "Tras una gran subida, ¿ya es tarde para entrar?",
+ "topic": "Si el mercado ya subió mucho, ya es tarde para entrar",
+ "core_idea": "Que un índice haya subido mucho no dice por sí solo si conviene comprar o esperar. El precio pasado no garantiza nada futuro, y lo que pesa es el plan y el horizonte de cada persona. Hipótesis ilustrativa: capital no aplica; índice A de 100 a 150 (+50 %) en 2 años; índice B plano en 100; precio puro, sin dividendos ni comisiones; tipo de interés no aplica; no es una previsión.",
+ "series": "Finanzas en 1 minuto",
+ "characters": [
+  "Leo",
+  "Tío Ramón"
+ ],
+ "keywords": [
+  "subid",
+  "tarde",
+  "pasado",
+  "plan",
+  "horizonte",
+  "ilustrativ"
+ ],
+ "scenes": [
+  {
+   "type": "display",
+   "chapter": "",
+   "sfx": "hit",
+   "voice": "Tras una gran subida, ¿ya es tarde para entrar?",
+   "params": {
+    "lines": [
+     {
+      "text": "¿YA ES TARDE",
+      "color": "co",
+      "at": 0.2
+     },
+     {
+      "text": "PARA ENTRAR?",
+      "at": 1.4
+     }
+    ],
+    "size": "xl"
+   }
+  },
+  {
+   "type": "phone",
+   "chapter": "// 01 · el problema",
+   "sfx": "ding",
+   "voice": "Leo lo oyó en el piso: ya ha subido demasiado. Spoiler: nadie puede asegurarlo.",
+   "params": {
+    "name": "Leo",
+    "label": "Chat del piso",
+    "balance_steps": [
+     [
+      0,
+      0
+     ]
+    ],
+    "notifications": [
+     {
+      "title": "Chat del piso",
+      "body": "Ya ha subido demasiado, es tarde.",
+      "at": 1.0
+     }
+    ],
+    "side": {
+     "label": "Opinión",
+     "value": "Sin datos",
+     "tone": "am",
+     "at": 3.0
+    },
+    "note": "Escena ambiental; el saldo 0 no representa ninguna cifra."
+   }
+  },
+  {
+   "type": "display",
+   "chapter": "// 02 · el mito",
+   "sfx": "whoosh",
+   "voice": "Mito: si ha subido mucho, ya es tarde.",
+   "params": {
+    "lines": [
+     {
+      "text": "MITO:",
+      "color": "co",
+      "at": 0.2
+     },
+     {
+      "text": "SI SUBIÓ MUCHO,",
+      "at": 1.0
+     },
+     {
+      "text": "YA ES TARDE",
+      "at": 2.0
+     }
+    ],
+    "size": "xl"
+   }
+  },
+  {
+   "type": "counter",
+   "chapter": "// 02 · el mito",
+   "sfx": "rise",
+   "voice": "Imagina un índice que pasa de 100 a 150 en 2 años. Un 50 % más. Cifras ilustrativas...",
+   "params": {
+    "label": "Índice A en 2 años",
+    "from": 100,
+    "to": 150,
+    "suffix": " puntos",
+    "color": "bl",
+    "sub": "+50 % en 2 años · ilustrativo",
+    "note": "Cifras ilustrativas. Hipótesis: capital no aplica; índice A de 100 a 150 (+50 %) en 2 años; precio puro, sin dividendos ni comisiones; tipo de interés no aplica. No es una previsión."
+   }
+  },
+  {
+   "type": "piggies",
+   "chapter": "// 03 · la comparación",
+   "sfx": "tick",
+   "voice": "Otro índice lleva esos 2 años plano, en 100. Ninguno garantiza nada. Cifras ilustrativas...",
+   "params": {
+    "pigs": [
+     {
+      "name": "Índice A",
+      "tag": "Sube",
+      "sub": "2 años · ilustrativo",
+      "fill": 1,
+      "from": 100,
+      "to": 150,
+      "suffix": " pts",
+      "at": 0.5,
+      "dur": 3
+     },
+     {
+      "name": "Índice B",
+      "tag": "Sin cambio · sin crecimiento",
+      "sub": "2 años · ilustrativo",
+      "fill": 0.67,
+      "from": 100,
+      "to": 100,
+      "suffix": " pts",
+      "at": 0.5,
+      "dur": 3
+     }
+    ],
+    "note": "Cifras ilustrativas. Hipótesis: capital no aplica; huchas proporcionales al valor final del índice (100/150). Índice A de 100 a 150 e índice B plano en 100 durante 2 años; precio puro, sin dividendos ni comisiones; tipo de interés no aplica. No es una previsión."
+   }
+  },
+  {
+   "type": "cards",
+   "chapter": "// 03 · la comparación",
+   "sfx": "deal",
+   "voice": "Pero ojo: el gráfico cuenta lo que pasó. No lo que pasará.",
+   "params": {
+    "cards": [
+     {
+      "label": "Lo que pasó",
+      "icon": "clock",
+      "lit": true
+     },
+     {
+      "label": "Lo que pasará: incierto",
+      "icon": "shield"
+     }
+    ],
+    "question": "Una ya ocurrió. La otra, no.",
+    "question_at": 2.5
+   }
+  },
+  {
+   "type": "snowball",
+   "chapter": "// 03 · la comparación",
+   "sfx": "rise",
+   "voice": "¿Y por qué a veces se cree que no parará? Puede pasar que ver subir anime a imitar. Es un sesgo conocido.",
+   "params": {
+    "start_label": "Sube un poco",
+    "end_label": "Más gente se anima a entrar",
+    "dur": 5,
+    "note": "Escena conceptual, sin cifras."
+   }
+  },
+  {
+   "type": "levers",
+   "chapter": "// 04 · lo que sí pesa",
+   "sfx": "tick",
+   "voice": "Tío Ramón le preguntó a Leo: ¿para cuándo es ese dinero? Plazo, riesgo que aguantas y cuánto aportas... eso importa en tu plan.",
+   "params": {
+    "title": "Tu plan · conceptual",
+    "levers": [
+     {
+      "label": "Plazo",
+      "from": 50,
+      "to": 50
+     },
+     {
+      "label": "Riesgo que aguantas",
+      "from": 50,
+      "to": 50
+     },
+     {
+      "label": "Cuánto aportas",
+      "from": 50,
+      "to": 50
+     }
+    ],
+    "note": "Los deslizadores son conceptuales, sin valores ni cifras, y no sugieren ningún ajuste recomendado."
+   }
+  },
+  {
+   "type": "drawer",
+   "chapter": "// 04 · lo que sí pesa",
+   "sfx": "cling",
+   "voice": "Hay quien aporta un importe fijo cada mes. Suaviza el momento de entrada, pero no elimina el riesgo ni garantiza resultados. Cifra ilustrativa...",
+   "params": {
+    "amount": 100,
+    "currency": "€",
+    "note": "Cifra ilustrativa. 100 € al mes solo como ejemplo de importe fijo; capital, plazo y tipo no aplican; sin rentabilidad asumida. No es una recomendación."
+   }
+  },
+  {
+   "type": "display",
+   "chapter": "// 04 · lo que sí pesa",
+   "sfx": "hit2",
+   "voice": "El pasado no garantiza nada. Ni para bien, ni para mal.",
+   "params": {
+    "lines": [
+     {
+      "text": "EL PASADO",
+      "at": 0.2
+     },
+     {
+      "text": "NO GARANTIZA",
+      "color": "co",
+      "at": 1.2
+     },
+     {
+      "text": "NADA",
+      "color": "co",
+      "at": 2.2
+     }
+    ],
+    "size": "xl"
+   }
+  },
+  {
+   "type": "options",
+   "chapter": "// 05 · tu turno",
+   "sfx": "pop",
+   "voice": "Tu turno. Tras una gran subida: ¿prefieres esperar, te fijas en tu plan, o no decides solo por lo que subió?",
+   "params": {
+    "options": [
+     "A) Tras una gran subida prefiero esperar",
+     "B) Me fijo en mi plan y mi horizonte",
+     "C) Prefiero no decidir solo por lo que subió"
+    ],
+    "disclaimer": "Contenido educativo. No es asesoramiento financiero ni recomendación de inversión. Invertir conlleva riesgos. Cifras ilustrativas. Vídeo creado con ayuda de IA."
+   }
+  },
+  {
+   "type": "logo",
+   "chapter": "",
+   "sfx": "ding",
+   "voice": "Esto ha sido Finroots. El dinero, desde la raíz.",
+   "params": {
+    "next": "¿Qué pasa cuando un anuncio dice que algo 'siempre sube'?"
+   }
+  }
+ ]
+}

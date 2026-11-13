@@ -1,0 +1,276 @@
+{
+ "number": 20,
+ "format": "historia_dinero",
+ "slug": "bolsa-1929-subida-sin-fin",
+ "title": "En 1929, muchos inversores creyeron que la subida seguiría.",
+ "hook_type": "afirmacion",
+ "topic": "La Bolsa de 1929: cuando la subida parecía no tener fin",
+ "core_idea": "Antes de 1929 muchos inversores esperaban que las acciones siguieran subiendo, y parte de la compra era por imitación. La caída posterior fue mucho más profunda de lo que se esperaba. Una subida, por sí sola, no es una razón.",
+ "series": "Finanzas en 1 minuto",
+ "characters": [],
+ "keywords": [
+  "subida",
+  "1929",
+  "caída",
+  "preguntas",
+  "ilustrativa",
+  "dudas"
+ ],
+ "scenes": [
+  {
+   "type": "display",
+   "chapter": "",
+   "sfx": "hit",
+   "voice": "En 1929, muchos inversores creyeron que la subida seguiría.",
+   "params": {
+    "lines": [
+     {
+      "text": "En 1929, la subida"
+     },
+     {
+      "text": "seguiría",
+      "color": "co",
+      "at": 2.5
+     }
+    ],
+    "size": "xl"
+   }
+  },
+  {
+   "type": "calendar",
+   "chapter": "// 01 · el contexto",
+   "sfx": "tick",
+   "voice": "A finales de los años 20, muchos inversores esperaban que las acciones siguieran subiendo. Pasaban los años... y subían.",
+   "params": {
+    "label": "Años 20",
+    "from": 1925,
+    "to": 1929,
+    "sub": "Las acciones suben",
+    "at": 0.5,
+    "dur": 4,
+    "note": "Contexto histórico general"
+   }
+  },
+  {
+   "type": "chart",
+   "chapter": "// 02 · la subida",
+   "sfx": "rise",
+   "voice": "Imagina un índice en 100 que sube a 200. Un +100 %. Ilustrativo...",
+   "params": {
+    "series": [
+     {
+      "name": "Índice ilustrativo",
+      "points": [
+       100,
+       125,
+       160,
+       200
+      ],
+      "color": "bl",
+      "end": 200,
+      "suffix": " pts"
+     }
+    ],
+    "x_labels": [
+     "Inicio",
+     "",
+     "",
+     "Pico"
+    ],
+    "at": 0.5,
+    "dur": 4,
+    "note": "Ilustrativo, no histórico. Capital: no aplica (índice base 100). Plazo: sin plazo. Tipo de interés: no aplica. Precio puro, sin dividendos ni comisiones. No es una previsión."
+   }
+  },
+  {
+   "type": "coins",
+   "chapter": "// 03 · lo que se siente",
+   "sfx": "coins",
+   "voice": "Quien compró en 100 ve su inversión duplicada en el papel. Quien entra en 200 y ve 100 pierde la mitad. Ilustrativo...",
+   "params": {
+    "towers": [
+     {
+      "label": "Índice inicial",
+      "coins": 5,
+      "value": 100,
+      "color": "bl",
+      "suffix": " pts"
+     },
+     {
+      "label": "Índice en el pico",
+      "coins": 10,
+      "value": 200,
+      "suffix": " pts"
+     },
+     {
+      "label": "Índice tras la caída",
+      "coins": 5,
+      "value": 100,
+      "color": "co",
+      "suffix": " pts"
+     }
+    ],
+    "note": "Ilustrativo, no histórico: índice 100 → 200 (+100 %) → 100 (−50 % desde 200). Quien compra en 200 y vende en 100 pierde el 50 %. Capital: no aplica (índice base 100). Plazo: sin plazo. Tipo de interés: no aplica. Precio puro, sin dividendos ni comisiones. No es una previsión."
+   }
+  },
+  {
+   "type": "display",
+   "chapter": "// 04 · el giro",
+   "sfx": "hit2",
+   "voice": "Spoiler: parte de la compra era por imitación.",
+   "params": {
+    "lines": [
+     {
+      "text": "¿Por qué sube?"
+     },
+     {
+      "text": "Porque otros compran",
+      "color": "co",
+      "at": 1.8
+     }
+    ],
+    "size": "xl"
+   }
+  },
+  {
+   "type": "calendar",
+   "chapter": "// 05 · la caída",
+   "sfx": "whoosh",
+   "voice": "Entre 1929 y 1932, el mercado cayó con fuerza.",
+   "params": {
+    "label": "Después del pico",
+    "from": 1929,
+    "to": 1932,
+    "sub": "Del máximo al mínimo",
+    "at": 0.5,
+    "dur": 4,
+    "note": "Contexto histórico: máximo en septiembre de 1929, mínimo en julio de 1932. La caída no fue continua: hubo repuntes intermedios."
+   }
+  },
+  {
+   "type": "chart",
+   "chapter": "// 06 · el dato",
+   "sfx": "deflate",
+   "voice": "El Dow Jones cayó en torno a un 89 % del máximo al mínimo. Dato aproximado...",
+   "params": {
+    "series": [
+     {
+      "name": "Dow Jones (aprox., base 100)",
+      "points": [
+       100,
+       11
+      ],
+      "color": "co",
+      "end": 11,
+      "suffix": ""
+     }
+    ],
+    "x_labels": [
+     "1929",
+     "1932"
+    ],
+    "at": 0.5,
+    "dur": 4,
+    "note": "Dato histórico aproximado (Dow Jones, máximo ≈381 en sept. 1929, mínimo ≈41 en jul. 1932; fuente: series históricas del índice; en torno al 89 %). Gráfica simplificada en base 100, solo precio, sin dividendos. No es una previsión."
+   }
+  },
+  {
+   "type": "levers",
+   "chapter": "// 07 · las pistas",
+   "sfx": "tick",
+   "voice": "Pero ojo: no hay señal mágica. Solo preguntas útiles. ¿Sube muy rápido? ¿Alguien lo explica? ¿Entra todo el mundo?",
+   "params": {
+    "title": "Preguntas, no un indicador",
+    "levers": [
+     {
+      "label": "¿Sube muy rápido?",
+      "from": 20,
+      "to": 80
+     },
+     {
+      "label": "¿Alguien lo explica?",
+      "from": 20,
+      "to": 80
+     },
+     {
+      "label": "¿Entra todo el mundo?",
+      "from": 20,
+      "to": 80
+     }
+    ],
+    "note": "Ilustración visual, no mide nada ni es una señal de compra o venta."
+   }
+  },
+  {
+   "type": "display",
+   "chapter": "// 08 · la idea",
+   "sfx": "hit",
+   "voice": "Una subida no es una razón por sí sola. ¿Y sabes qué? Un precio alto, por sí solo, no prueba que algo valga más.",
+   "params": {
+    "lines": [
+     {
+      "text": "Subir"
+     },
+     {
+      "text": "no es una razón",
+      "color": "co",
+      "at": 1.5
+     },
+     {
+      "text": "por sí sola",
+      "color": "bl",
+      "at": 3
+     }
+    ],
+    "size": "xl"
+   }
+  },
+  {
+   "type": "cards",
+   "chapter": "// 09 · tres preguntas",
+   "sfx": "deal",
+   "voice": "Algunas preguntas útiles: ¿qué hay detrás? ¿Cuánto podría caer? ¿Es miedo a quedarse fuera?",
+   "params": {
+    "cards": [
+     {
+      "label": "¿Qué hay detrás?",
+      "icon": "scale",
+      "lit": true
+     },
+     {
+      "label": "¿Cuánto podría caer?",
+      "icon": "shield"
+     },
+     {
+      "label": "¿Es miedo a quedarse fuera?",
+      "icon": "clock"
+     }
+    ],
+    "note": "Preguntas generales de reflexión, no recomendación."
+   }
+  },
+  {
+   "type": "options",
+   "chapter": "// 10 · tu turno",
+   "sfx": "ding",
+   "voice": "Tu turno. ¿Qué te haría dudar de una subida muy rápida? A, B o C... Cuéntalo en comentarios.",
+   "params": {
+    "options": [
+     "A) Que suba demasiado rápido",
+     "B) Que nadie explique por qué",
+     "C) No lo sé, depende"
+    ],
+    "disclaimer": "Contenido educativo. No es asesoramiento financiero ni recomendación de inversión. Invertir conlleva riesgos. Cifras ilustrativas. Vídeo creado con ayuda de IA."
+   }
+  },
+  {
+   "type": "logo",
+   "chapter": "",
+   "sfx": "cling",
+   "voice": "Esto ha sido Finroots. El dinero, desde la raíz.",
+   "params": {
+    "next": "¿Qué pasa con tus datos cuando aceptas los términos sin leerlos?"
+   }
+  }
+ ]
+}

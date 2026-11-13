@@ -1,0 +1,12 @@
+[01]   En 1929, muchos inversores creyeron que la subida seguiría.
+[02] // 01 · el contexto  A finales de los años 20, muchos inversores esperaban que las acciones siguieran subiendo. Pasaban los años... y subían.
+[03] // 02 · la subida  Imagina un índice en 100 que sube a 200. Un +100 %. Ilustrativo...
+[04] // 03 · lo que se siente  Quien compró en 100 ve su inversión duplicada en el papel. Quien entra en 200 y ve 100 pierde la mitad. Ilustrativo...
+[05] // 04 · el giro  Spoiler: parte de la compra era por imitación.
+[06] // 05 · la caída  Entre 1929 y 1932, el mercado cayó con fuerza.
+[07] // 06 · el dato  El Dow Jones cayó en torno a un 89 % del máximo al mínimo. Dato aproximado...
+[08] // 07 · las pistas  Pero ojo: no hay señal mágica. Solo preguntas útiles. ¿Sube muy rápido? ¿Alguien lo explica? ¿Entra todo el mundo?
+[09] // 08 · la idea  Una subida no es una razón por sí sola. ¿Y sabes qué? Un precio alto, por sí solo, no prueba que algo valga más.
+[10] // 09 · tres preguntas  Algunas preguntas útiles: ¿qué hay detrás? ¿Cuánto podría caer? ¿Es miedo a quedarse fuera?
+[11] // 10 · tu turno  Tu turno. ¿Qué te haría dudar de una subida muy rápida? A, B o C... Cuéntalo en comentarios.
+[12]   Esto ha sido Finroots. El dinero, desde la raíz.

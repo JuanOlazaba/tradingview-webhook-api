@@ -105,5 +105,18 @@
   "created": "2026-11-11 17:27 UTC",
   "issue": 21,
   "url": "https://github.com/JuanOlazaba/tradingview-webhook-api/issues/21"
+ },
+ {
+  "id": 10,
+  "title": "Coste mensual de APIs y umbral para voz premium",
+  "body": "Necesitamos (1) el coste mensual real actual de Anthropic y TikTok para calcular el coste por vídeo y por plantilla enviada, y (2) el umbral de audiencia que desbloquea la voz premium y cualquier herramienta de pago. Opción recomendada para (2): seguidores y media de vistas de los objetivos ya fijados (100 seguidores y 150 vistas de media), sostenidos durante 4 semanas. Coste: 0 € (solo nos dais datos y una decisión). Riesgo: si no se confirma el coste, el cálculo por vídeo queda incompleto y la previsión se retrasa. Si dice que no: seguimos sin herramientas de pago y calculamos el coste solo con las facturas que podamos reconstruir, marcándolo como incompleto.",
+  "by": "CEO (Finanzas y costes)",
+  "status": "pending",
+  "apply_on_yes": {
+   "decision": "Umbral de audiencia para voz premium y herramientas de pago fijado por el dueño; hasta entonces, coste 0 €."
+  },
+  "created": "2026-11-13 17:27 UTC",
+  "issue": 22,
+  "url": "https://github.com/JuanOlazaba/tradingview-webhook-api/issues/22"
  }
 ]

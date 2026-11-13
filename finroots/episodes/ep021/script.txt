@@ -1,0 +1,12 @@
+[01]   Tras una gran subida, ¿ya es tarde para entrar?
+[02] // 01 · el problema  Leo lo oyó en el piso: ya ha subido demasiado. Spoiler: nadie puede asegurarlo.
+[03] // 02 · el mito  Mito: si ha subido mucho, ya es tarde.
+[04] // 02 · el mito  Imagina un índice que pasa de 100 a 150 en 2 años. Un 50 % más. Cifras ilustrativas...
+[05] // 03 · la comparación  Otro índice lleva esos 2 años plano, en 100. Ninguno garantiza nada. Cifras ilustrativas...
+[06] // 03 · la comparación  Pero ojo: el gráfico cuenta lo que pasó. No lo que pasará.
+[07] // 03 · la comparación  ¿Y por qué a veces se cree que no parará? Puede pasar que ver subir anime a imitar. Es un sesgo conocido.
+[08] // 04 · lo que sí pesa  Tío Ramón le preguntó a Leo: ¿para cuándo es ese dinero? Plazo, riesgo que aguantas y cuánto aportas... eso importa en tu plan.
+[09] // 04 · lo que sí pesa  Hay quien aporta un importe fijo cada mes. Suaviza el momento de entrada, pero no elimina el riesgo ni garantiza resultados. Cifra ilustrativa...
+[10] // 04 · lo que sí pesa  El pasado no garantiza nada. Ni para bien, ni para mal.
+[11] // 05 · tu turno  Tu turno. Tras una gran subida: ¿prefieres esperar, te fijas en tu plan, o no decides solo por lo que subió?
+[12]   Esto ha sido Finroots. El dinero, desde la raíz.
