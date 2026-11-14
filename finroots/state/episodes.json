@@ -681,5 +681,37 @@
       "status": "SEND_TO_USER_INBOX",
       "post_ids": null
     }
+  },
+  {
+    "number": 23,
+    "slug": "comision-pequena-gran-efecto",
+    "title": "¿Una comisión del 1 % te quita 10.785 €? Ilustrativo.",
+    "topic": "La comisión que parece pequeña y se come un cuarto de tu inversión",
+    "core_idea": "Una comisión anual de apariencia pequeña, restada cada año, puede reducir de forma notable el capital final de una inversión a largo plazo.",
+    "characters": [
+      "Lucía"
+    ],
+    "objects": [
+      "calendar",
+      "cards",
+      "chart",
+      "counter",
+      "display",
+      "drawer",
+      "logo",
+      "options",
+      "piggies",
+      "snowball"
+    ],
+    "question": "A) Lo que se resta cada año / B) Lo que se acumula en 30 años / C) Ya lo sabía",
+    "status": "sent_to_inbox",
+    "duration": 68.278,
+    "published_at": "2026-11-14T23:31:05.644625Z",
+    "tiktok": {
+      "publish_id": "v_inbox_file~v2.7708173552503212045",
+      "mode": "draft",
+      "status": "SEND_TO_USER_INBOX",
+      "post_ids": null
+    }
   }
 ]

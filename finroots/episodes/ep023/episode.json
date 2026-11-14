@@ -1,0 +1,276 @@
+{
+ "number": 23,
+ "format": "sabias_que",
+ "slug": "comision-pequena-gran-efecto",
+ "title": "¿Una comisión del 1 % te quita 10.785 €? Ilustrativo.",
+ "topic": "La comisión que parece pequeña y se come un cuarto de tu inversión",
+ "core_idea": "Una comisión anual de apariencia pequeña, restada cada año, puede reducir de forma notable el capital final de una inversión a largo plazo.",
+ "series": "Finanzas en 1 minuto",
+ "characters": [
+  "Lucía"
+ ],
+ "keywords": [
+  "comisi",
+  "10.785",
+  "ilustrativ",
+  "años",
+  "neto",
+  "acumul"
+ ],
+ "scenes": [
+  {
+   "type": "display",
+   "chapter": "",
+   "sfx": "hit",
+   "voice": "¿Una comisión del 1 % te quita 10.785 €? Ilustrativo...",
+   "params": {
+    "lines": [
+     {
+      "text": "¿1 % de comisión?",
+      "at": 0
+     },
+     {
+      "text": "10.785 €",
+      "color": "co",
+      "at": 1.5
+     }
+    ],
+    "size": "xl",
+    "pills": [
+     {
+      "text": "Cifra ilustrativa",
+      "dark": true
+     }
+    ],
+    "note": "Hipótesis ilustrativa: 10.000 €, 30 años, 5 % bruto, 1 % de comisión. No es una previsión."
+   }
+  },
+  {
+   "type": "drawer",
+   "chapter": "// 01 · el problema",
+   "sfx": "thud",
+   "voice": "Lucía revisa su dinero invertido. Y ve que algo se descuenta cada año.",
+   "params": {
+    "amount": 10000,
+    "currency": "€",
+    "note": "Capital ilustrativo de 10.000 €, sin referencia a ningún producto."
+   }
+  },
+  {
+   "type": "counter",
+   "chapter": "// 01 · el problema",
+   "sfx": "tick",
+   "voice": "Es solo un 1 %. ¿Quién se fija en eso?",
+   "params": {
+    "label": "Comisión anual",
+    "from": 0,
+    "to": 1,
+    "suffix": " %",
+    "decimals": 0,
+    "color": "am",
+    "sub": "Parece poco",
+    "note": "Comisión ilustrativa del 1 % anual."
+   }
+  },
+  {
+   "type": "display",
+   "chapter": "// 02 · el giro",
+   "sfx": "whoosh",
+   "voice": "Pero ojo: se resta cada año. Y se acumula.",
+   "params": {
+    "lines": [
+     {
+      "text": "Se resta",
+      "at": 0
+     },
+     {
+      "text": "cada año",
+      "color": "co",
+      "at": 1.2
+     }
+    ],
+    "size": "xl"
+   }
+  },
+  {
+   "type": "calendar",
+   "chapter": "// 02 · la hipótesis",
+   "sfx": "tick",
+   "voice": "Hipótesis ilustrativa: 10.000 €, 30 años, un 5 % anual constante. Sin impuestos ni aportaciones. No es una previsión.",
+   "params": {
+    "label": "Años",
+    "from": 0,
+    "to": 30,
+    "sub": "10.000 € · 5 % bruto · sin impuestos ni aportaciones",
+    "at": 0.5,
+    "dur": 5,
+    "note": "Hipótesis ilustrativa: capital 10.000 €, 30 años, 5 % anual constante. No es una previsión."
+   }
+  },
+  {
+   "type": "counter",
+   "chapter": "// 03 · sin comisión",
+   "sfx": "rise",
+   "voice": "Sin comisión, 10.000 € llegan a 43.219 €... ilustrativo.",
+   "params": {
+    "label": "Sin comisión (5 % anual)",
+    "from": 10000,
+    "to": 43219,
+    "color": "bl",
+    "sub": "10.000 × 1,05^30",
+    "note": "Cifra ilustrativa. Hipótesis: 10.000 €, 30 años, 5 % anual, sin impuestos ni aportaciones."
+   }
+  },
+  {
+   "type": "chart",
+   "chapter": "// 03 · con comisión",
+   "sfx": "rise",
+   "voice": "Con un 1 % de comisión, el rendimiento neto baja al 4 %. Mira cómo se separan las líneas.",
+   "params": {
+    "series": [
+     {
+      "name": "Sin comisión (5 %)",
+      "points": [
+       10000,
+       16289,
+       26533,
+       43219
+      ],
+      "color": "bl",
+      "end": 43219,
+      "suffix": " €"
+     },
+     {
+      "name": "Con comisión (4 % neto)",
+      "points": [
+       10000,
+       14802,
+       21911,
+       32434
+      ],
+      "color": "co",
+      "end": 32434,
+      "suffix": " €"
+     }
+    ],
+    "x_labels": [
+     "Año 0",
+     "Año 10",
+     "Año 20",
+     "Año 30"
+    ],
+    "at": 0.5,
+    "dur": 6,
+    "note": "Cifras ilustrativas. Hipótesis: 10.000 €, 30 años, 5 % bruto, 1 % de comisión. No es una previsión."
+   }
+  },
+  {
+   "type": "piggies",
+   "chapter": "// 03 · comparación",
+   "sfx": "coins",
+   "voice": "Con comisión, terminas en 32.434 €. Ilustrativo... Sin ella, en 43.219 €.",
+   "params": {
+    "pigs": [
+     {
+      "name": "Sin comisión",
+      "tag": "5 % anual",
+      "sub": "Ilustrativo",
+      "fill": 1,
+      "from": 10000,
+      "to": 43219,
+      "suffix": " €",
+      "at": 0.5,
+      "dur": 4
+     },
+     {
+      "name": "Con comisión",
+      "tag": "4 % neto",
+      "sub": "Ilustrativo",
+      "fill": 0.75,
+      "from": 10000,
+      "to": 32434,
+      "suffix": " €",
+      "at": 0.5,
+      "dur": 4
+     }
+    ],
+    "note": "Cifras ilustrativas: 10.000 €, 30 años, 5 % bruto, comisión del 1 %."
+   }
+  },
+  {
+   "type": "counter",
+   "chapter": "// 03 · la diferencia",
+   "sfx": "hit2",
+   "voice": "¿Y sabes qué? La diferencia es de 10.785 €. Casi un 25 % del total. Ilustrativo...",
+   "params": {
+    "label": "Diferencia tras 30 años",
+    "from": 0,
+    "to": 10785,
+    "color": "co",
+    "sub": "43.219 € − 32.434 €, unos el 25 %",
+    "note": "Cifra ilustrativa. Hipótesis: 10.000 €, 30 años, 5 % bruto, 1 % de comisión."
+   }
+  },
+  {
+   "type": "snowball",
+   "chapter": "// 04 · el efecto",
+   "sfx": "whoosh",
+   "voice": "Es el efecto bola de nieve, pero a la contra. Cada año pesa más.",
+   "params": {
+    "start_label": "1 % al año",
+    "end_label": "Casi un 25 % menos",
+    "dur": 5,
+    "note": "Efecto ilustrativo con la hipótesis del episodio."
+   }
+  },
+  {
+   "type": "cards",
+   "chapter": "// 04 · qué mirar hoy",
+   "sfx": "deal",
+   "voice": "Qué mirar hoy: cuánto cobran al año, qué incluye y durante cuánto tiempo.",
+   "params": {
+    "cards": [
+     {
+      "label": "Comisión anual",
+      "icon": "coin",
+      "lit": true
+     },
+     {
+      "label": "Qué incluye",
+      "icon": "scale"
+     },
+     {
+      "label": "Plazo",
+      "icon": "clock"
+     }
+    ],
+    "question": "Tres cosas que preguntar",
+    "question_at": 2,
+    "note": "Información general, no es una recomendación."
+   }
+  },
+  {
+   "type": "options",
+   "chapter": "// 05 · tu turno",
+   "sfx": "ding",
+   "voice": "Tu turno. ¿Qué te sorprende más de estas cifras?",
+   "params": {
+    "options": [
+     "A) Lo que se resta cada año",
+     "B) Lo que se acumula en 30 años",
+     "C) Ya lo sabía"
+    ],
+    "disclaimer": "Contenido educativo. No es asesoramiento financiero ni recomendación de inversión. Invertir conlleva riesgos. Cifras ilustrativas. Vídeo creado con ayuda de IA."
+   }
+  },
+  {
+   "type": "logo",
+   "chapter": "",
+   "sfx": "cling",
+   "voice": "Esto ha sido Finroots. El dinero, desde la raíz.",
+   "params": {
+    "next": "¿Qué comisiones se esconden en un producto que parece gratis?"
+   }
+  }
+ ]
+}
