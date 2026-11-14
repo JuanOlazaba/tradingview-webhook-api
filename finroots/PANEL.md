@@ -1,5 +1,5 @@
 # Panel de Finroots
-_Actualizado: 2026-11-13 21:40 UTC · se regenera en cada reunión_
+_Actualizado: 2026-11-14 20:14 UTC · se regenera en cada reunión_
 
 ## Necesita tu sí
 - **Incidencia en el episodio 5** — [responder aquí](https://github.com/JuanOlazaba/tradingview-webhook-api/issues/17) · pedido por Operaciones el 2026-11-03 13:13 UTC
@@ -8,13 +8,14 @@ _Actualizado: 2026-11-13 21:40 UTC · se regenera en cada reunión_
 - **Coste mensual de APIs y umbral para voz premium** — [responder aquí](https://github.com/JuanOlazaba/tradingview-webhook-api/issues/22) · pedido por CEO (Finanzas y costes) el 2026-11-13 17:27 UTC
 
 ## Estado
-- Episodios: 21 · en colchón (listos): 0
+- Episodios: 22 · en colchón (listos): 0
 - TikTok: 3 seguidores · 7 me gusta · 3 vídeos
-- Coste de IA: hoy 0.86 $ · este mes 7.75 $ de 20 $ · total 7.75 $
+- Coste de IA: hoy 0.28 $ · este mes 8.03 $ de 20 $ · total 8.03 $
 
 ## Episodios
 | # | Título | Estado |
 |---|---|---|
+| 22 | [Para no pagar envío, añadiste algo. Te salió más caro.](episodes/ep022/script.txt) | en tus borradores de TikTok |
 | 21 | [Tras una gran subida, ¿ya es tarde para entrar?](episodes/ep021/script.txt) | en tus borradores de TikTok |
 | 20 | [En 1929, muchos inversores creyeron que la subida seguiría.](episodes/ep020/script.txt) | en tus borradores de TikTok |
 | 19 | [¿Quién paga la app que dices que es gratis?](episodes/ep019/script.txt) | en tus borradores de TikTok |
@@ -29,9 +30,9 @@ _Actualizado: 2026-11-13 21:40 UTC · se regenera en cada reunión_
 | 10 | [Cae un 50 %: ¿cuánto debe subir?](episodes/ep010/script.txt) | en tus borradores de TikTok |
 | 9 | [Invertir no es la lotería (pero tiene riesgo)](episodes/ep009/script.txt) | en tus borradores de TikTok |
 | 8 | [¿Tus 150 € al mes tienen destino?](episodes/ep008/script.txt) | en tus borradores de TikTok |
-| 7 | [Pagar solo el mínimo le cuesta a Leo 3.470 € extra](episodes/ep007/script.txt) | en tus borradores de TikTok |
 
 ## Últimas reuniones
+- [2026-11-14-ep022](minutes/2026-11-14-ep022.md)
 - [2026-11-13-ep021](minutes/2026-11-13-ep021.md)
 - [2026-11-13-ep021-estudio](minutes/2026-11-13-ep021-estudio.md)
 - [2026-11-13-ep020](minutes/2026-11-13-ep020.md)
@@ -43,9 +44,9 @@ _Actualizado: 2026-11-13 21:40 UTC · se regenera en cada reunión_
 - [2026-11-11-1727-mejora-tecnologia](minutes/2026-11-11-1727-mejora-tecnologia.md)
 - [2026-11-10-ep016](minutes/2026-11-10-ep016.md)
 - [2026-11-10-ep015](minutes/2026-11-10-ep015.md)
-- [2026-11-09-ep015-estudio](minutes/2026-11-09-ep015-estudio.md)
 
 ## Actividad reciente
+- `2026-11-14 20:14 UTC` **publicación** — Ep. 22: Para no pagar envío, añadiste algo. Te salió más caro. · estado: sent_to_inbox
 - `2026-11-13 21:40 UTC` **publicación** — Ep. 21: Tras una gran subida, ¿ya es tarde para entrar? · estado: sent_to_inbox
 - `2026-11-13 17:30 UTC` **episodio** — Ep. 21 escrito y aprobado por Compliance: Tras una gran subida, ¿ya es tarde para entrar?
 - `2026-11-13 17:27 UTC` **reunión** — Finanzas y costes: Sin datos de coste ni ingresos no hay previsión fiable: se mantiene la monetización en 0 € y no se añaden herramientas de pago. Medimos el coste real por vídeo antes de gastar, y la previsión se rehac
@@ -65,7 +66,6 @@ _Actualizado: 2026-11-13 21:40 UTC · se regenera en cada reunión_
 - `2026-11-11 17:27 UTC` **acción** — backlog: IT: implementar la validación automática del JSON (bloqueo + aviso) y registrar métricas semanales: número de bloqueos y episodios que llegan a Compliance sin hipótesis (objetivo cero). Responsable: IT. Prioridad 1.
 - `2026-11-11 17:27 UTC` **acción** — decisión: Sin cambios de catálogo de objetos hasta tener 10 vídeos publicados con datos completos. Se mantiene la rotación de al menos 3 tipos de objeto distintos entre episodios consecutivos. Responsable: Estudio.
 - `2026-11-11 17:27 UTC` **acción** — decisión: Voz: no se cambia voice.edge_rate en episodios programados sin render de prueba. En episodios con cifras, la palabra 'ilustrativa' va al final de frase corta con pausa '...' y aparece en el note de pantalla. Revisión manual de cada escena con cifra. Responsable: Estudio.
-- `2026-11-11 17:27 UTC` **acción** — decisión: Antes de cualquier render, validación automática obligatoria: (a) toda cifra en counter, chart, display u options lleva nota de hipótesis (capital, años, tipo) y marca 'ilustrativa'; (b) la cifra de pantalla coincide con la de la voz de esa escena; (c) si falla, el render se bloquea y se avisa a IT y Compliance. Responsable: IT. Plazo: antes del próximo render.
 
 ## Directivas del consejo
 _Sesión del 2026-11-08_

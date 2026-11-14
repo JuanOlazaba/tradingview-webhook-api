@@ -1,0 +1,275 @@
+{
+ "number": 22,
+ "format": "error_caro",
+ "slug": "envio-gratis-sale-mas-caro",
+ "title": "Para no pagar envío, añadiste algo. Te salió más caro.",
+ "topic": "El envío gratis que te sale más caro",
+ "core_idea": "Añadir un artículo para llegar al mínimo de envío gratis puede costarte más que pagar el envío.",
+ "series": "Finanzas en 1 minuto",
+ "characters": [
+  "Leo"
+ ],
+ "keywords": [
+  "envío",
+  "ilustrativ",
+  "caro",
+  "plan",
+  "gratis",
+  "ahorr"
+ ],
+ "scenes": [
+  {
+   "type": "display",
+   "chapter": "",
+   "sfx": "hit",
+   "voice": "Para no pagar envío, añadiste algo. Te salió más caro.",
+   "params": {
+    "lines": [
+     {
+      "text": "PARA NO PAGAR ENVÍO",
+      "at": 0
+     },
+     {
+      "text": "AÑADISTE ALGO",
+      "at": 1.5
+     },
+     {
+      "text": "TE SALIÓ MÁS CARO",
+      "color": "co",
+      "at": 2.8
+     }
+    ],
+    "size": "xl"
+   }
+  },
+  {
+   "type": "receipt",
+   "chapter": "// 01 · el problema",
+   "sfx": "print",
+   "voice": "Leo compra online con prisa. Su pedido: 28 €. El envío: 4,99 €. Total: 32,99 €... Cifras ilustrativas.",
+   "params": {
+    "header": "Pedido de Leo",
+    "items": [
+     {
+      "label": "Pedido",
+      "from": 28
+     },
+     {
+      "label": "Envío",
+      "from": 4.99
+     }
+    ],
+    "total_from": 32.99,
+    "note": "Cifras ilustrativas. Hipótesis: pedido 28 € + envío 4,99 € = 32,99 €. Sin descuentos ni impuestos adicionales. Capital y tipo de interés: no aplican."
+   }
+  },
+  {
+   "type": "display",
+   "chapter": "// 02 · la tentación",
+   "sfx": "ding",
+   "voice": "Pero ojo: envío gratis desde 40 €. Le faltan 12 €... Ilustrativo.",
+   "params": {
+    "lines": [
+     {
+      "text": "ENVÍO GRATIS",
+      "color": "bl",
+      "at": 0
+     },
+     {
+      "text": "DESDE 40 €",
+      "at": 1.2
+     },
+     {
+      "text": "LE FALTAN 12 €",
+      "color": "co",
+      "at": 2.4
+     }
+    ],
+    "size": "xl",
+    "note": "Cifras ilustrativas. Mínimo de envío gratis: 40 €. Pedido: 28 €. Faltan 12 €."
+   }
+  },
+  {
+   "type": "cards",
+   "chapter": "// 02 · la tentación",
+   "sfx": "deal",
+   "voice": "¿Y sabes qué hace? Añade un artículo de 12 € que no necesitaba... Cifra ilustrativa. Solo quería no pagar envío.",
+   "params": {
+    "cards": [
+     {
+      "label": "Pagar el envío",
+      "icon": "card"
+     },
+     {
+      "label": "Añadir un extra",
+      "icon": "bag",
+      "lit": true
+     }
+    ],
+    "question": "¿Qué elige Leo?",
+    "question_at": 3,
+    "note": "Cifra ilustrativa: artículo extra de 12 €, que Leo no necesitaba."
+   }
+  },
+  {
+   "type": "coins",
+   "chapter": "// 03 · las cuentas",
+   "sfx": "coins",
+   "voice": "Para evitar 4,99 €, gasta 12 €. Cifras ilustrativas... Si no lo necesitaba, es dinero perdido. Suena raro, ¿verdad?",
+   "params": {
+    "towers": [
+     {
+      "label": "Envío",
+      "coins": 5,
+      "value": "4,99 €",
+      "color": "bl"
+     },
+     {
+      "label": "Extra",
+      "coins": 12,
+      "value": "12 €",
+      "color": "co"
+     }
+    ],
+    "note": "Cifras ilustrativas. Envío: 4,99 €. Artículo extra: 12 €. Supuesto: el artículo no era necesario."
+   }
+  },
+  {
+   "type": "receipt",
+   "chapter": "// 03 · las cuentas",
+   "sfx": "print",
+   "voice": "Ahora el ticket. 28 € del pedido. 12 € del extra. Envío: 0 €. Total: 40 €... Cifras ilustrativas.",
+   "params": {
+    "header": "Nuevo pedido de Leo",
+    "items": [
+     {
+      "label": "Pedido",
+      "from": 28
+     },
+     {
+      "label": "Artículo extra",
+      "from": 12
+     },
+     {
+      "label": "Envío",
+      "from": 0
+     }
+    ],
+    "total_from": 40,
+    "note": "Cifras ilustrativas. Hipótesis: 28 € + 12 € + envío 0 € = 40 €. Sin descuentos ni impuestos adicionales. Capital y tipo de interés: no aplican."
+   }
+  },
+  {
+   "type": "display",
+   "chapter": "// 03 · las cuentas",
+   "sfx": "hit2",
+   "voice": "Antes pagaba 32,99 €. Ahora, 40 €. Son 7,01 € más... Cifra ilustrativa. Y compró algo que no necesitaba.",
+   "params": {
+    "lines": [
+     {
+      "text": "32,99 € → 40 €",
+      "at": 0
+     },
+     {
+      "text": "7,01 € MÁS",
+      "color": "co",
+      "at": 1.8
+     }
+    ],
+    "size": "xl",
+    "pills": [
+     {
+      "text": "Cifras ilustrativas"
+     }
+    ],
+    "note": "Ilustrativo: 40 − 32,99 = 7,01 €. Sin descuentos ni impuestos adicionales."
+   }
+  },
+  {
+   "type": "calendar",
+   "chapter": "// 04 · el efecto bola",
+   "sfx": "tick",
+   "voice": "Si te pasara una vez al mes, en 12 meses serían 84,12 €... Supuesto ilustrativo.",
+   "params": {
+    "label": "meses",
+    "from": 1,
+    "to": 12,
+    "sub": "Supuesto ilustrativo: 7,01 € × 12 = 84,12 €",
+    "at": 0.5,
+    "dur": 4,
+    "note": "Cifras ilustrativas. Supuesto de repetición: 7,01 € de sobrecoste una vez al mes durante 12 meses = 84,12 €. No describe un patrón típico. Capital y tipo de interés: no aplican."
+   }
+  },
+  {
+   "type": "cards",
+   "chapter": "// 04 · el giro",
+   "sfx": "whoosh",
+   "voice": "Spoiler: el problema no es el envío. Es comprar sin plan. En este caso, el extra no fue un ahorro.",
+   "params": {
+    "cards": [
+     {
+      "label": "Envío",
+      "icon": "card"
+     },
+     {
+      "label": "Compra sin plan",
+      "icon": "bag",
+      "lit": true
+     }
+    ],
+    "question": "¿Dónde se va el dinero?",
+    "question_at": 3
+   }
+  },
+  {
+   "type": "levers",
+   "chapter": "// 04 · para pensar",
+   "sfx": "rise",
+   "voice": "¿Y si antes de añadir algo te haces tres preguntas? ¿Lo necesito? ¿Cuánto ahorro de verdad? ¿Lo compraría sin envío gratis?",
+   "params": {
+    "title": "Antes de añadir nada",
+    "levers": [
+     {
+      "label": "¿Lo necesito?",
+      "from": 20,
+      "to": 80
+     },
+     {
+      "label": "¿Cuánto ahorro de verdad?",
+      "from": 20,
+      "to": 60
+     },
+     {
+      "label": "¿Lo compraría sin envío gratis?",
+      "from": 30,
+      "to": 70
+     }
+    ],
+    "note": "Ilustrativo: los deslizadores solo ambientan la reflexión; no son porcentajes ni recomendaciones."
+   }
+  },
+  {
+   "type": "options",
+   "chapter": "// 05 · tu turno",
+   "sfx": "pop",
+   "voice": "Tu turno. ¿Qué harías tú? A, pagar el envío. B, añadir el artículo. C, esperar a otra compra.",
+   "params": {
+    "options": [
+     "A) Pagar el envío",
+     "B) Añadir el artículo",
+     "C) Esperar a otra compra"
+    ],
+    "disclaimer": "Contenido educativo. No es asesoramiento financiero ni recomendación de inversión. Invertir conlleva riesgos. Cifras ilustrativas. Vídeo creado con ayuda de IA."
+   }
+  },
+  {
+   "type": "logo",
+   "chapter": "",
+   "sfx": "cling",
+   "voice": "Esto ha sido Finroots. El dinero, desde la raíz.",
+   "params": {
+    "next": "¿Qué pasa con tus datos cuando aceptas los términos sin leerlos?"
+   }
+  }
+ ]
+}

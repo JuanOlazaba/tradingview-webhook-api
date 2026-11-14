@@ -1,0 +1,12 @@
+[01]   Para no pagar envío, añadiste algo. Te salió más caro.
+[02] // 01 · el problema  Leo compra online con prisa. Su pedido: 28 €. El envío: 4,99 €. Total: 32,99 €... Cifras ilustrativas.
+[03] // 02 · la tentación  Pero ojo: envío gratis desde 40 €. Le faltan 12 €... Ilustrativo.
+[04] // 02 · la tentación  ¿Y sabes qué hace? Añade un artículo de 12 € que no necesitaba... Cifra ilustrativa. Solo quería no pagar envío.
+[05] // 03 · las cuentas  Para evitar 4,99 €, gasta 12 €. Cifras ilustrativas... Si no lo necesitaba, es dinero perdido. Suena raro, ¿verdad?
+[06] // 03 · las cuentas  Ahora el ticket. 28 € del pedido. 12 € del extra. Envío: 0 €. Total: 40 €... Cifras ilustrativas.
+[07] // 03 · las cuentas  Antes pagaba 32,99 €. Ahora, 40 €. Son 7,01 € más... Cifra ilustrativa. Y compró algo que no necesitaba.
+[08] // 04 · el efecto bola  Si te pasara una vez al mes, en 12 meses serían 84,12 €... Supuesto ilustrativo.
+[09] // 04 · el giro  Spoiler: el problema no es el envío. Es comprar sin plan. En este caso, el extra no fue un ahorro.
+[10] // 04 · para pensar  ¿Y si antes de añadir algo te haces tres preguntas? ¿Lo necesito? ¿Cuánto ahorro de verdad? ¿Lo compraría sin envío gratis?
+[11] // 05 · tu turno  Tu turno. ¿Qué harías tú? A, pagar el envío. B, añadir el artículo. C, esperar a otra compra.
+[12]   Esto ha sido Finroots. El dinero, desde la raíz.

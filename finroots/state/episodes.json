@@ -651,5 +651,35 @@
       "status": "SEND_TO_USER_INBOX",
       "post_ids": null
     }
+  },
+  {
+    "number": 22,
+    "slug": "envio-gratis-sale-mas-caro",
+    "title": "Para no pagar envío, añadiste algo. Te salió más caro.",
+    "topic": "El envío gratis que te sale más caro",
+    "core_idea": "Añadir un artículo para llegar al mínimo de envío gratis puede costarte más que pagar el envío.",
+    "characters": [
+      "Leo"
+    ],
+    "objects": [
+      "calendar",
+      "cards",
+      "coins",
+      "display",
+      "levers",
+      "logo",
+      "options",
+      "receipt"
+    ],
+    "question": "A) Pagar el envío / B) Añadir el artículo / C) Esperar a otra compra",
+    "status": "sent_to_inbox",
+    "duration": 86.131,
+    "published_at": "2026-11-14T20:14:56.316217Z",
+    "tiktok": {
+      "publish_id": "v_inbox_file~v2.7708122927258290190",
+      "mode": "draft",
+      "status": "SEND_TO_USER_INBOX",
+      "post_ids": null
+    }
   }
 ]
