@@ -1,5 +1,5 @@
 # Panel de Finroots
-_Actualizado: 2026-11-15 20:34 UTC · se regenera en cada reunión_
+_Actualizado: 2026-11-15 23:39 UTC · se regenera en cada reunión_
 
 ## Necesita tu sí
 - **Incidencia en el episodio 5** — [responder aquí](https://github.com/JuanOlazaba/tradingview-webhook-api/issues/17) · pedido por Operaciones el 2026-11-03 13:13 UTC
@@ -9,13 +9,14 @@ _Actualizado: 2026-11-15 20:34 UTC · se regenera en cada reunión_
 - **Incidencia en el episodio 24** — [responder aquí](https://github.com/JuanOlazaba/tradingview-webhook-api/issues/23) · pedido por Operaciones el 2026-11-15 20:34 UTC
 
 ## Estado
-- Episodios: 23 · en colchón (listos): 0
+- Episodios: 24 · en colchón (listos): 0
 - TikTok: 3 seguidores · 7 me gusta · 3 vídeos
-- Coste de IA: hoy 0.41 $ · este mes 8.60 $ de 20 $ · total 8.60 $
+- Coste de IA: hoy 0.67 $ · este mes 8.86 $ de 20 $ · total 8.86 $
 
 ## Episodios
 | # | Título | Estado |
 |---|---|---|
+| 24 | [Un café de 2 € suma 504 € al año. Ilustrativo.](episodes/ep024/script.txt) | en tus borradores de TikTok |
 | 23 | [¿Una comisión del 1 % te quita 10.785 €? Ilustrativo.](episodes/ep023/script.txt) | en tus borradores de TikTok |
 | 22 | [Para no pagar envío, añadiste algo. Te salió más caro.](episodes/ep022/script.txt) | en tus borradores de TikTok |
 | 21 | [Tras una gran subida, ¿ya es tarde para entrar?](episodes/ep021/script.txt) | en tus borradores de TikTok |
@@ -30,9 +31,9 @@ _Actualizado: 2026-11-15 20:34 UTC · se regenera en cada reunión_
 | 12 | [Un ETF: una compra, muchas empresas](episodes/ep012/script.txt) | en tus borradores de TikTok |
 | 11 | [Vender en pánico puede fijar la pérdida](episodes/ep011/script.txt) | en tus borradores de TikTok |
 | 10 | [Cae un 50 %: ¿cuánto debe subir?](episodes/ep010/script.txt) | en tus borradores de TikTok |
-| 9 | [Invertir no es la lotería (pero tiene riesgo)](episodes/ep009/script.txt) | en tus borradores de TikTok |
 
 ## Últimas reuniones
+- [2026-11-16-ep024](minutes/2026-11-16-ep024.md)
 - [2026-11-15-ep024](minutes/2026-11-15-ep024.md)
 - [2026-11-15-ep023](minutes/2026-11-15-ep023.md)
 - [2026-11-15-consejo](minutes/2026-11-15-consejo.md)
@@ -44,9 +45,10 @@ _Actualizado: 2026-11-15 20:34 UTC · se regenera en cada reunión_
 - [2026-11-12-ep019](minutes/2026-11-12-ep019.md)
 - [2026-11-11-ep018](minutes/2026-11-11-ep018.md)
 - [2026-11-11-ep018-estudio](minutes/2026-11-11-ep018-estudio.md)
-- [2026-11-11-ep017](minutes/2026-11-11-ep017.md)
 
 ## Actividad reciente
+- `2026-11-15 23:39 UTC` **publicación** — Ep. 24: Un café de 2 € suma 504 € al año. Ilustrativo. · estado: sent_to_inbox
+- `2026-11-15 23:30 UTC` **reanudación** — El episodio de hoy estaba pendiente; el comité diario lo retoma ahora.
 - `2026-11-15 20:34 UTC` **incidencia** — Ep. 24: Compliance no aprueba el episodio tras las revisiones: [{"scene": 1, "problem": "El gancho es una afirmación histórica concreta ('En 1923, los precios en Alemania se dispararon') y la fuente no consta por escrito. La directiva 3 y el veto exigen documentación antes de render. El hecho en sí es ampli
 - `2026-11-15 17:16 UTC` **consejo** — Sesión semanal: Publicar 5 episodios entre el 16 y el 20 de noviembre, cada uno entre 19:00 y 21:00 (Madrid), y marcarlos como publicados solo con video_id verificado.; Conciliar el 100 % de los IDs existentes (incluidos los 3 vídeos del 2 de noviembre) con episodio, antes del miércoles 18 de noviembre.; Ningún epi
 - `2026-11-14 23:31 UTC` **publicación** — Ep. 23: ¿Una comisión del 1 % te quita 10.785 €? Ilustrativo. · estado: sent_to_inbox
@@ -65,8 +67,6 @@ _Actualizado: 2026-11-15 20:34 UTC · se regenera en cada reunión_
 - `2026-11-12 22:01 UTC` **publicación** — Ep. 19: ¿Quién paga la app que dices que es gratis? · estado: sent_to_inbox
 - `2026-11-11 22:22 UTC` **publicación** — Ep. 18: Pagar en cuotas sin intereses puede costarte más · estado: sent_to_inbox
 - `2026-11-11 17:30 UTC` **episodio** — Ep. 18 escrito y aprobado por Compliance: Pagar en cuotas sin intereses puede costarte más
-- `2026-11-11 17:27 UTC` **reunión** — Calidad de vídeo y tecnología: Cerramos la reunión de calidad: la prioridad es la validación automática de la cadena (cifra en pantalla ↔ voz, hipótesis presente, marca 'ilustrativa') antes de cualquier render. La voz se ajusta en 
-- `2026-11-11 17:27 UTC` **acción** — petición al dueño: Publicación cruzada a Instagram Reels y YouTube Shorts
 
 ## Directivas del consejo
 _Sesión del 2026-11-15_

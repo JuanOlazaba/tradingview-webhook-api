@@ -1,0 +1,271 @@
+{
+ "number": 24,
+ "format": "como_funciona",
+ "slug": "precio-cafe-donde-va-cada-euro",
+ "title": "Un café de 2 € suma 504 € al año. Ilustrativo.",
+ "topic": "Cómo funciona el precio de un café: a dónde va cada euro",
+ "core_idea": "El precio de un café se reparte en costes muy distintos, y el café en sí suele ser una parte pequeña del total. Si se toma a diario, el gasto se acumula durante el año. Hipótesis ilustrativa: café de 2,00 €; 21 días al mes; 42 € al mes; 504 € al año; desglose inventado que no corresponde a ninguna cafetería real; sin capital, sin tipo de interés, sin comisiones. No es una previsión.",
+ "series": "Finanzas en 1 minuto",
+ "characters": [
+  "Marta"
+ ],
+ "keywords": [
+  "café",
+  "504",
+  "local",
+  "impuesto",
+  "ilustrativ",
+  "año"
+ ],
+ "scenes": [
+  {
+   "type": "display",
+   "chapter": "",
+   "sfx": "hit",
+   "voice": "Un café de 2 € al día laborable suma 504 € al año... ilustrativo.",
+   "params": {
+    "lines": [
+     {
+      "text": "UN CAFÉ DE 2 €"
+     },
+     {
+      "text": "504 € AL AÑO",
+      "color": "co"
+     }
+    ],
+    "size": "xl",
+    "pills": [
+     {
+      "text": "ilustrativo · 21 días/mes"
+     }
+    ],
+    "note": "Cifras ilustrativas: café de 2,00 €, 21 días al mes, 12 meses. No es una previsión."
+   }
+  },
+  {
+   "type": "cards",
+   "chapter": "// 01 · el problema",
+   "sfx": "deal",
+   "voice": "Marta pide un café cada mañana. Y se pregunta: ¿en qué se va el dinero?",
+   "params": {
+    "cards": [
+     {
+      "label": "Grano y leche",
+      "icon": "coin"
+     },
+     {
+      "label": "Local y personal",
+      "icon": "building"
+     },
+     {
+      "label": "Impuestos y margen",
+      "icon": "scale"
+     }
+    ],
+    "question": "¿Qué pagas con un café?",
+    "question_at": 3,
+    "note": "Desglose ilustrativo, inventado para la escena. No corresponde a ninguna cafetería real."
+   }
+  },
+  {
+   "type": "coins",
+   "chapter": "// 02 · cómo funciona",
+   "sfx": "coins",
+   "voice": "Imagina un café de 2 €. Ejemplo ilustrativo, de ninguna cafetería real. Se reparte en tres costes.",
+   "params": {
+    "towers": [
+     {
+      "label": "Grano y leche",
+      "coins": 6,
+      "value": "0,60",
+      "suffix": " €"
+     },
+     {
+      "label": "Local y personal",
+      "coins": 9,
+      "value": "0,90",
+      "suffix": " €",
+      "color": "co"
+     },
+     {
+      "label": "Impuestos y margen",
+      "coins": 5,
+      "value": "0,50",
+      "suffix": " €",
+      "color": "bl"
+     }
+    ],
+    "note": "Desglose ilustrativo: 0,60 + 0,90 + 0,50 = 2,00 €. Inventado, no corresponde a ninguna cafetería real."
+   }
+  },
+  {
+   "type": "receipt",
+   "chapter": "// 02 · cómo funciona",
+   "sfx": "print",
+   "voice": "Grano y leche: 0,60 €. Local y personal: 0,90 €. Impuestos y margen: 0,50 €. Ilustrativo.",
+   "params": {
+    "header": "Café de 2,00 € · ilustrativo",
+    "items": [
+     {
+      "label": "Grano y leche",
+      "from": 0.6
+     },
+     {
+      "label": "Local y personal",
+      "from": 0.9
+     },
+     {
+      "label": "Impuestos y margen",
+      "from": 0.5
+     }
+    ],
+    "total_from": 2.0,
+    "note": "Ilustrativo: desglose inventado, no corresponde a ninguna cafetería real."
+   }
+  },
+  {
+   "type": "levers",
+   "chapter": "// 03 · el giro",
+   "sfx": "rise",
+   "voice": "Spoiler, en este ejemplo inventado: el café en sí no es lo más caro. Grano y leche, un 30 %. Local y personal, un 45 %. Impuestos y margen, un 25 %. Ilustrativo, no es una cafetería real.",
+   "params": {
+    "title": "Ejemplo inventado: un café de 2 €",
+    "levers": [
+     {
+      "label": "Grano y leche",
+      "sub": "30 %",
+      "from": 0,
+      "to": 30
+     },
+     {
+      "label": "Local y personal",
+      "sub": "45 %",
+      "from": 0,
+      "to": 45
+     },
+     {
+      "label": "Impuestos y margen",
+      "sub": "25 %",
+      "from": 0,
+      "to": 25
+     }
+    ],
+    "note": "Porcentajes ilustrativos sobre 2,00 €: 0,60 / 0,90 / 0,50. No corresponde a ninguna cafetería real ni es un dato general."
+   }
+  },
+  {
+   "type": "counter",
+   "chapter": "// 03 · el giro",
+   "sfx": "tick",
+   "voice": "¿Y si lo tomas 21 días al mes? 2 € por 21 son 42 € al mes. Ilustrativo.",
+   "params": {
+    "label": "Al mes",
+    "from": 0,
+    "to": 42,
+    "suffix": " €",
+    "color": "bl",
+    "sub": "2 € × 21 días",
+    "note": "Hipótesis ilustrativa: café de 2,00 €, 21 días al mes, sin capital ni tipo de interés."
+   }
+  },
+  {
+   "type": "calendar",
+   "chapter": "// 04 · se acumula",
+   "sfx": "tick",
+   "voice": "Ahora, multiplica por 12 meses.",
+   "params": {
+    "label": "meses",
+    "from": 1,
+    "to": 12,
+    "sub": "× 42 € al mes",
+    "at": 0.3,
+    "dur": 2.5,
+    "note": "Ilustrativo: 42 € al mes durante 12 meses."
+   }
+  },
+  {
+   "type": "counter",
+   "chapter": "// 04 · se acumula",
+   "sfx": "hit2",
+   "voice": "Resultado: 504 € al año, si lo tomas 21 días al mes. Ilustrativo... un gasto pequeño, una cifra grande.",
+   "params": {
+    "label": "Al año",
+    "from": 0,
+    "to": 504,
+    "suffix": " €",
+    "color": "co",
+    "sub": "2 € × 21 × 12",
+    "note": "Hipótesis ilustrativa: 2,00 × 21 × 12 = 504 € al año. Sin intereses ni comisiones. No es una previsión."
+   }
+  },
+  {
+   "type": "display",
+   "chapter": "// 04 · ojo",
+   "sfx": "whoosh",
+   "voice": "Pero ojo: no se trata de prohibirte el café. Se trata de saber lo que pagas.",
+   "params": {
+    "lines": [
+     {
+      "text": "NO ES PROHIBIR"
+     },
+     {
+      "text": "ES SABER",
+      "color": "bl"
+     },
+     {
+      "text": "LO QUE PAGAS",
+      "color": "co"
+     }
+    ],
+    "size": "xl"
+   }
+  },
+  {
+   "type": "cards",
+   "chapter": "// 05 · aplícalo hoy",
+   "sfx": "deal",
+   "voice": "Hoy puedes hacer algo sencillo. Mira un gasto pequeño. Multiplícalo por 12. ¿Y sabes qué? Tener el dato ayuda a entender tu gasto.",
+   "params": {
+    "cards": [
+     {
+      "label": "Elige un gasto",
+      "icon": "bag"
+     },
+     {
+      "label": "Multiplica por 12",
+      "icon": "clock"
+     },
+     {
+      "label": "Mira el dato",
+      "icon": "scale",
+      "lit": true
+     }
+    ],
+    "note": "Idea general de educación financiera, no es una recomendación personalizada."
+   }
+  },
+  {
+   "type": "options",
+   "chapter": "// 06 · tu turno",
+   "sfx": "pop",
+   "voice": "Tu turno. ¿Qué te sorprende más del desglose? ¿A, B o C?",
+   "params": {
+    "options": [
+     "A) Lo poco que pesa el café",
+     "B) Lo que pesa el local y el personal",
+     "C) Lo que suman los gastos pequeños en un año"
+    ],
+    "disclaimer": "Contenido educativo. No es asesoramiento financiero ni recomendación de inversión. Invertir conlleva riesgos. Cifras ilustrativas. Vídeo creado con ayuda de IA."
+   }
+  },
+  {
+   "type": "logo",
+   "chapter": "",
+   "sfx": "ding",
+   "voice": "Esto ha sido Finroots. El dinero, desde la raíz.",
+   "params": {
+    "next": "¿Por qué el paquete de 3 cuesta menos por unidad?"
+   }
+  }
+ ]
+}

@@ -1,0 +1,12 @@
+[01]   Un café de 2 € al día laborable suma 504 € al año... ilustrativo.
+[02] // 01 · el problema  Marta pide un café cada mañana. Y se pregunta: ¿en qué se va el dinero?
+[03] // 02 · cómo funciona  Imagina un café de 2 €. Ejemplo ilustrativo, de ninguna cafetería real. Se reparte en tres costes.
+[04] // 02 · cómo funciona  Grano y leche: 0,60 €. Local y personal: 0,90 €. Impuestos y margen: 0,50 €. Ilustrativo.
+[05] // 03 · el giro  Spoiler, en este ejemplo inventado: el café en sí no es lo más caro. Grano y leche, un 30 %. Local y personal, un 45 %. Impuestos y margen, un 25 %. Ilustrativo, no es una cafetería real.
+[06] // 03 · el giro  ¿Y si lo tomas 21 días al mes? 2 € por 21 son 42 € al mes. Ilustrativo.
+[07] // 04 · se acumula  Ahora, multiplica por 12 meses.
+[08] // 04 · se acumula  Resultado: 504 € al año, si lo tomas 21 días al mes. Ilustrativo... un gasto pequeño, una cifra grande.
+[09] // 04 · ojo  Pero ojo: no se trata de prohibirte el café. Se trata de saber lo que pagas.
+[10] // 05 · aplícalo hoy  Hoy puedes hacer algo sencillo. Mira un gasto pequeño. Multiplícalo por 12. ¿Y sabes qué? Tener el dato ayuda a entender tu gasto.
+[11] // 06 · tu turno  Tu turno. ¿Qué te sorprende más del desglose? ¿A, B o C?
+[12]   Esto ha sido Finroots. El dinero, desde la raíz.

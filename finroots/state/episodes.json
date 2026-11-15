@@ -713,5 +713,36 @@
       "status": "SEND_TO_USER_INBOX",
       "post_ids": null
     }
+  },
+  {
+    "number": 24,
+    "slug": "precio-cafe-donde-va-cada-euro",
+    "title": "Un café de 2 € suma 504 € al año. Ilustrativo.",
+    "topic": "Cómo funciona el precio de un café: a dónde va cada euro",
+    "core_idea": "El precio de un café se reparte en costes muy distintos, y el café en sí suele ser una parte pequeña del total. Si se toma a diario, el gasto se acumula durante el año. Hipótesis ilustrativa: café de 2,00 €; 21 días al mes; 42 € al mes; 504 € al año; desglose inventado que no corresponde a ninguna cafetería real; sin capital, sin tipo de interés, sin comisiones. No es una previsión.",
+    "characters": [
+      "Marta"
+    ],
+    "objects": [
+      "calendar",
+      "cards",
+      "coins",
+      "counter",
+      "display",
+      "levers",
+      "logo",
+      "options",
+      "receipt"
+    ],
+    "question": "A) Lo poco que pesa el café / B) Lo que pesa el local y el personal / C) Lo que suman los gastos pequeños en un año",
+    "status": "sent_to_inbox",
+    "duration": 74.324,
+    "published_at": "2026-11-15T23:39:44.209430Z",
+    "tiktok": {
+      "publish_id": "v_inbox_file~v2.7708546677313439757",
+      "mode": "draft",
+      "status": "SEND_TO_USER_INBOX",
+      "post_ids": null
+    }
   }
 ]
