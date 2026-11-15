@@ -118,5 +118,16 @@
   "created": "2026-11-13 17:27 UTC",
   "issue": 22,
   "url": "https://github.com/JuanOlazaba/tradingview-webhook-api/issues/22"
+ },
+ {
+  "id": 11,
+  "title": "Incidencia en el episodio 24",
+  "body": "El comité diario no pudo completar el episodio 24:\n\n> Compliance no aprueba el episodio tras las revisiones: [{\"scene\": 1, \"problem\": \"El gancho es una afirmación histórica concreta ('En 1923, los precios en Alemania se dispararon') y la fuente no consta por escrito. La directiva 3 y el veto exigen documentación antes de render. El hecho en sí es ampliamente reconocido, pero la nota de Estudio sigue diciendo 'fuente pendiente de adjuntar'. Además, el gancho tiene 8 palabras y está etiquetado como afirmación: es correcto y alterna con el ep. 23, que fue pregunta.\", \"fix\": \"Mantener el gancho. Estudio debe adjuntar en el registro del episodio una fuente verificable (manual de historia económica o publicación del banco central alemán) con título y año. Sin ese registro no se renderiza. Cuando conste, Compliance dará el visto bueno escrito.\"}, {\"\n\nIT lo reintentará en la próxima ejecución. Responde solo si quieres dar instrucciones.",
+  "by": "Operaciones",
+  "status": "pending",
+  "apply_on_yes": {},
+  "created": "2026-11-15 20:34 UTC",
+  "issue": 23,
+  "url": "https://github.com/JuanOlazaba/tradingview-webhook-api/issues/23"
  }
 ]
