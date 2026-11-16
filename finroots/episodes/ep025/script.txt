@@ -1,0 +1,13 @@
+[01]   ¿Invertir es solo para quien tiene mucho dinero?
+[02] // 01 · el mito  Marta lo tiene claro. Empezará a invertir cuando gane más.
+[03] // 01 · el mito  Spoiler: puede que haga falta menos de lo que crees.
+[04] // 02 · la cuenta  Lucía le enseña una cuenta sencilla. Ilustrativa... 50 € al mes, durante 10 años, a un 5 % anual constante.
+[05] // 02 · la cuenta  Son 120 aportaciones de 50 €. Aportado: 6.000 €. Valor final: unos 7.760 €... ilustrativo.
+[06] // 02 · la cuenta  Mira la gráfica. La línea del valor se separa poco a poco de lo aportado.
+[07] // 03 · el giro  La diferencia: unos 1.760 €. Ilustrativa... y sin comisiones ni impuestos.
+[08] // 03 · el giro  ¿Y sabes qué? Los intereses también generan intereses. El tiempo hace rodar la bola.
+[09] // 03 · el giro  Pero ojo: la rentabilidad real no es constante. Puede incluso ser negativa.
+[10] // 04 · lo que cuenta  Entonces, ¿qué cuenta al empezar? El tiempo y la constancia, no solo la cantidad.
+[11] // 04 · lo que cuenta  Marta se queda pensando. Quizá no hacía falta tanto para empezar a entenderlo.
+[12] // 05 · tu turno  Para empezar, ¿qué pesa más? A, la cantidad. B, el tiempo. C, la constancia.
+[13]   Esto ha sido Finroots. El dinero, desde la raíz.

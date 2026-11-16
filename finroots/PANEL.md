@@ -1,5 +1,5 @@
 # Panel de Finroots
-_Actualizado: 2026-11-15 23:39 UTC · se regenera en cada reunión_
+_Actualizado: 2026-11-16 19:45 UTC · se regenera en cada reunión_
 
 ## Necesita tu sí
 - **Incidencia en el episodio 5** — [responder aquí](https://github.com/JuanOlazaba/tradingview-webhook-api/issues/17) · pedido por Operaciones el 2026-11-03 13:13 UTC
@@ -7,15 +7,17 @@ _Actualizado: 2026-11-15 23:39 UTC · se regenera en cada reunión_
 - **Publicación cruzada a Instagram Reels y YouTube Shorts** — [responder aquí](https://github.com/JuanOlazaba/tradingview-webhook-api/issues/21) · pedido por CEO (Calidad de vídeo y tecnología) el 2026-11-11 17:27 UTC
 - **Coste mensual de APIs y umbral para voz premium** — [responder aquí](https://github.com/JuanOlazaba/tradingview-webhook-api/issues/22) · pedido por CEO (Finanzas y costes) el 2026-11-13 17:27 UTC
 - **Incidencia en el episodio 24** — [responder aquí](https://github.com/JuanOlazaba/tradingview-webhook-api/issues/23) · pedido por Operaciones el 2026-11-15 20:34 UTC
+- **Verificación manual de la etiqueta de IA y sí a reformular títulos 17, 23 y 24** — [responder aquí](https://github.com/JuanOlazaba/tradingview-webhook-api/issues/24) · pedido por CEO (Riesgos y cumplimiento) el 2026-11-16 19:43 UTC
 
 ## Estado
-- Episodios: 24 · en colchón (listos): 0
+- Episodios: 25 · en colchón (listos): 1 (25)
 - TikTok: 3 seguidores · 7 me gusta · 3 vídeos
-- Coste de IA: hoy 0.67 $ · este mes 8.86 $ de 20 $ · total 8.86 $
+- Coste de IA: hoy 0.22 $ · este mes 9.08 $ de 20 $ · total 9.08 $
 
 ## Episodios
 | # | Título | Estado |
 |---|---|---|
+| 25 | [¿Hace falta mucho dinero para empezar a invertir?](episodes/ep025/script.txt) | en colchón |
 | 24 | [Un café de 2 € suma 504 € al año. Ilustrativo.](episodes/ep024/script.txt) | en tus borradores de TikTok |
 | 23 | [¿Una comisión del 1 % te quita 10.785 €? Ilustrativo.](episodes/ep023/script.txt) | en tus borradores de TikTok |
 | 22 | [Para no pagar envío, añadiste algo. Te salió más caro.](episodes/ep022/script.txt) | en tus borradores de TikTok |
@@ -30,10 +32,11 @@ _Actualizado: 2026-11-15 23:39 UTC · se regenera en cada reunión_
 | 13 | [Tienes suscripciones que no usas](episodes/ep013/script.txt) | en tus borradores de TikTok |
 | 12 | [Un ETF: una compra, muchas empresas](episodes/ep012/script.txt) | en tus borradores de TikTok |
 | 11 | [Vender en pánico puede fijar la pérdida](episodes/ep011/script.txt) | en tus borradores de TikTok |
-| 10 | [Cae un 50 %: ¿cuánto debe subir?](episodes/ep010/script.txt) | en tus borradores de TikTok |
 
 ## Últimas reuniones
+- [2026-11-16-ep025-estudio](minutes/2026-11-16-ep025-estudio.md)
 - [2026-11-16-ep024](minutes/2026-11-16-ep024.md)
+- [2026-11-16-1942-mejora-riesgos](minutes/2026-11-16-1942-mejora-riesgos.md)
 - [2026-11-15-ep024](minutes/2026-11-15-ep024.md)
 - [2026-11-15-ep023](minutes/2026-11-15-ep023.md)
 - [2026-11-15-consejo](minutes/2026-11-15-consejo.md)
@@ -43,10 +46,20 @@ _Actualizado: 2026-11-15 23:39 UTC · se regenera en cada reunión_
 - [2026-11-13-ep020](minutes/2026-11-13-ep020.md)
 - [2026-11-13-1727-mejora-finanzas](minutes/2026-11-13-1727-mejora-finanzas.md)
 - [2026-11-12-ep019](minutes/2026-11-12-ep019.md)
-- [2026-11-11-ep018](minutes/2026-11-11-ep018.md)
-- [2026-11-11-ep018-estudio](minutes/2026-11-11-ep018-estudio.md)
 
 ## Actividad reciente
+- `2026-11-16 19:45 UTC` **episodio** — Ep. 25 escrito y aprobado por Compliance: ¿Hace falta mucho dinero para empezar a invertir?
+- `2026-11-16 19:43 UTC` **reunión** — Riesgos y cumplimiento: Compliance mantiene los vetos: ningún episodio con cifras sin hipótesis documentada y visto bueno escrito; ep. 13 (#8) bloqueado hasta documentar el motivo; la plantilla PDF y el CTA 'Comenta PLANTILL
+- `2026-11-16 19:43 UTC` **acción** — petición al dueño: Verificación manual de la etiqueta de IA y sí a reformular títulos 17, 23 y 24
+- `2026-11-16 19:43 UTC` **acción** — biblia: Nota de continuidad (16 nov): los títulos de la serie se formulan como preguntas
+- `2026-11-16 19:43 UTC` **acción** — backlog: Conciliar los IDs de TikTok con episodio (directiva 2) y registrar en la hoja de métricas las visitas al perfil y los comentarios con PLANTILLA para cada vídeo. Responsable: Operaciones y Producto. Sin conclusiones antes de 10 vídeos.
+- `2026-11-16 19:43 UTC` **acción** — backlog: Recalcular y documentar la hipótesis del ep. 23 (comisión 1 %) con capital, años y tipo explícitos antes de aprobar el título. Responsable: Estudio; revisión: Compliance.
+- `2026-11-16 19:43 UTC` **acción** — backlog: Documentar hipótesis (capital, años, tipo) y adjuntar fuente verificable para los datos históricos de los eps. 15, 17 y 20 antes de cualquier render o publicación. Responsable: Estudio y Compliance. Sin nombres reales de entidades en el ep. 17.
+- `2026-11-16 19:43 UTC` **acción** — backlog: Verificar manualmente en TikTok que la etiqueta de contenido generado con IA está activa en los 3 vídeos publicados (ids 7703615955884100878, 7703655995985136910, 7703680683335519501) y añadir el aviso en la descripción donde falte. Responsable: Operaciones (verificación) y Marketing (descripción). Medida: 3/3 con etiqueta y aviso.
+- `2026-11-16 19:43 UTC` **acción** — decisión: Respuestas a comentarios: solo contenido general y plantilla manual estándar. Prohibido pedir, copiar o guardar datos personales en comentarios o DMs.
+- `2026-11-16 19:43 UTC` **acción** — decisión: Los episodios sin cifras se programan primero en el calendario. Los eps. 15, 17, 20, 23 y 24 quedan retenidos hasta tener hipótesis documentada y visto bueno escrito de Compliance. Si no hay 5 episodios limpios para el lote del 16–20 nov, se avisa al consejo el mismo día (directiva 7).
+- `2026-11-16 19:43 UTC` **acción** — decisión: Los ganchos sin cifras pasan a ser la norma en el lote del 19 de noviembre. Ningún gancho lleva una cifra sin marcar como ilustrativa con hipótesis documentada. Los títulos de los eps. 17, 23 y 24 se reformulan como pregunta de concepto, sin cifra ni verbos de promesa ('te quita', 'se come', 'hizo perder fortunas'), antes del jueves 19.
+- `2026-11-16 19:43 UTC` **acción** — decisión: Desde hoy, cada publicación lleva en la descripción el aviso breve ('Contenido educativo. Cifras ilustrativas. Vídeo creado con ayuda de IA.') y no menciona la plantilla hasta el visto bueno escrito de Compliance. Responsable: Marketing, verificación previa a publicar.
 - `2026-11-15 23:39 UTC` **publicación** — Ep. 24: Un café de 2 € suma 504 € al año. Ilustrativo. · estado: sent_to_inbox
 - `2026-11-15 23:30 UTC` **reanudación** — El episodio de hoy estaba pendiente; el comité diario lo retoma ahora.
 - `2026-11-15 20:34 UTC` **incidencia** — Ep. 24: Compliance no aprueba el episodio tras las revisiones: [{"scene": 1, "problem": "El gancho es una afirmación histórica concreta ('En 1923, los precios en Alemania se dispararon') y la fuente no consta por escrito. La directiva 3 y el veto exigen documentación antes de render. El hecho en sí es ampli
@@ -55,18 +68,6 @@ _Actualizado: 2026-11-15 23:39 UTC · se regenera en cada reunión_
 - `2026-11-14 23:21 UTC` **reanudación** — El episodio de hoy estaba pendiente; el comité diario lo retoma ahora.
 - `2026-11-14 20:14 UTC` **publicación** — Ep. 22: Para no pagar envío, añadiste algo. Te salió más caro. · estado: sent_to_inbox
 - `2026-11-13 21:40 UTC` **publicación** — Ep. 21: Tras una gran subida, ¿ya es tarde para entrar? · estado: sent_to_inbox
-- `2026-11-13 17:30 UTC` **episodio** — Ep. 21 escrito y aprobado por Compliance: Tras una gran subida, ¿ya es tarde para entrar?
-- `2026-11-13 17:27 UTC` **reunión** — Finanzas y costes: Sin datos de coste ni ingresos no hay previsión fiable: se mantiene la monetización en 0 € y no se añaden herramientas de pago. Medimos el coste real por vídeo antes de gastar, y la previsión se rehac
-- `2026-11-13 17:27 UTC` **acción** — petición al dueño: Coste mensual de APIs y umbral para voz premium
-- `2026-11-13 17:27 UTC` **acción** — backlog: IT: registrar en el registro de cada episodio el coste de render (tokens de Claude por rol, segundos de voz y tiempo de render) desde el próximo render. Responsable: IT. Prioridad tras la validación automática del JSON.
-- `2026-11-13 17:27 UTC` **acción** — backlog: Operaciones: entregar antes del domingo 15 nov la hoja de coste por vídeo (tokens de IA por rol, duración de voz y tiempo de render) cruzada con vistas a 24 h y 72 h. Cifras reales cuando estén disponibles; sin estimaciones presentadas como datos. Responsable: Operaciones (IT aporta los datos de render).
-- `2026-11-13 17:27 UTC` **acción** — decisión: No se hace previsión de ingresos hasta tener 10 vídeos publicados con datos completos (directiva 8). Hasta entonces, solo escenarios marcados como hipótesis.
-- `2026-11-13 17:27 UTC` **acción** — decisión: Desde ya no se contrata ninguna herramienta de pago (voz premium ElevenLabs, música con licencia ni servicios nuevos) hasta que el dueño fije el umbral de audiencia. Coste: 0 €.
-- `2026-11-13 17:27 UTC` **publicación** — Ep. 20: En 1929, muchos inversores creyeron que la subida seguiría. · estado: sent_to_inbox
-- `2026-11-13 17:18 UTC` **reanudación** — El episodio de hoy estaba pendiente; el comité diario lo retoma ahora.
-- `2026-11-12 22:01 UTC` **publicación** — Ep. 19: ¿Quién paga la app que dices que es gratis? · estado: sent_to_inbox
-- `2026-11-11 22:22 UTC` **publicación** — Ep. 18: Pagar en cuotas sin intereses puede costarte más · estado: sent_to_inbox
-- `2026-11-11 17:30 UTC` **episodio** — Ep. 18 escrito y aprobado por Compliance: Pagar en cuotas sin intereses puede costarte más
 
 ## Directivas del consejo
 _Sesión del 2026-11-15_
@@ -92,10 +93,6 @@ _Sesión del 2026-11-15_
 {"followers": 100, "avg_views": 150}
 
 ## Decisiones recientes de dirección
-- 2026-11-06 · Formatos: rotar el formato en cada vídeo sin repetir los dos anteriores, según la biblia. Se descarta cambiar de formato cada dos vídeos. El cierre de cada reel anuncia el siguiente episodio y termina con pregunta de opinión (options), sin recomendar productos.
-- 2026-11-06 · Horarios y hashtags: se mantienen 19:00–21:00 (Madrid) y 4–6 hashtags (nicho y amplio). Se prueba una franja de mediodía en 2–3 vídeos, no en dos semanas. Revisión de hashtags a las 4 semanas con datos propios.
-- 2026-11-06 · CTA: como máximo 1 de cada 4 vídeos lleva llamada a la acción, dirigida a un recurso general (comentario guía o plantilla de margen cuando exista). Nunca a un producto concreto. Comentarios: se responden los primeros en las primeras 2 horas y las dudas personalizadas se redirigen a información general.
-- 2026-11-09 · Embudo provisional: comentario con palabra clave (PLANTILLA) → envío manual del PDF general en las 2 primeras horas. Solo en 1 de cada 4 vídeos. Sin recogida de correos ni datos personales, sin enlaces de afiliado ni de entidades, sin productos. Si la distribución pública es posible (descripción fijada), se usa como vía principal.
 - 2026-11-09 · Aplazadas la página de captación, la newsletter, los afiliados y la guía de pago. No se reabren hasta tener audiencia suficiente y el sí del dueño. Ninguna cuenta nueva sin su aprobación.
 - 2026-11-09 · Plantilla de margen mensual: debe incluir el aviso legal íntegro, marcar toda cifra como ilustrativa, ser una herramienta de cálculo sin porcentajes 'ideales' ni recomendaciones, y llevar la indicación de contenido creado con ayuda de IA.
 - 2026-11-09 · CTA permitido: 'plantilla gratuita de margen mensual', sin promesas de transformación. Se mide con revisión tras 10 vídeos: si no hay ninguna petición de plantilla, se revisa el CTA y no el producto.
@@ -104,6 +101,10 @@ _Sesión del 2026-11-15_
 - 2026-11-11 · Sin cambios de catálogo de objetos hasta tener 10 vídeos publicados con datos completos. Se mantiene la rotación de al menos 3 tipos de objeto distintos entre episodios consecutivos. Responsable: Estudio.
 - 2026-11-13 · Desde ya no se contrata ninguna herramienta de pago (voz premium ElevenLabs, música con licencia ni servicios nuevos) hasta que el dueño fije el umbral de audiencia. Coste: 0 €.
 - 2026-11-13 · No se hace previsión de ingresos hasta tener 10 vídeos publicados con datos completos (directiva 8). Hasta entonces, solo escenarios marcados como hipótesis.
+- 2026-11-16 · Desde hoy, cada publicación lleva en la descripción el aviso breve ('Contenido educativo. Cifras ilustrativas. Vídeo creado con ayuda de IA.') y no menciona la plantilla hasta el visto bueno escrito de Compliance. Responsable: Marketing, verificación previa a publicar.
+- 2026-11-16 · Los ganchos sin cifras pasan a ser la norma en el lote del 19 de noviembre. Ningún gancho lleva una cifra sin marcar como ilustrativa con hipótesis documentada. Los títulos de los eps. 17, 23 y 24 se reformulan como pregunta de concepto, sin cifra ni verbos de promesa ('te quita', 'se come', 'hizo perder fortunas'), antes del jueves 19.
+- 2026-11-16 · Los episodios sin cifras se programan primero en el calendario. Los eps. 15, 17, 20, 23 y 24 quedan retenidos hasta tener hipótesis documentada y visto bueno escrito de Compliance. Si no hay 5 episodios limpios para el lote del 16–20 nov, se avisa al consejo el mismo día (directiva 7).
+- 2026-11-16 · Respuestas a comentarios: solo contenido general y plantilla manual estándar. Prohibido pedir, copiar o guardar datos personales en comentarios o DMs.
 
 ---
 Registro completo: [actas](minutes/) · [informes](reports/) · [actividad](state/activity.jsonl) · [costes](state/costs.json) · [peticiones](state/owner_requests.json)

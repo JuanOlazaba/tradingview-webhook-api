@@ -1,0 +1,286 @@
+{
+ "number": 25,
+ "format": "mito",
+ "slug": "invertir-mucho-dinero-mito",
+ "title": "¿Hace falta mucho dinero para empezar a invertir?",
+ "topic": "Invertir no es solo para quien tiene mucho dinero",
+ "core_idea": "Aportaciones pequeñas y constantes pueden acumularse durante años. La idea de que hace falta mucho dinero para empezar no se sostiene con cuentas sencillas, aunque el resultado nunca está garantizado. Hipótesis ilustrativa: 50 € al mes durante 10 años (120 aportaciones), tipo nominal constante del 5 % anual capitalizado mensualmente, sin comisiones, impuestos ni inflación. Aportado 6.000 €; valor final unos 7.760 € (cálculo exacto 7.764 €). No es una previsión.",
+ "series": "Finanzas en 1 minuto",
+ "characters": [
+  "Marta",
+  "Lucía"
+ ],
+ "keywords": [
+  "mito",
+  "tiempo",
+  "constancia",
+  "ilustrativ",
+  "aporta",
+  "intereses"
+ ],
+ "scenes": [
+  {
+   "type": "display",
+   "chapter": "",
+   "sfx": "hit",
+   "voice": "¿Invertir es solo para quien tiene mucho dinero?",
+   "params": {
+    "lines": [
+     {
+      "text": "¿SOLO CON",
+      "color": "bl",
+      "at": 0.3
+     },
+     {
+      "text": "MUCHO DINERO?",
+      "color": "co",
+      "at": 1.2
+     }
+    ],
+    "size": "xl"
+   }
+  },
+  {
+   "type": "drawer",
+   "chapter": "// 01 · el mito",
+   "sfx": "thud",
+   "voice": "Marta lo tiene claro. Empezará a invertir cuando gane más.",
+   "params": {
+    "amount": 50,
+    "currency": "€",
+    "note": "Ilustrativo: aportación mensual de ejemplo."
+   }
+  },
+  {
+   "type": "display",
+   "chapter": "// 01 · el mito",
+   "sfx": "pop",
+   "voice": "Spoiler: puede que haga falta menos de lo que crees.",
+   "params": {
+    "lines": [
+     {
+      "text": "MITO",
+      "color": "co",
+      "at": 0.3
+     },
+     {
+      "text": "Hace falta mucho para empezar",
+      "at": 1.0
+     }
+    ],
+    "size": "m"
+   }
+  },
+  {
+   "type": "cards",
+   "chapter": "// 02 · la cuenta",
+   "sfx": "deal",
+   "voice": "Lucía le enseña una cuenta sencilla. Ilustrativa... 50 € al mes, durante 10 años, a un 5 % anual constante.",
+   "params": {
+    "cards": [
+     {
+      "label": "50 € al mes",
+      "icon": "coin",
+      "lit": true
+     },
+     {
+      "label": "10 años",
+      "icon": "clock"
+     },
+     {
+      "label": "5 % anual",
+      "icon": "chart"
+     }
+    ],
+    "note": "Ilustrativo. Hipótesis: 50 €/mes, 10 años, 5 % nominal constante capitalizado mensualmente, sin comisiones, impuestos ni inflación."
+   }
+  },
+  {
+   "type": "piggies",
+   "chapter": "// 02 · la cuenta",
+   "sfx": "coins",
+   "voice": "Son 120 aportaciones de 50 €. Aportado: 6.000 €. Valor final: unos 7.760 €... ilustrativo.",
+   "params": {
+    "pigs": [
+     {
+      "name": "Aportado",
+      "tag": "120 × 50 €",
+      "fill": 0.77,
+      "from": 0,
+      "to": 6000,
+      "suffix": " €",
+      "at": 0.5,
+      "dur": 3
+     },
+     {
+      "name": "Valor final",
+      "tag": "ilustrativo",
+      "fill": 1,
+      "from": 0,
+      "to": 7760,
+      "suffix": " €",
+      "at": 0.5,
+      "dur": 3
+     }
+    ],
+    "note": "Ilustrativo. Hipótesis: 50 €/mes, 10 años, 5 % nominal constante capitalizado mensualmente, sin comisiones ni impuestos. Cálculo exacto 7.764 €, redondeado a unos 7.760 €."
+   }
+  },
+  {
+   "type": "chart",
+   "chapter": "// 02 · la cuenta",
+   "sfx": "rise",
+   "voice": "Mira la gráfica. La línea del valor se separa poco a poco de lo aportado.",
+   "params": {
+    "series": [
+     {
+      "name": "Aportado",
+      "points": [
+       0,
+       1200,
+       2400,
+       3600,
+       4800,
+       6000
+      ],
+      "color": "bl",
+      "end": 6000,
+      "suffix": " €"
+     },
+     {
+      "name": "Valor ilustrativo",
+      "points": [
+       0,
+       1259,
+       2651,
+       4186,
+       5890,
+       7760
+      ],
+      "color": "co",
+      "end": 7760,
+      "suffix": " €"
+     }
+    ],
+    "x_labels": [
+     "0",
+     "2",
+     "4",
+     "6",
+     "8",
+     "10"
+    ],
+    "at": 0.4,
+    "dur": 4,
+    "note": "Ilustrativo. Años en el eje. Hipótesis: 50 €/mes, 5 % nominal constante, sin comisiones ni impuestos. No es una previsión."
+   }
+  },
+  {
+   "type": "display",
+   "chapter": "// 03 · el giro",
+   "sfx": "ding",
+   "voice": "La diferencia: unos 1.760 €. Ilustrativa... y sin comisiones ni impuestos.",
+   "params": {
+    "lines": [
+     {
+      "text": "UNOS 1.760 €",
+      "color": "co",
+      "at": 0.3
+     },
+     {
+      "text": "ilustrativo",
+      "color": "bl",
+      "at": 1.4
+     }
+    ],
+    "size": "xl",
+    "note": "Ilustrativo: 7.760 − 6.000 = 1.760 €. Hipótesis: 50 €/mes, 10 años, 5 % nominal constante."
+   }
+  },
+  {
+   "type": "snowball",
+   "chapter": "// 03 · el giro",
+   "sfx": "whoosh",
+   "voice": "¿Y sabes qué? Los intereses también generan intereses. El tiempo hace rodar la bola.",
+   "params": {
+    "start_label": "50 € al mes",
+    "end_label": "Con el tiempo",
+    "dur": 5,
+    "note": "Ilustrativo. Con rentabilidad constante supuesta; la real varía."
+   }
+  },
+  {
+   "type": "levers",
+   "chapter": "// 03 · el giro",
+   "sfx": "tick",
+   "voice": "Pero ojo: la rentabilidad real no es constante. Puede incluso ser negativa.",
+   "params": {
+    "title": "Lo real no es una línea recta",
+    "levers": [
+     {
+      "label": "Rentabilidad real",
+      "sub": "cambia cada año",
+      "from": 70,
+      "to": 25
+     }
+    ],
+    "note": "Ilustrativo. Sin garantía de resultado ni previsión."
+   }
+  },
+  {
+   "type": "display",
+   "chapter": "// 04 · lo que cuenta",
+   "sfx": "hit2",
+   "voice": "Entonces, ¿qué cuenta al empezar? El tiempo y la constancia, no solo la cantidad.",
+   "params": {
+    "lines": [
+     {
+      "text": "TIEMPO",
+      "color": "bl",
+      "at": 0.3
+     },
+     {
+      "text": "CONSTANCIA",
+      "color": "co",
+      "at": 1.3
+     }
+    ],
+    "size": "xl"
+   }
+  },
+  {
+   "type": "drawer",
+   "chapter": "// 04 · lo que cuenta",
+   "sfx": "thud",
+   "voice": "Marta se queda pensando. Quizá no hacía falta tanto para empezar a entenderlo.",
+   "params": {
+    "amount": 50,
+    "currency": "€",
+    "note": "Ilustrativo: aportación mensual de ejemplo."
+   }
+  },
+  {
+   "type": "options",
+   "chapter": "// 05 · tu turno",
+   "sfx": "pop",
+   "voice": "Para empezar, ¿qué pesa más? A, la cantidad. B, el tiempo. C, la constancia.",
+   "params": {
+    "options": [
+     "A) La cantidad",
+     "B) El tiempo",
+     "C) La constancia"
+    ],
+    "disclaimer": "Contenido educativo. No es asesoramiento financiero ni recomendación de inversión. Invertir conlleva riesgos. Cifras ilustrativas. Vídeo creado con ayuda de IA."
+   }
+  },
+  {
+   "type": "logo",
+   "chapter": "",
+   "sfx": "cling",
+   "voice": "Esto ha sido Finroots. El dinero, desde la raíz.",
+   "params": {
+    "next": "¿Qué cambia si la aportación mensual sube cada año?"
+   }
+  }
+ ]
+}

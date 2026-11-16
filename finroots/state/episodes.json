@@ -744,5 +744,29 @@
       "status": "SEND_TO_USER_INBOX",
       "post_ids": null
     }
+  },
+  {
+    "compliance_ok": true,
+    "number": 25,
+    "slug": "invertir-mucho-dinero-mito",
+    "title": "¿Hace falta mucho dinero para empezar a invertir?",
+    "topic": "Invertir no es solo para quien tiene mucho dinero",
+    "core_idea": "Aportaciones pequeñas y constantes pueden acumularse durante años. La idea de que hace falta mucho dinero para empezar no se sostiene con cuentas sencillas, aunque el resultado nunca está garantizado. Hipótesis ilustrativa: 50 € al mes durante 10 años (120 aportaciones), tipo nominal constante del 5 % anual capitalizado mensualmente, sin comisiones, impuestos ni inflación. Aportado 6.000 €; valor final unos 7.760 € (cálculo exacto 7.764 €). No es una previsión.",
+    "characters": [
+      "Marta",
+      "Lucía"
+    ],
+    "objects": [
+      "cards",
+      "chart",
+      "display",
+      "drawer",
+      "levers",
+      "logo",
+      "options",
+      "piggies",
+      "snowball"
+    ],
+    "status": "ready"
   }
 ]

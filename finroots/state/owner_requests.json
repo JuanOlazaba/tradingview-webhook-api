@@ -129,5 +129,23 @@
   "created": "2026-11-15 20:34 UTC",
   "issue": 23,
   "url": "https://github.com/JuanOlazaba/tradingview-webhook-api/issues/23"
+ },
+ {
+  "id": 12,
+  "title": "Verificación manual de la etiqueta de IA y sí a reformular títulos 17, 23 y 24",
+  "body": "Pedimos: (1) que verifiques en TikTok que la etiqueta de contenido generado con IA está activa en los 3 vídeos publicados; no podemos comprobarlo de forma fiable desde aquí. (2) Tu sí para reformular los títulos de los eps. 17, 23 y 24 como preguntas de concepto, sin cifras ni verbos de promesa, antes del jueves 19. Opción recomendada: sí a ambos. Coste: 0 €. Riesgo: ninguno relevante; sin el sí, los episodios siguen retenidos por Compliance. Si dices que no: los eps. 17, 23 y 24 no salen en el lote del 19 y se avisa al consejo.",
+  "by": "CEO (Riesgos y cumplimiento)",
+  "status": "pending",
+  "apply_on_yes": {
+   "tiktok_ai_label_check": "manual_owner",
+   "reword_titles": [
+    "ep.17",
+    "ep.23",
+    "ep.24"
+   ]
+  },
+  "created": "2026-11-16 19:43 UTC",
+  "issue": 24,
+  "url": "https://github.com/JuanOlazaba/tradingview-webhook-api/issues/24"
  }
 ]
