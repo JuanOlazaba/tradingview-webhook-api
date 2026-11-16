@@ -1,5 +1,5 @@
 # Panel de Finroots
-_Actualizado: 2026-11-16 19:45 UTC · se regenera en cada reunión_
+_Actualizado: 2026-11-16 23:57 UTC · se regenera en cada reunión_
 
 ## Necesita tu sí
 - **Incidencia en el episodio 5** — [responder aquí](https://github.com/JuanOlazaba/tradingview-webhook-api/issues/17) · pedido por Operaciones el 2026-11-03 13:13 UTC
@@ -10,14 +10,14 @@ _Actualizado: 2026-11-16 19:45 UTC · se regenera en cada reunión_
 - **Verificación manual de la etiqueta de IA y sí a reformular títulos 17, 23 y 24** — [responder aquí](https://github.com/JuanOlazaba/tradingview-webhook-api/issues/24) · pedido por CEO (Riesgos y cumplimiento) el 2026-11-16 19:43 UTC
 
 ## Estado
-- Episodios: 25 · en colchón (listos): 1 (25)
+- Episodios: 25 · en colchón (listos): 0
 - TikTok: 3 seguidores · 7 me gusta · 3 vídeos
 - Coste de IA: hoy 0.22 $ · este mes 9.08 $ de 20 $ · total 9.08 $
 
 ## Episodios
 | # | Título | Estado |
 |---|---|---|
-| 25 | [¿Hace falta mucho dinero para empezar a invertir?](episodes/ep025/script.txt) | en colchón |
+| 25 | [¿Hace falta mucho dinero para empezar a invertir?](episodes/ep025/script.txt) | en tus borradores de TikTok |
 | 24 | [Un café de 2 € suma 504 € al año. Ilustrativo.](episodes/ep024/script.txt) | en tus borradores de TikTok |
 | 23 | [¿Una comisión del 1 % te quita 10.785 €? Ilustrativo.](episodes/ep023/script.txt) | en tus borradores de TikTok |
 | 22 | [Para no pagar envío, añadiste algo. Te salió más caro.](episodes/ep022/script.txt) | en tus borradores de TikTok |
@@ -34,6 +34,7 @@ _Actualizado: 2026-11-16 19:45 UTC · se regenera en cada reunión_
 | 11 | [Vender en pánico puede fijar la pérdida](episodes/ep011/script.txt) | en tus borradores de TikTok |
 
 ## Últimas reuniones
+- [2026-11-17-ep025](minutes/2026-11-17-ep025.md)
 - [2026-11-16-ep025-estudio](minutes/2026-11-16-ep025-estudio.md)
 - [2026-11-16-ep024](minutes/2026-11-16-ep024.md)
 - [2026-11-16-1942-mejora-riesgos](minutes/2026-11-16-1942-mejora-riesgos.md)
@@ -45,9 +46,9 @@ _Actualizado: 2026-11-16 19:45 UTC · se regenera en cada reunión_
 - [2026-11-13-ep021-estudio](minutes/2026-11-13-ep021-estudio.md)
 - [2026-11-13-ep020](minutes/2026-11-13-ep020.md)
 - [2026-11-13-1727-mejora-finanzas](minutes/2026-11-13-1727-mejora-finanzas.md)
-- [2026-11-12-ep019](minutes/2026-11-12-ep019.md)
 
 ## Actividad reciente
+- `2026-11-16 23:57 UTC` **publicación** — Ep. 25: ¿Hace falta mucho dinero para empezar a invertir? · estado: sent_to_inbox
 - `2026-11-16 19:45 UTC` **episodio** — Ep. 25 escrito y aprobado por Compliance: ¿Hace falta mucho dinero para empezar a invertir?
 - `2026-11-16 19:43 UTC` **reunión** — Riesgos y cumplimiento: Compliance mantiene los vetos: ningún episodio con cifras sin hipótesis documentada y visto bueno escrito; ep. 13 (#8) bloqueado hasta documentar el motivo; la plantilla PDF y el CTA 'Comenta PLANTILL
 - `2026-11-16 19:43 UTC` **acción** — petición al dueño: Verificación manual de la etiqueta de IA y sí a reformular títulos 17, 23 y 24
@@ -67,7 +68,6 @@ _Actualizado: 2026-11-16 19:45 UTC · se regenera en cada reunión_
 - `2026-11-14 23:31 UTC` **publicación** — Ep. 23: ¿Una comisión del 1 % te quita 10.785 €? Ilustrativo. · estado: sent_to_inbox
 - `2026-11-14 23:21 UTC` **reanudación** — El episodio de hoy estaba pendiente; el comité diario lo retoma ahora.
 - `2026-11-14 20:14 UTC` **publicación** — Ep. 22: Para no pagar envío, añadiste algo. Te salió más caro. · estado: sent_to_inbox
-- `2026-11-13 21:40 UTC` **publicación** — Ep. 21: Tras una gran subida, ¿ya es tarde para entrar? · estado: sent_to_inbox
 
 ## Directivas del consejo
 _Sesión del 2026-11-15_
