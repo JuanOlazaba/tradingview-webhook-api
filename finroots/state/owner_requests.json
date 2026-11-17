@@ -147,5 +147,16 @@
   "created": "2026-11-16 19:43 UTC",
   "issue": 24,
   "url": "https://github.com/JuanOlazaba/tradingview-webhook-api/issues/24"
+ },
+ {
+  "id": 13,
+  "title": "Incidencia en el episodio 26",
+  "body": "El comité diario no pudo completar el episodio 26:\n\n> Compliance no aprueba el episodio tras las revisiones: [{\"scene\": 3, \"problem\": \"Cumple en cifras (10 × 100 € = 1.000 €), pero el veto de la directiva 3 exige visto bueno escrito de Compliance sobre la ficha con la hipótesis documentada antes de render. Este informe señala correcciones: no equivale a ese visto bueno. Además, la escena 3 no dice con claridad a quién va el dinero ni qué pasa con él.\", \"fix\": \"Mantener voz y nota actuales. Registrar la hipótesis en la ficha: 'capital 10 × 100 € = 1.000 €; entrada nueva 100 €; pago ficticio 100 €; sin tipo, sin plazo, no histórica, sin caso real'. El visto bueno escrito se emitirá cuando se cierren las incidencias 2, 4, 5, 7 y 10.\"}, {\"scene\": 4, \"problem\": \"La voz dice 'se promete un beneficio a los anteriores' pero el drawer solo muestra la \n\nIT lo reintentará en la próxima ejecución. Responde solo si quieres dar instrucciones.",
+  "by": "Operaciones",
+  "status": "pending",
+  "apply_on_yes": {},
+  "created": "2026-11-17 23:09 UTC",
+  "issue": 25,
+  "url": "https://github.com/JuanOlazaba/tradingview-webhook-api/issues/25"
  }
 ]
