@@ -1,0 +1,286 @@
+{
+ "number": 27,
+ "format": "error_caro",
+ "slug": "la-suscripcion-olvidada",
+ "title": "¿Qué pasa con una suscripción que nadie revisa?",
+ "topic": "La suscripción olvidada: el cargo que pasa desapercibido",
+ "core_idea": "Una suscripción que ya no usas sigue cobrándose cada mes y, con el tiempo, el importe acumulado puede ser mayor de lo que parece. Hipótesis ilustrativa: 9,99 €/mes, precio fijo, sin impuestos, sin capital, sin tipo de interés y sin comisiones. 9,99 € x 12 = 119,88 € al año; 9,99 € x 36 = 359,64 € en 3 años. El saldo del móvil de Leo (1.200 € a 1.190,01 €) es ilustrativo y solo ambienta la escena. No es una previsión.",
+ "series": "Finanzas en 1 minuto",
+ "characters": [
+  "Leo"
+ ],
+ "keywords": [
+  "suscripci",
+  "cobr",
+  "cargo",
+  "ilustrativ",
+  "año"
+ ],
+ "scenes": [
+  {
+   "type": "display",
+   "chapter": "",
+   "sfx": "hit",
+   "voice": "Tu suscripción olvidada sigue cobrándote cada mes.",
+   "params": {
+    "lines": [
+     {
+      "text": "SUSCRIPCIÓN",
+      "color": "co",
+      "at": 0.2
+     },
+     {
+      "text": "OLVIDADA",
+      "at": 0.8
+     }
+    ],
+    "size": "xl",
+    "pills": [
+     {
+      "text": "9,99 €/mes · ilustrativo",
+      "dark": true
+     }
+    ],
+    "note": "Ilustrativo: 9,99 €/mes, precio fijo, sin capital, sin tipo de interés, sin comisiones."
+   }
+  },
+  {
+   "type": "phone",
+   "chapter": "// 01 · el problema",
+   "sfx": "ding",
+   "voice": "Leo mira su móvil... y ve un cargo mensual de 9,99 euros. Ilustrativo.",
+   "params": {
+    "name": "Leo",
+    "label": "Saldo",
+    "balance_steps": [
+     [
+      0,
+      1200
+     ],
+     [
+      3,
+      1190.01
+     ]
+    ],
+    "rows": [
+     {
+      "label": "Suscripción mensual",
+      "amount": "-9,99 €",
+      "color": "#FF6B4A",
+      "at": 2
+     }
+    ],
+    "notifications": [
+     {
+      "title": "Cargo recurrente",
+      "body": "Suscripción: 9,99 € (ilustrativo)",
+      "at": 1.5
+     }
+    ],
+    "side": {
+     "label": "Cargo mensual",
+     "value": "9,99 €",
+     "tone": "co",
+     "at": 3
+    },
+    "note": "Ilustrativo: el saldo del móvil de Leo (1.200 € a 1.190,01 €) solo ambienta la escena. Sin app ni servicio reales."
+   }
+  },
+  {
+   "type": "calendar",
+   "chapter": "// 02 · el tiempo pasa",
+   "sfx": "tick",
+   "voice": "Pasan los meses... y el cargo sigue ahí. Cada mes. Ilustrativo.",
+   "params": {
+    "label": "meses sin usarla",
+    "from": 1,
+    "to": 12,
+    "sub": "9,99 € cada mes (ilustrativo)",
+    "at": 0.5,
+    "dur": 4,
+    "note": "Ilustrativo: 9,99 €/mes, precio fijo, sin capital, sin tipo de interés, sin comisiones."
+   }
+  },
+  {
+   "type": "receipt",
+   "chapter": "// 03 · el problema",
+   "sfx": "print",
+   "voice": "¿Sabes qué pasa? Que 9,99 euros al mes parece poco... Ilustrativo. Spoiler: no lo es.",
+   "params": {
+    "header": "Cargos del mes (ilustrativo)",
+    "items": [
+     {
+      "label": "Suscripción sin uso",
+      "from": 9.99
+     }
+    ],
+    "total_from": 9.99,
+    "note": "Ilustrativo: 9,99 €/mes, precio fijo, sin impuestos, sin comisiones."
+   }
+  },
+  {
+   "type": "counter",
+   "chapter": "// 04 · la cuenta",
+   "sfx": "rise",
+   "voice": "Al año son 119,88 euros. Ilustrativo... precio fijo, sin subidas ni impuestos.",
+   "params": {
+    "label": "En 12 meses (ilustrativo)",
+    "from": 0,
+    "to": 119.88,
+    "suffix": " €",
+    "decimals": 2,
+    "color": "co",
+    "sub": "9,99 € x 12 meses",
+    "note": "Ilustrativo: 9,99 € x 12 = 119,88 €. Sin capital, sin tipo de interés, sin comisiones."
+   }
+  },
+  {
+   "type": "coins",
+   "chapter": "// 04 · la cuenta",
+   "sfx": "coins",
+   "voice": "Compara un año con tres... Ilustrativo.",
+   "params": {
+    "towers": [
+     {
+      "label": "1 año",
+      "coins": 4,
+      "value": 119.88,
+      "suffix": " €"
+     },
+     {
+      "label": "3 años",
+      "coins": 12,
+      "value": 359.64,
+      "suffix": " €",
+      "color": "co"
+     }
+    ],
+    "note": "Ilustrativo: 9,99 €/mes, precio fijo. 119,88 € al año y 359,64 € en 3 años. Sin capital, sin tipo, sin comisiones."
+   }
+  },
+  {
+   "type": "calendar",
+   "chapter": "// 05 · tres años",
+   "sfx": "tick",
+   "voice": "Tres años... ¿y sabes qué? El cargo sigue ahí.",
+   "params": {
+    "label": "años de cobro",
+    "from": 1,
+    "to": 3,
+    "sub": "9,99 € al mes (ilustrativo)",
+    "at": 0.4,
+    "dur": 3.5,
+    "note": "Ilustrativo: 9,99 €/mes durante 36 meses, precio fijo, sin capital ni tipo de interés."
+   }
+  },
+  {
+   "type": "counter",
+   "chapter": "// 05 · tres años",
+   "sfx": "hit2",
+   "voice": "En total, 359,64 euros por algo que no usas... Ilustrativo.",
+   "params": {
+    "label": "En 3 años (ilustrativo)",
+    "from": 0,
+    "to": 359.64,
+    "suffix": " €",
+    "decimals": 2,
+    "color": "co",
+    "sub": "9,99 € x 36 meses",
+    "note": "Ilustrativo: 9,99 € x 36 = 359,64 €. Sin capital, sin tipo de interés, sin comisiones. No es una previsión."
+   }
+  },
+  {
+   "type": "display",
+   "chapter": "// 06 · el giro",
+   "sfx": "whoosh",
+   "voice": "Pero ojo: lo que pesa no es un cargo. Es que nadie lo mira.",
+   "params": {
+    "lines": [
+     {
+      "text": "LO QUE PESA",
+      "at": 0.2
+     },
+     {
+      "text": "ES NO",
+      "at": 0.8
+     },
+     {
+      "text": "VERLO",
+      "color": "co",
+      "at": 1.4
+     }
+    ],
+    "size": "xl"
+   }
+  },
+  {
+   "type": "levers",
+   "chapter": "// 07 · una idea general",
+   "sfx": "pop",
+   "voice": "Un vistazo mensual a tus cargos ayuda a ver lo que no ves. Y no hace falta una tarde entera.",
+   "params": {
+    "title": "Tu revisión mensual",
+    "levers": [
+     {
+      "label": "Cargos revisados",
+      "from": 0,
+      "to": 100
+     },
+     {
+      "label": "Sorpresas en el extracto",
+      "from": 80,
+      "to": 10
+     }
+    ],
+    "note": "Escena conceptual: los valores de las palancas son ilustrativos, no datos ni previsión. Sin cifras económicas."
+   }
+  },
+  {
+   "type": "cards",
+   "chapter": "// 07 · una idea general",
+   "sfx": "deal",
+   "voice": "Una idea general: mira qué usas... decide qué mantener... y repite.",
+   "params": {
+    "cards": [
+     {
+      "label": "Revisar",
+      "icon": "card",
+      "lit": true
+     },
+     {
+      "label": "Decidir",
+      "icon": "shield"
+     },
+     {
+      "label": "Repetir",
+      "icon": "clock"
+     }
+    ],
+    "note": "Sin cifras."
+   }
+  },
+  {
+   "type": "options",
+   "chapter": "// 08 · tu turno",
+   "sfx": "ding",
+   "voice": "¿Qué harías con una suscripción que no usas? A, cancelarla hoy. B, revisarlas todas cada mes. C, esperar a que suba de precio.",
+   "params": {
+    "options": [
+     "Cancelarla hoy",
+     "Revisarlas todas cada mes",
+     "Esperar a que suba de precio"
+    ],
+    "disclaimer": "Contenido educativo. No es asesoramiento financiero ni recomendación de inversión. Invertir conlleva riesgos. Cifras ilustrativas. Vídeo creado con ayuda de IA."
+   }
+  },
+  {
+   "type": "logo",
+   "chapter": "",
+   "sfx": "cling",
+   "voice": "Esto ha sido Finroots. El dinero, desde la raíz.",
+   "params": {
+    "next": "¿Cómo se pueden revisar los cargos recurrentes sin pasarse una tarde con el extracto?"
+   }
+  }
+ ]
+}

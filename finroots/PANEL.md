@@ -1,5 +1,5 @@
 # Panel de Finroots
-_Actualizado: 2026-11-17 23:09 UTC · se regenera en cada reunión_
+_Actualizado: 2026-11-18 18:25 UTC · se regenera en cada reunión_
 
 ## Necesita tu sí
 - **Incidencia en el episodio 5** — [responder aquí](https://github.com/JuanOlazaba/tradingview-webhook-api/issues/17) · pedido por Operaciones el 2026-11-03 13:13 UTC
@@ -11,13 +11,15 @@ _Actualizado: 2026-11-17 23:09 UTC · se regenera en cada reunión_
 - **Incidencia en el episodio 26** — [responder aquí](https://github.com/JuanOlazaba/tradingview-webhook-api/issues/25) · pedido por Operaciones el 2026-11-17 23:09 UTC
 
 ## Estado
-- Episodios: 25 · en colchón (listos): 0
+- Episodios: 27 · en colchón (listos): 1 (27)
 - TikTok: 3 seguidores · 7 me gusta · 3 vídeos
-- Coste de IA: hoy 0.42 $ · este mes 9.50 $ de 20 $ · total 9.50 $
+- Coste de IA: hoy 0.70 $ · este mes 10.20 $ de 20 $ · total 10.20 $
 
 ## Episodios
 | # | Título | Estado |
 |---|---|---|
+| 27 | [¿Qué pasa con una suscripción que nadie revisa?](episodes/ep027/script.txt) | en colchón |
+| 26 | [¿Qué firmas cuando pulsas acepto?](episodes/ep026/script.txt) | en tus borradores de TikTok |
 | 25 | [¿Hace falta mucho dinero para empezar a invertir?](episodes/ep025/script.txt) | en tus borradores de TikTok |
 | 24 | [Un café de 2 € suma 504 € al año. Ilustrativo.](episodes/ep024/script.txt) | en tus borradores de TikTok |
 | 23 | [¿Una comisión del 1 % te quita 10.785 €? Ilustrativo.](episodes/ep023/script.txt) | en tus borradores de TikTok |
@@ -31,11 +33,11 @@ _Actualizado: 2026-11-17 23:09 UTC · se regenera en cada reunión_
 | 15 | [Los tulipanes de 1637 no hundieron a Holanda](episodes/ep015/script.txt) | en tus borradores de TikTok |
 | 14 | [¿Comprarías algo solo porque todo el mundo lo compra?](episodes/ep014/script.txt) | en tus borradores de TikTok |
 | 13 | [Tienes suscripciones que no usas](episodes/ep013/script.txt) | en tus borradores de TikTok |
-| 12 | [Un ETF: una compra, muchas empresas](episodes/ep012/script.txt) | en tus borradores de TikTok |
-| 11 | [Vender en pánico puede fijar la pérdida](episodes/ep011/script.txt) | en tus borradores de TikTok |
 
 ## Últimas reuniones
+- [2026-11-18-ep027-estudio](minutes/2026-11-18-ep027-estudio.md)
 - [2026-11-18-ep026](minutes/2026-11-18-ep026.md)
+- [2026-11-18-1823-mejora-contenido](minutes/2026-11-18-1823-mejora-contenido.md)
 - [2026-11-17-ep025](minutes/2026-11-17-ep025.md)
 - [2026-11-16-ep025-estudio](minutes/2026-11-16-ep025-estudio.md)
 - [2026-11-16-ep024](minutes/2026-11-16-ep024.md)
@@ -45,10 +47,18 @@ _Actualizado: 2026-11-17 23:09 UTC · se regenera en cada reunión_
 - [2026-11-15-consejo](minutes/2026-11-15-consejo.md)
 - [2026-11-14-ep022](minutes/2026-11-14-ep022.md)
 - [2026-11-13-ep021](minutes/2026-11-13-ep021.md)
-- [2026-11-13-ep021-estudio](minutes/2026-11-13-ep021-estudio.md)
-- [2026-11-13-ep020](minutes/2026-11-13-ep020.md)
 
 ## Actividad reciente
+- `2026-11-18 18:25 UTC` **episodio** — Ep. 27 escrito y aprobado por Compliance: ¿Qué pasa con una suscripción que nadie revisa?
+- `2026-11-18 18:23 UTC` **reunión** — Contenido y colchón de episodios: Se aprueba el plan de Ideas, Estudio y Marketing para los episodios 27–33: sin cifras nuevas, con títulos reformulados como preguntas de concepto y ganchos de 6–14 palabras alternados. Los eps. 15, 17
+- `2026-11-18 18:23 UTC` **acción** — biblia: Nota de continuidad (18 nov): Lucía retoma el tema del fondo de emergencia en el
+- `2026-11-18 18:23 UTC` **acción** — backlog: IT: confirmar que el validador automático de JSON (bloqueo + aviso) está operativo antes del primer render de los eps. 27–33, y registrar bloqueos y episodios que llegan a Compliance sin hipótesis (objetivo cero). Responsable: IT. Prioridad 1.
+- `2026-11-18 18:23 UTC` **acción** — backlog: Continuidad: recolocar el tulipanes (antes ep. 11, ya publicado como ep. 15) y confirmar en el registro qué eps. 8–14 están publicados antes de programar cualquier calendario. Responsable: Operaciones, con Ideas. Plazo: antes del próximo render.
+- `2026-11-18 18:23 UTC` **acción** — decisión: Regla de ganchos para todo render: 6–14 palabras, etiqueta pregunta o afirmación en la ficha del episodio, alternancia entre vídeos consecutivos, y gancho con cifra solo si va marcado como ilustrativo con hipótesis. Si supera el límite, no pasa a render. Estudio registra recuento de palabras y tipo de gancho en cada render.
+- `2026-11-18 18:23 UTC` **acción** — decisión: Los eps. 15, 17, 20, 23 y 24 quedan retenidos fuera de cualquier render o publicación hasta tener hipótesis documentada (capital, años, tipo) y visto bueno escrito de Compliance. El ep. 15 se reformula como pregunta de concepto, sin verbo de promesa.
+- `2026-11-18 18:23 UTC` **acción** — decisión: Aprobar la lista de próximos episodios 27–33 tal como propone Ideas, con los cambios de objetos de Estudio (28: coins en lugar de display repetido; 31: phone solo si aporta, si no receipt; 33: calendar para la idea de liquidez, sin cifras). Ningún episodio de esta lista lleva cifras nuevas.
+- `2026-11-18 18:23 UTC` **publicación** — Ep. 26: ¿Qué firmas cuando pulsas acepto? · estado: sent_to_inbox
+- `2026-11-18 18:13 UTC` **reanudación** — El episodio de hoy estaba pendiente; el comité diario lo retoma ahora.
 - `2026-11-17 23:09 UTC` **incidencia** — Ep. 26: Compliance no aprueba el episodio tras las revisiones: [{"scene": 3, "problem": "Cumple en cifras (10 × 100 € = 1.000 €), pero el veto de la directiva 3 exige visto bueno escrito de Compliance sobre la ficha con la hipótesis documentada antes de render. Este informe señala correcciones: no equivale 
 - `2026-11-16 23:57 UTC` **publicación** — Ep. 25: ¿Hace falta mucho dinero para empezar a invertir? · estado: sent_to_inbox
 - `2026-11-16 19:45 UTC` **episodio** — Ep. 25 escrito y aprobado por Compliance: ¿Hace falta mucho dinero para empezar a invertir?
@@ -59,16 +69,6 @@ _Actualizado: 2026-11-17 23:09 UTC · se regenera en cada reunión_
 - `2026-11-16 19:43 UTC` **acción** — backlog: Recalcular y documentar la hipótesis del ep. 23 (comisión 1 %) con capital, años y tipo explícitos antes de aprobar el título. Responsable: Estudio; revisión: Compliance.
 - `2026-11-16 19:43 UTC` **acción** — backlog: Documentar hipótesis (capital, años, tipo) y adjuntar fuente verificable para los datos históricos de los eps. 15, 17 y 20 antes de cualquier render o publicación. Responsable: Estudio y Compliance. Sin nombres reales de entidades en el ep. 17.
 - `2026-11-16 19:43 UTC` **acción** — backlog: Verificar manualmente en TikTok que la etiqueta de contenido generado con IA está activa en los 3 vídeos publicados (ids 7703615955884100878, 7703655995985136910, 7703680683335519501) y añadir el aviso en la descripción donde falte. Responsable: Operaciones (verificación) y Marketing (descripción). Medida: 3/3 con etiqueta y aviso.
-- `2026-11-16 19:43 UTC` **acción** — decisión: Respuestas a comentarios: solo contenido general y plantilla manual estándar. Prohibido pedir, copiar o guardar datos personales en comentarios o DMs.
-- `2026-11-16 19:43 UTC` **acción** — decisión: Los episodios sin cifras se programan primero en el calendario. Los eps. 15, 17, 20, 23 y 24 quedan retenidos hasta tener hipótesis documentada y visto bueno escrito de Compliance. Si no hay 5 episodios limpios para el lote del 16–20 nov, se avisa al consejo el mismo día (directiva 7).
-- `2026-11-16 19:43 UTC` **acción** — decisión: Los ganchos sin cifras pasan a ser la norma en el lote del 19 de noviembre. Ningún gancho lleva una cifra sin marcar como ilustrativa con hipótesis documentada. Los títulos de los eps. 17, 23 y 24 se reformulan como pregunta de concepto, sin cifra ni verbos de promesa ('te quita', 'se come', 'hizo perder fortunas'), antes del jueves 19.
-- `2026-11-16 19:43 UTC` **acción** — decisión: Desde hoy, cada publicación lleva en la descripción el aviso breve ('Contenido educativo. Cifras ilustrativas. Vídeo creado con ayuda de IA.') y no menciona la plantilla hasta el visto bueno escrito de Compliance. Responsable: Marketing, verificación previa a publicar.
-- `2026-11-15 23:39 UTC` **publicación** — Ep. 24: Un café de 2 € suma 504 € al año. Ilustrativo. · estado: sent_to_inbox
-- `2026-11-15 23:30 UTC` **reanudación** — El episodio de hoy estaba pendiente; el comité diario lo retoma ahora.
-- `2026-11-15 20:34 UTC` **incidencia** — Ep. 24: Compliance no aprueba el episodio tras las revisiones: [{"scene": 1, "problem": "El gancho es una afirmación histórica concreta ('En 1923, los precios en Alemania se dispararon') y la fuente no consta por escrito. La directiva 3 y el veto exigen documentación antes de render. El hecho en sí es ampli
-- `2026-11-15 17:16 UTC` **consejo** — Sesión semanal: Publicar 5 episodios entre el 16 y el 20 de noviembre, cada uno entre 19:00 y 21:00 (Madrid), y marcarlos como publicados solo con video_id verificado.; Conciliar el 100 % de los IDs existentes (incluidos los 3 vídeos del 2 de noviembre) con episodio, antes del miércoles 18 de noviembre.; Ningún epi
-- `2026-11-14 23:31 UTC` **publicación** — Ep. 23: ¿Una comisión del 1 % te quita 10.785 €? Ilustrativo. · estado: sent_to_inbox
-- `2026-11-14 23:21 UTC` **reanudación** — El episodio de hoy estaba pendiente; el comité diario lo retoma ahora.
 
 ## Directivas del consejo
 _Sesión del 2026-11-15_
@@ -94,9 +94,6 @@ _Sesión del 2026-11-15_
 {"followers": 100, "avg_views": 150}
 
 ## Decisiones recientes de dirección
-- 2026-11-09 · Aplazadas la página de captación, la newsletter, los afiliados y la guía de pago. No se reabren hasta tener audiencia suficiente y el sí del dueño. Ninguna cuenta nueva sin su aprobación.
-- 2026-11-09 · Plantilla de margen mensual: debe incluir el aviso legal íntegro, marcar toda cifra como ilustrativa, ser una herramienta de cálculo sin porcentajes 'ideales' ni recomendaciones, y llevar la indicación de contenido creado con ayuda de IA.
-- 2026-11-09 · CTA permitido: 'plantilla gratuita de margen mensual', sin promesas de transformación. Se mide con revisión tras 10 vídeos: si no hay ninguna petición de plantilla, se revisa el CTA y no el producto.
 - 2026-11-11 · Antes de cualquier render, validación automática obligatoria: (a) toda cifra en counter, chart, display u options lleva nota de hipótesis (capital, años, tipo) y marca 'ilustrativa'; (b) la cifra de pantalla coincide con la de la voz de esa escena; (c) si falla, el render se bloquea y se avisa a IT y Compliance. Responsable: IT. Plazo: antes del próximo render.
 - 2026-11-11 · Voz: no se cambia voice.edge_rate en episodios programados sin render de prueba. En episodios con cifras, la palabra 'ilustrativa' va al final de frase corta con pausa '...' y aparece en el note de pantalla. Revisión manual de cada escena con cifra. Responsable: Estudio.
 - 2026-11-11 · Sin cambios de catálogo de objetos hasta tener 10 vídeos publicados con datos completos. Se mantiene la rotación de al menos 3 tipos de objeto distintos entre episodios consecutivos. Responsable: Estudio.
@@ -106,6 +103,9 @@ _Sesión del 2026-11-15_
 - 2026-11-16 · Los ganchos sin cifras pasan a ser la norma en el lote del 19 de noviembre. Ningún gancho lleva una cifra sin marcar como ilustrativa con hipótesis documentada. Los títulos de los eps. 17, 23 y 24 se reformulan como pregunta de concepto, sin cifra ni verbos de promesa ('te quita', 'se come', 'hizo perder fortunas'), antes del jueves 19.
 - 2026-11-16 · Los episodios sin cifras se programan primero en el calendario. Los eps. 15, 17, 20, 23 y 24 quedan retenidos hasta tener hipótesis documentada y visto bueno escrito de Compliance. Si no hay 5 episodios limpios para el lote del 16–20 nov, se avisa al consejo el mismo día (directiva 7).
 - 2026-11-16 · Respuestas a comentarios: solo contenido general y plantilla manual estándar. Prohibido pedir, copiar o guardar datos personales en comentarios o DMs.
+- 2026-11-18 · Aprobar la lista de próximos episodios 27–33 tal como propone Ideas, con los cambios de objetos de Estudio (28: coins en lugar de display repetido; 31: phone solo si aporta, si no receipt; 33: calendar para la idea de liquidez, sin cifras). Ningún episodio de esta lista lleva cifras nuevas.
+- 2026-11-18 · Los eps. 15, 17, 20, 23 y 24 quedan retenidos fuera de cualquier render o publicación hasta tener hipótesis documentada (capital, años, tipo) y visto bueno escrito de Compliance. El ep. 15 se reformula como pregunta de concepto, sin verbo de promesa.
+- 2026-11-18 · Regla de ganchos para todo render: 6–14 palabras, etiqueta pregunta o afirmación en la ficha del episodio, alternancia entre vídeos consecutivos, y gancho con cifra solo si va marcado como ilustrativo con hipótesis. Si supera el límite, no pasa a render. Estudio registra recuento de palabras y tipo de gancho en cada render.
 
 ---
 Registro completo: [actas](minutes/) · [informes](reports/) · [actividad](state/activity.jsonl) · [costes](state/costs.json) · [peticiones](state/owner_requests.json)

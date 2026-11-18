@@ -777,5 +777,56 @@
       "status": "SEND_TO_USER_INBOX",
       "post_ids": null
     }
+  },
+  {
+    "number": 26,
+    "slug": "que-firmas-cuando-pulsas-acepto",
+    "title": "¿Qué firmas cuando pulsas acepto?",
+    "topic": "Aceptar términos sin leer: qué cedes con un solo clic",
+    "core_idea": "Al pulsar 'acepto' suele autorizarse el uso de tus datos según una política que casi nadie lee, y esa autorización puede alcanzar a socios comerciales.",
+    "characters": [
+      "Leo"
+    ],
+    "objects": [
+      "cards",
+      "display",
+      "logo",
+      "options",
+      "phone"
+    ],
+    "question": "Dinero / Datos / Nada, es gratis",
+    "status": "sent_to_inbox",
+    "duration": 62.55,
+    "published_at": "2026-11-18T18:22:56.997646Z",
+    "tiktok": {
+      "publish_id": "v_inbox_file~v2.7709578505096513549",
+      "mode": "draft",
+      "status": "SEND_TO_USER_INBOX",
+      "post_ids": null
+    }
+  },
+  {
+    "compliance_ok": true,
+    "number": 27,
+    "slug": "la-suscripcion-olvidada",
+    "title": "¿Qué pasa con una suscripción que nadie revisa?",
+    "topic": "La suscripción olvidada: el cargo que pasa desapercibido",
+    "core_idea": "Una suscripción que ya no usas sigue cobrándose cada mes y, con el tiempo, el importe acumulado puede ser mayor de lo que parece. Hipótesis ilustrativa: 9,99 €/mes, precio fijo, sin impuestos, sin capital, sin tipo de interés y sin comisiones. 9,99 € x 12 = 119,88 € al año; 9,99 € x 36 = 359,64 € en 3 años. El saldo del móvil de Leo (1.200 € a 1.190,01 €) es ilustrativo y solo ambienta la escena. No es una previsión.",
+    "characters": [
+      "Leo"
+    ],
+    "objects": [
+      "calendar",
+      "cards",
+      "coins",
+      "counter",
+      "display",
+      "levers",
+      "logo",
+      "options",
+      "phone",
+      "receipt"
+    ],
+    "status": "ready"
   }
 ]

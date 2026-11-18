@@ -1,0 +1,13 @@
+[01]   Pulsas 'acepto' sin leer. ¿Y qué has firmado?
+[02] // 01 · el clic  Leo se registra en una app gratis. Rápido, sin mirar nada. Acepto, acepto, acepto... listo.
+[03] // 01 · el problema  Pero ojo: ese botón no es un trámite. Es un permiso.
+[04] // 02 · la idea  Spoiler: mucha gente no lee esas condiciones. Son largas y se aceptan con prisa.
+[05] // 02 · qué autorizas  Según la app, puedes autorizar el uso de datos como tu ubicación, tus contactos o tus hábitos. Depende de cada una.
+[06] // 03 · el giro  Y ojo: algunas políticas incluyen compartirlo con socios comerciales. Depende de cada una.
+[07] // 03 · los socios  Esos socios pueden ser, por ejemplo, empresas de publicidad o de análisis. Conviene saber con quién se comparte.
+[08] // 03 · el precio  Por eso lo gratis no siempre es gratis. A veces se paga con datos.
+[09] // 04 · qué hacer hoy  No hace falta leerlo todo. Empieza por mirar qué permisos das.
+[10] // 04 · tu control  Mira con quién se comparten... y si la app te deja decir que no.
+[11] // 04 · la pregunta  Antes de aceptar, pregunta: ¿qué doy a cambio de esto?
+[12] // 05 · tu turno  Si una app es gratis, ¿qué pagas tú? Dinero, datos o nada. Cuéntamelo en comentarios.
+[13]   Esto ha sido Finroots. El dinero, desde la raíz.

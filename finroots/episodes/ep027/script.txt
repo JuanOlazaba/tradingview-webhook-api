@@ -1,0 +1,13 @@
+[01]   Tu suscripción olvidada sigue cobrándote cada mes.
+[02] // 01 · el problema  Leo mira su móvil... y ve un cargo mensual de 9,99 euros. Ilustrativo.
+[03] // 02 · el tiempo pasa  Pasan los meses... y el cargo sigue ahí. Cada mes. Ilustrativo.
+[04] // 03 · el problema  ¿Sabes qué pasa? Que 9,99 euros al mes parece poco... Ilustrativo. Spoiler: no lo es.
+[05] // 04 · la cuenta  Al año son 119,88 euros. Ilustrativo... precio fijo, sin subidas ni impuestos.
+[06] // 04 · la cuenta  Compara un año con tres... Ilustrativo.
+[07] // 05 · tres años  Tres años... ¿y sabes qué? El cargo sigue ahí.
+[08] // 05 · tres años  En total, 359,64 euros por algo que no usas... Ilustrativo.
+[09] // 06 · el giro  Pero ojo: lo que pesa no es un cargo. Es que nadie lo mira.
+[10] // 07 · una idea general  Un vistazo mensual a tus cargos ayuda a ver lo que no ves. Y no hace falta una tarde entera.
+[11] // 07 · una idea general  Una idea general: mira qué usas... decide qué mantener... y repite.
+[12] // 08 · tu turno  ¿Qué harías con una suscripción que no usas? A, cancelarla hoy. B, revisarlas todas cada mes. C, esperar a que suba de precio.
+[13]   Esto ha sido Finroots. El dinero, desde la raíz.

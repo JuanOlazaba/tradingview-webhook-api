@@ -1,0 +1,305 @@
+{
+ "number": 26,
+ "format": "sabias_que",
+ "slug": "que-firmas-cuando-pulsas-acepto",
+ "title": "¿Qué firmas cuando pulsas acepto?",
+ "topic": "Aceptar términos sin leer: qué cedes con un solo clic",
+ "core_idea": "Al pulsar 'acepto' suele autorizarse el uso de tus datos según una política que casi nadie lee, y esa autorización puede alcanzar a socios comerciales.",
+ "series": "Finanzas en 1 minuto",
+ "characters": [
+  "Leo"
+ ],
+ "keywords": [
+  "acept",
+  "dato",
+  "permis",
+  "socio",
+  "gratis",
+  "firm"
+ ],
+ "scenes": [
+  {
+   "type": "display",
+   "chapter": "",
+   "sfx": "hit",
+   "voice": "Pulsas 'acepto' sin leer. ¿Y qué has firmado?",
+   "params": {
+    "lines": [
+     {
+      "text": "PULSAS",
+      "at": 0.2
+     },
+     {
+      "text": "'ACEPTO'",
+      "color": "co",
+      "at": 0.9
+     },
+     {
+      "text": "¿Y QUÉ HAS FIRMADO?",
+      "color": "bl",
+      "at": 1.8
+     }
+    ],
+    "size": "xl"
+   }
+  },
+  {
+   "type": "phone",
+   "chapter": "// 01 · el clic",
+   "sfx": "tick",
+   "voice": "Leo se registra en una app gratis. Rápido, sin mirar nada. Acepto, acepto, acepto... listo.",
+   "params": {
+    "name": "Leo",
+    "label": "App gratuita",
+    "notifications": [
+     {
+      "title": "Registro",
+      "body": "Pulsa 'Acepto' para continuar",
+      "at": 1.5
+     }
+    ],
+    "side": {
+     "label": "Condiciones",
+     "value": "Aceptadas",
+     "tone": "co",
+     "at": 4.0
+    },
+    "note": "Ejemplo ficticio: personaje y app genéricos"
+   }
+  },
+  {
+   "type": "cards",
+   "chapter": "// 01 · el problema",
+   "sfx": "deal",
+   "voice": "Pero ojo: ese botón no es un trámite. Es un permiso.",
+   "params": {
+    "cards": [
+     {
+      "label": "Botón",
+      "icon": "card"
+     },
+     {
+      "label": "Permiso",
+      "icon": "shield",
+      "lit": true
+     }
+    ],
+    "question": "¿Trámite o permiso?",
+    "question_at": 2.0
+   }
+  },
+  {
+   "type": "display",
+   "chapter": "// 02 · la idea",
+   "sfx": "whoosh",
+   "voice": "Spoiler: mucha gente no lee esas condiciones. Son largas y se aceptan con prisa.",
+   "params": {
+    "lines": [
+     {
+      "text": "MUCHA GENTE",
+      "at": 0.2
+     },
+     {
+      "text": "NO LO LEE",
+      "color": "co",
+      "at": 1.2
+     }
+    ],
+    "size": "xl",
+    "pills": [
+     {
+      "text": "Las condiciones"
+     }
+    ]
+   }
+  },
+  {
+   "type": "cards",
+   "chapter": "// 02 · qué autorizas",
+   "sfx": "rise",
+   "voice": "Según la app, puedes autorizar el uso de datos como tu ubicación, tus contactos o tus hábitos. Depende de cada una.",
+   "params": {
+    "cards": [
+     {
+      "label": "Ubicación",
+      "icon": "house"
+     },
+     {
+      "label": "Contactos",
+      "icon": "building"
+     },
+     {
+      "label": "Hábitos",
+      "icon": "clock",
+      "lit": true
+     }
+    ],
+    "question": "¿Qué datos das?",
+    "question_at": 3.0,
+    "note": "Ejemplos genéricos; depende de cada app"
+   }
+  },
+  {
+   "type": "phone",
+   "chapter": "// 03 · el giro",
+   "sfx": "ding",
+   "voice": "Y ojo: algunas políticas incluyen compartirlo con socios comerciales. Depende de cada una.",
+   "params": {
+    "name": "Leo",
+    "label": "Política de datos",
+    "notifications": [
+     {
+      "title": "Política de datos",
+      "body": "Ejemplo: compartir con socios",
+      "at": 1.5
+     }
+    ],
+    "side": {
+     "label": "Compartir",
+     "value": "Según la política",
+     "tone": "am",
+     "at": 3.0
+    },
+    "note": "Ejemplo genérico; depende de cada política"
+   }
+  },
+  {
+   "type": "cards",
+   "chapter": "// 03 · los socios",
+   "sfx": "deal",
+   "voice": "Esos socios pueden ser, por ejemplo, empresas de publicidad o de análisis. Conviene saber con quién se comparte.",
+   "params": {
+    "cards": [
+     {
+      "label": "Publicidad",
+      "icon": "bag"
+     },
+     {
+      "label": "Análisis",
+      "icon": "chart"
+     },
+     {
+      "label": "Socios",
+      "icon": "building",
+      "lit": true
+     }
+    ],
+    "question": "¿Con quién se comparte?",
+    "question_at": 2.5,
+    "note": "Ejemplos genéricos; depende de cada política"
+   }
+  },
+  {
+   "type": "display",
+   "chapter": "// 03 · el precio",
+   "sfx": "hit2",
+   "voice": "Por eso lo gratis no siempre es gratis. A veces se paga con datos.",
+   "params": {
+    "lines": [
+     {
+      "text": "GRATIS",
+      "at": 0.2
+     },
+     {
+      "text": "A VECES, CON DATOS",
+      "color": "co",
+      "at": 1.6
+     }
+    ],
+    "size": "xl"
+   }
+  },
+  {
+   "type": "cards",
+   "chapter": "// 04 · qué hacer hoy",
+   "sfx": "tick",
+   "voice": "No hace falta leerlo todo. Empieza por mirar qué permisos das.",
+   "params": {
+    "cards": [
+     {
+      "label": "Permisos",
+      "icon": "shield",
+      "lit": true
+     },
+     {
+      "label": "Con quién",
+      "icon": "building"
+     },
+     {
+      "label": "Puedes rechazar",
+      "icon": "scale"
+     }
+    ],
+    "question": "¿Qué miras primero?",
+    "question_at": 2.5
+   }
+  },
+  {
+   "type": "phone",
+   "chapter": "// 04 · tu control",
+   "sfx": "pop",
+   "voice": "Mira con quién se comparten... y si la app te deja decir que no.",
+   "params": {
+    "name": "Leo",
+    "label": "Ajustes de privacidad",
+    "notifications": [
+     {
+      "title": "Privacidad",
+      "body": "Algunas apps permiten limitar el uso comercial",
+      "at": 1.5
+     }
+    ],
+    "side": {
+     "label": "Compartir",
+     "value": "Si la app lo permite",
+     "tone": "bl",
+     "at": 3.0
+    },
+    "note": "Ejemplo genérico; no todas las apps lo permiten"
+   }
+  },
+  {
+   "type": "display",
+   "chapter": "// 04 · la pregunta",
+   "sfx": "whoosh",
+   "voice": "Antes de aceptar, pregunta: ¿qué doy a cambio de esto?",
+   "params": {
+    "lines": [
+     {
+      "text": "¿QUÉ DOY",
+      "at": 0.2
+     },
+     {
+      "text": "A CAMBIO?",
+      "color": "bl",
+      "at": 1.2
+     }
+    ],
+    "size": "xl"
+   }
+  },
+  {
+   "type": "options",
+   "chapter": "// 05 · tu turno",
+   "sfx": "ding",
+   "voice": "Si una app es gratis, ¿qué pagas tú? Dinero, datos o nada. Cuéntamelo en comentarios.",
+   "params": {
+    "options": [
+     "Dinero",
+     "Datos",
+     "Nada, es gratis"
+    ],
+    "disclaimer": "Contenido educativo. No es asesoramiento financiero ni recomendación de inversión. Invertir conlleva riesgos. Cifras ilustrativas. Vídeo creado con ayuda de IA."
+   }
+  },
+  {
+   "type": "logo",
+   "chapter": "",
+   "sfx": "cling",
+   "voice": "Esto ha sido Finroots. El dinero, desde la raíz.",
+   "params": {
+    "next": "¿Qué datos se comparten cuando una app dice 'compartir con socios'?"
+   }
+  }
+ ]
+}
