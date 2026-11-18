@@ -1,5 +1,5 @@
 # Panel de Finroots
-_Actualizado: 2026-11-18 18:25 UTC · se regenera en cada reunión_
+_Actualizado: 2026-11-18 22:47 UTC · se regenera en cada reunión_
 
 ## Necesita tu sí
 - **Incidencia en el episodio 5** — [responder aquí](https://github.com/JuanOlazaba/tradingview-webhook-api/issues/17) · pedido por Operaciones el 2026-11-03 13:13 UTC
@@ -11,14 +11,14 @@ _Actualizado: 2026-11-18 18:25 UTC · se regenera en cada reunión_
 - **Incidencia en el episodio 26** — [responder aquí](https://github.com/JuanOlazaba/tradingview-webhook-api/issues/25) · pedido por Operaciones el 2026-11-17 23:09 UTC
 
 ## Estado
-- Episodios: 27 · en colchón (listos): 1 (27)
+- Episodios: 27 · en colchón (listos): 0
 - TikTok: 3 seguidores · 7 me gusta · 3 vídeos
-- Coste de IA: hoy 0.70 $ · este mes 10.20 $ de 20 $ · total 10.20 $
+- Coste de IA: hoy 0.71 $ · este mes 10.20 $ de 20 $ · total 10.20 $
 
 ## Episodios
 | # | Título | Estado |
 |---|---|---|
-| 27 | [¿Qué pasa con una suscripción que nadie revisa?](episodes/ep027/script.txt) | en colchón |
+| 27 | [¿Qué pasa con una suscripción que nadie revisa?](episodes/ep027/script.txt) | en tus borradores de TikTok |
 | 26 | [¿Qué firmas cuando pulsas acepto?](episodes/ep026/script.txt) | en tus borradores de TikTok |
 | 25 | [¿Hace falta mucho dinero para empezar a invertir?](episodes/ep025/script.txt) | en tus borradores de TikTok |
 | 24 | [Un café de 2 € suma 504 € al año. Ilustrativo.](episodes/ep024/script.txt) | en tus borradores de TikTok |
@@ -35,6 +35,7 @@ _Actualizado: 2026-11-18 18:25 UTC · se regenera en cada reunión_
 | 13 | [Tienes suscripciones que no usas](episodes/ep013/script.txt) | en tus borradores de TikTok |
 
 ## Últimas reuniones
+- [2026-11-18-ep027](minutes/2026-11-18-ep027.md)
 - [2026-11-18-ep027-estudio](minutes/2026-11-18-ep027-estudio.md)
 - [2026-11-18-ep026](minutes/2026-11-18-ep026.md)
 - [2026-11-18-1823-mejora-contenido](minutes/2026-11-18-1823-mejora-contenido.md)
@@ -46,9 +47,9 @@ _Actualizado: 2026-11-18 18:25 UTC · se regenera en cada reunión_
 - [2026-11-15-ep023](minutes/2026-11-15-ep023.md)
 - [2026-11-15-consejo](minutes/2026-11-15-consejo.md)
 - [2026-11-14-ep022](minutes/2026-11-14-ep022.md)
-- [2026-11-13-ep021](minutes/2026-11-13-ep021.md)
 
 ## Actividad reciente
+- `2026-11-18 22:47 UTC` **publicación** — Ep. 27: ¿Qué pasa con una suscripción que nadie revisa? · estado: sent_to_inbox
 - `2026-11-18 18:25 UTC` **episodio** — Ep. 27 escrito y aprobado por Compliance: ¿Qué pasa con una suscripción que nadie revisa?
 - `2026-11-18 18:23 UTC` **reunión** — Contenido y colchón de episodios: Se aprueba el plan de Ideas, Estudio y Marketing para los episodios 27–33: sin cifras nuevas, con títulos reformulados como preguntas de concepto y ganchos de 6–14 palabras alternados. Los eps. 15, 17
 - `2026-11-18 18:23 UTC` **acción** — biblia: Nota de continuidad (18 nov): Lucía retoma el tema del fondo de emergencia en el
@@ -68,7 +69,6 @@ _Actualizado: 2026-11-18 18:25 UTC · se regenera en cada reunión_
 - `2026-11-16 19:43 UTC` **acción** — backlog: Conciliar los IDs de TikTok con episodio (directiva 2) y registrar en la hoja de métricas las visitas al perfil y los comentarios con PLANTILLA para cada vídeo. Responsable: Operaciones y Producto. Sin conclusiones antes de 10 vídeos.
 - `2026-11-16 19:43 UTC` **acción** — backlog: Recalcular y documentar la hipótesis del ep. 23 (comisión 1 %) con capital, años y tipo explícitos antes de aprobar el título. Responsable: Estudio; revisión: Compliance.
 - `2026-11-16 19:43 UTC` **acción** — backlog: Documentar hipótesis (capital, años, tipo) y adjuntar fuente verificable para los datos históricos de los eps. 15, 17 y 20 antes de cualquier render o publicación. Responsable: Estudio y Compliance. Sin nombres reales de entidades en el ep. 17.
-- `2026-11-16 19:43 UTC` **acción** — backlog: Verificar manualmente en TikTok que la etiqueta de contenido generado con IA está activa en los 3 vídeos publicados (ids 7703615955884100878, 7703655995985136910, 7703680683335519501) y añadir el aviso en la descripción donde falte. Responsable: Operaciones (verificación) y Marketing (descripción). Medida: 3/3 con etiqueta y aviso.
 
 ## Directivas del consejo
 _Sesión del 2026-11-15_
