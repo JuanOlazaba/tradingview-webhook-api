@@ -1,0 +1,13 @@
+[01]   El dinero bajo el colchón no pierde valor. ¿Seguro?
+[02] // 01 · el mito  Tío Ramón lo tiene claro: el dinero en casa no falla. Eso dice él.
+[03] // 01 · el mito  Algo de razón tiene: en casa no hay comisiones. Pero también hay riesgos, como robo o pérdida.
+[04] // 02 · la pega  Pero Lucía pregunta: ¿y los precios? Imagina 10.000 € en casa durante 1 año, con una inflación supuesta del 3 %. Cifras ilustrativas...
+[05] // 02 · la pega  Los billetes siguen ahí. Pero compran lo que antes costaban unos 9.700 €. Ilustrativo...
+[06] // 03 · la idea  Spoiler: guardar no es lo mismo que conservar valor.
+[07] // 03 · la idea  Mismos 10.000 € en la hucha. Pero compran menos. Ilustrativo...
+[08] // 03 · la idea  Ramón insiste: es seguro. Lucía matiza: puede evitar algunos riesgos... pero no protege el poder de compra.
+[09] // 04 · qué hacer hoy  Una reserva puede pedir tres cosas. Que no se pierda. Poder usarla ya. Y que genere algo.
+[10] // 04 · qué hacer hoy  Pero ojo: normalmente, lo que ganas en una cosa lo pierdes en otra.
+[11] // 04 · qué hacer hoy  Antes de decidir nada, piensa: ¿para qué es este dinero?
+[12] // 05 · tu turno  Tu turno. Para tu dinero de reserva, ¿qué pesa más? ¿A, B o C?
+[13]   Esto ha sido Finroots. El dinero, desde la raíz.

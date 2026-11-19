@@ -1,5 +1,5 @@
 # Panel de Finroots
-_Actualizado: 2026-11-18 22:47 UTC · se regenera en cada reunión_
+_Actualizado: 2026-11-19 22:53 UTC · se regenera en cada reunión_
 
 ## Necesita tu sí
 - **Incidencia en el episodio 5** — [responder aquí](https://github.com/JuanOlazaba/tradingview-webhook-api/issues/17) · pedido por Operaciones el 2026-11-03 13:13 UTC
@@ -11,13 +11,14 @@ _Actualizado: 2026-11-18 22:47 UTC · se regenera en cada reunión_
 - **Incidencia en el episodio 26** — [responder aquí](https://github.com/JuanOlazaba/tradingview-webhook-api/issues/25) · pedido por Operaciones el 2026-11-17 23:09 UTC
 
 ## Estado
-- Episodios: 27 · en colchón (listos): 0
+- Episodios: 28 · en colchón (listos): 0
 - TikTok: 3 seguidores · 7 me gusta · 3 vídeos
-- Coste de IA: hoy 0.71 $ · este mes 10.20 $ de 20 $ · total 10.20 $
+- Coste de IA: hoy 0.28 $ · este mes 10.49 $ de 20 $ · total 10.49 $
 
 ## Episodios
 | # | Título | Estado |
 |---|---|---|
+| 28 | [¿Guardar el dinero en casa es lo más seguro?](episodes/ep028/script.txt) | en tus borradores de TikTok |
 | 27 | [¿Qué pasa con una suscripción que nadie revisa?](episodes/ep027/script.txt) | en tus borradores de TikTok |
 | 26 | [¿Qué firmas cuando pulsas acepto?](episodes/ep026/script.txt) | en tus borradores de TikTok |
 | 25 | [¿Hace falta mucho dinero para empezar a invertir?](episodes/ep025/script.txt) | en tus borradores de TikTok |
@@ -32,9 +33,9 @@ _Actualizado: 2026-11-18 22:47 UTC · se regenera en cada reunión_
 | 16 | [Pagar con tarjeta se siente menos. Y eso se nota en el gasto.](episodes/ep016/script.txt) | en tus borradores de TikTok |
 | 15 | [Los tulipanes de 1637 no hundieron a Holanda](episodes/ep015/script.txt) | en tus borradores de TikTok |
 | 14 | [¿Comprarías algo solo porque todo el mundo lo compra?](episodes/ep014/script.txt) | en tus borradores de TikTok |
-| 13 | [Tienes suscripciones que no usas](episodes/ep013/script.txt) | en tus borradores de TikTok |
 
 ## Últimas reuniones
+- [2026-11-19-ep028](minutes/2026-11-19-ep028.md)
 - [2026-11-18-ep027](minutes/2026-11-18-ep027.md)
 - [2026-11-18-ep027-estudio](minutes/2026-11-18-ep027-estudio.md)
 - [2026-11-18-ep026](minutes/2026-11-18-ep026.md)
@@ -46,9 +47,9 @@ _Actualizado: 2026-11-18 22:47 UTC · se regenera en cada reunión_
 - [2026-11-15-ep024](minutes/2026-11-15-ep024.md)
 - [2026-11-15-ep023](minutes/2026-11-15-ep023.md)
 - [2026-11-15-consejo](minutes/2026-11-15-consejo.md)
-- [2026-11-14-ep022](minutes/2026-11-14-ep022.md)
 
 ## Actividad reciente
+- `2026-11-19 22:53 UTC` **publicación** — Ep. 28: ¿Guardar el dinero en casa es lo más seguro? · estado: sent_to_inbox
 - `2026-11-18 22:47 UTC` **publicación** — Ep. 27: ¿Qué pasa con una suscripción que nadie revisa? · estado: sent_to_inbox
 - `2026-11-18 18:25 UTC` **episodio** — Ep. 27 escrito y aprobado por Compliance: ¿Qué pasa con una suscripción que nadie revisa?
 - `2026-11-18 18:23 UTC` **reunión** — Contenido y colchón de episodios: Se aprueba el plan de Ideas, Estudio y Marketing para los episodios 27–33: sin cifras nuevas, con títulos reformulados como preguntas de concepto y ganchos de 6–14 palabras alternados. Los eps. 15, 17
@@ -68,7 +69,6 @@ _Actualizado: 2026-11-18 22:47 UTC · se regenera en cada reunión_
 - `2026-11-16 19:43 UTC` **acción** — biblia: Nota de continuidad (16 nov): los títulos de la serie se formulan como preguntas
 - `2026-11-16 19:43 UTC` **acción** — backlog: Conciliar los IDs de TikTok con episodio (directiva 2) y registrar en la hoja de métricas las visitas al perfil y los comentarios con PLANTILLA para cada vídeo. Responsable: Operaciones y Producto. Sin conclusiones antes de 10 vídeos.
 - `2026-11-16 19:43 UTC` **acción** — backlog: Recalcular y documentar la hipótesis del ep. 23 (comisión 1 %) con capital, años y tipo explícitos antes de aprobar el título. Responsable: Estudio; revisión: Compliance.
-- `2026-11-16 19:43 UTC` **acción** — backlog: Documentar hipótesis (capital, años, tipo) y adjuntar fuente verificable para los datos históricos de los eps. 15, 17 y 20 antes de cualquier render o publicación. Responsable: Estudio y Compliance. Sin nombres reales de entidades en el ep. 17.
 
 ## Directivas del consejo
 _Sesión del 2026-11-15_
