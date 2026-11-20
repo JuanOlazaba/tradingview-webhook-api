@@ -158,5 +158,16 @@
   "created": "2026-11-17 23:09 UTC",
   "issue": 25,
   "url": "https://github.com/JuanOlazaba/tradingview-webhook-api/issues/25"
+ },
+ {
+  "id": 14,
+  "title": "Incidencia en el episodio 30",
+  "body": "El comité diario no pudo completar el episodio 30:\n\n> Compliance no aprueba el episodio tras las revisiones: [{\"scene\": 2, \"problem\": \"Los datos históricos (South Sea Company, Gran Bretaña, 1720) siguen sin fuente verificable adjunta por escrito. La directiva 3 y el backlog (datos históricos, eps. 15, 17 y 20) exigen fuente y visto bueno escrito antes de cualquier render. Además, el calendario con from 1720 y to 1720 no produce ningún salto visual: es un objeto sin función. La nota 'Dato histórico general' es correcta, pero no sustituye a la fuente.\", \"fix\": \"Adjuntar a la ficha una fuente histórica verificable y citable (por ejemplo, obra de historia económica o enciclopedia de referencia) que respalde: existencia de la South Sea Company, auge y caída en 1720. Mientras no conste, no se renderiza. Para la escena, sustituir el calendario por u\n\nIT lo reintentará en la próxima ejecución. Responde solo si quieres dar instrucciones.",
+  "by": "Operaciones",
+  "status": "pending",
+  "apply_on_yes": {},
+  "created": "2026-11-20 22:22 UTC",
+  "issue": 26,
+  "url": "https://github.com/JuanOlazaba/tradingview-webhook-api/issues/26"
  }
 ]
