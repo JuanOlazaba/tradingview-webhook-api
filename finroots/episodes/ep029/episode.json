@@ -1,0 +1,283 @@
+{
+ "number": 29,
+ "format": "sabias_que",
+ "slug": "pagar-con-tarjeta-gastas-mas",
+ "title": "Pagar con tarjeta, ¿te hace gastar más?",
+ "topic": "Pagar con tarjeta puede hacer que gastes más",
+ "core_idea": "Al pagar con tarjeta no vemos salir el dinero en el momento, y suele observarse un mayor gasto. Es una tendencia de comportamiento, no una regla para todos.",
+ "series": "Finanzas en 1 minuto",
+ "characters": [
+  "Marta"
+ ],
+ "keywords": [
+  "tarjeta",
+  "gast",
+  "importe",
+  "efectivo",
+  "notific",
+  "tendencia"
+ ],
+ "scenes": [
+  {
+   "type": "display",
+   "chapter": "",
+   "sfx": "hit",
+   "voice": "Pagar con tarjeta, ¿te hace gastar más?",
+   "params": {
+    "lines": [
+     {
+      "text": "¿TARJETA",
+      "color": "co"
+     },
+     {
+      "text": "= GASTAR"
+     },
+     {
+      "text": "MÁS?",
+      "color": "co"
+     }
+    ],
+    "size": "xl"
+   }
+  },
+  {
+   "type": "phone",
+   "chapter": "// 01 · el gesto",
+   "sfx": "ding",
+   "voice": "Marta está en el súper. Acerca la tarjeta. Pip. Pagado... sin mirar el importe.",
+   "params": {
+    "name": "Marta",
+    "label": "Pago con tarjeta",
+    "balance_steps": [],
+    "notifications": [
+     {
+      "title": "Pago realizado",
+      "body": "Supermercado",
+      "at": 2.5
+     }
+    ],
+    "note": "Escena sin cifras."
+   }
+  },
+  {
+   "type": "receipt",
+   "chapter": "// 01 · el gesto",
+   "sfx": "print",
+   "voice": "Ni lo ha sentido salir. El ticket sale, pero ella ya está en la puerta.",
+   "params": {
+    "header": "Ticket de Marta",
+    "items": [
+     {
+      "label": "Compra de la semana"
+     },
+     {
+      "label": "Un capricho"
+     },
+     {
+      "label": "Otro capricho"
+     }
+    ],
+    "note": "Escena sin cifras."
+   }
+  },
+  {
+   "type": "display",
+   "chapter": "// 02 · la idea",
+   "sfx": "hit2",
+   "voice": "Dinero que no ves salir... duele menos.",
+   "params": {
+    "lines": [
+     {
+      "text": "LO QUE NO",
+      "color": "bl"
+     },
+     {
+      "text": "VES SALIR"
+     },
+     {
+      "text": "DUELE MENOS",
+      "color": "co"
+     }
+    ],
+    "size": "xl"
+   }
+  },
+  {
+   "type": "coins",
+   "chapter": "// 02 · la idea",
+   "sfx": "coins",
+   "voice": "Con efectivo, notas cómo baja la pila. Con tarjeta, la pila desaparece sin ruido.",
+   "params": {
+    "towers": [
+     {
+      "label": "Efectivo: se nota",
+      "coins": 8,
+      "color": "bl"
+     },
+     {
+      "label": "Tarjeta: no se nota",
+      "coins": 3,
+      "color": "co"
+     }
+    ],
+    "note": "Ilustrativo: la altura de las torres es solo visual, sin cifras."
+   }
+  },
+  {
+   "type": "phone",
+   "chapter": "// 03 · qué se observa",
+   "sfx": "tick",
+   "voice": "Eso suele observarse en el comportamiento de compra. Es un sesgo, no una norma.",
+   "params": {
+    "name": "Marta",
+    "label": "Notificación de pago",
+    "balance_steps": [],
+    "notifications": [
+     {
+      "title": "Pago aceptado",
+      "body": "Pasa rápido",
+      "at": 1.5
+     }
+    ],
+    "note": "Escena sin cifras."
+   }
+  },
+  {
+   "type": "display",
+   "chapter": "// 03 · qué se observa",
+   "sfx": "whoosh",
+   "voice": "Pero ojo: es una tendencia. No le pasa igual a todo el mundo.",
+   "params": {
+    "lines": [
+     {
+      "text": "TENDENCIA,"
+     },
+     {
+      "text": "NO REGLA",
+      "color": "co"
+     }
+    ],
+    "size": "xl"
+   }
+  },
+  {
+   "type": "coins",
+   "chapter": "// 03 · qué se observa",
+   "sfx": "pop",
+   "voice": "A unas personas les influye mucho. A otras, casi nada. ¿Y a ti?",
+   "params": {
+    "towers": [
+     {
+      "label": "Influye mucho",
+      "coins": 9,
+      "color": "co"
+     },
+     {
+      "label": "Casi nada",
+      "coins": 2,
+      "color": "bl"
+     }
+    ],
+    "note": "Ilustrativo: comparación visual sin datos reales."
+   }
+  },
+  {
+   "type": "receipt",
+   "chapter": "// 04 · qué puedes hacer",
+   "sfx": "print",
+   "voice": "Primero: mira el importe antes de acercar la tarjeta. Aunque tardes un instante.",
+   "params": {
+    "header": "Truco 1",
+    "items": [
+     {
+      "label": "Mirar el importe"
+     },
+     {
+      "label": "Acercar la tarjeta"
+     }
+    ],
+    "note": "Escena sin cifras."
+   }
+  },
+  {
+   "type": "phone",
+   "chapter": "// 04 · qué puedes hacer",
+   "sfx": "ding",
+   "voice": "Segundo: revisa las notificaciones de pago al final del día. Con calma.",
+   "params": {
+    "name": "Marta",
+    "label": "Repaso del día",
+    "balance_steps": [],
+    "notifications": [
+     {
+      "title": "Truco 2",
+      "body": "Repasa tus pagos",
+      "at": 1.5
+     }
+    ],
+    "note": "Escena sin cifras."
+   }
+  },
+  {
+   "type": "coins",
+   "chapter": "// 04 · qué puedes hacer",
+   "sfx": "coins",
+   "voice": "Y tercero: pregúntate si lo comprarías sacando el efectivo de la cartera.",
+   "params": {
+    "towers": [
+     {
+      "label": "¿Lo pagarías en efectivo?",
+      "coins": 5,
+      "color": "bl"
+     }
+    ],
+    "note": "Ilustrativo, sin cifras."
+   }
+  },
+  {
+   "type": "display",
+   "chapter": "// 04 · qué puedes hacer",
+   "sfx": "hit",
+   "voice": "Gastar no es malo... gastar sin darte cuenta, sí.",
+   "params": {
+    "lines": [
+     {
+      "text": "GASTAR",
+      "color": "bl"
+     },
+     {
+      "text": "SIN DARTE"
+     },
+     {
+      "text": "CUENTA",
+      "color": "co"
+     }
+    ],
+    "size": "xl"
+   }
+  },
+  {
+   "type": "options",
+   "chapter": "// 05 · tu turno",
+   "sfx": "pop",
+   "voice": "Tu turno. Al pagar, ¿qué te hace gastar más? A, ver el importe. B, el gesto de acercar la tarjeta. O C, nada, gasto igual.",
+   "params": {
+    "options": [
+     "A) Ver el importe en pantalla",
+     "B) El gesto de acercar la tarjeta",
+     "C) Nada, gasto igual"
+    ],
+    "disclaimer": "Contenido educativo. No es asesoramiento financiero ni recomendación de inversión. Invertir conlleva riesgos. Cifras ilustrativas. Vídeo creado con ayuda de IA."
+   }
+  },
+  {
+   "type": "logo",
+   "chapter": "",
+   "sfx": "cling",
+   "voice": "Esto ha sido Finroots. El dinero, desde la raíz.",
+   "params": {
+    "next": "¿Qué pasa con el dinero que no se gasta y se queda sin uso?"
+   }
+  }
+ ]
+}

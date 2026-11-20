@@ -1,0 +1,14 @@
+[01]   Pagar con tarjeta, ¿te hace gastar más?
+[02] // 01 · el gesto  Marta está en el súper. Acerca la tarjeta. Pip. Pagado... sin mirar el importe.
+[03] // 01 · el gesto  Ni lo ha sentido salir. El ticket sale, pero ella ya está en la puerta.
+[04] // 02 · la idea  Dinero que no ves salir... duele menos.
+[05] // 02 · la idea  Con efectivo, notas cómo baja la pila. Con tarjeta, la pila desaparece sin ruido.
+[06] // 03 · qué se observa  Eso suele observarse en el comportamiento de compra. Es un sesgo, no una norma.
+[07] // 03 · qué se observa  Pero ojo: es una tendencia. No le pasa igual a todo el mundo.
+[08] // 03 · qué se observa  A unas personas les influye mucho. A otras, casi nada. ¿Y a ti?
+[09] // 04 · qué puedes hacer  Primero: mira el importe antes de acercar la tarjeta. Aunque tardes un instante.
+[10] // 04 · qué puedes hacer  Segundo: revisa las notificaciones de pago al final del día. Con calma.
+[11] // 04 · qué puedes hacer  Y tercero: pregúntate si lo comprarías sacando el efectivo de la cartera.
+[12] // 04 · qué puedes hacer  Gastar no es malo... gastar sin darte cuenta, sí.
+[13] // 05 · tu turno  Tu turno. Al pagar, ¿qué te hace gastar más? A, ver el importe. B, el gesto de acercar la tarjeta. O C, nada, gasto igual.
+[14]   Esto ha sido Finroots. El dinero, desde la raíz.

@@ -869,5 +869,33 @@
       "status": "SEND_TO_USER_INBOX",
       "post_ids": null
     }
+  },
+  {
+    "number": 29,
+    "slug": "pagar-con-tarjeta-gastas-mas",
+    "title": "Pagar con tarjeta, ¿te hace gastar más?",
+    "topic": "Pagar con tarjeta puede hacer que gastes más",
+    "core_idea": "Al pagar con tarjeta no vemos salir el dinero en el momento, y suele observarse un mayor gasto. Es una tendencia de comportamiento, no una regla para todos.",
+    "characters": [
+      "Marta"
+    ],
+    "objects": [
+      "coins",
+      "display",
+      "logo",
+      "options",
+      "phone",
+      "receipt"
+    ],
+    "question": "A) Ver el importe en pantalla / B) El gesto de acercar la tarjeta / C) Nada, gasto igual",
+    "status": "sent_to_inbox",
+    "duration": 63.316,
+    "published_at": "2026-11-20T18:02:38.592711Z",
+    "tiktok": {
+      "publish_id": "v_inbox_file~v2.7710315515352598541",
+      "mode": "draft",
+      "status": "SEND_TO_USER_INBOX",
+      "post_ids": null
+    }
   }
 ]
