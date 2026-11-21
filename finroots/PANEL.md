@@ -1,5 +1,5 @@
 # Panel de Finroots
-_Actualizado: 2026-11-21 21:10 UTC · se regenera en cada reunión_
+_Actualizado: 2026-11-21 23:58 UTC · se regenera en cada reunión_
 
 ## Necesita tu sí
 - **Incidencia en el episodio 5** — [responder aquí](https://github.com/JuanOlazaba/tradingview-webhook-api/issues/17) · pedido por Operaciones el 2026-11-03 13:13 UTC
@@ -10,11 +10,12 @@ _Actualizado: 2026-11-21 21:10 UTC · se regenera en cada reunión_
 - **Verificación manual de la etiqueta de IA y sí a reformular títulos 17, 23 y 24** — [responder aquí](https://github.com/JuanOlazaba/tradingview-webhook-api/issues/24) · pedido por CEO (Riesgos y cumplimiento) el 2026-11-16 19:43 UTC
 - **Incidencia en el episodio 26** — [responder aquí](https://github.com/JuanOlazaba/tradingview-webhook-api/issues/25) · pedido por Operaciones el 2026-11-17 23:09 UTC
 - **Incidencia en el episodio 30** — [responder aquí](https://github.com/JuanOlazaba/tradingview-webhook-api/issues/26) · pedido por Operaciones el 2026-11-20 22:22 UTC
+- **Incidencia en el episodio 31** — [responder aquí](https://github.com/JuanOlazaba/tradingview-webhook-api/issues/27) · pedido por Operaciones el 2026-11-21 23:57 UTC
 
 ## Estado
 - Episodios: 30 · en colchón (listos): 0
 - TikTok: 3 seguidores · 7 me gusta · 3 vídeos
-- Coste de IA: hoy 0.27 $ · este mes 11.66 $ de 20 $ · total 11.66 $
+- Coste de IA: hoy 0.66 $ · este mes 12.05 $ de 20 $ · total 12.05 $
 
 ## Episodios
 | # | Título | Estado |
@@ -36,6 +37,7 @@ _Actualizado: 2026-11-21 21:10 UTC · se regenera en cada reunión_
 | 16 | [Pagar con tarjeta se siente menos. Y eso se nota en el gasto.](episodes/ep016/script.txt) | en tus borradores de TikTok |
 
 ## Últimas reuniones
+- [2026-11-22-ep031](minutes/2026-11-22-ep031.md)
 - [2026-11-21-ep030](minutes/2026-11-21-ep030.md)
 - [2026-11-20-ep030](minutes/2026-11-20-ep030.md)
 - [2026-11-20-ep030-estudio](minutes/2026-11-20-ep030-estudio.md)
@@ -47,9 +49,10 @@ _Actualizado: 2026-11-21 21:10 UTC · se regenera en cada reunión_
 - [2026-11-18-ep026](minutes/2026-11-18-ep026.md)
 - [2026-11-18-1823-mejora-contenido](minutes/2026-11-18-1823-mejora-contenido.md)
 - [2026-11-17-ep025](minutes/2026-11-17-ep025.md)
-- [2026-11-16-ep025-estudio](minutes/2026-11-16-ep025-estudio.md)
 
 ## Actividad reciente
+- `2026-11-21 23:57 UTC` **incidencia** — Ep. 31: Compliance no aprueba el episodio tras las revisiones: [{"scene": 1, "problem": "Único bloqueo real: los datos históricos (año 1720, Inglaterra, secuencia subida-caída) siguen sin fuente verificable documentada en la ficha. El backlog del 16 nov y la nota del CEO la exigen antes de renderizar o publ
+- `2026-11-21 23:55 UTC` **reanudación** — El episodio de hoy estaba pendiente; el comité diario lo retoma ahora.
 - `2026-11-21 21:10 UTC` **publicación** — Ep. 30: ¿Pagar a plazos sin intereses te sale gratis? · estado: sent_to_inbox
 - `2026-11-20 22:22 UTC` **incidencia** — Ep. 30: Compliance no aprueba el episodio tras las revisiones: [{"scene": 2, "problem": "Los datos históricos (South Sea Company, Gran Bretaña, 1720) siguen sin fuente verificable adjunta por escrito. La directiva 3 y el backlog (datos históricos, eps. 15, 17 y 20) exigen fuente y visto bueno escrito antes 
 - `2026-11-20 18:05 UTC` **incidencia** — No se pudo escribir el ep. 30: Compliance no aprueba el episodio tras las revisiones: [{"scene": 2, "problem": "Bloqueante sin resolver: la ficha mantiene 'BLOQUEANTE PENDIENTE' y no hay fuente verificable documentada para los datos históricos de Yap. La directiva exige fuente y mi visto bueno escrito antes de cualquier render. 'según los relatos' suaviza la afirmación pero no sustituye a la fuente. Además, 'un dinero muy raro' es una valoración subjetiva.", "fix": "Adjuntar en la ficha una fuente verificable (obra antropológica o museo, con título y autor o institución). Sin ella no se renderiza. Voz: 'Viajamos a Yap, una isla del Pacífico. Allí, según los relatos, algunas piedras se usaron como moneda.'"}, {"scene": 5, "problem": "Los tres deslizadores llevan valores numéricos (20→80, 20→80, 50→50) que parecen una medición real, aunque llevan nota de esquema ilustrativo. Dos de ellos son 'La comunidad lo reconoce' y 'Se acepta el acuerdo', que no son magnitudes medibles. La escena tampoco tiene hipótesis documentada. Además, 'casi no se mueve' a 50→50 no significa nada.", "fix": "Sustituir la escena por 'cards' sin valores (La comunidad lo reconoce / Se acepta el acuerdo / La piedra casi no se mueve). Si se mantiene 'levers', conservar note: 'Esquema ilustrativo, no son datos' y eliminar la tercera palanca."}, {"scene": 7, "problem": "Los deslizadores 90→20 y 90→20 siguen presentando como curva una hipótesis (pérdida de confianza). Los valores concretos no tienen base. La nota de esquema ilustrativo está, pero la voz no avisa de que es un esquema, y la escena 5 es otro levers con valores: dos escenas con cifras inventadas sin hipótesis documentada incumplen la directiva 3.", "fix": "Sustituir por 'cards' sin valores (p. ej. 'Confianza en el acuerdo: se mantiene / se pierde'; 'La piedra: conserva su valor / lo pierde'), o dejar solo los extremos 'alto → bajo' sin cifras. Mantener la voz en condicional: 'Si la gente dejara de creer en el registro compartido, la piedra perdería valor como dinero.'"}, {"scene": 8, "problem": "'El saldo de una cuenta también se basa en un acuerdo compartido' es una analogía simplificada: puede inducir a pensar que el dinero actual equivale a la piedra de Yap. La nota 'Es una analogía, no una equivalencia' está solo en pantalla, no en la voz.", "fix": "Voz: '¿Y sabes qué? Hoy pasa algo parecido, como analogía: el saldo de una cuenta también descansa en la confianza de todos.' Mantener la nota en pantalla."}, {"scene": 9, "problem": "'El dinero funciona, en gran parte, porque confiamos en él entre todos' está matizado en voz, pero el display 'LA CONFIANZA SOSTIENE EL DINERO' es categórico y no coincide en grado de certeza. Además la tesis (confianza) anticipa la respuesta B del cierre, lo que sesga la pregunta final.", "fix": "Display: 'LA CONFIANZA PESA EN EL DINERO'. Voz alineada: 'La confianza pesa mucho en el dinero. Pero no es lo único.' Así el cierre A/B/C queda abierto."}, {"scene": 11, "problem": "'A veces es una creencia compartida' presenta el valor del dinero como mera creencia, lo que simplifica en exceso y se contradice con el cierre, que lo deja como pregunta abierta.", "fix": "Voz: 'Moraleja: lo que vale no siempre se ve. A veces pesa mucho una confianza compartida.' Display sin cambios."}, {"scene": 12, "problem": "Las opciones han mejorado, pero B ('La confianza de la gente') sigue coincidiendo con la tesis del episodio y es la respuesta 'ganadora' evidente. La escena 10 (cards: Material / Costumbre / Reglas y confianza) mezcla confianza y reglas, y no coincide con las tres opciones de cierre.", "fix": "Alinear la escena 10 con el cierre: cards 'Material de la moneda' / 'Confianza de la gente' / 'Reglas del Estado'. Mantener el aviso legal íntegro. Ya no hace falta ajustar las opciones, solo evitar que la tesis apunte a una de ellas."}, {"scene": 1, "problem": "Gancho: 'El dinero fue una piedra que casi nadie movía... ¿y valía?' = 12 palabras, dentro de 6–14, etiquetado como afirmación, y alterna con el ep. 29 (pregunta). Correcto. Pero la voz va en pasado y es generalista ('El dinero fue una piedra') sin 'según los relatos', y mezcla afirmación con pregunta, lo que dificulta la etiqueta única.", "fix": "Gancho (afirmación pura, 10 palabras): 'En una isla, el dinero era una piedra inmóvil.' Si se prefiere el actual, etiquetarlo como mixto y registrar el recuento. Display coherente con la voz: 'UNA PIEDRA QUE CASI NADIE MOVÍA' (ya correcto)."}, {"scene": 13, "problem": "Cierre de marca correcto. Falta confirmar que la descripción de TikTok incluye el aviso breve y la etiqueta de contenido generado con IA (pendiente del backlog para los vídeos ya publicados).", "fix": "Marketing: añadir en la descripción 'Contenido educativo. Cifras ilustrativas. Vídeo creado con ayuda de IA.' y verificar la etiqueta de IA antes de publicar. Sin mención de la plantilla."}]
@@ -68,8 +71,6 @@ _Actualizado: 2026-11-21 21:10 UTC · se regenera en cada reunión_
 - `2026-11-20 17:55 UTC` **reanudación** — El episodio de hoy estaba pendiente; el comité diario lo retoma ahora.
 - `2026-11-19 22:53 UTC` **publicación** — Ep. 28: ¿Guardar el dinero en casa es lo más seguro? · estado: sent_to_inbox
 - `2026-11-18 22:47 UTC` **publicación** — Ep. 27: ¿Qué pasa con una suscripción que nadie revisa? · estado: sent_to_inbox
-- `2026-11-18 18:25 UTC` **episodio** — Ep. 27 escrito y aprobado por Compliance: ¿Qué pasa con una suscripción que nadie revisa?
-- `2026-11-18 18:23 UTC` **reunión** — Contenido y colchón de episodios: Se aprueba el plan de Ideas, Estudio y Marketing para los episodios 27–33: sin cifras nuevas, con títulos reformulados como preguntas de concepto y ganchos de 6–14 palabras alternados. Los eps. 15, 17
 
 ## Directivas del consejo
 _Sesión del 2026-11-15_

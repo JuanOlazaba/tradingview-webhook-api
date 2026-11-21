@@ -169,5 +169,16 @@
   "created": "2026-11-20 22:22 UTC",
   "issue": 26,
   "url": "https://github.com/JuanOlazaba/tradingview-webhook-api/issues/26"
+ },
+ {
+  "id": 15,
+  "title": "Incidencia en el episodio 31",
+  "body": "El comité diario no pudo completar el episodio 31:\n\n> Compliance no aprueba el episodio tras las revisiones: [{\"scene\": 1, \"problem\": \"Único bloqueo real: los datos históricos (año 1720, Inglaterra, secuencia subida-caída) siguen sin fuente verificable documentada en la ficha. El backlog del 16 nov y la nota del CEO la exigen antes de renderizar o publicar, y la nota de la escena 1 lo reconoce como 'pendiente'. Además, el calendario 1719→1720 es un recurso visual sin función narrativa y puede sugerir una cronología no documentada.\", \"fix\": \"Adjuntar a la ficha una fuente verificable (enciclopedia o manual de historia económica) que confirme año, país y secuencia subida-caída, y registrar el visto bueno escrito de Compliance. Etiquetar en la ficha: gancho = afirmación, 10 palabras. Si el motor lo permite, mostrar solo '1720' sin rango. Hasta q\n\nIT lo reintentará en la próxima ejecución. Responde solo si quieres dar instrucciones.",
+  "by": "Operaciones",
+  "status": "pending",
+  "apply_on_yes": {},
+  "created": "2026-11-21 23:57 UTC",
+  "issue": 27,
+  "url": "https://github.com/JuanOlazaba/tradingview-webhook-api/issues/27"
  }
 ]
