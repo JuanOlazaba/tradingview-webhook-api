@@ -1,0 +1,11 @@
+[01]   ¿Pagar a plazos sin intereses te sale gratis?
+[02] // 01 · el problema  Leo mira unos auriculares de 180 €... ilustrativo. En la tienda le ofrecen pagarlos a plazos, sin intereses.
+[03] // 02 · el ejemplo  El precio de partida es 180 €. Apúntalo... ilustrativo.
+[04] // 02 · el ejemplo  Son 6 cuotas de 30 €. 6 por 30, 180 €. El mismo total... ilustrativo.
+[05] // 03 · la idea central  Spoiler: en este ejemplo ilustrativo, el total es el mismo... Pero ojo: en una oferta real hay que mirar el contrato.
+[06] // 03 · el mecanismo  ¿Y dónde puede estar el negocio? Puede cambiar tu decisión. Quizá compras antes... o compras más. Esquema conceptual, sin datos.
+[07] // 03 · el mecanismo  Esa cuota se repite 6 meses. Hay que ver si cabe en tu presupuesto.
+[08] // 04 · qué hacer hoy  Antes de firmar, mira tres cosas. El precio total. El plazo. Y qué pasa si te retrasas.
+[09] // 04 · qué hacer hoy  Moraleja: compara el total, no solo la cuota. La cuota pequeña puede despistar... el total, no.
+[10] // 05 · tu turno  ¿Qué crees que pesa más al decidir un pago aplazado? A, B o C.
+[11]   Esto ha sido Finroots. El dinero, desde la raíz.

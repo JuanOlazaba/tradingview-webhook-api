@@ -1,0 +1,241 @@
+{
+ "number": 30,
+ "format": "como_funciona",
+ "slug": "pago-aplazado-por-que-te-ofrecen-esperar",
+ "title": "¿Pagar a plazos sin intereses te sale gratis?",
+ "topic": "Cómo funciona el pago aplazado: por qué te ofrecen esperar",
+ "core_idea": "Un pago aplazado reparte el precio en cuotas y puede cambiar cómo decides. Explicar el mecanismo ayuda a comparar el precio total antes de firmar. Hipótesis ilustrativa: auriculares de 180 €; 6 cuotas de 30 € = 180 €; sin capital ni tipo de interés; el ejemplo no incluye comisiones ni TAE, sin afirmar que no existan en ofertas reales. No es una previsión ni una recomendación.",
+ "series": "Finanzas en 1 minuto",
+ "characters": [
+  "Leo"
+ ],
+ "keywords": [
+  "plazo",
+  "cuota",
+  "interes",
+  "total",
+  "aplaz",
+  "gratis"
+ ],
+ "scenes": [
+  {
+   "type": "display",
+   "chapter": "",
+   "sfx": "hit",
+   "voice": "¿Pagar a plazos sin intereses te sale gratis?",
+   "params": {
+    "lines": [
+     {
+      "text": "¿Pagar a plazos",
+      "at": 0
+     },
+     {
+      "text": "sin intereses",
+      "color": "co",
+      "at": 1.0
+     },
+     {
+      "text": "te sale gratis?",
+      "at": 2.0
+     }
+    ],
+    "size": "xl"
+   }
+  },
+  {
+   "type": "cards",
+   "chapter": "// 01 · el problema",
+   "sfx": "deal",
+   "voice": "Leo mira unos auriculares de 180 €... ilustrativo. En la tienda le ofrecen pagarlos a plazos, sin intereses.",
+   "params": {
+    "cards": [
+     {
+      "label": "Auriculares",
+      "icon": "bag",
+      "lit": true
+     },
+     {
+      "label": "Pago aplazado",
+      "icon": "clock"
+     }
+    ],
+    "question": "¿Qué mirar antes de firmar?",
+    "question_at": 4,
+    "note": "Hipótesis ilustrativa: auriculares de 180 €. Escena ficticia de Leo; no alude a ninguna tienda real."
+   }
+  },
+  {
+   "type": "counter",
+   "chapter": "// 02 · el ejemplo",
+   "sfx": "tick",
+   "voice": "El precio de partida es 180 €. Apúntalo... ilustrativo.",
+   "params": {
+    "label": "Precio de los auriculares",
+    "from": 0,
+    "to": 180,
+    "suffix": " €",
+    "color": "co",
+    "sub": "ilustrativo",
+    "note": "Cifra ilustrativa. Hipótesis: 180 €, sin capital ni tipo de interés."
+   }
+  },
+  {
+   "type": "receipt",
+   "chapter": "// 02 · el ejemplo",
+   "sfx": "print",
+   "voice": "Son 6 cuotas de 30 €. 6 por 30, 180 €. El mismo total... ilustrativo.",
+   "params": {
+    "header": "PAGO APLAZADO",
+    "items": [
+     {
+      "label": "Cuota 1",
+      "from": 30
+     },
+     {
+      "label": "Cuota 2",
+      "from": 30
+     },
+     {
+      "label": "Cuotas 3 a 6 (4 x 30 €)",
+      "from": 120
+     }
+    ],
+    "total_from": 180,
+    "note": "Cifras ilustrativas. Hipótesis: 6 cuotas de 30 € = 180 €, sin comisiones ni TAE en el ejemplo."
+   }
+  },
+  {
+   "type": "display",
+   "chapter": "// 03 · la idea central",
+   "sfx": "hit2",
+   "voice": "Spoiler: en este ejemplo ilustrativo, el total es el mismo... Pero ojo: en una oferta real hay que mirar el contrato.",
+   "params": {
+    "lines": [
+     {
+      "text": "Mismo total",
+      "at": 0
+     },
+     {
+      "text": "en este ejemplo",
+      "color": "co",
+      "at": 2.5
+     }
+    ],
+    "size": "xl",
+    "note": "Idea del ejemplo ilustrativo; no describe ninguna oferta real."
+   }
+  },
+  {
+   "type": "levers",
+   "chapter": "// 03 · el mecanismo",
+   "sfx": "whoosh",
+   "voice": "¿Y dónde puede estar el negocio? Puede cambiar tu decisión. Quizá compras antes... o compras más. Esquema conceptual, sin datos.",
+   "params": {
+    "title": "Lo que puede cambiar el aplazamiento",
+    "levers": [
+     {
+      "label": "Compras antes",
+      "from": 50,
+      "to": 50
+     },
+     {
+      "label": "Compras más",
+      "from": 50,
+      "to": 50
+     },
+     {
+      "label": "Posibles costes si te retrasas (según contrato)",
+      "from": 50,
+      "to": 50
+     }
+    ],
+    "note": "Esquema conceptual, sin datos ni porcentajes reales. Las palancas no miden nada."
+   }
+  },
+  {
+   "type": "calendar",
+   "chapter": "// 03 · el mecanismo",
+   "sfx": "tick",
+   "voice": "Esa cuota se repite 6 meses. Hay que ver si cabe en tu presupuesto.",
+   "params": {
+    "label": "Meses de cuota",
+    "from": 1,
+    "to": 6,
+    "sub": "ilustrativo",
+    "at": 0.5,
+    "dur": 3,
+    "note": "Cifra ilustrativa. Hipótesis: 6 cuotas mensuales de 30 €."
+   }
+  },
+  {
+   "type": "cards",
+   "chapter": "// 04 · qué hacer hoy",
+   "sfx": "deal",
+   "voice": "Antes de firmar, mira tres cosas. El precio total. El plazo. Y qué pasa si te retrasas.",
+   "params": {
+    "cards": [
+     {
+      "label": "Precio total",
+      "icon": "scale",
+      "lit": true
+     },
+     {
+      "label": "Plazo",
+      "icon": "clock"
+     },
+     {
+      "label": "Si te retrasas",
+      "icon": "shield"
+     }
+    ],
+    "question": "¿Lo has mirado?",
+    "question_at": 5,
+    "note": "Lista general de comprobación, sin recomendar ninguna oferta."
+   }
+  },
+  {
+   "type": "display",
+   "chapter": "// 04 · qué hacer hoy",
+   "sfx": "hit",
+   "voice": "Moraleja: compara el total, no solo la cuota. La cuota pequeña puede despistar... el total, no.",
+   "params": {
+    "lines": [
+     {
+      "text": "Compara el total",
+      "color": "co",
+      "at": 0
+     },
+     {
+      "text": "no solo la cuota",
+      "at": 2.5
+     }
+    ],
+    "size": "xl",
+    "note": "Mensaje general, sin recomendación de producto."
+   }
+  },
+  {
+   "type": "options",
+   "chapter": "// 05 · tu turno",
+   "sfx": "pop",
+   "voice": "¿Qué crees que pesa más al decidir un pago aplazado? A, B o C.",
+   "params": {
+    "options": [
+     "A) La cuota mensual",
+     "B) El precio total",
+     "C) El plazo"
+    ],
+    "disclaimer": "Contenido educativo. No es asesoramiento financiero ni recomendación de inversión. Invertir conlleva riesgos. Cifras ilustrativas. Vídeo creado con ayuda de IA."
+   }
+  },
+  {
+   "type": "logo",
+   "chapter": "",
+   "sfx": "cling",
+   "voice": "Esto ha sido Finroots. El dinero, desde la raíz.",
+   "params": {
+    "next": "¿Cómo se compara el precio total de dos formas de pago?"
+   }
+  }
+ ]
+}

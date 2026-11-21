@@ -897,5 +897,35 @@
       "status": "SEND_TO_USER_INBOX",
       "post_ids": null
     }
+  },
+  {
+    "number": 30,
+    "slug": "pago-aplazado-por-que-te-ofrecen-esperar",
+    "title": "¿Pagar a plazos sin intereses te sale gratis?",
+    "topic": "Cómo funciona el pago aplazado: por qué te ofrecen esperar",
+    "core_idea": "Un pago aplazado reparte el precio en cuotas y puede cambiar cómo decides. Explicar el mecanismo ayuda a comparar el precio total antes de firmar. Hipótesis ilustrativa: auriculares de 180 €; 6 cuotas de 30 € = 180 €; sin capital ni tipo de interés; el ejemplo no incluye comisiones ni TAE, sin afirmar que no existan en ofertas reales. No es una previsión ni una recomendación.",
+    "characters": [
+      "Leo"
+    ],
+    "objects": [
+      "calendar",
+      "cards",
+      "counter",
+      "display",
+      "levers",
+      "logo",
+      "options",
+      "receipt"
+    ],
+    "question": "A) La cuota mensual / B) El precio total / C) El plazo",
+    "status": "sent_to_inbox",
+    "duration": 61.135,
+    "published_at": "2026-11-21T21:10:35.289780Z",
+    "tiktok": {
+      "publish_id": "v_inbox_file~v2.7710734942493378574",
+      "mode": "draft",
+      "status": "SEND_TO_USER_INBOX",
+      "post_ids": null
+    }
   }
 ]
