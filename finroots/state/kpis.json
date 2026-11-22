@@ -87,6 +87,50 @@
    ],
    "fetched_at": 1794762861,
    "date": "2026-11-15"
+  },
+  {
+   "user": {
+    "display_name": "Finroots",
+    "follower_count": 3,
+    "following_count": 2,
+    "likes_count": 7,
+    "open_id": "-000QBUGLx6xJjpIN3dgBxDtHdgp5Hx_3-z1",
+    "video_count": 3
+   },
+   "videos": [
+    {
+     "like_count": 2,
+     "share_count": 0,
+     "title": "Qué harías tú? #Finroots ",
+     "view_count": 186,
+     "comment_count": 0,
+     "create_time": 1793653030,
+     "duration": 67,
+     "id": "7703680683335519501"
+    },
+    {
+     "id": "7703655995985136910",
+     "like_count": 2,
+     "share_count": 0,
+     "title": "A, B o C? #Finroots ",
+     "view_count": 93,
+     "comment_count": 0,
+     "create_time": 1793647211,
+     "duration": 78
+    },
+    {
+     "create_time": 1793637889,
+     "duration": 89,
+     "id": "7703615955884100878",
+     "like_count": 3,
+     "share_count": 0,
+     "title": "Déjame saber en comentarios! #Finroots ",
+     "view_count": 62,
+     "comment_count": 0
+    }
+   ],
+   "fetched_at": 1795369935,
+   "date": "2026-11-22"
   }
  ]
 }

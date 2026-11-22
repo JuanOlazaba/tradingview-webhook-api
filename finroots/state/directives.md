@@ -1,23 +1,26 @@
 # Directivas vigentes del consejo
 
-_Sesión del 2026-11-15_
+_Sesión del 2026-11-22_
 
-1. Publicar 5 episodios entre el 16 y el 20 de noviembre, cada uno entre 19:00 y 21:00 (Madrid), y marcarlos como publicados solo con video_id verificado.
-2. Conciliar el 100 % de los IDs existentes (incluidos los 3 vídeos del 2 de noviembre) con episodio, antes del miércoles 18 de noviembre.
-3. Ningún episodio con cifras se renderiza ni publica sin hipótesis documentada (capital, años, tipo) y visto bueno escrito de Compliance. Plazo de revisión del lote: jueves 19 de noviembre.
-4. El validador automático de IT (bloqueo + aviso) debe estar operativo antes de cualquier render con cifras; registrar bloqueos y episodios que llegan a Compliance sin hipótesis (objetivo cero).
-5. Cada gancho de 6–14 palabras, etiquetado como pregunta o afirmación y alternado entre vídeos consecutivos; cierre con pregunta de opinión A/B/C sobre el concepto, sin producto ni recomendación.
-6. Responder los primeros comentarios en las 2 primeras horas y registrar a 24 h y 72 h vistas, likes, comentarios, compartidos, visitas al perfil y clics en bio.
-7. Mantener colchón de 3 episodios listos cada noche; si no se cumple, avisar al consejo el mismo día.
-8. Ningún coste nuevo, herramienta de pago ni cuenta nueva sin el sí del dueño. Coste por vídeo registrado solo con datos reales.
-9. Incidencia #8 (ep. 13): no se cierra ni se publica hasta documentar el motivo con Compliance.
+1. Publicar 3 episodios sin cifras entre el 24 y el 27 de noviembre, entre 19:00 y 21:00 (Madrid); cada uno se marca como publicado solo con video_id verificado y con la etiqueta de IA y el aviso en la descripción comprobados.
+2. Verificar cada noche que hay al menos 3 episodios renderizados y validados en el colchón; si no los hay, avisar al consejo el mismo día.
+3. IT entrega el validador de JSON operativo antes del miércoles 25 de noviembre; ningún render con cifras sin pasar por él. Registro semanal de bloqueos y de episodios que llegan a Compliance sin hipótesis (objetivo cero).
+4. IT entrega el inventario del colchón (render sí/no, JSON validado sí/no, hipótesis sí/no) antes del jueves 26 de noviembre.
+5. Operaciones concilia los 3 IDs con episodio y el resto del registro antes del próximo render, con fecha de cierre el 26 de noviembre.
+6. Operaciones confirma antes del próximo render si TikTok Studio exporta la retención a 3 s; si no, no se reporta.
+7. Producto y Compliance: revisión escrita de la plantilla de margen mensual antes del viernes 27 de noviembre. Sin activar el CTA 'Comenta PLANTILLA' ni enviar el PDF hasta visto bueno escrito de Compliance y sí del dueño.
+8. Registro por vídeo a 24 h y 72 h: vistas, likes, comentarios, compartidos, visitas al perfil y clics en bio, sin datos personales. Sin conclusiones antes de 10 vídeos.
+9. Sin cambios de formato, tema ni horario (19:00–21:00) ni de hashtags hasta tener 10 vídeos con datos completos.
+10. Ningún coste por vídeo se presenta sin datos reales de tokens, voz y render. Hoja de coste con datos reales a partir de los próximos 3 renders.
+11. Eps. 15, 17, 20, 23 y 24 siguen retenidos; la incidencia #8 (ep. 13) no se cierra sin motivo documentado con Compliance.
+12. Revisión del aviso de incumplimiento y del avance del lote el 29 de noviembre, con el consejo.
 
 ## Vetos
-- Veto de Compliance: ningún episodio con cifras (5, 7, 14, 16, 17, 18, 21, 23 o nuevos) se renderiza ni publica sin hipótesis documentada y validación escrita.
-- Veto de Compliance: la incidencia #8 (ep. 13) no se cierra ni se publica sin conocer y documentar el motivo.
-- Veto de Compliance: el CTA 'Comenta PLANTILLA' y el envío del PDF no se activan hasta el visto bueno escrito de Compliance sobre la plantilla de margen mensual.
-- Veto de Compliance: ningún título, gancho o cierre puede contener cifras no marcadas como ilustrativas ni recomendaciones de producto, entidad o rentabilidad.
-- Veto de Compliance: no se crea ninguna cuenta nueva ni se da acceso a terceros sin el sí explícito del dueño.
+- Compliance: ningún episodio con cifras se renderiza ni publica sin hipótesis documentada (capital, años, tipo) y visto bueno escrito.
+- Compliance: la incidencia #8 (ep. 13) no se cierra ni publica sin motivo documentado.
+- Compliance: el CTA 'Comenta PLANTILLA' y el envío del PDF siguen bloqueados hasta visto bueno escrito de Compliance y sí del dueño.
+- Compliance: ningún título, gancho o cierre con cifras sin marcar como ilustrativas, ni recomendaciones de producto, entidad o rentabilidad.
+- Ninguna cuenta nueva, herramienta de pago ni acceso de terceros sin el sí explícito del dueño.
 
 ## Objetivos
 {"followers": 100, "avg_views": 150}
