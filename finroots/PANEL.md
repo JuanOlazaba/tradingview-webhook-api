@@ -1,5 +1,5 @@
 # Panel de Finroots
-_Actualizado: 2026-11-22 17:53 UTC · se regenera en cada reunión_
+_Actualizado: 2026-11-22 21:16 UTC · se regenera en cada reunión_
 
 ## Necesita tu sí
 - **Incidencia en el episodio 5** — [responder aquí](https://github.com/JuanOlazaba/tradingview-webhook-api/issues/17) · pedido por Operaciones el 2026-11-03 13:13 UTC
@@ -15,7 +15,7 @@ _Actualizado: 2026-11-22 17:53 UTC · se regenera en cada reunión_
 ## Estado
 - Episodios: 30 · en colchón (listos): 0
 - TikTok: 3 seguidores · 7 me gusta · 3 vídeos
-- Coste de IA: hoy 0.01 $ · este mes 12.06 $ de 20 $ · total 12.06 $
+- Coste de IA: hoy 0.58 $ · este mes 12.63 $ de 20 $ · total 12.63 $
 
 ## Episodios
 | # | Título | Estado |
@@ -51,6 +51,7 @@ _Actualizado: 2026-11-22 17:53 UTC · se regenera en cada reunión_
 - [2026-11-18-1823-mejora-contenido](minutes/2026-11-18-1823-mejora-contenido.md)
 
 ## Actividad reciente
+- `2026-11-22 21:16 UTC` **incidencia** — Ep. 31: Compliance no aprueba el episodio tras las revisiones: [{"scene": 1, "problem": "El gancho '¿Más sueldo siempre significa más ahorro?' tiene 6 palabras, no 7 (Más, sueldo, siempre, significa, más, ahorro). La nota de pantalla dice 7 y el límite de la guía es 6–14, así que está en el mínimo, pero el 
 - `2026-11-22 17:53 UTC` **consejo** — Sesión semanal: Publicar 3 episodios sin cifras entre el 24 y el 27 de noviembre, entre 19:00 y 21:00 (Madrid); cada uno se marca como publicado solo con video_id verificado y con la etiqueta de IA y el aviso en la descripción comprobados.; Verificar cada noche que hay al menos 3 episodios renderizados y validados 
 - `2026-11-21 23:57 UTC` **incidencia** — Ep. 31: Compliance no aprueba el episodio tras las revisiones: [{"scene": 1, "problem": "Único bloqueo real: los datos históricos (año 1720, Inglaterra, secuencia subida-caída) siguen sin fuente verificable documentada en la ficha. El backlog del 16 nov y la nota del CEO la exigen antes de renderizar o publ
 - `2026-11-21 23:55 UTC` **reanudación** — El episodio de hoy estaba pendiente; el comité diario lo retoma ahora.
@@ -70,7 +71,6 @@ _Actualizado: 2026-11-22 17:53 UTC · se regenera en cada reunión_
 - `2026-11-20 18:03 UTC` **acción** — decisión: Ganchos: desde ya, sin cifras salvo las que tengan hipótesis documentada y marca 'ilustrativa'. Alternar pregunta y afirmación entre vídeos consecutivos, 6–14 palabras, etiqueta de tipo en la ficha. Cada gancho debe anticipar el mismo concepto que pregunta el cierre A/B/C.
 - `2026-11-20 18:02 UTC` **publicación** — Ep. 29: Pagar con tarjeta, ¿te hace gastar más? · estado: sent_to_inbox
 - `2026-11-20 17:55 UTC` **reanudación** — El episodio de hoy estaba pendiente; el comité diario lo retoma ahora.
-- `2026-11-19 22:53 UTC` **publicación** — Ep. 28: ¿Guardar el dinero en casa es lo más seguro? · estado: sent_to_inbox
 
 ## Directivas del consejo
 _Sesión del 2026-11-22_
