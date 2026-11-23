@@ -1,0 +1,282 @@
+{
+ "number": 31,
+ "format": "historia_dinero",
+ "slug": "burbuja-mares-del-sur-1720",
+ "title": "¿Por qué la euforia colectiva engaña incluso a gente sensata?",
+ "topic": "La burbuja de los mares del Sur (1720) y la euforia que contagia a inversores sensatos",
+ "core_idea": "En 1720 la compra de acciones de una compañía se disparó por la euforia colectiva, y la caída afectó también a personas muy preparadas. Que todos compren no demuestra que el precio tenga sentido.",
+ "series": "Finanzas en 1 minuto",
+ "characters": [
+  "Leo"
+ ],
+ "keywords": [
+  "burbuja",
+  "euforia",
+  "imitación",
+  "1720",
+  "precio",
+  "prisa",
+  "mares del sur"
+ ],
+ "hook_meta": {
+  "type": "pregunta",
+  "words": 9,
+  "text": "En 1720, media Londres compró por imitación. ¿Te suena?"
+ },
+ "scenes": [
+  {
+   "type": "display",
+   "chapter": "",
+   "sfx": "hit",
+   "voice": "En 1720, media Londres compró por imitación. ¿Te suena?",
+   "params": {
+    "lines": [
+     {
+      "text": "1720",
+      "color": "co",
+      "at": 0.2
+     },
+     {
+      "text": "LONDRES COMPRA",
+      "at": 1.2
+     },
+     {
+      "text": "POR IMITACIÓN",
+      "color": "bl",
+      "at": 2.2
+     }
+    ],
+    "size": "xl"
+   }
+  },
+  {
+   "type": "calendar",
+   "chapter": "// 01 · el contexto",
+   "sfx": "tick",
+   "voice": "Londres, 1720. Una compañía con privilegios comerciales vende acciones y todo el mundo habla de ella.",
+   "params": {
+    "label": "Londres",
+    "from": 1718,
+    "to": 1720,
+    "sub": "La burbuja de los Mares del Sur",
+    "at": 0.5,
+    "dur": 2.5
+   }
+  },
+  {
+   "type": "cards",
+   "chapter": "// 02 · el contagio",
+   "sfx": "deal",
+   "voice": "Primero, un rumor. Luego, la imitación. Y al final... las prisas por no quedarse fuera. Nadie quiere ser el último.",
+   "params": {
+    "cards": [
+     {
+      "label": "Rumor",
+      "icon": "bag"
+     },
+     {
+      "label": "Imitación",
+      "icon": "rocket",
+      "lit": true
+     },
+     {
+      "label": "Prisa",
+      "icon": "clock"
+     }
+    ],
+    "question": "¿Quién se queda fuera?",
+    "question_at": 4
+   }
+  },
+  {
+   "type": "display",
+   "chapter": "// 03 · la idea central",
+   "sfx": "hit2",
+   "voice": "Pero ojo: que todos compren no demuestra que el precio tenga sentido.",
+   "params": {
+    "lines": [
+     {
+      "text": "TODOS COMPRAN",
+      "at": 0.2
+     },
+     {
+      "text": "NO ES UNA",
+      "at": 1.6
+     },
+     {
+      "text": "RAZÓN",
+      "color": "co",
+      "at": 2.6
+     }
+    ],
+    "size": "xl"
+   }
+  },
+  {
+   "type": "levers",
+   "chapter": "// 03 · la idea central",
+   "sfx": "rise",
+   "voice": "A veces, cuanto más sube el precio, menos preguntas se hacen. La euforia manda... y la prudencia calla.",
+   "params": {
+    "title": "Cuando todo sube",
+    "levers": [
+     {
+      "label": "Euforia",
+      "sub": "sube sin parar",
+      "from": 15,
+      "to": 95
+     },
+     {
+      "label": "Preguntas",
+      "sub": "casi desaparecen",
+      "from": 85,
+      "to": 10
+     }
+    ],
+    "note": "Esquema ilustrativo, no son datos reales"
+   }
+  },
+  {
+   "type": "display",
+   "chapter": "// 04 · el giro",
+   "sfx": "whoosh",
+   "voice": "La caída afectó también a gente muy preparada. La moraleja: el talento no te vuelve inmune.",
+   "params": {
+    "lines": [
+     {
+      "text": "EL TALENTO",
+      "at": 0.2
+     },
+     {
+      "text": "NO TE HACE",
+      "at": 1.4
+     },
+     {
+      "text": "INMUNE",
+      "color": "bl",
+      "at": 2.6
+     }
+    ],
+    "size": "xl",
+    "note": "Moraleja general, sin importes"
+   }
+  },
+  {
+   "type": "cards",
+   "chapter": "// 05 · hoy también",
+   "sfx": "pop",
+   "voice": "Leo lo ve y suspira: 'Esto me suena a mi FOMO'. Spoiler: a casi todos nos suena.",
+   "params": {
+    "cards": [
+     {
+      "label": "Leo",
+      "icon": "rocket"
+     },
+     {
+      "label": "FOMO",
+      "icon": "clock",
+      "lit": true
+     }
+    ],
+    "question": "¿Te suena?",
+    "question_at": 3,
+    "note": "Personaje ficticio"
+   }
+  },
+  {
+   "type": "levers",
+   "chapter": "// 06 · lo aplicable",
+   "sfx": "tick",
+   "voice": "¿Y sabes qué? El truco no es adivinar cuándo cae. Es preguntarte por qué sube.",
+   "params": {
+    "title": "Antes de seguir al grupo",
+    "levers": [
+     {
+      "label": "Imitar",
+      "sub": "lo hace todo el mundo",
+      "from": 80,
+      "to": 20
+     },
+     {
+      "label": "Preguntar",
+      "sub": "¿por qué sube?",
+      "from": 20,
+      "to": 85
+     }
+    ],
+    "note": "Esquema ilustrativo, no son datos reales"
+   }
+  },
+  {
+   "type": "display",
+   "chapter": "// 06 · lo aplicable",
+   "sfx": "whoosh",
+   "voice": "Las modas cambian de disfraz. Hoy una cosa, mañana otra... La euforia colectiva sigue siendo la misma.",
+   "params": {
+    "lines": [
+     {
+      "text": "OTRO DISFRAZ",
+      "at": 0.2
+     },
+     {
+      "text": "LA MISMA",
+      "at": 1.8
+     },
+     {
+      "text": "EUFORIA",
+      "color": "co",
+      "at": 2.8
+     }
+    ],
+    "size": "xl"
+   }
+  },
+  {
+   "type": "cards",
+   "chapter": "// 06 · tres preguntas",
+   "sfx": "deal",
+   "voice": "Tres preguntas para pensar, no una recomendación. ¿Entiendo qué compro? ¿Tengo plan? ¿Y horizonte?",
+   "params": {
+    "cards": [
+     {
+      "label": "¿Lo entiendo?",
+      "icon": "scale"
+     },
+     {
+      "label": "¿Tengo plan?",
+      "icon": "shield",
+      "lit": true
+     },
+     {
+      "label": "¿Horizonte?",
+      "icon": "clock"
+     }
+    ],
+    "note": "Preguntas generales para reflexionar, no una recomendación"
+   }
+  },
+  {
+   "type": "options",
+   "chapter": "// 07 · tu turno",
+   "sfx": "ding",
+   "voice": "Ante una moda que no entiendes, ¿qué actitud tienes tú?",
+   "params": {
+    "options": [
+     "A) Sigo al grupo",
+     "B) Me pregunto por qué sube",
+     "C) Espero a que se calme el ruido"
+    ],
+    "disclaimer": "Contenido educativo. No es asesoramiento financiero ni recomendación de inversión. Invertir conlleva riesgos. Cifras ilustrativas. Vídeo creado con ayuda de IA."
+   }
+  },
+  {
+   "type": "logo",
+   "chapter": "",
+   "sfx": "cling",
+   "voice": "Esto ha sido Finroots. El dinero, desde la raíz.",
+   "params": {
+    "next": "¿Cómo se comporta el dinero cuando una compra se hace más por imitación que por precio?"
+   }
+  }
+ ]
+}

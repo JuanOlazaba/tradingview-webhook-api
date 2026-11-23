@@ -1,5 +1,5 @@
 # Panel de Finroots
-_Actualizado: 2026-11-22 21:16 UTC · se regenera en cada reunión_
+_Actualizado: 2026-11-23 21:44 UTC · se regenera en cada reunión_
 
 ## Necesita tu sí
 - **Incidencia en el episodio 5** — [responder aquí](https://github.com/JuanOlazaba/tradingview-webhook-api/issues/17) · pedido por Operaciones el 2026-11-03 13:13 UTC
@@ -13,13 +13,15 @@ _Actualizado: 2026-11-22 21:16 UTC · se regenera en cada reunión_
 - **Incidencia en el episodio 31** — [responder aquí](https://github.com/JuanOlazaba/tradingview-webhook-api/issues/27) · pedido por Operaciones el 2026-11-21 23:57 UTC
 
 ## Estado
-- Episodios: 30 · en colchón (listos): 0
+- Episodios: 32 · en colchón (listos): 1 (32)
 - TikTok: 3 seguidores · 7 me gusta · 3 vídeos
-- Coste de IA: hoy 0.58 $ · este mes 12.63 $ de 20 $ · total 12.63 $
+- Coste de IA: hoy 0.65 $ · este mes 13.28 $ de 20 $ · total 13.28 $
 
 ## Episodios
 | # | Título | Estado |
 |---|---|---|
+| 32 | [¿Dinero disponible o invertido? Ejemplo ilustrativo](episodes/ep032/script.txt) | en colchón |
+| 31 | [¿Por qué la euforia colectiva engaña incluso a gente sensata?](episodes/ep031/script.txt) | en tus borradores de TikTok |
 | 30 | [¿Pagar a plazos sin intereses te sale gratis?](episodes/ep030/script.txt) | en tus borradores de TikTok |
 | 29 | [Pagar con tarjeta, ¿te hace gastar más?](episodes/ep029/script.txt) | en tus borradores de TikTok |
 | 28 | [¿Guardar el dinero en casa es lo más seguro?](episodes/ep028/script.txt) | en tus borradores de TikTok |
@@ -33,10 +35,11 @@ _Actualizado: 2026-11-22 21:16 UTC · se regenera en cada reunión_
 | 20 | [En 1929, muchos inversores creyeron que la subida seguiría.](episodes/ep020/script.txt) | en tus borradores de TikTok |
 | 19 | [¿Quién paga la app que dices que es gratis?](episodes/ep019/script.txt) | en tus borradores de TikTok |
 | 18 | [Pagar en cuotas sin intereses puede costarte más](episodes/ep018/script.txt) | en tus borradores de TikTok |
-| 17 | [En 1720, una empresa con poco negocio real hizo perder fortunas.](episodes/ep017/script.txt) | en tus borradores de TikTok |
-| 16 | [Pagar con tarjeta se siente menos. Y eso se nota en el gasto.](episodes/ep016/script.txt) | en tus borradores de TikTok |
 
 ## Últimas reuniones
+- [2026-11-23-ep032-estudio](minutes/2026-11-23-ep032-estudio.md)
+- [2026-11-23-ep031](minutes/2026-11-23-ep031.md)
+- [2026-11-23-2142-mejora-monetizacion](minutes/2026-11-23-2142-mejora-monetizacion.md)
 - [2026-11-22-ep031](minutes/2026-11-22-ep031.md)
 - [2026-11-22-consejo](minutes/2026-11-22-consejo.md)
 - [2026-11-21-ep030](minutes/2026-11-21-ep030.md)
@@ -46,11 +49,17 @@ _Actualizado: 2026-11-22 21:16 UTC · se regenera en cada reunión_
 - [2026-11-20-1802-mejora-crecimiento](minutes/2026-11-20-1802-mejora-crecimiento.md)
 - [2026-11-19-ep028](minutes/2026-11-19-ep028.md)
 - [2026-11-18-ep027](minutes/2026-11-18-ep027.md)
-- [2026-11-18-ep027-estudio](minutes/2026-11-18-ep027-estudio.md)
-- [2026-11-18-ep026](minutes/2026-11-18-ep026.md)
-- [2026-11-18-1823-mejora-contenido](minutes/2026-11-18-1823-mejora-contenido.md)
 
 ## Actividad reciente
+- `2026-11-23 21:44 UTC` **episodio** — Ep. 32 escrito y aprobado por Compliance: ¿Dinero disponible o invertido? Ejemplo ilustrativo
+- `2026-11-23 21:42 UTC` **reunión** — Producto y monetización: Con 3 vídeos, 7 likes y 186 vistas máximas, el embudo no tiene audiencia sobre la que funcionar: se mantiene el bloqueo del CTA de la plantilla y se prioriza que los vídeos se vean y comenten. El umbr
+- `2026-11-23 21:42 UTC` **acción** — backlog: Medición del embudo: añadir al registro por vídeo (24 h y 72 h) visitas al perfil, clics en bio y recuento de comentarios con PLANTILLA y de envíos manuales, sin datos personales. Sin conclusiones antes de 10 vídeos. Responsable: Producto con Marketing.
+- `2026-11-23 21:42 UTC` **acción** — backlog: Producto: entregar la revisión escrita de la plantilla de margen mensual antes del viernes 27 de nov, incluyendo aviso legal íntegro, etiqueta de IA, cifras marcadas como ilustrativas y ausencia de petición de datos personales. Responsable: Producto con Compliance (visto bueno o cambios con frase exacta a corregir).
+- `2026-11-23 21:42 UTC` **acción** — decisión: El cierre A/B/C se trata como indicador de interés por el concepto, sin referencias a productos ni rentabilidad. Los comentarios se contabilizan como recuento, sin nombres ni usuarios.
+- `2026-11-23 21:42 UTC` **acción** — decisión: Newsletter, afiliados y guía de pago permanecen aplazados. El umbral de 1.000 seguidores y 150 vistas por vídeo queda como propuesta de Marketing; no se usa como criterio hasta que lo fije el dueño. Ninguna cuenta ni acuerdo nuevo sin su sí.
+- `2026-11-23 21:42 UTC` **acción** — decisión: Se mantienen bloqueados el CTA 'Comenta PLANTILLA', el envío del PDF y la fijación de la descripción hasta el visto bueno escrito de Compliance y el sí del dueño. Ningún CTA a la plantilla antes de esa doble aprobación.
+- `2026-11-23 21:42 UTC` **publicación** — Ep. 31: ¿Por qué la euforia colectiva engaña incluso a gente sensata? · estado: sent_to_inbox
+- `2026-11-23 21:33 UTC` **reanudación** — El episodio de hoy estaba pendiente; el comité diario lo retoma ahora.
 - `2026-11-22 21:16 UTC` **incidencia** — Ep. 31: Compliance no aprueba el episodio tras las revisiones: [{"scene": 1, "problem": "El gancho '¿Más sueldo siempre significa más ahorro?' tiene 6 palabras, no 7 (Más, sueldo, siempre, significa, más, ahorro). La nota de pantalla dice 7 y el límite de la guía es 6–14, así que está en el mínimo, pero el 
 - `2026-11-22 17:53 UTC` **consejo** — Sesión semanal: Publicar 3 episodios sin cifras entre el 24 y el 27 de noviembre, entre 19:00 y 21:00 (Madrid); cada uno se marca como publicado solo con video_id verificado y con la etiqueta de IA y el aviso en la descripción comprobados.; Verificar cada noche que hay al menos 3 episodios renderizados y validados 
 - `2026-11-21 23:57 UTC` **incidencia** — Ep. 31: Compliance no aprueba el episodio tras las revisiones: [{"scene": 1, "problem": "Único bloqueo real: los datos históricos (año 1720, Inglaterra, secuencia subida-caída) siguen sin fuente verificable documentada en la ficha. El backlog del 16 nov y la nota del CEO la exigen antes de renderizar o publ
@@ -62,15 +71,6 @@ _Actualizado: 2026-11-22 21:16 UTC · se regenera en cada reunión_
 - `2026-11-20 18:03 UTC` **acción** — config models.effort.ideas = medium
 - `2026-11-20 18:03 UTC` **acción** — biblia: Continuidad de cierres (desde el 20 nov): cada episodio termina con una pregunta
 - `2026-11-20 18:03 UTC` **acción** — backlog: Estudio: etiquetar el tipo de gancho (pregunta o afirmación) y el formato en la ficha de cada episodio antes de cada render, con recuento de palabras. Responsable: Estudio.
-- `2026-11-20 18:03 UTC` **acción** — backlog: Medición: añadir al registro por vídeo (24 h y 72 h) visitas al perfil, clics en bio y respuestas al cierre A/B/C, sin datos personales. Responsable: Producto, con Marketing. Primera lectura tras 10 vídeos.
-- `2026-11-20 18:03 UTC` **acción** — backlog: Operaciones: confirmar antes del próximo render si TikTok Studio permite exportar la retención a 3 s por vídeo. Si no lo permite, documentarlo y no reportar esa métrica. Responsable: Operaciones.
-- `2026-11-20 18:03 UTC` **acción** — decisión: CTA: se mantiene el máximo de 1 de cada 4 vídeos con llamada a la acción. 'Comenta PLANTILLA' y la distribución cruzada permanecen desactivados hasta el visto bueno escrito de Compliance y el sí del dueño.
-- `2026-11-20 18:03 UTC` **acción** — decisión: Comentarios: respuesta en las primeras 2 horas, solo con contenido general y la plantilla manual estándar cuando esté autorizada. Sin pedir, copiar ni guardar datos personales. Se contabilizan las respuestas al cierre A/B/C como indicador de interés por el concepto.
-- `2026-11-20 18:03 UTC` **acción** — decisión: Retención: no se reporta retención a 3 s ni por formato hasta confirmar exportación desde TikTok Studio. Mientras tanto se registran visitas al perfil, clics en bio, likes, compartidos y comentarios a 24 h y 72 h. Sin conclusiones antes de 10 vídeos.
-- `2026-11-20 18:03 UTC` **acción** — decisión: Horarios (19:00–21:00 Madrid), hashtags (4–6) y rotación de formatos (Historia del dinero, Mito o realidad, A vs B, sin repetir los dos anteriores) se mantienen sin cambios hasta tener 10 vídeos publicados con datos completos. Franja de mediodía solo en 2–3 vídeos, según acuerdo del consejo.
-- `2026-11-20 18:03 UTC` **acción** — decisión: Ganchos: desde ya, sin cifras salvo las que tengan hipótesis documentada y marca 'ilustrativa'. Alternar pregunta y afirmación entre vídeos consecutivos, 6–14 palabras, etiqueta de tipo en la ficha. Cada gancho debe anticipar el mismo concepto que pregunta el cierre A/B/C.
-- `2026-11-20 18:02 UTC` **publicación** — Ep. 29: Pagar con tarjeta, ¿te hace gastar más? · estado: sent_to_inbox
-- `2026-11-20 17:55 UTC` **reanudación** — El episodio de hoy estaba pendiente; el comité diario lo retoma ahora.
 
 ## Directivas del consejo
 _Sesión del 2026-11-22_
@@ -99,9 +99,6 @@ _Sesión del 2026-11-22_
 {"followers": 100, "avg_views": 150}
 
 ## Decisiones recientes de dirección
-- 2026-11-16 · Desde hoy, cada publicación lleva en la descripción el aviso breve ('Contenido educativo. Cifras ilustrativas. Vídeo creado con ayuda de IA.') y no menciona la plantilla hasta el visto bueno escrito de Compliance. Responsable: Marketing, verificación previa a publicar.
-- 2026-11-16 · Los ganchos sin cifras pasan a ser la norma en el lote del 19 de noviembre. Ningún gancho lleva una cifra sin marcar como ilustrativa con hipótesis documentada. Los títulos de los eps. 17, 23 y 24 se reformulan como pregunta de concepto, sin cifra ni verbos de promesa ('te quita', 'se come', 'hizo perder fortunas'), antes del jueves 19.
-- 2026-11-16 · Los episodios sin cifras se programan primero en el calendario. Los eps. 15, 17, 20, 23 y 24 quedan retenidos hasta tener hipótesis documentada y visto bueno escrito de Compliance. Si no hay 5 episodios limpios para el lote del 16–20 nov, se avisa al consejo el mismo día (directiva 7).
 - 2026-11-16 · Respuestas a comentarios: solo contenido general y plantilla manual estándar. Prohibido pedir, copiar o guardar datos personales en comentarios o DMs.
 - 2026-11-18 · Aprobar la lista de próximos episodios 27–33 tal como propone Ideas, con los cambios de objetos de Estudio (28: coins en lugar de display repetido; 31: phone solo si aporta, si no receipt; 33: calendar para la idea de liquidez, sin cifras). Ningún episodio de esta lista lleva cifras nuevas.
 - 2026-11-18 · Los eps. 15, 17, 20, 23 y 24 quedan retenidos fuera de cualquier render o publicación hasta tener hipótesis documentada (capital, años, tipo) y visto bueno escrito de Compliance. El ep. 15 se reformula como pregunta de concepto, sin verbo de promesa.
@@ -111,6 +108,9 @@ _Sesión del 2026-11-22_
 - 2026-11-20 · Retención: no se reporta retención a 3 s ni por formato hasta confirmar exportación desde TikTok Studio. Mientras tanto se registran visitas al perfil, clics en bio, likes, compartidos y comentarios a 24 h y 72 h. Sin conclusiones antes de 10 vídeos.
 - 2026-11-20 · Comentarios: respuesta en las primeras 2 horas, solo con contenido general y la plantilla manual estándar cuando esté autorizada. Sin pedir, copiar ni guardar datos personales. Se contabilizan las respuestas al cierre A/B/C como indicador de interés por el concepto.
 - 2026-11-20 · CTA: se mantiene el máximo de 1 de cada 4 vídeos con llamada a la acción. 'Comenta PLANTILLA' y la distribución cruzada permanecen desactivados hasta el visto bueno escrito de Compliance y el sí del dueño.
+- 2026-11-23 · Se mantienen bloqueados el CTA 'Comenta PLANTILLA', el envío del PDF y la fijación de la descripción hasta el visto bueno escrito de Compliance y el sí del dueño. Ningún CTA a la plantilla antes de esa doble aprobación.
+- 2026-11-23 · Newsletter, afiliados y guía de pago permanecen aplazados. El umbral de 1.000 seguidores y 150 vistas por vídeo queda como propuesta de Marketing; no se usa como criterio hasta que lo fije el dueño. Ninguna cuenta ni acuerdo nuevo sin su sí.
+- 2026-11-23 · El cierre A/B/C se trata como indicador de interés por el concepto, sin referencias a productos ni rentabilidad. Los comentarios se contabilizan como recuento, sin nombres ni usuarios.
 
 ---
 Registro completo: [actas](minutes/) · [informes](reports/) · [actividad](state/activity.jsonl) · [costes](state/costs.json) · [peticiones](state/owner_requests.json)

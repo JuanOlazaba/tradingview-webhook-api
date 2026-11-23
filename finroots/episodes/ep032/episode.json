@@ -1,0 +1,289 @@
+{
+ "number": 32,
+ "format": "a_vs_b",
+ "slug": "disponible-frente-a-invertido",
+ "title": "¿Dinero disponible o invertido? Ejemplo ilustrativo",
+ "topic": "Dinero disponible frente a dinero invertido: qué cambia de verdad",
+ "core_idea": "Tener dinero disponible da liquidez y tranquilidad inmediata; tenerlo invertido puede subir o bajar, y el resultado no está garantizado.",
+ "series": "Finanzas en 1 minuto",
+ "characters": [
+  "Marta"
+ ],
+ "keywords": [
+  "disponible",
+  "invertido",
+  "liquidez",
+  "bajar",
+  "plazo",
+  "ilustrativ"
+ ],
+ "hypothesis": "Capital 1.000 €; plazo 1 año; escenarios inventados de ±10 %; sin tipo, comisiones, impuestos ni inflación; no es una previsión.",
+ "hook_meta": {
+  "type": "pregunta",
+  "words": 11
+ },
+ "description": "Contenido educativo. Cifras ilustrativas. Vídeo creado con ayuda de IA.",
+ "scenes": [
+  {
+   "type": "piggies",
+   "chapter": "",
+   "sfx": "whoosh",
+   "voice": "¿Tu dinero quieto o tu dinero expuesto a subir y bajar?",
+   "params": {
+    "pigs": [
+     {
+      "name": "Quieto",
+      "tag": "Disponible",
+      "fill": 0.5,
+      "at": 0.5,
+      "dur": 2
+     },
+     {
+      "name": "Expuesto",
+      "tag": "Invertido",
+      "fill": 0.5,
+      "at": 0.5,
+      "dur": 2
+     }
+    ],
+    "note": "Concepto general, sin cifras"
+   }
+  },
+  {
+   "type": "phone",
+   "chapter": "// 01 · el problema",
+   "sfx": "ding",
+   "voice": "Marta mira su cuenta. Tiene 1.000 € disponibles. ¿Los deja ahí o los invierte? No lo tiene claro. Ilustrativo...",
+   "params": {
+    "name": "Marta",
+    "label": "Cuenta",
+    "balance_steps": [
+     [
+      0,
+      1000
+     ]
+    ],
+    "side": {
+     "label": "Ilustrativo",
+     "value": "1.000 €",
+     "tone": "bl",
+     "at": 1
+    },
+    "note": "Cifra ilustrativa. Hipótesis: capital 1.000 €, plazo 1 año, sin intereses, comisiones ni impuestos. Personaje ficticio."
+   }
+  },
+  {
+   "type": "display",
+   "chapter": "// 02 · el planteamiento",
+   "sfx": "hit",
+   "voice": "Vamos a compararlo. Dos opciones, ninguna mágica. Y un ejemplo inventado, ilustrativo...",
+   "params": {
+    "lines": [
+     {
+      "text": "DOS OPCIONES",
+      "color": "bl",
+      "at": 0.3
+     },
+     {
+      "text": "NINGUNA MÁGICA",
+      "color": "co",
+      "at": 1.5
+     }
+    ],
+    "size": "xl",
+    "note": "Ejemplo ilustrativo"
+   }
+  },
+  {
+   "type": "cards",
+   "chapter": "// 03 · A frente a B",
+   "sfx": "deal",
+   "voice": "La opción A es dinero disponible. Lo usas cuando quieras. La B es dinero invertido. Puede subir... o bajar.",
+   "params": {
+    "cards": [
+     {
+      "label": "A · Disponible",
+      "icon": "piggy",
+      "lit": true
+     },
+     {
+      "label": "B · Invertido",
+      "icon": "chart"
+     }
+    ],
+    "question": "¿Cuál encaja contigo?",
+    "question_at": 4,
+    "note": "Concepto general, sin producto"
+   }
+  },
+  {
+   "type": "counter",
+   "chapter": "// 04 · opción A",
+   "sfx": "tick",
+   "voice": "Opción A: 1.000 € hoy. Dentro de un año, 1.000 € nominales, sin intereses ni inflación en este ejemplo. Ilustrativa...",
+   "params": {
+    "label": "Disponible dentro de 1 año",
+    "from": 0,
+    "to": 1000,
+    "suffix": " €",
+    "color": "bl",
+    "sub": "Capital 1.000 €, plazo 1 año, sin intereses ni inflación",
+    "note": "Cifra ilustrativa. Hipótesis: capital 1.000 €, 1 año, sin intereses, comisiones, impuestos ni inflación. No es una previsión."
+   }
+  },
+  {
+   "type": "chart",
+   "chapter": "// 05 · opción B",
+   "sfx": "rise",
+   "voice": "Opción B: dos escenarios inventados. Si sube un 10 %, 1.100 €. Si baja un 10 %, 900 €. Ilustrativa...",
+   "params": {
+    "series": [
+     {
+      "name": "Sube 10 %",
+      "points": [
+       1000,
+       1100
+      ],
+      "color": "bl",
+      "end": 1100,
+      "suffix": " €"
+     },
+     {
+      "name": "Baja 10 %",
+      "points": [
+       1000,
+       900
+      ],
+      "color": "co",
+      "end": 900,
+      "suffix": " €"
+     }
+    ],
+    "x_labels": [
+     "Hoy",
+     "1 año"
+    ],
+    "at": 0.5,
+    "dur": 4,
+    "note": "Cifra ilustrativa. Escenarios inventados, solo valores hoy y a 1 año. Hipótesis: capital 1.000 €, 1 año, sin comisiones ni impuestos. Ni el resultado ni la trayectoria están garantizados. No es una previsión."
+   }
+  },
+  {
+   "type": "counter",
+   "chapter": "// 06 · el lado incómodo",
+   "sfx": "deflate",
+   "voice": "Spoiler: en el escenario malo, pierdes 100 €. Sin comisiones ni impuestos. Ilustrativa...",
+   "params": {
+    "label": "Escenario a la baja",
+    "from": 1000,
+    "to": 900,
+    "suffix": " €",
+    "color": "co",
+    "sub": "Pérdida de 100 € en el ejemplo",
+    "note": "Cifra ilustrativa. Hipótesis: capital 1.000 €, 1 año, escenario inventado de -10 %, sin comisiones ni impuestos. No es una previsión."
+   }
+  },
+  {
+   "type": "coins",
+   "chapter": "// 07 · tres finales",
+   "sfx": "coins",
+   "voice": "Mismo punto de partida, tres finales posibles en este ejemplo: 900, 1.000 o 1.100 €. En la realidad puede haber otros. Ilustrativo...",
+   "params": {
+    "towers": [
+     {
+      "label": "Baja",
+      "coins": 9,
+      "value": 900,
+      "color": "co",
+      "suffix": " €"
+     },
+     {
+      "label": "Disponible",
+      "coins": 10,
+      "value": 1000,
+      "suffix": " €"
+     },
+     {
+      "label": "Sube",
+      "coins": 11,
+      "value": 1100,
+      "color": "bl",
+      "suffix": " €"
+     }
+    ],
+    "note": "Cifras ilustrativas. Hipótesis: capital 1.000 €, 1 año, escenarios inventados de ±10 %, sin comisiones ni impuestos. Los resultados reales pueden ser distintos a estos tres. No es una previsión."
+   }
+  },
+  {
+   "type": "piggies",
+   "chapter": "// 08 · el giro",
+   "sfx": "pop",
+   "voice": "Pero ojo: el disponible lo usas mañana, aunque su poder de compra puede bajar. El invertido puede estar en pérdidas justo cuando lo necesitas.",
+   "params": {
+    "pigs": [
+     {
+      "name": "Disponible",
+      "tag": "Lo usas ya",
+      "sub": "Liquidez",
+      "fill": 0.5,
+      "at": 0.5,
+      "dur": 2
+     },
+     {
+      "name": "Invertido",
+      "tag": "Puede bajar",
+      "sub": "Sin garantía",
+      "fill": 0.5,
+      "at": 0.5,
+      "dur": 2
+     }
+    ],
+    "note": "Concepto general, sin cifras"
+   }
+  },
+  {
+   "type": "display",
+   "chapter": "// 09 · la idea clave",
+   "sfx": "hit2",
+   "voice": "¿Y sabes qué? La pregunta no es cuál es mejor. Es para cuándo lo quieres.",
+   "params": {
+    "lines": [
+     {
+      "text": "¿PARA CUÁNDO",
+      "color": "bl",
+      "at": 0.3
+     },
+     {
+      "text": "LO QUIERES?",
+      "color": "co",
+      "at": 1.5
+     }
+    ],
+    "size": "xl"
+   }
+  },
+  {
+   "type": "options",
+   "chapter": "// 10 · tu turno",
+   "sfx": "ding",
+   "voice": "Tu turno. ¿Qué priorizas? Tenerlo disponible, aceptar que puede subir o bajar, o depende del plazo.",
+   "params": {
+    "options": [
+     "Dinero disponible siempre",
+     "Asumir que puede subir o bajar",
+     "Depende del plazo"
+    ],
+    "disclaimer": "Contenido educativo. No es asesoramiento financiero ni recomendación de inversión. Invertir conlleva riesgos. Cifras ilustrativas. Vídeo creado con ayuda de IA."
+   }
+  },
+  {
+   "type": "logo",
+   "chapter": "",
+   "sfx": "cling",
+   "voice": "Esto ha sido Finroots. El dinero, desde la raíz.",
+   "params": {
+    "next": "¿Para cuándo necesitas tu dinero? La liquidez, explicada sin cifras."
+   }
+  }
+ ]
+}

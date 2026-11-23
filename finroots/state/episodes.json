@@ -927,5 +927,56 @@
       "status": "SEND_TO_USER_INBOX",
       "post_ids": null
     }
+  },
+  {
+    "number": 31,
+    "slug": "burbuja-mares-del-sur-1720",
+    "title": "¿Por qué la euforia colectiva engaña incluso a gente sensata?",
+    "topic": "La burbuja de los mares del Sur (1720) y la euforia que contagia a inversores sensatos",
+    "core_idea": "En 1720 la compra de acciones de una compañía se disparó por la euforia colectiva, y la caída afectó también a personas muy preparadas. Que todos compren no demuestra que el precio tenga sentido.",
+    "characters": [
+      "Leo"
+    ],
+    "objects": [
+      "calendar",
+      "cards",
+      "display",
+      "levers",
+      "logo",
+      "options"
+    ],
+    "question": "A) Sigo al grupo / B) Me pregunto por qué sube / C) Espero a que se calme el ruido",
+    "status": "sent_to_inbox",
+    "duration": 63.047,
+    "published_at": "2026-11-23T21:42:26.899158Z",
+    "tiktok": {
+      "publish_id": "v_inbox_file~v2.7711485269899675661",
+      "mode": "draft",
+      "status": "SEND_TO_USER_INBOX",
+      "post_ids": null
+    }
+  },
+  {
+    "compliance_ok": true,
+    "number": 32,
+    "slug": "disponible-frente-a-invertido",
+    "title": "¿Dinero disponible o invertido? Ejemplo ilustrativo",
+    "topic": "Dinero disponible frente a dinero invertido: qué cambia de verdad",
+    "core_idea": "Tener dinero disponible da liquidez y tranquilidad inmediata; tenerlo invertido puede subir o bajar, y el resultado no está garantizado.",
+    "characters": [
+      "Marta"
+    ],
+    "objects": [
+      "cards",
+      "chart",
+      "coins",
+      "counter",
+      "display",
+      "logo",
+      "options",
+      "phone",
+      "piggies"
+    ],
+    "status": "ready"
   }
 ]
