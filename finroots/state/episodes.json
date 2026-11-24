@@ -977,6 +977,15 @@
       "phone",
       "piggies"
     ],
-    "status": "ready"
+    "status": "sent_to_inbox",
+    "question": "Dinero disponible siempre / Asumir que puede subir o bajar / Depende del plazo",
+    "duration": 76.365,
+    "published_at": "2026-11-24T02:40:19.179520Z",
+    "tiktok": {
+      "publish_id": "v_inbox_file~v2.7711561999909570573",
+      "mode": "draft",
+      "status": "SEND_TO_USER_INBOX",
+      "post_ids": null
+    }
   }
 ]

@@ -1,5 +1,5 @@
 # Panel de Finroots
-_Actualizado: 2026-11-23 21:44 UTC · se regenera en cada reunión_
+_Actualizado: 2026-11-24 02:40 UTC · se regenera en cada reunión_
 
 ## Necesita tu sí
 - **Incidencia en el episodio 5** — [responder aquí](https://github.com/JuanOlazaba/tradingview-webhook-api/issues/17) · pedido por Operaciones el 2026-11-03 13:13 UTC
@@ -13,14 +13,14 @@ _Actualizado: 2026-11-23 21:44 UTC · se regenera en cada reunión_
 - **Incidencia en el episodio 31** — [responder aquí](https://github.com/JuanOlazaba/tradingview-webhook-api/issues/27) · pedido por Operaciones el 2026-11-21 23:57 UTC
 
 ## Estado
-- Episodios: 32 · en colchón (listos): 1 (32)
+- Episodios: 32 · en colchón (listos): 0
 - TikTok: 3 seguidores · 7 me gusta · 3 vídeos
-- Coste de IA: hoy 0.65 $ · este mes 13.28 $ de 20 $ · total 13.28 $
+- Coste de IA: hoy 0.00 $ · este mes 13.28 $ de 20 $ · total 13.28 $
 
 ## Episodios
 | # | Título | Estado |
 |---|---|---|
-| 32 | [¿Dinero disponible o invertido? Ejemplo ilustrativo](episodes/ep032/script.txt) | en colchón |
+| 32 | [¿Dinero disponible o invertido? Ejemplo ilustrativo](episodes/ep032/script.txt) | en tus borradores de TikTok |
 | 31 | [¿Por qué la euforia colectiva engaña incluso a gente sensata?](episodes/ep031/script.txt) | en tus borradores de TikTok |
 | 30 | [¿Pagar a plazos sin intereses te sale gratis?](episodes/ep030/script.txt) | en tus borradores de TikTok |
 | 29 | [Pagar con tarjeta, ¿te hace gastar más?](episodes/ep029/script.txt) | en tus borradores de TikTok |
@@ -37,6 +37,7 @@ _Actualizado: 2026-11-23 21:44 UTC · se regenera en cada reunión_
 | 18 | [Pagar en cuotas sin intereses puede costarte más](episodes/ep018/script.txt) | en tus borradores de TikTok |
 
 ## Últimas reuniones
+- [2026-11-24-ep032](minutes/2026-11-24-ep032.md)
 - [2026-11-23-ep032-estudio](minutes/2026-11-23-ep032-estudio.md)
 - [2026-11-23-ep031](minutes/2026-11-23-ep031.md)
 - [2026-11-23-2142-mejora-monetizacion](minutes/2026-11-23-2142-mejora-monetizacion.md)
@@ -48,9 +49,9 @@ _Actualizado: 2026-11-23 21:44 UTC · se regenera en cada reunión_
 - [2026-11-20-ep029](minutes/2026-11-20-ep029.md)
 - [2026-11-20-1802-mejora-crecimiento](minutes/2026-11-20-1802-mejora-crecimiento.md)
 - [2026-11-19-ep028](minutes/2026-11-19-ep028.md)
-- [2026-11-18-ep027](minutes/2026-11-18-ep027.md)
 
 ## Actividad reciente
+- `2026-11-24 02:40 UTC` **publicación** — Ep. 32: ¿Dinero disponible o invertido? Ejemplo ilustrativo · estado: sent_to_inbox
 - `2026-11-23 21:44 UTC` **episodio** — Ep. 32 escrito y aprobado por Compliance: ¿Dinero disponible o invertido? Ejemplo ilustrativo
 - `2026-11-23 21:42 UTC` **reunión** — Producto y monetización: Con 3 vídeos, 7 likes y 186 vistas máximas, el embudo no tiene audiencia sobre la que funcionar: se mantiene el bloqueo del CTA de la plantilla y se prioriza que los vídeos se vean y comenten. El umbr
 - `2026-11-23 21:42 UTC` **acción** — backlog: Medición del embudo: añadir al registro por vídeo (24 h y 72 h) visitas al perfil, clics en bio y recuento de comentarios con PLANTILLA y de envíos manuales, sin datos personales. Sin conclusiones antes de 10 vídeos. Responsable: Producto con Marketing.
@@ -70,7 +71,6 @@ _Actualizado: 2026-11-23 21:44 UTC · se regenera en cada reunión_
 - `2026-11-20 18:03 UTC` **reunión** — Crecimiento en TikTok: Con 3 vídeos (181/89/60 vistas, 0 comentarios) no hay base para conclusiones: se mantienen horarios, hashtags y rotación de formatos, y no se reporta retención a 3 s hasta confirmar que TikTok Studio 
 - `2026-11-20 18:03 UTC` **acción** — config models.effort.ideas = medium
 - `2026-11-20 18:03 UTC` **acción** — biblia: Continuidad de cierres (desde el 20 nov): cada episodio termina con una pregunta
-- `2026-11-20 18:03 UTC` **acción** — backlog: Estudio: etiquetar el tipo de gancho (pregunta o afirmación) y el formato en la ficha de cada episodio antes de cada render, con recuento de palabras. Responsable: Estudio.
 
 ## Directivas del consejo
 _Sesión del 2026-11-22_
