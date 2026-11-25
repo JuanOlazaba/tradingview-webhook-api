@@ -1,0 +1,245 @@
+{
+ "number": 33,
+ "format": "mito",
+ "slug": "rebajado-siempre-ahorro",
+ "title": "¿Un producto rebajado siempre es un ahorro? Ilustrativo",
+ "topic": "Mito: si está rebajado, siempre es un ahorro",
+ "core_idea": "Un descuento solo ahorra dinero si el producto ya te hacía falta antes de verlo rebajado.",
+ "series": "Finanzas en 1 minuto",
+ "characters": [
+  "Leo"
+ ],
+ "keywords": [
+  "rebaj",
+  "ahorr",
+  "descuent",
+  "necesit",
+  "gast"
+ ],
+ "scenes": [
+  {
+   "type": "display",
+   "chapter": "",
+   "sfx": "hit",
+   "voice": "Rebajado no siempre significa ahorrar. ¿Te lo has preguntado?",
+   "params": {
+    "lines": [
+     {
+      "text": "REBAJADO"
+     },
+     {
+      "text": "¿es ahorro?",
+      "color": "co"
+     }
+    ],
+    "size": "xl",
+    "note": "Ficha: gancho tipo afirmación, 9 palabras."
+   }
+  },
+  {
+   "type": "phone",
+   "chapter": "// 01 · el problema",
+   "sfx": "ding",
+   "voice": "Leo está en el sofá. Le salta una notificación: zapatillas rebajadas, solo hoy.",
+   "params": {
+    "name": "Leo",
+    "label": "Móvil de Leo",
+    "balance_steps": [
+     [
+      0,
+      1200
+     ],
+     [
+      4,
+      1200
+     ]
+    ],
+    "notifications": [
+     {
+      "title": "Oferta de hoy",
+      "body": "Zapatillas rebajadas un 25 %",
+      "at": 1.5
+     }
+    ],
+    "note": "Saldo e ilustración solo para ambientar la escena. Cifras ilustrativas."
+   }
+  },
+  {
+   "type": "receipt",
+   "chapter": "// 02 · la rebaja",
+   "sfx": "print",
+   "voice": "Precio original, 80 €. Rebaja del 25 %. Ahora, 60 €... cifras ilustrativas.",
+   "params": {
+    "header": "Zapatillas rebajadas",
+    "items": [
+     {
+      "label": "Zapatillas",
+      "from": 80,
+      "to": 60
+     }
+    ],
+    "total_from": 80,
+    "total_to": 60,
+    "note": "Hipótesis ilustrativa: 80 € a 60 € (−25 %), sin impuestos ni envío. No es una previsión."
+   }
+  },
+  {
+   "type": "counter",
+   "chapter": "// 03 · la cuenta",
+   "sfx": "tick",
+   "voice": "Parece que Leo se ahorra 20 €. Pero ojo... ¿se ahorra algo de verdad?",
+   "params": {
+    "label": "Diferencia de precio",
+    "from": 0,
+    "to": 20,
+    "color": "co",
+    "sub": "80 € − 60 € = 20 €",
+    "note": "Cifra ilustrativa. Solo es ahorro si ya las ibas a comprar a 80 €."
+   }
+  },
+  {
+   "type": "display",
+   "chapter": "// 03 · la idea",
+   "sfx": "hit2",
+   "voice": "Ahorrar es gastar menos de lo que ya ibas a gastar. Un descuento no lo garantiza.",
+   "params": {
+    "lines": [
+     {
+      "text": "DESCUENTO"
+     },
+     {
+      "text": "no es",
+      "color": "bl"
+     },
+     {
+      "text": "AHORRO",
+      "color": "co"
+     }
+    ],
+    "size": "xl"
+   }
+  },
+  {
+   "type": "drawer",
+   "chapter": "// 03 · el giro",
+   "sfx": "thud",
+   "voice": "Si no pensabas comprarlas, tu gasto previsto era 0 €. Y ahora es 60 €... ilustrativo.",
+   "params": {
+    "amount": 60,
+    "currency": "€",
+    "note": "Cifra ilustrativa: gasto de 60 € en algo que no estaba previsto."
+   }
+  },
+  {
+   "type": "levers",
+   "chapter": "// 04 · qué pesa de verdad",
+   "sfx": "whoosh",
+   "voice": "Spoiler: el ahorro depende de tu necesidad, no de la etiqueta. Y menos del cartel rojo.",
+   "params": {
+    "title": "Lo que decide si ahorras",
+    "levers": [
+     {
+      "label": "Necesidad real",
+      "sub": "lo que pesa",
+      "from": 10,
+      "to": 90
+     },
+     {
+      "label": "Etiqueta de rebaja",
+      "sub": "lo que distrae",
+      "from": 80,
+      "to": 20
+     }
+    ],
+    "note": "Representación ilustrativa, sin valores reales."
+   }
+  },
+  {
+   "type": "cards",
+   "chapter": "// 04 · hazte tres preguntas",
+   "sfx": "deal",
+   "voice": "Antes de comprar, hazte tres preguntas. ¿Las necesitaba? ¿Las pagaría a 80 €... ilustrativo? ¿Las voy a usar?",
+   "params": {
+    "cards": [
+     {
+      "label": "¿Las necesitaba?",
+      "icon": "bag",
+      "lit": true
+     },
+     {
+      "label": "¿Las pagaría a 80 €?",
+      "icon": "coin"
+     },
+     {
+      "label": "¿Las voy a usar?",
+      "icon": "clock"
+     }
+    ],
+    "question": "Tres preguntas antes de comprar",
+    "question_at": 1.5,
+    "note": "Hipótesis ilustrativa: 80 € de precio original, sin impuestos ni envío."
+   }
+  },
+  {
+   "type": "calendar",
+   "chapter": "// 04 · un truco",
+   "sfx": "tick",
+   "voice": "Un truco: espera 24 horas. A veces el impulso baja... pero no es una regla.",
+   "params": {
+    "label": "Horas de espera",
+    "from": 0,
+    "to": 24,
+    "sub": "antes de comprar",
+    "at": 0.5,
+    "dur": 3,
+    "note": "Sugerencia general, no una regla ni una recomendación personalizada."
+   }
+  },
+  {
+   "type": "display",
+   "chapter": "// 04 · la conclusión",
+   "sfx": "rise",
+   "voice": "Si ya las querías a 80 €, ahorras 20 €. Si no, solo gastas... cifras ilustrativas.",
+   "params": {
+    "lines": [
+     {
+      "text": "¿YA LAS QUERÍAS?"
+     },
+     {
+      "text": "ahorras 20 €",
+      "color": "bl"
+     },
+     {
+      "text": "¿NO? gastas 60 €",
+      "color": "co"
+     }
+    ],
+    "size": "m",
+    "note": "Cifras ilustrativas: 80 € a 60 €, sin impuestos ni envío. No es una previsión."
+   }
+  },
+  {
+   "type": "options",
+   "chapter": "// 05 · tu turno",
+   "sfx": "pop",
+   "voice": "Tu turno. ¿Qué harías ante un producto rebajado que no necesitas? A, B o C.",
+   "params": {
+    "options": [
+     "A) Lo compro, es una ganga",
+     "B) Lo dejo: sin la rebaja no lo compraba",
+     "C) Lo compro solo si lo voy a usar"
+    ],
+    "disclaimer": "Contenido educativo. No es asesoramiento financiero ni recomendación de inversión. Invertir conlleva riesgos. Cifras ilustrativas. Vídeo creado con ayuda de IA."
+   }
+  },
+  {
+   "type": "logo",
+   "chapter": "",
+   "sfx": "cling",
+   "voice": "Esto ha sido Finroots. El dinero, desde la raíz.",
+   "params": {
+    "next": "¿Por qué el precio tachado nos empuja a comprar?"
+   }
+  }
+ ]
+}

@@ -1,0 +1,12 @@
+[01]   Rebajado no siempre significa ahorrar. ¿Te lo has preguntado?
+[02] // 01 · el problema  Leo está en el sofá. Le salta una notificación: zapatillas rebajadas, solo hoy.
+[03] // 02 · la rebaja  Precio original, 80 €. Rebaja del 25 %. Ahora, 60 €... cifras ilustrativas.
+[04] // 03 · la cuenta  Parece que Leo se ahorra 20 €. Pero ojo... ¿se ahorra algo de verdad?
+[05] // 03 · la idea  Ahorrar es gastar menos de lo que ya ibas a gastar. Un descuento no lo garantiza.
+[06] // 03 · el giro  Si no pensabas comprarlas, tu gasto previsto era 0 €. Y ahora es 60 €... ilustrativo.
+[07] // 04 · qué pesa de verdad  Spoiler: el ahorro depende de tu necesidad, no de la etiqueta. Y menos del cartel rojo.
+[08] // 04 · hazte tres preguntas  Antes de comprar, hazte tres preguntas. ¿Las necesitaba? ¿Las pagaría a 80 €... ilustrativo? ¿Las voy a usar?
+[09] // 04 · un truco  Un truco: espera 24 horas. A veces el impulso baja... pero no es una regla.
+[10] // 04 · la conclusión  Si ya las querías a 80 €, ahorras 20 €. Si no, solo gastas... cifras ilustrativas.
+[11] // 05 · tu turno  Tu turno. ¿Qué harías ante un producto rebajado que no necesitas? A, B o C.
+[12]   Esto ha sido Finroots. El dinero, desde la raíz.

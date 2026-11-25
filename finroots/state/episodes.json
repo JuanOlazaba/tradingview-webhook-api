@@ -987,5 +987,37 @@
       "status": "SEND_TO_USER_INBOX",
       "post_ids": null
     }
+  },
+  {
+    "number": 33,
+    "slug": "rebajado-siempre-ahorro",
+    "title": "¿Un producto rebajado siempre es un ahorro? Ilustrativo",
+    "topic": "Mito: si está rebajado, siempre es un ahorro",
+    "core_idea": "Un descuento solo ahorra dinero si el producto ya te hacía falta antes de verlo rebajado.",
+    "characters": [
+      "Leo"
+    ],
+    "objects": [
+      "calendar",
+      "cards",
+      "counter",
+      "display",
+      "drawer",
+      "levers",
+      "logo",
+      "options",
+      "phone",
+      "receipt"
+    ],
+    "question": "A) Lo compro, es una ganga / B) Lo dejo: sin la rebaja no lo compraba / C) Lo compro solo si lo voy a usar",
+    "status": "sent_to_inbox",
+    "duration": 66.116,
+    "published_at": "2026-11-25T00:13:39.185889Z",
+    "tiktok": {
+      "publish_id": "v_inbox_file~v2.7711895379536627725",
+      "mode": "draft",
+      "status": "SEND_TO_USER_INBOX",
+      "post_ids": null
+    }
   }
 ]
