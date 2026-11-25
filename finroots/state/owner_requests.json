@@ -180,5 +180,16 @@
   "created": "2026-11-21 23:57 UTC",
   "issue": 27,
   "url": "https://github.com/JuanOlazaba/tradingview-webhook-api/issues/27"
+ },
+ {
+  "id": 16,
+  "title": "Incidencia en el episodio 34",
+  "body": "El comité diario no pudo completar el episodio 34:\n\n> Compliance no aprueba el episodio tras las revisiones: [{\"scene\": 1, \"problem\": \"El gancho afirma en presente que el billete 'sigue valiendo'. Es correcto, pero la ficha no registra todavía la comprobación de vigencia del curso legal en la web del BCE ni la fuente. Sin ese registro no se puede dar el visto bueno de un dato que se presenta como verificable.\", \"fix\": \"Mantener el gancho (7 palabras, afirmación, sin cifra). Registrar en la ficha la fuente (nota de prensa del BCE, mayo de 2016; fin de emisión a finales de abril de 2019) y la comprobación de que el billete de 500 € sigue siendo de curso legal en la zona euro a fecha de publicación. Dejar la nota en pantalla: 'Dato verificable: BCE, 2016; curso legal vigente. No ilustrativo.'\"}, {\"scene\": 3, \"problem\": \"El calendario va de 2016 \n\nIT lo reintentará en la próxima ejecución. Responde solo si quieres dar instrucciones.",
+  "by": "Operaciones",
+  "status": "pending",
+  "apply_on_yes": {},
+  "created": "2026-11-25 23:48 UTC",
+  "issue": 28,
+  "url": "https://github.com/JuanOlazaba/tradingview-webhook-api/issues/28"
  }
 ]
