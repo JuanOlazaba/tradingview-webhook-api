@@ -1,0 +1,297 @@
+{
+ "number": 34,
+ "format": "historia_dinero",
+ "slug": "compra-a-credito-antes-del-crac-de-1929",
+ "title": "¿Qué hace frágil una compra a crédito?",
+ "topic": "La compra de acciones a crédito antes del crac de 1929",
+ "core_idea": "Muchos inversores compraron acciones pagando solo una parte con dinero prestado; cuando los precios cayeron, la deuda siguió existiendo.",
+ "series": "Finanzas en 1 minuto",
+ "characters": [],
+ "keywords": [
+  "deuda",
+  "crédito",
+  "préstamo",
+  "precio",
+  "riesgo",
+  "1929"
+ ],
+ "scenes": [
+  {
+   "type": "display",
+   "chapter": "",
+   "sfx": "hit",
+   "voice": "Antes del crac de 1929, muchos compraban acciones pagando con deuda.",
+   "params": {
+    "lines": [
+     {
+      "text": "CRAC DE 1929",
+      "color": "co",
+      "at": 0.2
+     },
+     {
+      "text": "ACCIONES CON DEUDA",
+      "at": 1.8
+     }
+    ],
+    "size": "xl",
+    "note": "Año histórico, sin importes. Ilustrativo."
+   }
+  },
+  {
+   "type": "calendar",
+   "chapter": "// 01 · el contexto",
+   "sfx": "tick",
+   "voice": "Años veinte. La bolsa solo sube... o eso parece.",
+   "params": {
+    "label": "Años veinte",
+    "from": 1925,
+    "to": 1929,
+    "sub": "La bolsa parecía no tener techo",
+    "at": 0.3,
+    "dur": 3,
+    "note": "Años de referencia histórica; sin cifras de mercado. Ilustrativo."
+   }
+  },
+  {
+   "type": "cards",
+   "chapter": "// 01 · el contexto",
+   "sfx": "deal",
+   "voice": "Mucha gente quería entrar. Pero no tenía todo el dinero.",
+   "params": {
+    "cards": [
+     {
+      "label": "Ganas de entrar",
+      "icon": "rocket",
+      "lit": true
+     },
+     {
+      "label": "Poco dinero",
+      "icon": "piggy"
+     },
+     {
+      "label": "Bolsa al alza",
+      "icon": "chart"
+     }
+    ],
+    "question": "¿Cómo entrar sin tener todo?",
+    "question_at": 2.5
+   }
+  },
+  {
+   "type": "display",
+   "chapter": "// 02 · la idea",
+   "sfx": "hit2",
+   "voice": "Así que pagaban una parte... y el resto lo ponía un préstamo.",
+   "params": {
+    "lines": [
+     {
+      "text": "UNA PARTE TUYA",
+      "at": 0.2
+     },
+     {
+      "text": "EL RESTO, PRESTADO",
+      "color": "co",
+      "at": 2
+     }
+    ],
+    "size": "xl"
+   }
+  },
+  {
+   "type": "levers",
+   "chapter": "// 02 · la idea",
+   "sfx": "rise",
+   "voice": "Mientras el precio subía, todo funcionaba. Spoiler: solo mientras subía.",
+   "params": {
+    "title": "Compra a crédito",
+    "levers": [
+     {
+      "label": "Precio de la acción",
+      "sub": "sube",
+      "from": 20,
+      "to": 85
+     },
+     {
+      "label": "Tranquilidad",
+      "sub": "mientras suba",
+      "from": 30,
+      "to": 80
+     }
+    ],
+    "note": "Niveles simbólicos, no son datos reales. Ilustrativo."
+   }
+  },
+  {
+   "type": "cards",
+   "chapter": "// 03 · el giro",
+   "sfx": "deal",
+   "voice": "Pero ojo: cuando el precio caía, la deuda no caía con él.",
+   "params": {
+    "cards": [
+     {
+      "label": "Precio baja",
+      "icon": "chart"
+     },
+     {
+      "label": "Deuda igual",
+      "icon": "card",
+      "lit": true
+     },
+     {
+      "label": "Desequilibrio",
+      "icon": "scale"
+     }
+    ]
+   }
+  },
+  {
+   "type": "display",
+   "chapter": "// 03 · el giro",
+   "sfx": "deflate",
+   "voice": "El precio baja. La deuda se queda.",
+   "params": {
+    "lines": [
+     {
+      "text": "EL PRECIO BAJA",
+      "at": 0.2
+     },
+     {
+      "text": "LA DEUDA SE QUEDA",
+      "color": "co",
+      "at": 1.6
+     }
+    ],
+    "size": "xl"
+   }
+  },
+  {
+   "type": "levers",
+   "chapter": "// 03 · el giro",
+   "sfx": "whoosh",
+   "voice": "¿Y sabes qué? Quien prestaba podía pedir su dinero de vuelta.",
+   "params": {
+    "title": "Cuando el precio cae",
+    "levers": [
+     {
+      "label": "Presión del préstamo",
+      "sub": "aumenta",
+      "from": 15,
+      "to": 90
+     },
+     {
+      "label": "Margen de maniobra",
+      "sub": "se reduce",
+      "from": 80,
+      "to": 15
+     }
+    ],
+    "note": "Niveles simbólicos, no son datos reales. Ilustrativo."
+   }
+  },
+  {
+   "type": "cards",
+   "chapter": "// 03 · el giro",
+   "sfx": "deal",
+   "voice": "Entonces muchos tenían que vender... justo cuando todo caía.",
+   "params": {
+    "cards": [
+     {
+      "label": "Piden devolver",
+      "icon": "building"
+     },
+     {
+      "label": "Toca vender",
+      "icon": "bag",
+      "lit": true
+     },
+     {
+      "label": "Mal momento",
+      "icon": "clock"
+     }
+    ]
+   }
+  },
+  {
+   "type": "levers",
+   "chapter": "// 03 · el giro",
+   "sfx": "deflate",
+   "voice": "Y si todos venden a la vez, el precio cae todavía más.",
+   "params": {
+    "title": "Efecto contagio",
+    "levers": [
+     {
+      "label": "Ventas",
+      "sub": "todos a la vez",
+      "from": 20,
+      "to": 95
+     },
+     {
+      "label": "Precio",
+      "sub": "cae más",
+      "from": 75,
+      "to": 10
+     }
+    ],
+    "note": "Niveles simbólicos, no son datos reales. Ilustrativo."
+   }
+  },
+  {
+   "type": "display",
+   "chapter": "// 04 · la moraleja",
+   "sfx": "hit",
+   "voice": "Moraleja: pedir prestado no cambia el riesgo. Lo amplifica.",
+   "params": {
+    "lines": [
+     {
+      "text": "PEDIR PRESTADO",
+      "at": 0.2
+     },
+     {
+      "text": "AMPLIFICA EL RIESGO",
+      "color": "co",
+      "at": 1.8
+     }
+    ],
+    "size": "xl"
+   }
+  },
+  {
+   "type": "calendar",
+   "chapter": "// 04 · la moraleja",
+   "sfx": "tick",
+   "voice": "Casi un siglo después, la lección sigue igual de vigente.",
+   "params": {
+    "label": "Años después",
+    "from": 1929,
+    "to": 2026,
+    "sub": "La lección sigue vigente",
+    "at": 0.3,
+    "dur": 3,
+    "note": "Años de referencia histórica; sin cifras de mercado. Ilustrativo."
+   }
+  },
+  {
+   "type": "options",
+   "chapter": "// 05 · tu turno",
+   "sfx": "ding",
+   "voice": "Tu turno. ¿Qué hace más frágil una compra a crédito? A, que el precio baje. B, que la deuda no baje. C, que todos compren a la vez.",
+   "params": {
+    "options": [
+     "Que el precio baje",
+     "Que la deuda no baje",
+     "Que todos compren a la vez"
+    ],
+    "disclaimer": "Contenido educativo. No es asesoramiento financiero ni recomendación de inversión. Invertir conlleva riesgos. Vídeo creado con ayuda de IA."
+   }
+  },
+  {
+   "type": "logo",
+   "chapter": "",
+   "sfx": "cling",
+   "voice": "Esto ha sido Finroots. El dinero, desde la raíz.",
+   "params": {
+    "next": "¿Qué es un margen y por qué puede obligar a vender en el peor momento?"
+   }
+  }
+ ]
+}

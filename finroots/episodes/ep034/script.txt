@@ -1,0 +1,14 @@
+[01]   Antes del crac de 1929, muchos compraban acciones pagando con deuda.
+[02] // 01 · el contexto  Años veinte. La bolsa solo sube... o eso parece.
+[03] // 01 · el contexto  Mucha gente quería entrar. Pero no tenía todo el dinero.
+[04] // 02 · la idea  Así que pagaban una parte... y el resto lo ponía un préstamo.
+[05] // 02 · la idea  Mientras el precio subía, todo funcionaba. Spoiler: solo mientras subía.
+[06] // 03 · el giro  Pero ojo: cuando el precio caía, la deuda no caía con él.
+[07] // 03 · el giro  El precio baja. La deuda se queda.
+[08] // 03 · el giro  ¿Y sabes qué? Quien prestaba podía pedir su dinero de vuelta.
+[09] // 03 · el giro  Entonces muchos tenían que vender... justo cuando todo caía.
+[10] // 03 · el giro  Y si todos venden a la vez, el precio cae todavía más.
+[11] // 04 · la moraleja  Moraleja: pedir prestado no cambia el riesgo. Lo amplifica.
+[12] // 04 · la moraleja  Casi un siglo después, la lección sigue igual de vigente.
+[13] // 05 · tu turno  Tu turno. ¿Qué hace más frágil una compra a crédito? A, que el precio baje. B, que la deuda no baje. C, que todos compren a la vez.
+[14]   Esto ha sido Finroots. El dinero, desde la raíz.

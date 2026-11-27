@@ -1019,5 +1019,31 @@
       "status": "SEND_TO_USER_INBOX",
       "post_ids": null
     }
+  },
+  {
+    "number": 34,
+    "slug": "compra-a-credito-antes-del-crac-de-1929",
+    "title": "¿Qué hace frágil una compra a crédito?",
+    "topic": "La compra de acciones a crédito antes del crac de 1929",
+    "core_idea": "Muchos inversores compraron acciones pagando solo una parte con dinero prestado; cuando los precios cayeron, la deuda siguió existiendo.",
+    "characters": [],
+    "objects": [
+      "calendar",
+      "cards",
+      "display",
+      "levers",
+      "logo",
+      "options"
+    ],
+    "question": "Que el precio baje / Que la deuda no baje / Que todos compren a la vez",
+    "status": "sent_to_inbox",
+    "duration": 57.418,
+    "published_at": "2026-11-27T00:08:01.525134Z",
+    "tiktok": {
+      "publish_id": "v_inbox_file~v2.7712636087553902605",
+      "mode": "draft",
+      "status": "SEND_TO_USER_INBOX",
+      "post_ids": null
+    }
   }
 ]

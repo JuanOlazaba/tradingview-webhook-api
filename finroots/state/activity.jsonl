@@ -170,3 +170,5 @@
 {"t": "2026-11-25 19:30 UTC", "kind": "incidencia", "summary": "No se pudo escribir el ep. 34: El episodio no pasa la validación técnica: escena 3: repite el mismo objeto 'cards' que la anterior"}
 {"t": "2026-11-25 23:48 UTC", "kind": "pausa", "summary": "Presupuesto diario de IA alcanzado (1.05 $ de 1.0 $). Retomamos a partir de 2026-11-26 00:05 UTC."}
 {"t": "2026-11-25 23:48 UTC", "kind": "incidencia", "summary": "Ep. 34: Compliance no aprueba el episodio tras las revisiones: [{\"scene\": 1, \"problem\": \"El gancho afirma en presente que el billete 'sigue valiendo'. Es correcto, pero la ficha no registra todavía la comprobación de vigencia del curso legal en la web del BCE ni la fuente. Sin ese registro no se puede dar e"}
+{"t": "2026-11-26 23:59 UTC", "kind": "reanudación", "summary": "Se reinició el límite (Presupuesto diario de IA alcanzado (1.05 $ de 1.0 $)); retomamos donde lo dejamos."}
+{"t": "2026-11-27 00:08 UTC", "kind": "publicación", "summary": "Ep. 34: ¿Qué hace frágil una compra a crédito? · estado: sent_to_inbox"}

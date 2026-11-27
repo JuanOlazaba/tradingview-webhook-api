@@ -1,7 +1,5 @@
 # Panel de Finroots
-_Actualizado: 2026-11-25 23:48 UTC · se regenera en cada reunión_
-
-> **En pausa:** Presupuesto diario de IA alcanzado (1.05 $ de 1.0 $). Se reanuda sola a partir de 2026-11-26 00:05 UTC y retoma lo pendiente.
+_Actualizado: 2026-11-27 00:08 UTC · se regenera en cada reunión_
 
 ## Necesita tu sí
 - **Incidencia en el episodio 5** — [responder aquí](https://github.com/JuanOlazaba/tradingview-webhook-api/issues/17) · pedido por Operaciones el 2026-11-03 13:13 UTC
@@ -16,13 +14,14 @@ _Actualizado: 2026-11-25 23:48 UTC · se regenera en cada reunión_
 - **Incidencia en el episodio 34** — [responder aquí](https://github.com/JuanOlazaba/tradingview-webhook-api/issues/28) · pedido por Operaciones el 2026-11-25 23:48 UTC
 
 ## Estado
-- Episodios: 33 · en colchón (listos): 0
+- Episodios: 34 · en colchón (listos): 0
 - TikTok: 3 seguidores · 7 me gusta · 3 vídeos
-- Coste de IA: hoy 1.05 $ · este mes 14.34 $ de 20 $ · total 14.34 $
+- Coste de IA: hoy 0.21 $ · este mes 14.55 $ de 20 $ · total 14.55 $
 
 ## Episodios
 | # | Título | Estado |
 |---|---|---|
+| 34 | [¿Qué hace frágil una compra a crédito?](episodes/ep034/script.txt) | en tus borradores de TikTok |
 | 33 | [¿Un producto rebajado siempre es un ahorro? Ilustrativo](episodes/ep033/script.txt) | en tus borradores de TikTok |
 | 32 | [¿Dinero disponible o invertido? Ejemplo ilustrativo](episodes/ep032/script.txt) | en tus borradores de TikTok |
 | 31 | [¿Por qué la euforia colectiva engaña incluso a gente sensata?](episodes/ep031/script.txt) | en tus borradores de TikTok |
@@ -37,9 +36,9 @@ _Actualizado: 2026-11-25 23:48 UTC · se regenera en cada reunión_
 | 22 | [Para no pagar envío, añadiste algo. Te salió más caro.](episodes/ep022/script.txt) | en tus borradores de TikTok |
 | 21 | [Tras una gran subida, ¿ya es tarde para entrar?](episodes/ep021/script.txt) | en tus borradores de TikTok |
 | 20 | [En 1929, muchos inversores creyeron que la subida seguiría.](episodes/ep020/script.txt) | en tus borradores de TikTok |
-| 19 | [¿Quién paga la app que dices que es gratis?](episodes/ep019/script.txt) | en tus borradores de TikTok |
 
 ## Últimas reuniones
+- [2026-11-27-ep034](minutes/2026-11-27-ep034.md)
 - [2026-11-26-ep034](minutes/2026-11-26-ep034.md)
 - [2026-11-25-ep034-estudio](minutes/2026-11-25-ep034-estudio.md)
 - [2026-11-25-ep033](minutes/2026-11-25-ep033.md)
@@ -51,9 +50,10 @@ _Actualizado: 2026-11-25 23:48 UTC · se regenera en cada reunión_
 - [2026-11-22-ep031](minutes/2026-11-22-ep031.md)
 - [2026-11-22-consejo](minutes/2026-11-22-consejo.md)
 - [2026-11-21-ep030](minutes/2026-11-21-ep030.md)
-- [2026-11-20-ep030](minutes/2026-11-20-ep030.md)
 
 ## Actividad reciente
+- `2026-11-27 00:08 UTC` **publicación** — Ep. 34: ¿Qué hace frágil una compra a crédito? · estado: sent_to_inbox
+- `2026-11-26 23:59 UTC` **reanudación** — Se reinició el límite (Presupuesto diario de IA alcanzado (1.05 $ de 1.0 $)); retomamos donde lo dejamos.
 - `2026-11-25 23:48 UTC` **incidencia** — Ep. 34: Compliance no aprueba el episodio tras las revisiones: [{"scene": 1, "problem": "El gancho afirma en presente que el billete 'sigue valiendo'. Es correcto, pero la ficha no registra todavía la comprobación de vigencia del curso legal en la web del BCE ni la fuente. Sin ese registro no se puede dar e
 - `2026-11-25 23:48 UTC` **pausa** — Presupuesto diario de IA alcanzado (1.05 $ de 1.0 $). Retomamos a partir de 2026-11-26 00:05 UTC.
 - `2026-11-25 19:30 UTC` **incidencia** — No se pudo escribir el ep. 34: El episodio no pasa la validación técnica: escena 3: repite el mismo objeto 'cards' que la anterior
@@ -72,8 +72,6 @@ _Actualizado: 2026-11-25 23:48 UTC · se regenera en cada reunión_
 - `2026-11-23 21:42 UTC` **acción** — backlog: Producto: entregar la revisión escrita de la plantilla de margen mensual antes del viernes 27 de nov, incluyendo aviso legal íntegro, etiqueta de IA, cifras marcadas como ilustrativas y ausencia de petición de datos personales. Responsable: Producto con Compliance (visto bueno o cambios con frase exacta a corregir).
 - `2026-11-23 21:42 UTC` **acción** — decisión: El cierre A/B/C se trata como indicador de interés por el concepto, sin referencias a productos ni rentabilidad. Los comentarios se contabilizan como recuento, sin nombres ni usuarios.
 - `2026-11-23 21:42 UTC` **acción** — decisión: Newsletter, afiliados y guía de pago permanecen aplazados. El umbral de 1.000 seguidores y 150 vistas por vídeo queda como propuesta de Marketing; no se usa como criterio hasta que lo fije el dueño. Ninguna cuenta ni acuerdo nuevo sin su sí.
-- `2026-11-23 21:42 UTC` **acción** — decisión: Se mantienen bloqueados el CTA 'Comenta PLANTILLA', el envío del PDF y la fijación de la descripción hasta el visto bueno escrito de Compliance y el sí del dueño. Ningún CTA a la plantilla antes de esa doble aprobación.
-- `2026-11-23 21:42 UTC` **publicación** — Ep. 31: ¿Por qué la euforia colectiva engaña incluso a gente sensata? · estado: sent_to_inbox
 
 ## Directivas del consejo
 _Sesión del 2026-11-22_
