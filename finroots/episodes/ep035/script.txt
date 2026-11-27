@@ -1,0 +1,12 @@
+[01]   Si no pagas por la app, ¿quién paga por ti?
+[02] // 01 · el problema  Gratis suena genial... pero alguien paga la factura.
+[03] // 02 · cómo funciona  Una app tiene costes. Servidores, programadores, soporte. Todo eso cuesta dinero.
+[04] // 02 · cómo funciona  Spoiler: si no lo pagas tú, lo paga otro.
+[05] // 03 · las fuentes  Primera fuente: la publicidad. Una marca paga por aparecer ante ti.
+[06] // 03 · las fuentes  Segunda: tus datos. Qué usas, cuándo y cuánto. Eso ayuda a segmentar anuncios.
+[07] // 03 · las fuentes  Tercera: tu tiempo. Cuanto más rato estás dentro, más anuncios ves.
+[08] // 04 · el giro  Pero ojo: eso no es malo por sí mismo. Es un intercambio.
+[09] // 04 · qué hacer hoy  Lo importante es saberlo. ¿Y sabes qué? Casi nadie se lo pregunta.
+[10] // 04 · qué hacer hoy  Antes de instalar, pregúntate: ¿cuál es el precio real?
+[11] // 05 · tu turno  ¿Y tú? ¿De dónde crees que sale el dinero de una app gratis? A, la publicidad. B, tus datos y tu tiempo. C, una subvención pública.
+[12]   Esto ha sido Finroots. El dinero, desde la raíz.

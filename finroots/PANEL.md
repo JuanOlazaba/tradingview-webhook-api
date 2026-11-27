@@ -1,5 +1,5 @@
 # Panel de Finroots
-_Actualizado: 2026-11-27 00:08 UTC · se regenera en cada reunión_
+_Actualizado: 2026-11-27 19:05 UTC · se regenera en cada reunión_
 
 ## Necesita tu sí
 - **Incidencia en el episodio 5** — [responder aquí](https://github.com/JuanOlazaba/tradingview-webhook-api/issues/17) · pedido por Operaciones el 2026-11-03 13:13 UTC
@@ -14,13 +14,14 @@ _Actualizado: 2026-11-27 00:08 UTC · se regenera en cada reunión_
 - **Incidencia en el episodio 34** — [responder aquí](https://github.com/JuanOlazaba/tradingview-webhook-api/issues/28) · pedido por Operaciones el 2026-11-25 23:48 UTC
 
 ## Estado
-- Episodios: 34 · en colchón (listos): 0
+- Episodios: 35 · en colchón (listos): 1 (35)
 - TikTok: 3 seguidores · 7 me gusta · 3 vídeos
-- Coste de IA: hoy 0.21 $ · este mes 14.55 $ de 20 $ · total 14.55 $
+- Coste de IA: hoy 0.33 $ · este mes 14.67 $ de 20 $ · total 14.67 $
 
 ## Episodios
 | # | Título | Estado |
 |---|---|---|
+| 35 | [¿Cómo gana dinero una app que es gratis?](episodes/ep035/script.txt) | en colchón |
 | 34 | [¿Qué hace frágil una compra a crédito?](episodes/ep034/script.txt) | en tus borradores de TikTok |
 | 33 | [¿Un producto rebajado siempre es un ahorro? Ilustrativo](episodes/ep033/script.txt) | en tus borradores de TikTok |
 | 32 | [¿Dinero disponible o invertido? Ejemplo ilustrativo](episodes/ep032/script.txt) | en tus borradores de TikTok |
@@ -35,10 +36,11 @@ _Actualizado: 2026-11-27 00:08 UTC · se regenera en cada reunión_
 | 23 | [¿Una comisión del 1 % te quita 10.785 €? Ilustrativo.](episodes/ep023/script.txt) | en tus borradores de TikTok |
 | 22 | [Para no pagar envío, añadiste algo. Te salió más caro.](episodes/ep022/script.txt) | en tus borradores de TikTok |
 | 21 | [Tras una gran subida, ¿ya es tarde para entrar?](episodes/ep021/script.txt) | en tus borradores de TikTok |
-| 20 | [En 1929, muchos inversores creyeron que la subida seguiría.](episodes/ep020/script.txt) | en tus borradores de TikTok |
 
 ## Últimas reuniones
+- [2026-11-27-ep035-estudio](minutes/2026-11-27-ep035-estudio.md)
 - [2026-11-27-ep034](minutes/2026-11-27-ep034.md)
+- [2026-11-27-1904-mejora-finanzas](minutes/2026-11-27-1904-mejora-finanzas.md)
 - [2026-11-26-ep034](minutes/2026-11-26-ep034.md)
 - [2026-11-25-ep034-estudio](minutes/2026-11-25-ep034-estudio.md)
 - [2026-11-25-ep033](minutes/2026-11-25-ep033.md)
@@ -48,10 +50,14 @@ _Actualizado: 2026-11-27 00:08 UTC · se regenera en cada reunión_
 - [2026-11-23-ep031](minutes/2026-11-23-ep031.md)
 - [2026-11-23-2142-mejora-monetizacion](minutes/2026-11-23-2142-mejora-monetizacion.md)
 - [2026-11-22-ep031](minutes/2026-11-22-ep031.md)
-- [2026-11-22-consejo](minutes/2026-11-22-consejo.md)
-- [2026-11-21-ep030](minutes/2026-11-21-ep030.md)
 
 ## Actividad reciente
+- `2026-11-27 19:05 UTC` **episodio** — Ep. 35 escrito y aprobado por Compliance: ¿Cómo gana dinero una app que es gratis?
+- `2026-11-27 19:04 UTC` **reunión** — Finanzas y costes: Publicados 3 vídeos con 3 seguidores y 341 vistas en total (media de unas 114). Muestra insuficiente para conclusiones y sin datos reales de coste, así que no hay previsión de ingresos ni gasto nuevo.
+- `2026-11-27 19:04 UTC` **acción** — backlog: IT: incluir en el registro de cada episodio el campo de coste (tokens de entrada y salida por rol, segundos de voz y tiempo de render), rellenado por el validador JSON cuando haya datos reales. Sin valores estimados. Responsable: IT. Prioridad tras la validación de bloqueo (directiva 3).
+- `2026-11-27 19:04 UTC` **acción** — backlog: Marketing: redactar y aplicar un checklist único de publicación (etiqueta de IA verificada, aviso legal breve en la descripción, ID de TikTok registrado y respuesta manual estándar), para que la publicación no dependa de la revisión del dueño. Responsable: Marketing, con verificación de Operaciones. Sin incluir CTA a la plantilla hasta visto bueno escrito de Compliance y sí del dueño.
+- `2026-11-27 19:04 UTC` **acción** — decisión: No se presenta ninguna cifra de coste por vídeo ni previsión de ingresos hasta tener datos reales de tokens, voz y render (directiva 10) y 10 vídeos con datos completos (directiva 8). Se usa solo la medición ya prevista, sin estimaciones.
+- `2026-11-27 19:04 UTC` **acción** — decisión: Mantener el gasto en 0 € (voz premium, música con licencia y herramientas nuevas) hasta que el dueño fije el umbral de audiencia para voz premium (#10). No se contrata nada nuevo en este periodo.
 - `2026-11-27 00:08 UTC` **publicación** — Ep. 34: ¿Qué hace frágil una compra a crédito? · estado: sent_to_inbox
 - `2026-11-26 23:59 UTC` **reanudación** — Se reinició el límite (Presupuesto diario de IA alcanzado (1.05 $ de 1.0 $)); retomamos donde lo dejamos.
 - `2026-11-25 23:48 UTC` **incidencia** — Ep. 34: Compliance no aprueba el episodio tras las revisiones: [{"scene": 1, "problem": "El gancho afirma en presente que el billete 'sigue valiendo'. Es correcto, pero la ficha no registra todavía la comprobación de vigencia del curso legal en la web del BCE ni la fuente. Sin ese registro no se puede dar e
@@ -66,12 +72,6 @@ _Actualizado: 2026-11-27 00:08 UTC · se regenera en cada reunión_
 - `2026-11-25 19:28 UTC` **acción** — decisión: Ningún render con cifras sin evidencia escrita de IT de que el validador de JSON bloquea una cifra sin nota de hipótesis. Hasta entonces, solo se renderizan episodios sin cifras. Los eps. 15, 17, 20, 23 y 24 siguen retenidos.
 - `2026-11-25 00:13 UTC` **publicación** — Ep. 33: ¿Un producto rebajado siempre es un ahorro? Ilustrativo · estado: sent_to_inbox
 - `2026-11-24 02:40 UTC` **publicación** — Ep. 32: ¿Dinero disponible o invertido? Ejemplo ilustrativo · estado: sent_to_inbox
-- `2026-11-23 21:44 UTC` **episodio** — Ep. 32 escrito y aprobado por Compliance: ¿Dinero disponible o invertido? Ejemplo ilustrativo
-- `2026-11-23 21:42 UTC` **reunión** — Producto y monetización: Con 3 vídeos, 7 likes y 186 vistas máximas, el embudo no tiene audiencia sobre la que funcionar: se mantiene el bloqueo del CTA de la plantilla y se prioriza que los vídeos se vean y comenten. El umbr
-- `2026-11-23 21:42 UTC` **acción** — backlog: Medición del embudo: añadir al registro por vídeo (24 h y 72 h) visitas al perfil, clics en bio y recuento de comentarios con PLANTILLA y de envíos manuales, sin datos personales. Sin conclusiones antes de 10 vídeos. Responsable: Producto con Marketing.
-- `2026-11-23 21:42 UTC` **acción** — backlog: Producto: entregar la revisión escrita de la plantilla de margen mensual antes del viernes 27 de nov, incluyendo aviso legal íntegro, etiqueta de IA, cifras marcadas como ilustrativas y ausencia de petición de datos personales. Responsable: Producto con Compliance (visto bueno o cambios con frase exacta a corregir).
-- `2026-11-23 21:42 UTC` **acción** — decisión: El cierre A/B/C se trata como indicador de interés por el concepto, sin referencias a productos ni rentabilidad. Los comentarios se contabilizan como recuento, sin nombres ni usuarios.
-- `2026-11-23 21:42 UTC` **acción** — decisión: Newsletter, afiliados y guía de pago permanecen aplazados. El umbral de 1.000 seguidores y 150 vistas por vídeo queda como propuesta de Marketing; no se usa como criterio hasta que lo fije el dueño. Ninguna cuenta ni acuerdo nuevo sin su sí.
 
 ## Directivas del consejo
 _Sesión del 2026-11-22_
@@ -100,8 +100,6 @@ _Sesión del 2026-11-22_
 {"followers": 100, "avg_views": 150}
 
 ## Decisiones recientes de dirección
-- 2026-11-18 · Regla de ganchos para todo render: 6–14 palabras, etiqueta pregunta o afirmación en la ficha del episodio, alternancia entre vídeos consecutivos, y gancho con cifra solo si va marcado como ilustrativo con hipótesis. Si supera el límite, no pasa a render. Estudio registra recuento de palabras y tipo de gancho en cada render.
-- 2026-11-20 · Ganchos: desde ya, sin cifras salvo las que tengan hipótesis documentada y marca 'ilustrativa'. Alternar pregunta y afirmación entre vídeos consecutivos, 6–14 palabras, etiqueta de tipo en la ficha. Cada gancho debe anticipar el mismo concepto que pregunta el cierre A/B/C.
 - 2026-11-20 · Horarios (19:00–21:00 Madrid), hashtags (4–6) y rotación de formatos (Historia del dinero, Mito o realidad, A vs B, sin repetir los dos anteriores) se mantienen sin cambios hasta tener 10 vídeos publicados con datos completos. Franja de mediodía solo en 2–3 vídeos, según acuerdo del consejo.
 - 2026-11-20 · Retención: no se reporta retención a 3 s ni por formato hasta confirmar exportación desde TikTok Studio. Mientras tanto se registran visitas al perfil, clics en bio, likes, compartidos y comentarios a 24 h y 72 h. Sin conclusiones antes de 10 vídeos.
 - 2026-11-20 · Comentarios: respuesta en las primeras 2 horas, solo con contenido general y la plantilla manual estándar cuando esté autorizada. Sin pedir, copiar ni guardar datos personales. Se contabilizan las respuestas al cierre A/B/C como indicador de interés por el concepto.
@@ -112,6 +110,8 @@ _Sesión del 2026-11-22_
 - 2026-11-25 · Ningún render con cifras sin evidencia escrita de IT de que el validador de JSON bloquea una cifra sin nota de hipótesis. Hasta entonces, solo se renderizan episodios sin cifras. Los eps. 15, 17, 20, 23 y 24 siguen retenidos.
 - 2026-11-25 · Sin cambios en voice.edge_rate. Se hace un render de prueba con un episodio sin cifras para medir duración (55–75 s) y palabras de voz (150–200). Si el resultado se pasa, el ajuste se hace en el guion (frases más cortas, 12–13 escenas).
 - 2026-11-25 · Catálogo de objetos sin cambios hasta 10 vídeos con datos completos. Rotación de al menos 3 tipos distintos entre episodios consecutivos, y no repetir display como cierre fuerte siempre. Cada ficha registra tipo de gancho, formato y recuento de palabras.
+- 2026-11-27 · Mantener el gasto en 0 € (voz premium, música con licencia y herramientas nuevas) hasta que el dueño fije el umbral de audiencia para voz premium (#10). No se contrata nada nuevo en este periodo.
+- 2026-11-27 · No se presenta ninguna cifra de coste por vídeo ni previsión de ingresos hasta tener datos reales de tokens, voz y render (directiva 10) y 10 vídeos con datos completos (directiva 8). Se usa solo la medición ya prevista, sin estimaciones.
 
 ---
 Registro completo: [actas](minutes/) · [informes](reports/) · [actividad](state/activity.jsonl) · [costes](state/costs.json) · [peticiones](state/owner_requests.json)

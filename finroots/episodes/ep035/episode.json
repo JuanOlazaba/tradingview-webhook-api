@@ -1,0 +1,284 @@
+{
+ "number": 35,
+ "format": "como_funciona",
+ "slug": "como-gana-dinero-una-app-gratis",
+ "title": "¿Cómo gana dinero una app que es gratis?",
+ "topic": "Cómo gana dinero una app que es gratis",
+ "core_idea": "Una app gratuita suele obtener ingresos de otras fuentes, como la publicidad o el uso que se hace de los datos y de la atención del usuario. Nada es gratis si no sabes quién paga.",
+ "series": "Finanzas en 1 minuto",
+ "characters": [],
+ "keywords": [
+  "gratis",
+  "paga",
+  "publicidad",
+  "datos",
+  "atenci",
+  "tiempo"
+ ],
+ "scenes": [
+  {
+   "type": "phone",
+   "chapter": "",
+   "sfx": "pop",
+   "voice": "Si no pagas por la app, ¿quién paga por ti?",
+   "params": {
+    "name": "App genérica",
+    "label": "Gratis",
+    "balance_steps": [
+     [
+      0,
+      0
+     ]
+    ],
+    "notifications": [
+     {
+      "title": "Descarga gratuita",
+      "body": "Sin cuota. Sin tarjeta.",
+      "at": 1.0
+     }
+    ],
+    "side": {
+     "label": "Precio",
+     "value": "0",
+     "tone": "co",
+     "at": 1.5
+    }
+   }
+  },
+  {
+   "type": "display",
+   "chapter": "// 01 · el problema",
+   "sfx": "hit",
+   "voice": "Gratis suena genial... pero alguien paga la factura.",
+   "params": {
+    "lines": [
+     {
+      "text": "GRATIS",
+      "color": "co",
+      "at": 0.3
+     },
+     {
+      "text": "¿PARA QUIÉN?",
+      "at": 1.5
+     }
+    ],
+    "size": "xl"
+   }
+  },
+  {
+   "type": "cards",
+   "chapter": "// 02 · cómo funciona",
+   "sfx": "deal",
+   "voice": "Una app tiene costes. Servidores, programadores, soporte. Todo eso cuesta dinero.",
+   "params": {
+    "cards": [
+     {
+      "label": "Servidores",
+      "icon": "building"
+     },
+     {
+      "label": "Equipo",
+      "icon": "rocket"
+     },
+     {
+      "label": "Soporte",
+      "icon": "shield"
+     }
+    ],
+    "question": "¿Quién lo cubre?",
+    "question_at": 3.5
+   }
+  },
+  {
+   "type": "display",
+   "chapter": "// 02 · cómo funciona",
+   "sfx": "hit2",
+   "voice": "Spoiler: si no lo pagas tú, lo paga otro.",
+   "params": {
+    "lines": [
+     {
+      "text": "SI NO PAGAS TÚ",
+      "at": 0.3
+     },
+     {
+      "text": "PAGA OTRO",
+      "color": "co",
+      "at": 1.6
+     }
+    ],
+    "size": "xl"
+   }
+  },
+  {
+   "type": "cards",
+   "chapter": "// 03 · las fuentes",
+   "sfx": "deal",
+   "voice": "Primera fuente: la publicidad. Una marca paga por aparecer ante ti.",
+   "params": {
+    "cards": [
+     {
+      "label": "Publicidad",
+      "icon": "chart",
+      "lit": true
+     },
+     {
+      "label": "Datos",
+      "icon": "shield"
+     },
+     {
+      "label": "Atención",
+      "icon": "clock"
+     }
+    ]
+   }
+  },
+  {
+   "type": "phone",
+   "chapter": "// 03 · las fuentes",
+   "sfx": "ding",
+   "voice": "Segunda: tus datos. Qué usas, cuándo y cuánto. Eso ayuda a segmentar anuncios.",
+   "params": {
+    "name": "App genérica",
+    "label": "Uso",
+    "balance_steps": [
+     [
+      0,
+      0
+     ]
+    ],
+    "rows": [
+     {
+      "label": "Qué miras",
+      "amount": "+",
+      "color": "#2f6fdd",
+      "at": 1.0
+     },
+     {
+      "label": "A qué hora",
+      "amount": "+",
+      "color": "#2f6fdd",
+      "at": 2.5
+     },
+     {
+      "label": "Cuánto tiempo",
+      "amount": "+",
+      "color": "#2f6fdd",
+      "at": 4.0
+     }
+    ],
+    "side": {
+     "label": "Perfil",
+     "value": "Anuncios a medida",
+     "tone": "bl",
+     "at": 5.0
+    }
+   }
+  },
+  {
+   "type": "cards",
+   "chapter": "// 03 · las fuentes",
+   "sfx": "tick",
+   "voice": "Tercera: tu tiempo. Cuanto más rato estás dentro, más anuncios ves.",
+   "params": {
+    "cards": [
+     {
+      "label": "Más tiempo",
+      "icon": "clock",
+      "lit": true
+     },
+     {
+      "label": "Más anuncios",
+      "icon": "chart"
+     }
+    ],
+    "question": "Tu atención vale",
+    "question_at": 3.0
+   }
+  },
+  {
+   "type": "display",
+   "chapter": "// 04 · el giro",
+   "sfx": "hit",
+   "voice": "Pero ojo: eso no es malo por sí mismo. Es un intercambio.",
+   "params": {
+    "lines": [
+     {
+      "text": "NO ES MALO",
+      "at": 0.3
+     },
+     {
+      "text": "ES UN TRUEQUE",
+      "color": "bl",
+      "at": 1.6
+     }
+    ],
+    "size": "xl"
+   }
+  },
+  {
+   "type": "cards",
+   "chapter": "// 04 · qué hacer hoy",
+   "sfx": "deal",
+   "voice": "Lo importante es saberlo. ¿Y sabes qué? Casi nadie se lo pregunta.",
+   "params": {
+    "cards": [
+     {
+      "label": "Qué ofrece",
+      "icon": "bag"
+     },
+     {
+      "label": "Qué pide",
+      "icon": "scale"
+     },
+     {
+      "label": "Qué cedes",
+      "icon": "shield"
+     }
+    ]
+   }
+  },
+  {
+   "type": "display",
+   "chapter": "// 04 · qué hacer hoy",
+   "sfx": "rise",
+   "voice": "Antes de instalar, pregúntate: ¿cuál es el precio real?",
+   "params": {
+    "lines": [
+     {
+      "text": "PRECIO REAL",
+      "color": "co",
+      "at": 0.3
+     },
+     {
+      "text": "NO SIEMPRE EN €",
+      "at": 1.6
+     }
+    ],
+    "size": "m"
+   }
+  },
+  {
+   "type": "options",
+   "chapter": "// 05 · tu turno",
+   "sfx": "ding",
+   "voice": "¿Y tú? ¿De dónde crees que sale el dinero de una app gratis? A, la publicidad. B, tus datos y tu tiempo. C, una subvención pública.",
+   "params": {
+    "options": [
+     "De la publicidad",
+     "De tus datos y tu tiempo",
+     "De una subvención pública"
+    ],
+    "disclaimer": "Contenido educativo. No es asesoramiento financiero ni recomendación de inversión. Invertir conlleva riesgos. Cifras ilustrativas. Vídeo creado con ayuda de IA."
+   }
+  },
+  {
+   "type": "logo",
+   "chapter": "",
+   "sfx": "cling",
+   "voice": "Esto ha sido Finroots. El dinero, desde la raíz.",
+   "params": {
+    "next": "La atención y su precio"
+   }
+  }
+ ]
+}

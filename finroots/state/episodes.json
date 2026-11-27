@@ -1045,5 +1045,22 @@
       "status": "SEND_TO_USER_INBOX",
       "post_ids": null
     }
+  },
+  {
+    "compliance_ok": true,
+    "number": 35,
+    "slug": "como-gana-dinero-una-app-gratis",
+    "title": "¿Cómo gana dinero una app que es gratis?",
+    "topic": "Cómo gana dinero una app que es gratis",
+    "core_idea": "Una app gratuita suele obtener ingresos de otras fuentes, como la publicidad o el uso que se hace de los datos y de la atención del usuario. Nada es gratis si no sabes quién paga.",
+    "characters": [],
+    "objects": [
+      "cards",
+      "display",
+      "logo",
+      "options",
+      "phone"
+    ],
+    "status": "ready"
   }
 ]
