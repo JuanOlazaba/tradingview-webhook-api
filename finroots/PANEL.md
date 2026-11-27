@@ -1,5 +1,5 @@
 # Panel de Finroots
-_Actualizado: 2026-11-27 19:05 UTC · se regenera en cada reunión_
+_Actualizado: 2026-11-27 23:45 UTC · se regenera en cada reunión_
 
 ## Necesita tu sí
 - **Incidencia en el episodio 5** — [responder aquí](https://github.com/JuanOlazaba/tradingview-webhook-api/issues/17) · pedido por Operaciones el 2026-11-03 13:13 UTC
@@ -14,14 +14,14 @@ _Actualizado: 2026-11-27 19:05 UTC · se regenera en cada reunión_
 - **Incidencia en el episodio 34** — [responder aquí](https://github.com/JuanOlazaba/tradingview-webhook-api/issues/28) · pedido por Operaciones el 2026-11-25 23:48 UTC
 
 ## Estado
-- Episodios: 35 · en colchón (listos): 1 (35)
+- Episodios: 35 · en colchón (listos): 0
 - TikTok: 3 seguidores · 7 me gusta · 3 vídeos
-- Coste de IA: hoy 0.33 $ · este mes 14.67 $ de 20 $ · total 14.67 $
+- Coste de IA: hoy 0.33 $ · este mes 14.68 $ de 20 $ · total 14.68 $
 
 ## Episodios
 | # | Título | Estado |
 |---|---|---|
-| 35 | [¿Cómo gana dinero una app que es gratis?](episodes/ep035/script.txt) | en colchón |
+| 35 | [¿Cómo gana dinero una app que es gratis?](episodes/ep035/script.txt) | en tus borradores de TikTok |
 | 34 | [¿Qué hace frágil una compra a crédito?](episodes/ep034/script.txt) | en tus borradores de TikTok |
 | 33 | [¿Un producto rebajado siempre es un ahorro? Ilustrativo](episodes/ep033/script.txt) | en tus borradores de TikTok |
 | 32 | [¿Dinero disponible o invertido? Ejemplo ilustrativo](episodes/ep032/script.txt) | en tus borradores de TikTok |
@@ -38,6 +38,7 @@ _Actualizado: 2026-11-27 19:05 UTC · se regenera en cada reunión_
 | 21 | [Tras una gran subida, ¿ya es tarde para entrar?](episodes/ep021/script.txt) | en tus borradores de TikTok |
 
 ## Últimas reuniones
+- [2026-11-28-ep035](minutes/2026-11-28-ep035.md)
 - [2026-11-27-ep035-estudio](minutes/2026-11-27-ep035-estudio.md)
 - [2026-11-27-ep034](minutes/2026-11-27-ep034.md)
 - [2026-11-27-1904-mejora-finanzas](minutes/2026-11-27-1904-mejora-finanzas.md)
@@ -49,9 +50,9 @@ _Actualizado: 2026-11-27 19:05 UTC · se regenera en cada reunión_
 - [2026-11-23-ep032-estudio](minutes/2026-11-23-ep032-estudio.md)
 - [2026-11-23-ep031](minutes/2026-11-23-ep031.md)
 - [2026-11-23-2142-mejora-monetizacion](minutes/2026-11-23-2142-mejora-monetizacion.md)
-- [2026-11-22-ep031](minutes/2026-11-22-ep031.md)
 
 ## Actividad reciente
+- `2026-11-27 23:45 UTC` **publicación** — Ep. 35: ¿Cómo gana dinero una app que es gratis? · estado: sent_to_inbox
 - `2026-11-27 19:05 UTC` **episodio** — Ep. 35 escrito y aprobado por Compliance: ¿Cómo gana dinero una app que es gratis?
 - `2026-11-27 19:04 UTC` **reunión** — Finanzas y costes: Publicados 3 vídeos con 3 seguidores y 341 vistas en total (media de unas 114). Muestra insuficiente para conclusiones y sin datos reales de coste, así que no hay previsión de ingresos ni gasto nuevo.
 - `2026-11-27 19:04 UTC` **acción** — backlog: IT: incluir en el registro de cada episodio el campo de coste (tokens de entrada y salida por rol, segundos de voz y tiempo de render), rellenado por el validador JSON cuando haya datos reales. Sin valores estimados. Responsable: IT. Prioridad tras la validación de bloqueo (directiva 3).
@@ -71,7 +72,6 @@ _Actualizado: 2026-11-27 19:05 UTC · se regenera en cada reunión_
 - `2026-11-25 19:28 UTC` **acción** — decisión: Sin cambios en voice.edge_rate. Se hace un render de prueba con un episodio sin cifras para medir duración (55–75 s) y palabras de voz (150–200). Si el resultado se pasa, el ajuste se hace en el guion (frases más cortas, 12–13 escenas).
 - `2026-11-25 19:28 UTC` **acción** — decisión: Ningún render con cifras sin evidencia escrita de IT de que el validador de JSON bloquea una cifra sin nota de hipótesis. Hasta entonces, solo se renderizan episodios sin cifras. Los eps. 15, 17, 20, 23 y 24 siguen retenidos.
 - `2026-11-25 00:13 UTC` **publicación** — Ep. 33: ¿Un producto rebajado siempre es un ahorro? Ilustrativo · estado: sent_to_inbox
-- `2026-11-24 02:40 UTC` **publicación** — Ep. 32: ¿Dinero disponible o invertido? Ejemplo ilustrativo · estado: sent_to_inbox
 
 ## Directivas del consejo
 _Sesión del 2026-11-22_
